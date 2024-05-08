@@ -9,13 +9,13 @@ body {
 
 @font-face {
 	font-family: rk_noto;
-	src: local("Noto Sans Coptic Regular");
+	src: url("./NotoSansCoptic-Regular.ttf");
 	unicode-range: U+03E2-03EF, U+2C80-2CFF, U+0304, U+0305;
 }
 
 @font-face {
 	font-family: rk_greek;
-	src: local("Noto Sans Regular");
+	src: url("./NotoSans-Regular.ttf");
 	unicode-range: U+0370-U+03FF;
 }
 
