@@ -1,0 +1,339 @@
+body {
+	color: grey;
+	font-size: 16px;
+	font-family: rk_noto, rk_greek, sans-serif;
+	background: linear-gradient(to right, #111, #111);
+	margin: 1em 1em 1em;
+	padding: 0;
+}
+
+@font-face {
+	font-family: rk_noto;
+	src: local("Noto Sans Coptic Regular");
+	unicode-range: U+03E2-03EF, U+2C80-2CFF, U+0304, U+0305;
+}
+
+@font-face {
+	font-family: rk_greek;
+	src: local("Noto Sans Regular");
+	unicode-range: U+0370-U+03FF;
+}
+
+h1 {
+	display: none;
+	border: 1px dotted lightgreen;
+	font-weight: normal;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+h2 { /* lesson */
+	color: white;
+	//border: 1px dotted orange;
+	background: #ffffff44;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin-top: 0rem;
+	margin-bottom: 0rem;
+}
+
+h3 { /* vocabulary, exercises */
+	color: white;
+	//border: 1px dotted lightgreen;
+	background: #ffffff22;
+	font-weight: normal;
+	margin-top: 0rem;
+	margin-bottom: 0rem;
+}
+
+p {
+	//border: 1px dashed aqua;
+	//margin-top: 0rem;
+	text-indent: 1rem;
+}
+
+.c {
+	color: lightblue;
+}
+
+.gk {
+	color: lightgreen;
+}
+
+#sections,
+#preface,
+#toc,
+#abbrv_and_conv,
+#intro,
+#alphabet {
+	display: none;
+	color: gold;
+	border: 1px dotted;
+}
+
+#sections li {
+	display: inline;
+}
+
+#sections li a {
+	color: magenta;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	border: 1px solid orange;
+}
+
+.section {
+	font-size: 1.2em;
+	border: 1px dashed violet;
+	margin-top: 1rem;
+	padding: 0;
+}
+
+.section table {
+	display: inline-block;
+	//border: 1px dashed green;
+	border-collapse: collapse;
+	background: #ffffff11;
+	border-radius: .5rem;
+	margin-left: 1rem;
+	margin-right: 0rem;
+}
+
+.section th {
+	//color: whitesmoke;
+	//border: 1px dotted;
+	font-weight: normal;
+}
+
+.section td {
+	//color: goldenrod;
+	//border: 1px dotted;
+}
+
+.section th,
+.section td {
+	padding: .5rem;
+}
+
+.section > ul {
+	//list-style-type: none;
+}
+/*
+#lesson_01,
+#lesson_02,
+#lesson_03,
+#lesson_04,*/
+#lesson_05,
+#lesson_06,
+#lesson_07,
+#lesson_08,
+#lesson_09,
+#lesson_10,
+#lesson_11,
+#lesson_12,
+#lesson_13,
+#lesson_14,
+#lesson_15,
+#lesson_16,
+#lesson_17,
+#lesson_18,
+#lesson_19,
+#lesson_20,
+#lesson_21,
+#lesson_22,
+#lesson_23,
+#lesson_24,
+#lesson_25,
+#lesson_26,
+#lesson_27,
+#lesson_28,
+#lesson_29,
+#lesson_30 {
+	display: none;
+}
+
+a.subchapter {
+	text-decoration: none;
+	color: white;
+	background: darkslateblue;
+}
+
+/*
+
+h2, h3 {
+	font-size: 2em;
+	margin: 0;
+	text-align: center;
+	font-weight: normal;
+}
+
+small {
+	font-size: initial;
+	margin-left: 1em;
+}
+
+.c {
+	color: lightgreen;
+}
+
+.gk {
+	color: steelblue;
+}
+
+
+
+th {
+	font-weight: normal;
+}
+
+#alphabet {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-row-gap: 1em;
+}
+
+#alphabet li {
+	list-style-type: none;
+	font-size: 1.5em;
+	
+}
+
+#alphabet .c {
+	display: block;
+	font-size: 2em;
+}
+
+ol.exercises {
+	margin-bottom: 0px;
+}
+
+ol.exercises ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+ol.exercises > li > ol > li {
+
+	position: relative;
+	top: -21px;
+}
+
+ol.exercises.has-subsection > li {
+	list-style-type: upper-alpha;
+}
+
+ol.abc {
+	list-style-type: lower-alpha;
+}
+
+ul.vocabulary {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.vocabulary li + li {
+	margin-top: .5em;
+}
+
+.exercises li + li {
+	margin-top: 1em;
+}
+
+.exercises.has-subsection > li > ol > li > ul > li + li {
+	margin-top: 0;
+}
+
+.h {
+	color: #bdc1c6 !important;
+	background-color: #f8f9fa;
+}
+
+
+.end-vocabulary {
+	outline: 1px solid rgb(77, 46, 0);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+
+.end-exercises {
+	background: #000;
+	outline: 1px solid rgb(77, 46, 0);
+	padding-top: 10px;
+}
+
+#previous,
+#forward {
+	position: fixed;
+	top: 0;
+	background: darkred;
+	color: white;
+	text-decoration: none;
+	font-size: 2em;
+}
+
+#previous:before {
+	content: "◄ ";
+}
+
+#forward:after {
+	content: " ►";
+}
+
+#previous {
+	left: 0;
+}
+
+#forward {
+	right: 0;
+}
+
+.none {
+	padding: 0 !important;
+}
+
+#language_name {
+	font-size: 32px;
+	margin-bottom: 20px;
+	color: darkgoldenrod !important;
+	text-shadow: 0px 0px 10px black;
+}
+
+#language_name,
+#phonology {
+	display: grid;
+}
+
+#language_name,
+#phonology a {
+	text-align: center;
+}
+
+#lessons {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-row-gap: 1em;
+	grid-column-gap: 1em;
+	margin-top: 1em;
+}
+
+#language_name,
+#phonology a,
+#lessons a {
+	text-decoration: none;
+	background: #000909;
+	color: darkgoldenrod;
+	outline: 1px solid rgb(77, 46, 0);
+	padding: 10px;
+}
+
+#phonology a:hover,
+#lessons a:hover {
+	background: #111;
+}
+
+.section {
+	padding-bottom: 10px;
+	outline: 1px solid rgb(77, 46, 0);
+}
