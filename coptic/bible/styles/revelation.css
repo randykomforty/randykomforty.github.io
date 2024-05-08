@@ -1,0 +1,330 @@
+body {
+	background: #000;
+	color: gold;
+	font-family: 'Noto Sans Coptic', sans-serif;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+#chapters {
+	background: #112;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
+	gap: 2px;
+	z-index: 2;
+}
+
+#chapters a {
+	background: #222;
+	color: lightyellow;
+	text-align: center;
+}
+
+#chapters a:hover {
+	color: #000;
+	background: lightgreen;
+}
+
+a {
+	text-decoration: none;
+}
+
+b {
+	display: block;
+}
+
+em, i {
+	font-style: normal;
+}
+
+ul {
+	margin: 0;
+	padding: 58px 10px 10px 10px;
+}
+
+li {
+	border: 1px double #444;
+	background: #111;
+	margin-top: 10px;
+	list-style-type: none;
+	padding: 10px;
+}
+
+li > * {
+	font-size: 1.5em;
+}
+
+.t {
+	display: block;
+	margin-top: 10px;
+	color: #444;
+}
+
+.first-verse {
+	//margin-top: 100px;
+	scroll-margin-top: 58px;
+	//position: relative;
+	//top: 100px;
+}
+
+
+b {
+	display: flex;
+	flex-wrap: wrap;
+	font-weight: normal;
+}
+
+em {
+	position: relative;
+	margin: 10px 0px 0px 0px;
+}
+
+em.comma ruby:last-child:after,
+em.period ruby:last-child:after,
+em.que ruby:last-child:after,
+em.exc ruby:last-child:after,
+em.semicolon ruby:last-child:after,
+em.colon ruby:last-child:after,
+em.ellipsis-right ruby:last-child:after,
+em.mdash ruby:last-child:after {
+	content: "";
+}
+
+ruby {
+	//float: left;
+	//display: inline-flex;
+	//flex-direction: row-reverse;
+}
+
+ruby:last-child:after {
+	content: "\00a0";
+}
+
+ruby a {
+	text-decoration: none;
+	color: steelblue;
+}
+
+ruby a:focus {
+	outline: 0;
+}
+
+ruby a:hover,
+ruby a:focus {
+	color: gold;
+	text-decoration: none;
+	//text-shadow: 0px 0px 20px brown, 0px 0px 5px crimson;
+	//box-shadow: 0px 0px 5px 5px red;
+	//transition: color .2s ease-in !important;
+	//transition: text-shadow .2s linear !important;
+}
+
+ruby rt {
+	opacity: 0%;
+	//float: left;
+	//align-self: flex-start;
+}
+
+ruby a:hover + rt,
+ruby a:focus + rt {
+	opacity: 100%;
+	//transition: opacity .2s ease-in !important;
+}
+
+ruby rt:after {
+	content: attr(p);
+	font-family: sans-serif;
+	position: absolute;
+	color: gold;
+	top: -20%;
+}
+
+em:before,
+em:after {
+	color: steelblue;
+}
+
+.comma:after {
+	content: ",";
+}
+
+.comma.space:after {
+	content: ",\00a0";
+}
+
+.comma.sq-right.space:after {
+	content: ",’\00a0";
+}
+
+.comma.dq-right.space:after {
+	content: ",”\00a0";
+}
+
+.period:after {
+	content: ".";
+}
+
+.period.space:after {
+	content: ".\00a0";
+}
+
+.period.sq-right:after {
+	content: ".’" !important;
+}
+
+.period.sq-right.space:after {
+	content: ".’\00a0" !important;
+}
+
+.period.dq-right:after {
+	content: ".”" !important;
+}
+
+.period.dq-right.space:after {
+	content: ".”\00a0";
+}
+
+.period.dq-right.sq-right:after {
+	content: ".”’";
+}
+
+.period.dq-right.sq-right.dq-right:after {
+	content: ".”’”" !important;
+}
+
+.period.sq-right.que:after {
+	content: ".’?";
+}
+
+.period.sq-right.que.dq-right:after {
+	content: ".’?”";
+}
+
+.period.parenthesis-right.space:after {
+	content: ".)\00a0";
+}
+
+.period.sq-right.dq-right.space:after {
+	content: ".’”\00a0" !important;
+}
+
+.semicolon:after {
+	content: ";";
+}
+
+.semicolon.space:after {
+	content: ";\00a0";
+}
+
+.colon:after {
+	content: ":";
+}
+
+.colon.space:after {
+	content: ":\00a0";
+}
+
+.que:after {
+	content: "?";
+}
+
+.que.sq-right:after {
+	content: "?’";
+}
+
+.que.space:after {
+	content: "?\00a0";
+}
+
+.que.dq-right:after {
+	content: "?”";
+}
+
+.que.dq-right.space:after {
+	content: "?”\00a0";
+}
+
+.exc:after {
+	content: "!";
+}
+
+.exc.space:after {
+	content: "!\00a0";
+}
+
+.exc.sq-right:after {
+	content: "!’\00a0";
+}
+
+.exc.dq-right:after {
+	content: "!”";
+}
+
+.ellipsis-left:before {
+	content: "…";
+	float: left;
+}
+
+.ellipsis-right:after {
+	content: "…";
+}
+
+.mdash:after {
+	content: "—";
+}
+
+.parenthesis-left:before {
+	content: "(";
+	float: left;
+}
+
+.parenthesis-right:after {
+	content: ")";
+}
+
+.parenthesis-right.comma:after {
+	content: "),\00a0";
+}
+
+.sq-left:before {
+	content: "‘";
+	float: left;
+}
+
+.sq-left.sq-right.period:after {
+	content: "’." !important;
+	float: right;
+}
+
+.sq-right:after {
+	content: "’";
+}
+
+.dq-left:before {
+	content: "“";
+	float: left;
+}
+
+.dq-right:after {
+	content: "”";
+}
+
+.dq-right.period:after {
+	content: "”.";
+}
+
+.sq-right.period:after {
+	content: "’.";
+}
+
+.dq-left.comma.dq-right.space:after {
+	content: ",”\00a0";
+}
+
+.dq-left.exc.dq-right.space:after {
+	content: "!”\00a0";
+}
