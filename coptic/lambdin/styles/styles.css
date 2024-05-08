@@ -16,7 +16,7 @@ body {
 @font-face {
 	font-family: rk_greek;
 	src: url("./NotoSans-Regular.ttf");
-	unicode-range: U+0370-U+03FF;
+	unicode-range: U+0370-U+03FF, U+1F00-U+1FFF;
 }
 
 h1 {
