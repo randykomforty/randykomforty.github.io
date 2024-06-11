@@ -9,24 +9,33 @@ body {
 
 i {
 	color: lightblue;
+	font-family: rk_coptic;
 	font-style: normal;
 }
 
 b {
 	color: lightgreen;
+	font-family: rk_arabic;
 	font-weight: normal;
+	direction: rtl;
 }
 
 @font-face {
-	font-family: rk_noto;
+	font-family: rk_coptic;
 	src: url("./NotoSansCoptic-Regular.ttf");
 	unicode-range: U+03E2-03EF, U+2C80-2CFF, U+0304, U+0305;
 }
 
 @font-face {
+	font-family: rk_arabic;
+	src: url("./NotoSansArabic-Regular.ttf");
+	unicode-range: U+0600-06FF;
+}
+
+@font-face {
 	font-family: rk_greek;
 	src: url("./NotoSans-Regular.ttf");
-	unicode-range: U+0370-U+03FF, U+1F00-U+1FFF;
+	unicode-range: U+0370-03FF, U+1F00-1FFF;
 }
 
 h1 {
