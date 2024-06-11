@@ -7,6 +7,16 @@ body {
 	padding: 0;
 }
 
+i {
+	color: lightblue;
+	font-style: normal;
+}
+
+b {
+	color: lightgreen;
+	font-weight: normal;
+}
+
 @font-face {
 	font-family: rk_noto;
 	src: url("./NotoSansCoptic-Regular.ttf");
