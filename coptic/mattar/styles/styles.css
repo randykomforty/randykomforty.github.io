@@ -14,6 +14,11 @@ p:has(> img) {
 
 b img {
   filter: invert(1);
+  mix-blend-mode: luminosity;
+}
+
+b:has(> img) {
+  background: orangered;
 }
 
 i {
