@@ -9,18 +9,20 @@ body {
 
 #before,
 #after {
-  width: calc(50% - .5em);
+  //width: calc(80% - .5em);
   overflow-x: clip;
 }
 
 #before {
   outline: 1px dashed orangered;
   float: left;
+  width: calc(80% - .5em);
 }
 
 #after {
   outline: 1px dashed steelblue;
   float: right;
+  width: calc(20% - .5em);
   min-height: 100vw;
 }
 
@@ -41,7 +43,6 @@ p:has(> img) {
 b img {
   filter: invert(1);
   mix-blend-mode: multiply;
-  overflow-x: scroll;
 }
 
 b:has(> img) {
@@ -50,7 +51,14 @@ b:has(> img) {
   position: relative;
   top: .5em;
   z-index: -10;
-  
+}
+
+b:has(> img):hover {
+  //z-index: 10;
+}
+
+b:hover img {
+  outline: 3px solid gold;
 }
 
 i {
@@ -93,13 +101,9 @@ h1 {
 }
 
 h2 { /* lesson */
-	color: white;
-	//border: 1px dotted orange;
-	background: #ffffff44;
+	color: grey;
 	text-transform: uppercase;
 	font-weight: normal;
-	margin-top: 0rem;
-	margin-bottom: 0rem;
 }
 
 h3 { /* vocabulary, exercises */
