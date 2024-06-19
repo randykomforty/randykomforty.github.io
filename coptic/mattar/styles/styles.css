@@ -7,6 +7,15 @@ body {
 	padding: 0;
 }
 
+p:has(> img) {
+  filter: invert(1);
+  text-align: center;
+}
+
+b img {
+  filter: invert(1);
+}
+
 i {
 	color: lightblue;
 	font-family: rk_coptic;
