@@ -7,6 +7,32 @@ body {
 	padding: 0;
 }
 
+#before,
+#after {
+  width: calc(50% - .5em);
+  overflow-x: clip;
+}
+
+#before {
+  outline: 1px dashed orangered;
+  float: left;
+}
+
+#after {
+  outline: 1px dashed steelblue;
+  float: right;
+  min-height: 100vw;
+}
+
+.half {
+  color: gold;
+  outline: 5px solid gold;
+  background: black;
+  margin-bottom: 1em;
+  position: sticky;
+  top: 0;
+}
+
 p:has(> img) {
   filter: invert(1);
   text-align: center;
@@ -15,6 +41,7 @@ p:has(> img) {
 b img {
   filter: invert(1);
   mix-blend-mode: multiply;
+  overflow-x: scroll;
 }
 
 b:has(> img) {
@@ -22,6 +49,8 @@ b:has(> img) {
   display: inline-flex;
   position: relative;
   top: .5em;
+  z-index: -10;
+  
 }
 
 i {
