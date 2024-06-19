@@ -14,11 +14,14 @@ p:has(> img) {
 
 b img {
   filter: invert(1);
-  mix-blend-mode: luminosity;
+  mix-blend-mode: multiply;
 }
 
 b:has(> img) {
   background: orangered;
+  display: inline-flex;
+  position: relative;
+  top: .5em;
 }
 
 i {
