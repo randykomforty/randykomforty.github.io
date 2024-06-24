@@ -1,40 +1,92 @@
 body {
-	color: grey;
+	color: steelblue;
 	font-size: 16px;
-	font-family: rk_noto, rk_greek, sans-serif;
+	font-family: "Noto Sans", sans-serif;
+	text-align: justify;
 	background: linear-gradient(to right, #111, #111);
+	line-height: 2;
 	margin: 1em 1em 1em;
 	padding: 0;
 }
 
 @font-face {
-	font-family: rk_noto;
-	src: url("./NotoSansCoptic-Regular.ttf");
-	unicode-range: U+03E2-03EF, U+2C80-2CFF, U+0304, U+0305;
+	font-family: rk_coptic;
+	src: url("./NotoSansCoptic.ttf");
+	/*src: local("Noto Sans Coptic");*/
+	unicode-range: U+03E2-03EF, U+2C80-2CFF, U+0300, U+0304, U+0305;
 }
 
 @font-face {
 	font-family: rk_greek;
-	src: url("./NotoSans-Regular.ttf");
-	unicode-range: U+0370-U+03FF, U+1F00-U+1FFF;
+	src: url("./NotoSans.ttf");
+	/*src: local("Noto Sans");*/
+	unicode-range: U+0370-03FF, U+1F00-1FFF;
+}
+
+@font-face {
+	font-family: rk_arabic;
+	src: url("./NotoSansArabic.ttf");
+	/*src: local("Noto Sans Arabic");*/
+	unicode-range: U+0600–06FF;
+}
+
+sup {
+	
+}
+
+sup.footnote {
+	color: grey;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	background: linear-gradient(to right, transparent, currentColor, transparent);
+}
+
+.center {
+	text-align: center;
+	text-indent: revert;
+}
+
+.right {
+	text-align: right;
+	text-indent: revert;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.smallcaps {
+	font-variant: small-caps;
+}
+
+p.footnote {
+	color: grey;
+	border: 0px dashed lightgreen;
+	margin: 0;
+	padding: 0 1em;
+}
+
+ul {
+	list-style: none;
 }
 
 h1 {
-	display: none;
-	border: 1px dotted lightgreen;
+	text-align: center;
 	font-weight: normal;
-	margin-top: 1rem;
-	margin-bottom: 1rem;
+	text-transform: uppercase;
+}
+
+h1 span {
+	text-transform: none;
 }
 
 h2 { /* lesson */
-	color: white;
-	//border: 1px dotted orange;
-	background: #ffffff44;
-	text-transform: uppercase;
 	font-weight: normal;
-	margin-top: 0rem;
-	margin-bottom: 0rem;
+	text-align: center;
+	text-transform: uppercase;
 }
 
 h3 { /* vocabulary, exercises */
@@ -47,18 +99,15 @@ h3 { /* vocabulary, exercises */
 }
 
 p {
-	//border: 1px dashed aqua;
-	//margin-top: 0rem;
-	text-indent: 1rem;
+	text-indent: 2em;
 }
 
-.c {
-	color: lightblue;
+em {
+	color: gold;
+	font-family: rk_coptic, rk_greek, rk_arabic;
+	font-style: normal;
 }
 
-.gk {
-	color: lightgreen;
-}
 
 #sections,
 #preface,
