@@ -69,8 +69,16 @@ p.footnote {
 	padding: 0 1em;
 }
 
+ol, ul {
+	text-align: left;
+}
+
 ul {
 	list-style: none;
+}
+
+li a {
+	color: gold;
 }
 
 h1 {
