@@ -13,7 +13,26 @@ body {
 	font-family: rk_coptic;
 	src: url("./NotoSansCoptic.ttf");
 	/*src: local("Noto Sans Coptic");*/
-	unicode-range: U+03E2-03EF, U+2C80-2CFF, U+0300, U+0301, U+0304, U+0305;
+	unicode-range:
+	U+0304, /* normal stroke */
+	U+0305, /* number, abbr., etc. */
+	U+033F, /* double stroke */
+	U+FE24, /* left half stroke */
+	U+FE26, /* long stroke */
+	U+FE25, /* right half stroke */
+
+	U+035E, /* double combine stroke */
+	U+0323, /* combine dot under */
+	U+0307, /* combine dot over */
+	U+0301, /* combine acute */
+	U+0300, /* combine grave */
+	U+0302, /* combine circumflex pointed */
+	U+0311, /* combine circumflex curved */
+	U+0361, /* wide inverted breve */
+	U+0308, /* combine diaeresis */
+
+	U+00B7, /* middle dot */
+	U+2E17; /* slanted double hyphen */;
 }
 
 @font-face {
