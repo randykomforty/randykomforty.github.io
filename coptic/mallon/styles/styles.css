@@ -1,6 +1,6 @@
 body {
 	color: steelblue;
-	font-size: 20px;
+	font-size: 16px;
 	font-family: "Noto Sans", sans-serif;
 	text-align: justify;
 	background: linear-gradient(to right, #111, #111);
@@ -41,20 +41,6 @@ div.abc img {
   mix-blend-mode: hard-light;
 }
 
-.abc {
-  //width: 100px;
-  //height: auto;
-  //margin: auto;
-  //text-align: center;
-  //object-position: 10px 0px;
-  //outline: 1px dashed lightgreen;
-  
-}
-
-sup {
-	
-}
-
 sup.footnote {
 	color: grey;
 }
@@ -90,16 +76,40 @@ p.footnote {
 	padding: 0 1em;
 }
 
+::marker {
+  color: violet;
+}
+
+ol.decimal {
+  list-style: decimal;
+}
+
+ol.lower-latin {
+  list-style: lower-latin;
+}
+
+ol.upper-latin {
+  list-style: upper-latin;
+}
+
+ol.lower-roman {
+  list-style: lower-roman;
+}
+
+ol.upper-roman {
+  list-style: upper-roman;
+}
+
 ul {
 	list-style: none;
 }
 
 li a {
-	color: gold;
+  color: gold;
 }
 
 li a:visited {
-	color: goldenrod;
+  color: goldenrod;
 }
 
 h1 {
