@@ -94,6 +94,14 @@ ul {
 	list-style: none;
 }
 
+li a {
+	color: gold;
+}
+
+li a:visited {
+	color: goldenrod;
+}
+
 h1 {
 	text-align: center;
 	font-weight: normal;
