@@ -9,6 +9,16 @@ body {
 	padding: 0;
 }
 
+.section {
+  border: 1px dotted lightgreen;
+}
+
+.section:before {
+  content: attr(data-section-no);
+  color: orange;
+  font-size: 2em;
+}
+
 @font-face {
 	font-family: rk_coptic;
 	src: url("./NotoSansCoptic.ttf");
