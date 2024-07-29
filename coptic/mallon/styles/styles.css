@@ -13,7 +13,9 @@ body {
 #preface { outline: 1px solid red; }
 #toc { outline: 1px solid white;}
 #abreviations_conventionnelles { outline: 1px solid lightgreen; }
-#grammaire { outline: 1px solid purple;}
+#grammaire { outline: 1px solid transparent; }
+#intro { outline: 1px dashed white; }
+#phonology { outline: 1px dashed white; }
 
 .section {
 	border: 1px dotted lightgreen;
@@ -161,19 +163,10 @@ h1 span {
 	text-transform: none;
 }
 
-h2 {
+h2, h3 {
 	font-weight: normal;
 	text-align: center;
 	text-transform: uppercase;
-}
-
-h3 {
-	color: white;
-/* 	border: 1px dotted lightgreen; */
-	background: #ffffff22;
-	font-weight: normal;
-	margin-top: 0rem;
-	margin-bottom: 0rem;
 }
 
 p {
@@ -195,11 +188,11 @@ em {
 	color: lightgreen;
 }
 
-/* #title, */
+#title,
 #preface,
 /* #toc, */
-/* #abreviations_conventionnelles, */
-/* #intro, */
+#abreviations_conventionnelles,
+#intro
 /* #phonology, */
 /* #tableau-des-verbes, */
 /* #saidique, */
@@ -606,6 +599,7 @@ em {
 /* #section-396, */
 /* #section-397, */
 /* #section-398, */
-/* #section-399 { */
+/* #section-399 */
+	{
 	display: none;
 }
