@@ -125,3 +125,18 @@ h4 {
 /* 	src: local("Noto Sans Arabic"); */
 	unicode-range: U+0600–06FF;
 }
+
+em {
+	color: gold;
+	font-family: rk_coptic, rk_greek, rk_arabic;
+	font-style: normal;
+}
+
+.ar {
+	color: violet;
+	direction: rtl;
+}
+
+.gr {
+	color: lightgreen;
+}
