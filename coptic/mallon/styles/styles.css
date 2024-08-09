@@ -1,6 +1,6 @@
 body {
-	background: green;
-/* 	padding-left: calc(2.5em); */
+	background: silver;
+	font-family: "Noto Sans", sans-serif;
 }
 
 h1 {
@@ -10,7 +10,6 @@ h1 {
 h2 {
 	position: sticky;
 	top: .5em;
-	//z-index: 999;
 	background: white;
 }
 
@@ -36,10 +35,6 @@ h4 {
 	top: calc(10px + 0em);
 	left: 10px;
 	overflow-y: scroll;
-	//bottom: calc(100% - 2.5em);
-	//right: calc(100% - 2.5em);
-	//opacity: .6;
-	//transition: bottom .5s infinite alternate, right .5s infinite alternate;
 	transition: opacity .5s, width .5s, height .5s;
 	width: 0em;
 	height: 2em;
@@ -48,7 +43,6 @@ h4 {
 
 #toc h1{
 	opacity: 1;
-/* 	transition: opacity .5s; */
 }
 
 #toc:hover h1 {
@@ -56,19 +50,13 @@ h4 {
 }
 
 #toc:hover {
-	//opacity: 1;
 	width: 70%;
 	height: 50%;
-	//top: calc(2.5em);
-	//position: fixed;
-	//bottom: calc(100% - 12.5em);
-	//right: calc(100% - 12.5em);
 }
 
 #toc:after {
 	content: "";
 	background: black;
-/* 	opacity: 1; */
 	outline: 1px solid white;
 	position: fixed;
 	top: 10px;
@@ -79,9 +67,7 @@ h4 {
 }
 
 #toc:hover:before {
-	//opacity: 0;
-/* 	position: fixed; */
-/* 	background: green; */
+	
 }
 
 #toc a {
@@ -93,8 +79,49 @@ h4 {
 #abreviations_conventionnelles,
 #grammaire {
 	outline: 1px solid black;
-/* 	margin-left: -2.5em; */
 	padding-left: 2.5em;
 	padding-top: 1em;
 	padding-bottom: 1em;
+}
+
+@font-face {
+	font-family: rk_coptic;
+	src: url("./NotoSansCoptic.ttf");
+/* 	src: local("Noto Sans Coptic Regular"); */
+	unicode-range:
+		U+03E2-03EF, /* greek and coptic */ 
+		U+2C80-2CFF, /* coptic */
+		U+0304, /* normal stroke */
+		U+0305, /* number, abbr., etc. */
+		U+033F, /* double stroke */
+		U+FE24, /* left half stroke */
+		U+FE26, /* long stroke */
+		U+FE25, /* right half stroke */
+
+		U+035E, /* double combine stroke */
+		U+0323, /* combine dot under */
+		U+0307, /* combine dot over */
+		U+0301, /* combine acute */
+		U+0300, /* combine grave */
+		U+0302, /* combine circumflex pointed */
+		U+0311, /* combine circumflex curved */
+		U+0361, /* wide inverted breve */
+		U+0308, /* combine diaeresis */
+
+		U+00B7, /* middle dot */
+		U+2E17; /* slanted double hyphen */;
+}
+
+@font-face {
+	font-family: rk_greek;
+	src: url("./NotoSans.ttf");
+/* 	src: local("Noto Sans"); */
+	unicode-range: U+0370-03FF, U+1F00-1FFF;
+}
+
+@font-face {
+	font-family: rk_arabic;
+	src: url("./NotoSansArabic.ttf");
+/* 	src: local("Noto Sans Arabic"); */
+	unicode-range: U+0600–06FF;
 }
