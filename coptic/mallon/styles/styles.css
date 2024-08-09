@@ -603,3 +603,104 @@ em {
 	{
 	display: none;
 }
+
+body {
+	background: green;
+/* 	padding-left: calc(2.5em); */
+}
+
+h1 {
+	margin: 0;
+}
+
+h2 {
+	position: sticky;
+	top: .5em;
+	//z-index: 999;
+	background: white;
+}
+
+h3 {
+	position: sticky;
+	background: black;
+	color: violet;
+	top: 2.5em;
+}
+
+h4 {
+	position: sticky;
+	background: grey;
+	color: gold;
+	top: 5em;
+}
+
+#toc {
+	background: #333;
+	color: gold;
+	outline: 1px solid brown;
+	position: fixed;
+	top: calc(10px + 0em);
+	left: 10px;
+	overflow-y: scroll;
+	//bottom: calc(100% - 2.5em);
+	//right: calc(100% - 2.5em);
+	//opacity: .6;
+	//transition: bottom .5s infinite alternate, right .5s infinite alternate;
+	transition: opacity .5s, width .5s, height .5s;
+	width: 0em;
+	height: 2em;
+	padding-left: 2em;
+}
+
+#toc h1{
+	opacity: 1;
+/* 	transition: opacity .5s; */
+}
+
+#toc:hover h1 {
+	opacity: 0;
+}
+
+#toc:hover {
+	//opacity: 1;
+	width: 70%;
+	height: 50%;
+	//top: calc(2.5em);
+	//position: fixed;
+	//bottom: calc(100% - 12.5em);
+	//right: calc(100% - 12.5em);
+}
+
+#toc:after {
+	content: "";
+	background: black;
+/* 	opacity: 1; */
+	outline: 1px solid white;
+	position: fixed;
+	top: 10px;
+	left: 10px;
+	width: 2em;
+	height: 2em;
+	transition: background .5s infinite alternate;
+}
+
+#toc:hover:before {
+	//opacity: 0;
+/* 	position: fixed; */
+/* 	background: green; */
+}
+
+#toc a {
+	color: violet;
+}
+
+#title,
+#preface,
+#abreviations_conventionnelles,
+#grammaire {
+	outline: 1px solid black;
+/* 	margin-left: -2.5em; */
+	padding-left: 2.5em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
