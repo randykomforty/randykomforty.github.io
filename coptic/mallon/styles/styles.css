@@ -114,7 +114,7 @@ h6 { /* .67em */
 	transition: opacity .5s, width .5s, height .5s;
 	width: 0em;
 	height: 2em;
-	padding-left: 2em;
+	padding-left: 1em;
 }
 
 #toc h1{
@@ -137,7 +137,7 @@ h6 { /* .67em */
 	position: fixed;
 	top: 1em;
 	left: 1em;
-	width: 2em;
+	width: 1em;
 	height: 2em;
 	transition: background .5s infinite alternate;
 }
@@ -159,7 +159,7 @@ h6 { /* .67em */
 #abreviations_conventionnelles,
 #grammaire {
 	outline: 1px solid black;
-	padding: 1em 2.5em;
+	padding: 1em 1em;
 }
 
 @font-face {
@@ -172,9 +172,9 @@ h6 { /* .67em */
 		U+0304, /* normal stroke */
 		U+0305, /* number, abbr., etc. */
 		U+033F, /* double stroke */
-		U+FE24, /* left half stroke */
-		U+FE26, /* long stroke */
-		U+FE25, /* right half stroke */
+		U+0FE24, /* left half stroke */
+		U+0FE26, /* long stroke */
+		U+0FE25, /* right half stroke */
 
 		U+035E, /* double combine stroke */
 		U+0323, /* combine dot under */
@@ -248,4 +248,23 @@ em {
 
 #alphabet > div > div:first-child {
 	font-size: 2em;
+}
+
+table {
+	border-collapse: collapse;
+	border: 5px solid black;
+	width: 100%;
+/* 	empty-cells: hide; */
+}
+th, td {
+/* 	padding: 1em; */
+/* 	empty-cells: hide; */
+/* 	background: green; */
+	border: 1px solid #00000022;
+	font-size: 1.5em;
+}
+
+th:empty,
+td:empty {
+	background: black;
 }
