@@ -1,30 +1,106 @@
 body {
+	font-size: 16x;
 	background: silver;
 	font-family: "Noto Sans", sans-serif;
+	margin: 1em;
 }
 
 h1 {
-	margin: 0;
+	text-align: center;
+	background: #00000022;
+	padding: 1em 0;
+/* 	width: 100%; */
 }
 
-h2 {
-	position: sticky;
-	top: .5em;
-	background: white;
+h1 span {
+	text-transform: lowercase;
+	font-weight: normal;
 }
 
-h3 {
-	position: sticky;
-	background: black;
-	color: violet;
-	top: 2.5em;
+#title {
+	display: flex;
+	justify-content: space-between;
+	gap: 1em;
 }
 
-h4 {
-	position: sticky;
-	background: grey;
-	color: gold;
-	top: 5em;
+#title h1 {
+	flex-grow: 1;
+}
+
+#title p {
+	flex-grow: 1;
+	text-align: center;
+	padding: 1em;
+}
+
+h1:before,
+h2:before,
+h3:before,
+h4:before,
+h5:before,
+h6:before {
+	color: purple;
+	font-family: monospace;
+	position: absolute;
+	left: -2em;
+	display: none;
+}
+
+h1:before {
+	content: "<h1>";
+}
+
+h2:before {
+	content: "<h2>";
+}
+
+h3:before {
+	content: "<h3>";
+}
+
+h4:before {
+	content: "<h4>";
+}
+
+h5:before {
+	content: "<h5>";
+}
+
+h6:before {
+	content: "<h6>";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+/* 	position: sticky; */
+	text-transform: uppercase;
+/* 	background: yellow; */
+/* 	margin: 0; */
+/* 	outline: 1px dashed black; */
+}
+
+h2 { /* 1.5em */
+	top: 1.0rem;
+}
+
+h3 { /* 1.17em */
+	top: 3em;
+}
+
+h4 { /* 1em */
+	top: 6rem;
+}
+
+h5 { /* .83em */
+	top: 12rem;
+}
+
+h6 { /* .67em */
+	top: 8rem;
 }
 
 #toc {
@@ -32,13 +108,13 @@ h4 {
 	color: gold;
 	outline: 1px solid brown;
 	position: fixed;
-	top: calc(10px + 0em);
-	left: 10px;
+	top: calc(1em + 0em);
+	left: 1em;
 	overflow-y: scroll;
 	transition: opacity .5s, width .5s, height .5s;
 	width: 0em;
 	height: 2em;
-	padding-left: 2em;
+	padding-left: 1em;
 }
 
 #toc h1{
@@ -57,11 +133,11 @@ h4 {
 #toc:after {
 	content: "";
 	background: black;
-	outline: 1px solid white;
+	outline: 1px solid black;
 	position: fixed;
-	top: 10px;
-	left: 10px;
-	width: 2em;
+	top: 1em;
+	left: 1em;
+	width: 1em;
 	height: 2em;
 	transition: background .5s infinite alternate;
 }
@@ -74,29 +150,32 @@ h4 {
 	color: violet;
 }
 
+
+
+
+
 #title,
 #preface,
 #abreviations_conventionnelles,
 #grammaire {
 	outline: 1px solid black;
-	padding-left: 2.5em;
-	padding-top: 1em;
-	padding-bottom: 1em;
+	padding: 1em 1em;
 }
 
 @font-face {
 	font-family: rk_coptic;
 /* 	src: url("./NotoSansCoptic.ttf"); */
 	src: local("Noto Sans Coptic Regular");
+/* 	src: local("Noto Sans Coptic"); */
 	unicode-range:
 		U+03E2-03EF, /* greek and coptic */ 
 		U+2C80-2CFF, /* coptic */
 		U+0304, /* normal stroke */
 		U+0305, /* number, abbr., etc. */
 		U+033F, /* double stroke */
-		U+FE24, /* left half stroke */
-		U+FE26, /* long stroke */
-		U+FE25, /* right half stroke */
+		U+0FE24, /* left half stroke */
+		U+0FE26, /* long stroke */
+		U+0FE25, /* right half stroke */
 
 		U+035E, /* double combine stroke */
 		U+0323, /* combine dot under */
@@ -126,6 +205,10 @@ h4 {
 	unicode-range: U+0600–06FF;
 }
 
+sup.footnote {
+	unicode-bidi: plaintext;
+}
+
 em {
 	color: darkblue;
 	font-family: rk_coptic, rk_greek, rk_arabic;
@@ -141,4 +224,46 @@ em {
 .gr {
 	color: darkgreen;
 	font-weight: bold;
+}
+
+#toc,
+#title,
+#preface,
+#abreviations_conventionnelles,
+#intro {
+/* 	display: none; */
+}
+
+#alphabet {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(4, auto);
+	grid-gap: 1em;
+}
+
+.header_row {
+	display: none;
+}
+
+#alphabet > div {
+/* 	background: grey; */
+}
+
+#alphabet > div > div:first-child {
+	font-size: 2em;
+}
+
+table {
+	border-collapse: collapse;
+	border: 5px solid black;
+	width: 100%;
+}
+th, td {
+	border: 1px solid #00000022;
+	font-size: 1.5em;
+}
+
+th:empty,
+td:empty {
+	background: black;
 }
