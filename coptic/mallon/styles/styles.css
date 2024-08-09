@@ -86,8 +86,8 @@ h4 {
 
 @font-face {
 	font-family: rk_coptic;
-	src: url("./NotoSansCoptic.ttf");
-/* 	src: local("Noto Sans Coptic Regular"); */
+/* 	src: url("./NotoSansCoptic.ttf"); */
+	src: local("Noto Sans Coptic Regular");
 	unicode-range:
 		U+03E2-03EF, /* greek and coptic */ 
 		U+2C80-2CFF, /* coptic */
@@ -114,15 +114,15 @@ h4 {
 
 @font-face {
 	font-family: rk_greek;
-	src: url("./NotoSans.ttf");
-/* 	src: local("Noto Sans"); */
+/* 	src: url("./NotoSans.ttf"); */
+	src: local("Noto Sans");
 	unicode-range: U+0370-03FF, U+1F00-1FFF;
 }
 
 @font-face {
 	font-family: rk_arabic;
-	src: url("./NotoSansArabic.ttf");
-/* 	src: local("Noto Sans Arabic"); */
+/* 	src: url("./NotoSansArabic.ttf"); */
+	src: local("Noto Sans Arabic");
 	unicode-range: U+0600–06FF;
 }
 
@@ -135,8 +135,10 @@ em {
 .ar {
 	color: darkred;
 	direction: rtl;
+	font-weight: bold;
 }
 
 .gr {
 	color: darkgreen;
+	font-weight: bold;
 }
