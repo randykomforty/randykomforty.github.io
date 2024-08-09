@@ -127,16 +127,16 @@ h4 {
 }
 
 em {
-	color: gold;
+	color: darkblue;
 	font-family: rk_coptic, rk_greek, rk_arabic;
 	font-style: normal;
 }
 
 .ar {
-	color: violet;
+	color: darkred;
 	direction: rtl;
 }
 
 .gr {
-	color: lightgreen;
+	color: darkgreen;
 }
