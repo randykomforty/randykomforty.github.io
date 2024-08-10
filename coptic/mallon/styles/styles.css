@@ -267,3 +267,18 @@ th:empty,
 td:empty {
 	background: black;
 }
+
+#vocabulaire_saidique table,
+#vocabulaire_saidique th,
+#vocabulaire_saidique td,
+#vocabulaire_saidique th:empty,
+#vocabulaire_saidique td:empty {
+	background: none;
+/* 	border: none; */
+}
+td.gr {
+	font-weight: normal;
+}
+td.gr:before {
+	content: "•";
+}
