@@ -218,7 +218,7 @@ em {
 .ar {
 	color: darkred;
 	direction: rtl;
-	font-weight: bold;
+/*	font-weight: bold; */
 }
 
 .gr {
@@ -259,8 +259,8 @@ table {
 	width: 100%;
 }
 th, td {
-	border: 1px solid #00000022;
-	background: #ffffffaa;
+/*	border: 1px solid #00000022; */
+	background: #ffffff22;
 /*	font-size: 1.5em; */
 }
 
