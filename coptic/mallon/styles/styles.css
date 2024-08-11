@@ -260,12 +260,13 @@ table {
 }
 th, td {
 	border: 1px solid #00000022;
-	font-size: 1.5em;
+	background: #ffffffaa;
+/*	font-size: 1.5em; */
 }
 
 th:empty,
 td:empty {
-	background: black;
+	background: silver;
 }
 
 #vocabulaire_saidique table,
