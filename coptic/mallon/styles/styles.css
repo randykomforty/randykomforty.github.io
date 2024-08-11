@@ -255,7 +255,7 @@ em {
 
 table {
 	border-collapse: collapse;
-	border: 5px solid black;
+/*	border: 5px solid black; */
 	width: 100%;
 }
 th, td {
