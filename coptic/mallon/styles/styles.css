@@ -266,7 +266,7 @@ th, td {
 
 th:empty,
 td:empty {
-	background: silver;
+	background: transparent;
 }
 
 #vocabulaire_saidique table,
