@@ -254,7 +254,7 @@ em {
 }
 
 .section {
-	overflow-x: scroll;
+	overflow-x: auto;
 }
 
 table {
