@@ -257,6 +257,7 @@ table {
 	border-collapse: collapse;
 /*	border: 5px solid black; */
 	width: 100%;
+	overflow-x: scroll;
 }
 th, td {
 /*	border: 1px solid #00000022; */
