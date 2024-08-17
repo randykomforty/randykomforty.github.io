@@ -291,3 +291,11 @@ td.gr:before {
 p.footnote {
 	display: none;
 }
+
+#abreviations_conventionnelles ul {
+	list-style-type: none;
+}
+
+#intro {
+	display: none;
+}
