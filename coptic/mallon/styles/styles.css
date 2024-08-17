@@ -296,6 +296,8 @@ p.footnote {
 	list-style-type: none;
 }
 
+#title,
+#preface,
 #intro {
 	display: none;
 }
