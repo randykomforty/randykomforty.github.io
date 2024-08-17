@@ -298,6 +298,8 @@ p.footnote {
 
 #title,
 #preface,
-#intro {
+#intro,
+#abreviations_conventionnelles,
+#section-001 {
 	display: none;
 }
