@@ -223,7 +223,7 @@ em {
 
 .gr {
 	color: darkgreen;
-	font-weight: bold;
+/* 	font-weight: bold; */
 }
 
 #toc,
@@ -286,4 +286,8 @@ td.gr {
 }
 td.gr:before {
 	content: "•";
+}
+
+p.footnote {
+	display: none;
 }
