@@ -1,0 +1,11 @@
+body {
+  font-size: 1.5em;
+  color: gray;
+  background: black;
+}
+
+em {
+  color: lightgreen;
+  font-family: Afacad;
+  font-style: normal;
+}
