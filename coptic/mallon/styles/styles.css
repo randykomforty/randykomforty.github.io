@@ -1,106 +1,38 @@
 body {
-	font-size: 16x;
-	background: silver;
+	font-size: 16px;
+	color: gray;
+	background: #111;
 	font-family: "Noto Sans", sans-serif;
 	margin: 1em;
 }
 
-h1 {
-	text-align: center;
-	background: #00000022;
-	padding: 1em 0;
-/* 	width: 100%; */
+#title,
+#preface,
+#intro,
+#abreviations_conventionnelles,
+.rk_section,
+.chapter,
+#tableau_des_verbes,
+#saidique,
+#petit_exercise,
+#bibliographie,
+#chrestomathie,
+#vocabulaire_saidique,
+#vocabulaire_bohairique,
+#liste_de_textes,
+#additions_et_corrections,
+#footnotes {
+	border: 1px solid lightgreen;
+	margin-top: 1em;
+	padding: 0 1em;
 }
 
-h1 span {
-	text-transform: lowercase;
+h1,h2,h3,h4,h5,h6 {
 	font-weight: normal;
 }
 
-#title {
-	display: flex;
-	justify-content: space-between;
-	gap: 1em;
-}
-
-#title h1 {
-	flex-grow: 1;
-}
-
-#title p {
-	flex-grow: 1;
-	text-align: center;
-	padding: 1em;
-}
-
-h1:before,
-h2:before,
-h3:before,
-h4:before,
-h5:before,
-h6:before {
-	color: purple;
-	font-family: monospace;
-	position: absolute;
-	left: -2em;
-	display: none;
-}
-
-h1:before {
-	content: "<h1>";
-}
-
-h2:before {
-	content: "<h2>";
-}
-
-h3:before {
-	content: "<h3>";
-}
-
-h4:before {
-	content: "<h4>";
-}
-
-h5:before {
-	content: "<h5>";
-}
-
-h6:before {
-	content: "<h6>";
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-/* 	position: sticky; */
-	text-transform: uppercase;
-/* 	background: yellow; */
-/* 	margin: 0; */
-/* 	outline: 1px dashed black; */
-}
-
-h2 { /* 1.5em */
-	top: 1.0rem;
-}
-
-h3 { /* 1.17em */
-	top: 3em;
-}
-
-h4 { /* 1em */
-	top: 6rem;
-}
-
-h5 { /* .83em */
-	top: 12rem;
-}
-
-h6 { /* .67em */
-	top: 8rem;
+p {
+	text-align: justify;
 }
 
 #toc {
@@ -109,7 +41,7 @@ h6 { /* .67em */
 	outline: 1px solid brown;
 	position: fixed;
 	top: calc(1em + 0em);
-	left: 1em;
+	right: 1em;
 	overflow-y: scroll;
 	transition: opacity .5s, width .5s, height .5s;
 	width: 0em;
@@ -132,11 +64,11 @@ h6 { /* .67em */
 
 #toc:after {
 	content: "";
-	background: black;
+	background: gold;
 	outline: 1px solid black;
 	position: fixed;
 	top: 1em;
-	left: 1em;
+	right: 1em;
 	width: 1em;
 	height: 2em;
 	transition: background .5s infinite alternate;
@@ -148,18 +80,6 @@ h6 { /* .67em */
 
 #toc a {
 	color: violet;
-}
-
-
-
-
-
-#title,
-#preface,
-#abreviations_conventionnelles,
-#grammaire {
-	outline: 1px solid black;
-	padding: 1em 1em;
 }
 
 @font-face {
@@ -210,62 +130,27 @@ sup.footnote {
 }
 
 em {
-	color: darkblue;
+	color: lightgreen;
 	font-family: rk_coptic, rk_greek, rk_arabic;
 	font-style: normal;
 }
 
 .ar {
-	color: darkred;
+	color: gold;
 	direction: rtl;
-/*	font-weight: bold; */
 }
 
 .gr {
-	color: darkgreen;
-/* 	font-weight: bold; */
-}
-
-#toc,
-#title,
-#preface,
-#abreviations_conventionnelles,
-#intro {
-/* 	display: none; */
-}
-
-#alphabet {
-	width: 100%;
-	display: grid;
-	grid-template-columns: repeat(4, auto);
-	grid-gap: 1em;
-}
-
-.header_row {
-	display: none;
-}
-
-#alphabet > div {
-/* 	background: grey; */
-}
-
-#alphabet > div > div:first-child {
-	font-size: 2em;
-}
-
-.section {
-	overflow-x: auto;
+	color: powderblue;
 }
 
 table {
 	border-collapse: collapse;
-/*	border: 5px solid black; */
 	width: 100%;
 }
+
 th, td {
-/*	border: 1px solid #00000022; */
 	background: #ffffff22;
-/*	font-size: 1.5em; */
 }
 
 th:empty,
@@ -279,7 +164,6 @@ td:empty {
 #vocabulaire_saidique th:empty,
 #vocabulaire_saidique td:empty {
 	background: none;
-/* 	border: none; */
 }
 td.gr {
 	font-weight: normal;
@@ -288,18 +172,38 @@ td.gr:before {
 	content: "•";
 }
 
+#alphabet_grid_header_row {
+	display: none;
+}
+
+#alphabet_grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	gap: 1em 1em;
+	grid-auto-flow: row;
+	grid-template-areas:
+		". . ."
+		". . ."
+		". . ."
+		". . ."
+		". . ."
+		". . ."
+		". . ."
+		". . ."
+		". . ."
+		". . ."
+		". . .";
+}
+
+#alphabet_grid div:first-child em {
+	font-size: 3em;
+}
+
 p.footnote {
 	display: none;
 }
 
-#abreviations_conventionnelles ul {
-	list-style-type: none;
-}
-
-#title,
-#preface,
-#intro,
-#abreviations_conventionnelles,
-#section-001 {
-	display: none;
+#footnotes p.footnote {
+	display: revert;
 }
