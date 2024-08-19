@@ -1,0 +1,16 @@
+body {
+  font-size: 1.5em;
+  color: gray;
+  background: black;
+}
+
+em {
+  color: lightgreen;
+  font-family: rk_maltese;
+  font-style: normal;
+}
+
+@font-face {
+	font-family: rk_maltese;
+	src: url("./Afacad.ttf");
+}
