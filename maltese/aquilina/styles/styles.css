@@ -10,6 +10,10 @@ em {
   font-style: normal;
 }
 
+em.ipa {
+	color: lightblue;
+}
+
 @font-face {
 	font-family: rk_maltese;
 	src: url("./Afacad.ttf");
