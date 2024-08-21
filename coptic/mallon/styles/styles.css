@@ -126,6 +126,7 @@ p {
 }
 
 sup.footnote {
+	color: gold;
 	unicode-bidi: plaintext;
 }
 
