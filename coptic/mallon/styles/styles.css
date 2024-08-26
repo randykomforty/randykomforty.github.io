@@ -145,6 +145,10 @@ em {
 	color: powderblue;
 }
 
+.chapter {
+	overflow-x: auto;
+}
+
 table {
 	border-collapse: collapse;
 	width: 100%;
