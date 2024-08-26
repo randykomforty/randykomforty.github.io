@@ -145,7 +145,8 @@ em {
 	color: powderblue;
 }
 
-.chapter {
+.chapter,
+#tableau_des_verbes {
 	overflow-x: auto;
 }
 
