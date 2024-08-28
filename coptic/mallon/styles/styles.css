@@ -33,15 +33,15 @@ body {
 #abreviations_conventionnelles,
 .rk_section,
 /* div:has(> #chapter_01), */
-div:has(> #chapter_02),
-div:has(> #chapter_03),
-div:has(> #chapter_04),
-div:has(> #chapter_05),
-div:has(> #chapter_06),
-div:has(> #chapter_07),
-div:has(> #chapter_08),
-div:has(> #chapter_09),
-div:has(> #chapter_10) {
+/* div:has(> #chapter_02), */
+/* div:has(> #chapter_03), */
+/* div:has(> #chapter_04), */
+/* div:has(> #chapter_05), */
+/* div:has(> #chapter_06), */
+/* div:has(> #chapter_07), */
+/* div:has(> #chapter_08), */
+/* div:has(> #chapter_09), */
+/* div:has(> #chapter_10) { */
 	display: none;
 }
 
