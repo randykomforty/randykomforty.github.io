@@ -173,6 +173,10 @@ em {
 	color: gold;
 }
 
+hr {
+	border: 1px solid lightgreen;
+}
+
 table {
 	color: white;
 	border-collapse: collapse;
