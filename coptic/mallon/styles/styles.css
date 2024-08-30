@@ -150,7 +150,7 @@ sup.footnote {
 
 em {
 	color: lightgreen;
-	text-decoration: underline dotted;
+/*	text-decoration: 1px underline dotted; */
 	font-family: rk_coptic, rk_greek, rk_arabic;
 	font-style: normal;
 }
@@ -263,8 +263,17 @@ td.gr:before {
 		". . .";
 }
 
-#alphabet_grid div:first-child em {
+#alphabet_grid div p:first-child {
+	color: steelblue;
 	font-size: 3em;
+}
+
+#alphabet_grid div p:nth-child(2) {
+	font-size: 1.5em;
+}
+
+#alphabet_grid div p:nth-child(3) {
+	font-size: 1.25em;
 }
 
 p.footnote {
