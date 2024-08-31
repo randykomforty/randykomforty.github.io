@@ -10,40 +10,20 @@ body {
 #preface,
 #intro,
 #abreviations_conventionnelles,
-.rk_section,
 .chapter,
 #tableau_des_verbes,
-#saidique,
-#petit_exercise,
+#grammaire_saidique,
 #bibliographie,
 #chrestomathie,
-#vocabulaire_saidique,
 #vocabulaire_bohairique,
+#vocabulaire_saidique,
 #footnotes {
 	border: 1px solid lightgreen;
 	margin-top: 1em;
 	padding: 0 1em;
 }
 
-#title,
-#preface,
-#intro,
-#abreviations_conventionnelles,
-.rk_section,
-/* div:has(> #chapter_01), */
-/* div:has(> #chapter_02), */
-/* div:has(> #chapter_03), */
-/* div:has(> #chapter_04), */
-/* div:has(> #chapter_05), */
-/* div:has(> #chapter_06), */
-/* div:has(> #chapter_07), */
-/* div:has(> #chapter_08), */
-/* div:has(> #chapter_09), */
-/* div:has(> #chapter_10) { */
-	display: none;
-}
-
-h1,h2,h3,h4,h5,h6 {
+h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
 }
 
@@ -262,7 +242,7 @@ td.gr:before {
 }
 
 #alphabet_grid div p:first-child {
-	color: steelblue;
+	color: steelblue !important;
 	font-size: 3em;
 }
 
