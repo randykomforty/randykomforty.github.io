@@ -6,6 +6,25 @@ body {
 	margin: 1em;
 }
 
+#demotic_evolution,
+#chiffres_cursifs {
+	text-align: center;
+}
+
+#demotic_evolution div,
+#chiffres_cursifs div {
+	background: lightgreen;
+	mix-blend-mode: exclusion;
+	display: inline-block;
+}
+
+#demotic_evolution div img,
+#chiffres_cursifs div img {
+	filter: invert(1) grayscale(1) contrast(4);
+	mix-blend-mode: multiply;
+	display: block;
+}
+
 #title,
 #preface,
 #intro,
@@ -242,8 +261,11 @@ td.gr:before {
 }
 
 #alphabet_grid div p:first-child {
-	color: steelblue !important;
 	font-size: 3em;
+}
+
+#alphabet_grid div p:first-child em {
+	color: steelblue;
 }
 
 #alphabet_grid div p:nth-child(2) {
