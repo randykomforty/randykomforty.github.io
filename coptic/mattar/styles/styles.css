@@ -81,9 +81,39 @@ b {
 }
 
 @font-face {
+	font-family: rk_coptic;
+	src: local("Noto Sans Coptic");
+	unicode-range: U+03E2-03EF, U+2C80-2CFF, U+0300, U+0304, U+0305;
+}
+
+@font-face {
 	font-family: rk_arabic;
 	src: url("./NotoSansArabic-Regular.ttf");
 	unicode-range: U+0600-06FF;
+}
+
+@font-face {
+	font-family: rk_arabic;
+	src: local("Noto Sans Arabic");
+/* 	src: local("Noto Sans Arabic"); */
+	unicode-range: U+0600–06FF;
+}
+
+em {
+	font-family: rk_coptic;
+	color: seagreen;
+	font-style: normal;
+}
+
+em.ar {
+	font-family: rk_arabic;
+	color: goldenrod;
+	direction: rtl;
+	font-style: normal;
+}
+
+li {
+	background: #ffffff22;
 }
 
 @font-face {
