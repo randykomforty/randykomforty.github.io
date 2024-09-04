@@ -140,9 +140,26 @@ p {
 	unicode-range: U+0600–06FF;
 }
 
-sup.footnote {
-	color: gold;
+a:has(sup) {
+	text-decoration: none;
+	color: violet;
 	unicode-bidi: plaintext;
+}
+
+#footnotes ol {
+}
+
+#footnotes li::marker {
+	color: lightseagreen;
+}
+
+#footnotes a {
+	text-decoration: none;
+	color: goldenrod;
+}
+
+#footnotes li:has(:target) {
+	background: #ffb60022;
 }
 
 em {
@@ -171,7 +188,9 @@ em {
 }
 
 hr {
-	border: 1px solid lightgreen;
+	border: none;
+	height: 1px;
+	background: linear-gradient(to right, transparent, lightgreen, transparent);
 }
 
 table {
