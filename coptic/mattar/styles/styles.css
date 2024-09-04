@@ -110,6 +110,7 @@ em.ar {
 	color: goldenrod;
 	direction: rtl;
 	font-style: normal;
+	unicode-bidi: plaintext;
 }
 
 li {
