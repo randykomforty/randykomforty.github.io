@@ -32,7 +32,9 @@ body {
 		U+0308, /* combine diaeresis */
 
 		U+00B7, /* middle dot */
-		U+2E17; /* slanted double hyphen */;
+		U+2E17, /* slanted double hyphen */
+		
+		U+1AB4 /* combining triple dot above*/;
 }
 
 @font-face {
@@ -49,15 +51,35 @@ body {
 	unicode-range: U+0600–06FF;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+
+h2 {
+	color: lightblue;
+}
+
+h3 {
+	color: limegreen;
+}
+
+h4 {
+	color: pink;
+}
+
 b {
 	color: lightgreen;
 	font-weight: normal;
 }
 
 .container {
-	display: flex;
+	//display: flex;
 	flex-direction: row;
 	gap: 0 1em;
+}
+
+.my_translation {
+	display: none;
 }
 
 .source_translation {
@@ -88,118 +110,52 @@ sup.footnote a:after {
 
 .coptic {
 	font-family: rk_coptic;
-	color: lightblue;
+	color: white;
+}
+
+.coptic pre {
+	font-family: inherit;
 }
 
 .greek {
 	font-family: rk_greek;
-	color: goldenrod;
+	color: yellow;
 }
 
-
-
-
-
-
-
-
-
-
-#demotic_evolution,
-#chiffres_cursifs {
-	text-align: center;
+.parenthetical:before,
+.parenthetical:after {
+	color: gray;
 }
 
-#demotic_evolution div,
-#chiffres_cursifs div {
-	background: lightgreen;
-	mix-blend-mode: exclusion;
-	display: inline-block;
+.parenthetical:before {
+	content: "(";
 }
 
-#demotic_evolution div img,
-#chiffres_cursifs div img {
-	filter: invert(1) grayscale(1) contrast(4);
-	mix-blend-mode: multiply;
-	display: block;
+.parenthetical:after {
+	content: ")";
 }
 
-#title,
-#preface,
-#intro,
-#abreviations_conventionnelles,
-.chapter,
-#tableau_des_verbes,
-#grammaire_saidique,
-#bibliographie,
-#chrestomathie,
-#vocabulaire_bohairique,
-#vocabulaire_saidique,
-#footnotes {
-	border: 1px solid lightgreen;
-	margin-top: 1em;
-	padding: 0 1em;
+sup.footnote {
+	//display: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-weight: normal;
+.normalized_text {
+	display: none;
 }
 
-p {
-	text-align: justify;
+.footnotes {
+	//display: none;
 }
 
-#toc {
-	background: #333;
-	color: gold;
-	outline: 1px solid brown;
-	position: fixed;
-	top: calc(1em + 0em);
-	right: 1em;
-	overflow-y: scroll;
-	transition: opacity .5s, width .5s, height .5s;
-	width: 0em;
-	height: 2em;
-	padding-left: 1em;
-}
-
-#toc h1{
-	opacity: 1;
-}
-
-#toc:hover h1 {
-	opacity: 0;
-}
-
-#toc:hover {
-	width: 70%;
-	height: 50%;
-}
-
-#toc:after {
-	content: "";
-	background: gold;
-	outline: 1px solid black;
-	position: fixed;
-	top: 1em;
-	right: 1em;
-	width: 1em;
-	height: 2em;
-	transition: background .5s infinite alternate;
-}
-
-#toc:hover:before {
-	
-}
-
-#toc a {
-	color: violet;
-}
 
 a:has(sup) {
 	text-decoration: none;
 	color: violet;
 	unicode-bidi: plaintext;
+}
+
+.footnotes ol li::marker {
+	color: violet;
 }
 
 #footnotes ol {
@@ -216,145 +172,4 @@ a:has(sup) {
 
 #footnotes li:has(:target) {
 	background: #ffb60022;
-}
-
-em {
-	color: lightgreen;
-/*	text-decoration: 1px underline dotted; */
-	font-family: rk_coptic, rk_greek, rk_arabic;
-	font-style: normal;
-}
-
-.ar {
-	color: gold;
-	direction: rtl;
-}
-
-.gr {
-	color: powderblue;
-}
-
-.chapter,
-#tableau_des_verbes {
-	overflow-x: auto;
-}
-
-.breadcrumb {
-	color: gold;
-}
-
-hr {
-	border: none;
-	height: 1px;
-	background: linear-gradient(to right, transparent, lightgreen, transparent);
-}
-
-table {
-	color: white;
-	border-collapse: collapse;
-	width: 100%;
-/* 	border: 1px solid; */
-/* 	background: #ffffff22; */
-}
-
-table em {
-	color: inherit;
-	text-decoration: none;
-}
-
-tr:nth-child(even) th,
-tr:nth-child(even) td {
-	background: darkblue;
-	background: #ffffff11;
-}
-
-tr:nth-child(odd) th,
-tr:nth-child(odd) td {
-	background: darkolivegreen;
-	background: #ffffff11;
-}
-
-tr:nth-child(even) th:empty,
-tr:nth-child(even) td:empty,
-tr:nth-child(odd) th:empty,
-tr:nth-child(odd) td:empty {
-	background: none;
-}
-
-th {
-	font-weight: normal;
-}
-
-.align-left {
-	text-align: left;
-}
-
-.align-right {
-	text-align: right;
-}
-
-.align-center {
-	text-align: center;
-}
-
-#vocabulaire_saidique table,
-#vocabulaire_saidique th,
-#vocabulaire_saidique td,
-#vocabulaire_saidique th:empty,
-#vocabulaire_saidique td:empty {
-/* 	background: none; */
-}
-td.gr {
-/* 	font-weight: normal; */
-}
-td.gr:before {
-/* 	content: "•"; */
-}
-
-#alphabet_grid_header_row {
-	display: none;
-}
-
-#alphabet_grid {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-	gap: 1em 1em;
-	grid-auto-flow: row;
-	grid-template-areas:
-		". . ."
-		". . ."
-		". . ."
-		". . ."
-		". . ."
-		". . ."
-		". . ."
-		". . ."
-		". . ."
-		". . ."
-		". . .";
-}
-
-#alphabet_grid div p:first-child {
-	font-size: 3em;
-}
-
-#alphabet_grid div p:first-child em {
-	color: steelblue;
-}
-
-#alphabet_grid div p:nth-child(2) {
-	font-size: 1.5em;
-}
-
-#alphabet_grid div p:nth-child(3) {
-	font-size: 1.25em;
-}
-
-p.footnote {
-	display: none;
-}
-
-#footnotes p.footnote {
-	display: revert;
 }
