@@ -39,7 +39,9 @@ body {
 
 @font-face {
 	font-family: rk_greek;
-	src: url("./NotoSans.ttf");
+	//src: url("./SBL_grk.ttf");
+	//src: url("./LiakDemoExtraLightItalic-x3ABV.ttf");
+	src: url("./GentiumPlus-Regular.ttf");
 /* 	src: local("Noto Sans"); */
 	unicode-range: U+0323, U+0370-03FF, U+1F00-1FFF;
 }
@@ -92,25 +94,34 @@ b {
 
 p {
 	font-size: 1.2em;
+	line-height: 30px;
+}
+
+sup.footnote {
+	//display: none;
+	line-height: 0;
 }
 
 sup.footnote a {
 	font-size: .8rem;
 	color: violet;
+	color: gold;
 	text-decoration: none;
+	line-height: 0;
 }
 
 sup.footnote a:before {
-	content: "\202f(";
+	//content: "\202f(";
+	content: "\202f";
 }
 
 sup.footnote a:after {
-	content: ")";
+	//content: ")";
 }
 
 .coptic {
 	font-family: rk_coptic;
-	color: white;
+	color: orange;
 }
 
 .coptic pre {
@@ -119,7 +130,16 @@ sup.footnote a:after {
 
 .greek {
 	font-family: rk_greek;
-	color: yellow;
+	color: #57c669;
+	//color: lightseagreen;
+	//color: #f3f4ff;
+	//color: goldenrod;
+	//background: linear-gradient(to right, #098997, #790079);
+	font-size: 1.5rem;
+	//mix-blend-mode: exclusion;
+	//filter: invert(1);
+	padding: 5px 0 5px;
+	border-radius: 10px;
 }
 
 .parenthetical:before,
@@ -128,15 +148,11 @@ sup.footnote a:after {
 }
 
 .parenthetical:before {
-	content: "(";
+	//content: "(";
 }
 
 .parenthetical:after {
-	content: ")";
-}
-
-sup.footnote {
-	//display: none;
+	//content: ")";
 }
 
 .normalized_text {
@@ -145,6 +161,10 @@ sup.footnote {
 
 .footnotes {
 	//display: none;
+}
+
+.footnotes li:empty {
+	display: none;
 }
 
 
