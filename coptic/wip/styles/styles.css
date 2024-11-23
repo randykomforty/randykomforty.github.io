@@ -97,6 +97,10 @@ p {
 	line-height: 30px;
 }
 
+li {
+	line-height: 30px;
+}
+
 sup.footnote {
 	//display: none;
 	line-height: 0;
@@ -121,7 +125,8 @@ sup.footnote a:after {
 
 .coptic {
 	font-family: rk_coptic;
-	color: orange;
+	font-size: 1.4em;
+	color: #78a1d9;
 }
 
 .coptic pre {
@@ -140,6 +145,12 @@ sup.footnote a:after {
 	//filter: invert(1);
 	padding: 5px 0 5px;
 	border-radius: 10px;
+}
+
+.arabic {
+	font-family: rk_arabic;
+	font-size: 1.4em;
+	color: goldenrod;
 }
 
 .parenthetical:before,
