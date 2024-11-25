@@ -53,6 +53,13 @@ body {
 	unicode-range: U+0600–06FF;
 }
 
+@font-face {
+	font-family: rk_hebrew;
+	src: url("./NotoSansHebrew.ttf");
+/* 	src: local("Noto Sans Hebrew"); */
+	unicode-range: U+0590–05FF;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
 }
@@ -78,6 +85,10 @@ b {
 	//display: flex;
 	flex-direction: row;
 	gap: 0 1em;
+}
+
+.work {
+	//border: 1px solid #aaa;
 }
 
 .my_translation {
@@ -153,6 +164,12 @@ sup.footnote a:after {
 	color: goldenrod;
 }
 
+.hebrew {
+	font-family: rk_hebrew;
+	font-size: 1em;
+	color: pink;
+}
+
 .parenthetical:before,
 .parenthetical:after {
 	color: gray;
@@ -164,6 +181,11 @@ sup.footnote a:after {
 
 .parenthetical:after {
 	//content: ")";
+}
+
+.author {
+	font-variant: small-caps;
+	color: #bbb;
 }
 
 .normalized_text {
