@@ -113,7 +113,7 @@ li {
 }
 
 sup.footnote {
-	//display: none;
+	display: none;
 	line-height: 0;
 }
 
@@ -188,8 +188,16 @@ sup.footnote a:after {
 	color: #bbb;
 }
 
-.normalized_text {
+.greek.parenthetical {
 	display: none;
+}
+
+.normalized_text {
+	//display: none;
+}
+
+.normalized_text.coptic {
+	font-size: revert;
 }
 
 .footnotes {
