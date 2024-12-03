@@ -4,6 +4,8 @@ body {
 	background: #111;
 	font-family: "Noto Sans", sans-serif;
 	margin: 1em;
+	//outline: 1px solid white;
+	line-height: 2rem;
 }
 
 @font-face {
@@ -60,12 +62,27 @@ body {
 	unicode-range: U+0590–05FF;
 }
 
-ul {
+ul.dictionary {
+	font-size: 1.5em;
 	font-family: rk_coptic, rk_greek;
+	//outline: 1px solid lightblue;
+	//background: #ffffff22;
+	padding-left: 1rem;
 }
 
 li.entry {
-	font-size: 1.5rem;
+	//background: #ffffff22;
+}
+
+li.entry > ul,
+li.entry > ul > li > ul {
+	//background: #ffffff22;
+	padding-left: 1rem;
+}
+
+li.entry > ul > li,
+li.entry > ul > li > ul > li {
+	//background: #ffffff22;
 }
 
 .headword {
@@ -73,12 +90,5 @@ li.entry {
 }
 
 i.dialect {
-	color: lightblue;
-	//border-radius: 5px;
-	//background: #ffffff22;
-	//padding: 0 .2em;
-}
-
-i.dialect + i.dialect {
-	//margin-left: .2em;
+	color: violet;
 }
