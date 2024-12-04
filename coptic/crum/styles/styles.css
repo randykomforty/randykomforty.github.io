@@ -62,6 +62,10 @@ body {
 	unicode-range: U+0590–05FF;
 }
 
+.abbr {
+	color: lightblue;
+}
+
 ul.dictionary {
 	font-size: 1.5em;
 	font-family: rk_coptic, rk_greek;
@@ -91,4 +95,12 @@ li.entry > ul > li > ul > li {
 
 i.dialect {
 	color: violet;
+}
+
+i.dialect span {
+	font-style: normal;
+}
+
+.crum_error {
+	color: orangered;
 }
