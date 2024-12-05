@@ -66,6 +66,13 @@ body {
 	color: lightblue;
 }
 
+.found::marker {
+	content: "✔  ";
+	color: green;
+	//font-size: 1em;
+	//scale: 2;
+}
+
 ul.dictionary {
 	font-size: 1.5em;
 	font-family: rk_coptic, rk_greek;
