@@ -66,6 +66,11 @@ body {
 	color: lightblue;
 }
 
+.coptic {
+	font-family: rk_coptic;
+	color: lightgreen;
+}
+
 .found::marker {
 	content: "✔  ";
 	color: green;
