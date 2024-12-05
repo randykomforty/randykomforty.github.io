@@ -85,6 +85,14 @@ body {
 	color: green;
 }
 
+.source {
+	color: gold;
+}
+
+.non-source {
+	opacity: .2;
+}
+
 ul.abbreviations {
 	list-style-type: none;
 }
