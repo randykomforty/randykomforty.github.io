@@ -71,11 +71,22 @@ body {
 	color: lightgreen;
 }
 
+
 .found::marker {
-	content: "✔  ";
-	color: green;
+	//content: "✔  ";
+	color: lightgreen;
 	//font-size: 1em;
 	//scale: 2;
+}
+
+
+.found {
+	list-style-type: "✔  ";
+	
+}
+
+ul.abbreviations {
+	list-style-type: none;
 }
 
 ul.dictionary {
