@@ -74,7 +74,7 @@ body {
 
 .found::marker {
 	//content: "✔  ";
-	color: lightgreen;
+	//color: lightgreen;
 	//font-size: 1em;
 	//scale: 2;
 }
@@ -82,7 +82,7 @@ body {
 
 .found {
 	list-style-type: "✔  ";
-	
+	color: green;
 }
 
 ul.abbreviations {
