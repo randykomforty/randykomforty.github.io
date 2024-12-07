@@ -177,24 +177,42 @@ li a[href^="https://digitale-sammlungen.ulb.uni-bonn.de/"]:before {
 	vertical-align: middle;
 }
 
+li a[href^="https://gallica.bnf.fr/"]:before {
+	content: "";
+	background-image: url("./bnf.ico");
+	background-size: 16px 16px;
+	display: inline-block;
+	//outline: 1px solid white;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+}
+
 .non-source {
 	opacity: .2;
 }
 
 #container {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	grid-template-rows: 1fr;
-	grid-column-gap: 20px;
+	
 }
 
-ul.abbreviations {
-	list-style-type: none;
+#container ul {
+	padding-left: 0;
 }
+
+#abbreviations,
+#abbreviations ul,
+#bible ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
 
 ul.abbreviations .bible {
 	display: none;
 }
+
+
 
 ul.dictionary {
 	display: none;
