@@ -166,6 +166,17 @@ li a[href^="https://www.scribd.com/"]:before {
 	vertical-align: middle;
 }
 
+li a[href^="https://digitale-sammlungen.ulb.uni-bonn.de/"]:before {
+	content: "";
+	background-image: url("./uni-bonn.ico");
+	background-size: 16px 16px;
+	display: inline-block;
+	//outline: 1px solid white;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+}
+
 .non-source {
 	opacity: .2;
 }
