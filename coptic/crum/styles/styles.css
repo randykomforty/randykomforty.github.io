@@ -202,13 +202,14 @@ li a[href^="https://gallica.bnf.fr/"]:before {
 
 #abbreviations,
 #abbreviations ul,
+#bible,
 #bible ul {
 	list-style-type: none;
 	padding-left: 0;
 }
 
 
-ul.abbreviations .bible {
+#abbreviations .bible {
 	display: none;
 }
 
