@@ -68,7 +68,7 @@ body {
 
 .coptic {
 	font-family: rk_coptic;
-	color: lightgreen;
+	//color: lightgreen;
 }
 
 
@@ -170,11 +170,23 @@ li a[href^="https://www.scribd.com/"]:before {
 	opacity: .2;
 }
 
+#container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 1fr;
+	grid-column-gap: 20px;
+}
+
 ul.abbreviations {
 	list-style-type: none;
 }
 
+ul.abbreviations .bible {
+	display: none;
+}
+
 ul.dictionary {
+	display: none;
 	font-size: 1.5em;
 	font-family: rk_coptic, rk_greek;
 	//outline: 1px solid lightblue;
