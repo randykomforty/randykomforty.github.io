@@ -5,7 +5,7 @@ body {
 	font-family: "Noto Sans", sans-serif;
 	margin: 1em;
 	//outline: 1px solid white;
-	line-height: 2rem;
+	//line-height: 2rem;
 }
 
 @font-face {
@@ -87,6 +87,83 @@ body {
 
 .source {
 	color: gold;
+	text-decoration: none;
+}
+
+li {
+	position: relative;
+	//left: 0px;
+	//top: 0px;
+	//line-height: 20px;
+	//padding-bottom: 5px;
+}
+
+li a {
+	//position: absolute;
+	//left: -25px;
+	//top: 0px;
+	//line-height: 25px;
+	//padding-bottom: 5px;
+}
+
+li a:before {
+	content: "[↵]";
+}
+
+li a[href^="https://archive.org/"]:before {
+	content: "";
+	background-image: url("./archive.jpg");
+	background-size: 20px 20px;
+	display: inline-block;
+	//outline: 1px solid white;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	mix-blend-mode: screen;
+}
+
+li a[href^="https://books.google.com/"]:before {
+	content: "";
+	background-image: url("./google-books.png");
+	background-size: 20px 20px;
+	display: inline-block;
+	//outline: 1px solid white;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+}
+
+li a[href^="https://babel.hathitrust.org/"]:before {
+	content: "";
+	background-image: url("./hathitrust.png");
+	background-size: 20px 20px;
+	display: inline-block;
+	//outline: 1px solid white;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+}
+
+li a[href^="https://www.jstor.org/"]:before {
+	content: "";
+	background-image: url("./jstor_16.png");
+	background-size: 16px 16px;
+	display: inline-block;
+	//outline: 1px solid white;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+}
+
+li a[href^="https://www.scribd.com/"]:before {
+	content: "";
+	background-image: url("./scribd.ico");
+	background-size: 16px 16px;
+	display: inline-block;
+	//outline: 1px solid white;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
 }
 
 .non-source {
