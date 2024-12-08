@@ -188,8 +188,9 @@ li a[href^="https://gallica.bnf.fr/"]:before {
 	vertical-align: middle;
 }
 
-.non-source {
-	opacity: .2;
+#abbreviations .non-source {
+	//opacity: .2;
+	display: none;
 }
 
 #container {
@@ -203,7 +204,9 @@ li a[href^="https://gallica.bnf.fr/"]:before {
 #abbreviations,
 #abbreviations ul,
 #bible,
-#bible ul {
+#bible ul,
+#etc,
+#etc ul {
 	list-style-type: none;
 	padding-left: 0;
 }
