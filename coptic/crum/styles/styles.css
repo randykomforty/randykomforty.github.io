@@ -179,6 +179,30 @@ li a[href^="https://gallica.bnf.fr/"]:before {
 	display: none;
 }
 
+ul#additions_and_corrections {
+	list-style-type: none;
+	padding-left: 0;
+	font-size: 1.2em;
+}
+
+ul#additions_and_corrections .page {
+	color: lightseagreen;
+	//font-weight: bold;
+	text-align: right;
+	display: inline-block;
+	min-width: 3em;
+	padding-right: .8rem;
+	//outline: 1px solid yellow;
+}
+
+ul#additions_and_corrections .coptic {
+	color: lightgreen;
+}
+
+ul#additions_and_corrections .greek {
+	color: lightblue;
+}
+
 ul.dictionary {
 	//display: none;
 	//font-size: 1.5em;
