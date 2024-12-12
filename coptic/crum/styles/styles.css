@@ -82,6 +82,14 @@ body {
 	unicode-bidi: plaintext;
 }
 
+.aramaic {
+	unicode-bidi: plaintext;
+}
+
+.eg-tr {
+	color: orange;
+}
+
 .source {
 	color: gold;
 	text-decoration: none;
@@ -183,6 +191,13 @@ ul#additions_and_corrections {
 	list-style-type: none;
 	padding-left: 0;
 	font-size: 1.2em;
+	line-height: 1.5;
+}
+
+ul#additions_and_corrections li {
+	//list-style-position: inside;
+	margin-left: 4em;
+	text-indent: -4em;
 }
 
 ul#additions_and_corrections .page {
@@ -191,7 +206,7 @@ ul#additions_and_corrections .page {
 	text-align: right;
 	display: inline-block;
 	min-width: 3em;
-	padding-right: .8rem;
+	padding-right: 1em;
 	//outline: 1px solid yellow;
 }
 
@@ -201,6 +216,14 @@ ul#additions_and_corrections .coptic {
 
 ul#additions_and_corrections .greek {
 	color: lightblue;
+}
+
+ul#additions_and_corrections .arabic {
+	color: gold;
+}
+
+ul#additions_and_corrections .aramaic {
+	color: pink;
 }
 
 ul.dictionary {
