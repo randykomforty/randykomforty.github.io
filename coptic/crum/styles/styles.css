@@ -187,20 +187,28 @@ li a[href^="https://gallica.bnf.fr/"]:before {
 	display: none;
 }
 
-ul#additions_and_corrections {
+#preface {
+	display: none;
+}
+
+#additions_and_corrections {
+	display: none;
+}
+
+#additions_and_corrections ul {
 	list-style-type: none;
 	padding-left: 0;
 	font-size: 1.2em;
 	line-height: 1.5;
 }
 
-ul#additions_and_corrections li {
+#additions_and_corrections ul li {
 	//list-style-position: inside;
 	margin-left: 4em;
 	text-indent: -4em;
 }
 
-ul#additions_and_corrections .page {
+#additions_and_corrections ul .page {
 	color: lightseagreen;
 	//font-weight: bold;
 	text-align: right;
@@ -210,19 +218,19 @@ ul#additions_and_corrections .page {
 	//outline: 1px solid yellow;
 }
 
-ul#additions_and_corrections .coptic {
+#additions_and_corrections ul .coptic {
 	color: lightgreen;
 }
 
-ul#additions_and_corrections .greek {
+#additions_and_corrections ul .greek {
 	color: lightblue;
 }
 
-ul#additions_and_corrections .arabic {
+#additions_and_corrections ul .arabic {
 	color: gold;
 }
 
-ul#additions_and_corrections .aramaic {
+#additions_and_corrections ul .aramaic {
 	color: pink;
 }
 
@@ -235,7 +243,15 @@ ul.dictionary {
 }
 
 li.entry {
-	font-size: 2em;
+	font-size: 1.2em;
+}
+
+li.entry .coptic {
+	color: lightgreen;
+}
+
+li.entry .greek {
+	color: lightblue;
 }
 
 li.entry li {
@@ -252,7 +268,7 @@ li.entry li ul {
 }
 
 li.entry li li {
-	font-size: .5em;
+	//font-size: .5em;
 }
 
 .headword {
