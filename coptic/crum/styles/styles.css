@@ -2,10 +2,12 @@ body {
 	font-size: 16px;
 	color: gray;
 	background: #111;
-	font-family: "Noto Sans";
+	//font-family: "Noto Sans";
+	font-family: sans-serif;
 	margin: 1em;
-	//outline: 1px solid white;
-	//line-height: 2rem;
+	padding: 1em;
+	line-height: 1.2;
+	outline: 1px dotted lightgreen;
 }
 
 @font-face {
@@ -68,50 +70,113 @@ body {
 	unicode-range: U+2020;
 }
 
-.abbr {
-	color: lightblue;
+#preface
+#additions_and_corrections,
+#abbreviations .non-source,
+#abbreviations .bible {
+	display: none;
 }
 
-.coptic {
-	font-family: rk_coptic;
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	margin-top: 0em;
 }
 
-.arabic {
-	font-family: rk_arabic;
-	color: gold;
-	unicode-bidi: plaintext;
+i.dialect {
+	color: violet;
+	height: 1em;
+	background: #ffffff33;
+	aspect-ratio: 1 / 1;
+	//text-align: center;
+	position: relative;
+	padding: 2px;
+	line-height: 1;
+	border-radius: 2px;
+	outline: 1px solid;
+	display: inline-block;
 }
 
-.aramaic {
-	unicode-bidi: plaintext;
+.dialect sup {
+	font-size: inherit;
+	font-size: .75em;
+	line-height: 0;
+	padding-left: 2px;
 }
 
-.eg-tr {
-	color: orange;
+.dialect sup.lycopolitan {
+	font-size: inherit;
+	font-size: .5em;
+	line-height: 0;
+	font-style: normal;
+	padding-left: 0;
 }
 
-.source {
-	color: gold;
+sup.footnote {
+	color: #ffb600;
+	font-size: inherit;
+	font-size: .5em;
+	line-height: 0;
+}
+
+#preface a:has(.footnote) {
 	text-decoration: none;
 }
 
-li a:before {
-	content: "[↵]";
+#footnotes a {
+	color: gold;
+	text-decoration: none;
+	line-height: 1;
 }
 
-li a[href^="https://archive.org/"]:before,
-li a[href^="https://books.google.com/"]:before,
-li a[href^="https://babel.hathitrust.org/"]:before,
-li a[href^="https://www.jstor.org/"]:before,
-li a[href^="https://www.scribd.com/"]:before,
-li a[href^="https://digitale-sammlungen.ulb.uni-bonn.de/"]:before,
-li a[href^="https://gallica.bnf.fr/"]:before {
+#footnotes li:has(:target) {
+	background: #ffb60022;
+}
+
+#preface #footnotes .greek {
+	font-family: rk_greek;
+	color: lightblue;
+	line-height: inherit;
+}
+
+#preface .greek {
+	font-family: rk_greek;
+	color: lightblue;
+	line-height: inherit;
+}
+
+#abbreviations a {
+	text-decoration: none;
+}
+
+#abbreviations > ul,
+#bible > ul,
+#etc > ul {
+	padding-left: 0;
+	list-style-type: none;
+}
+
+#abbreviations .abbr {
+	color: lightblue;
+}
+
+#abbreviations li a:before {
+	content: "[↵]";
+	color: gold;
+}
+
+#abbreviations li a[href^="https://archive.org/"]:before,
+#abbreviations li a[href^="https://books.google.com/"]:before,
+#abbreviations li a[href^="https://babel.hathitrust.org/"]:before,
+#abbreviations li a[href^="https://www.jstor.org/"]:before,
+#abbreviations li a[href^="https://www.scribd.com/"]:before,
+#abbreviations li a[href^="https://digitale-sammlungen.ulb.uni-bonn.de/"]:before,
+#abbreviations li a[href^="https://gallica.bnf.fr/"]:before {
 	content: "";
 	display: inline-block;
 	vertical-align: middle;
 }
 
-li a[href^="https://archive.org/"]:before {
+#abbreviations li a[href^="https://archive.org/"]:before {
 	background-image: url("./archive.jpg");
 	background-size: 20px 20px;
 	width: 20px;
@@ -119,58 +184,46 @@ li a[href^="https://archive.org/"]:before {
 	mix-blend-mode: screen;
 }
 
-li a[href^="https://books.google.com/"]:before {
+#abbreviations li a[href^="https://books.google.com/"]:before {
 	background-image: url("./google-books.png");
 	background-size: 20px 20px;
 	width: 20px;
 	height: 20px;
 }
 
-li a[href^="https://babel.hathitrust.org/"]:before {
+#abbreviations li a[href^="https://babel.hathitrust.org/"]:before {
 	background-image: url("./hathitrust.png");
 	background-size: 20px 20px;
 	width: 20px;
 	height: 20px;
 }
 
-li a[href^="https://www.jstor.org/"]:before {
+#abbreviations li a[href^="https://www.jstor.org/"]:before {
 	background-image: url("./jstor_16.png");
 	background-size: 16px 16px;
 	width: 16px;
 	height: 16px;
 }
 
-li a[href^="https://www.scribd.com/"]:before {
+#abbreviations li a[href^="https://www.scribd.com/"]:before {
 	background-image: url("./scribd.ico");
 	background-size: 16px 16px;
 	width: 16px;
 	height: 16px;
 }
 
-li a[href^="https://digitale-sammlungen.ulb.uni-bonn.de/"]:before {
+#abbreviations li a[href^="https://digitale-sammlungen.ulb.uni-bonn.de/"]:before {
 	background-image: url("./uni-bonn.ico");
 	background-size: 16px 16px;
 	width: 16px;
 	height: 16px;
 }
 
-li a[href^="https://gallica.bnf.fr/"]:before {
+#abbreviations li a[href^="https://gallica.bnf.fr/"]:before {
 	background-image: url("./bnf.ico");
 	background-size: 16px 16px;
 	width: 16px;
 	height: 16px;
-}
-
-#abbreviations .non-source {
-	display: none;
-}
-
-#container {
-	
-}
-
-#container ul {
-	padding-left: 0;
 }
 
 #abbreviations,
@@ -179,119 +232,68 @@ li a[href^="https://gallica.bnf.fr/"]:before {
 #bible ul,
 #etc,
 #etc ul {
-	list-style-type: none;
-	padding-left: 0;
+	//list-style-type: none;
+	//padding-left: 0;
 }
 
-#abbreviations .bible {
-	display: none;
-}
-
-#preface {
-	display: none;
-}
-
-#additions_and_corrections {
-	display: none;
-}
-
-#additions_and_corrections ul {
-	list-style-type: none;
-	padding-left: 0;
-	font-size: 1.2em;
-	line-height: 1.5;
-}
-
-#additions_and_corrections ul li {
-	//list-style-position: inside;
-	margin-left: 4em;
-	text-indent: -4em;
-}
-
-#additions_and_corrections ul .page {
-	color: lightseagreen;
-	//font-weight: bold;
-	text-align: right;
-	display: inline-block;
-	min-width: 3em;
-	padding-right: 1em;
-	//outline: 1px solid yellow;
-}
-
-#additions_and_corrections ul .coptic {
+ul#dictionary li.entry .coptic {
 	color: lightgreen;
 }
 
-#additions_and_corrections ul .greek {
+ul#dictionary li.entry .greek {
 	color: lightblue;
 }
 
-#additions_and_corrections ul .arabic {
-	color: gold;
-}
-
-#additions_and_corrections ul .aramaic {
-	color: pink;
-}
-
-ul.dictionary {
-	//display: none;
-	//font-size: 1.5em;
-	line-height: 1.5;
-	font-family: rk_coptic, rk_greek, rk_arabic, rk_sans-serif;
-	padding-left: 0rem;
-}
-
-li.entry {
-	font-size: 1.2em;
-}
-
-li.entry .coptic {
-	color: lightgreen;
-}
-
-li.entry .greek {
-	color: lightblue;
-}
-
-li.entry li {
-	list-style-type: none;
-}
-
-li.entry + li.entry {
+ul#dictionary li.entry + li.entry {
 	margin-top: 1em;
 }
 
-li.entry li ul {
-	//padding-left: 0rem;
+ul#dictionary li.entry > ul {
+	border-left: 2px solid #ffffff99;
+}
+
+ul#dictionary li.entry > ul > li > ul {
+	border-left: 2px solid #ffffff66;
+}
+
+ul#dictionary li.entry > ul > li > ul > li > ul {
+	border-left: 2px solid #ffffff33;
+}
+
+ul#dictionary li.entry > ul > li,
+ul#dictionary li.entry > ul > li > ul > li,
+ul#dictionary li.entry > ul > li > ul > li > ul > li {
+	margin-left: -1.5em;
+}
+
+ul#dictionary li {
+	list-style-type: "├";
+	list-style-type: "─";
+}
+
+ul#dictionary li:last-child {
+	list-style-type: "└";
+}
+
+ul#dictionary li.entry {
+	//outline: 1px solid white;
 	list-style-type: none;
 }
 
-li.entry li li {
-	//font-size: .5em;
+ul#dictionary li.entry > ul {
+	border-top: 1px solid white;
 }
 
-.headword {
-	color: goldenrod;
+ul#dictionary li.entry > ul > li {
+	//padding-left: .5em;
+	
 }
 
-i.dialect {
-	color: violet;
+ul#dictionary li.entry li:not(:has(ul)) {
+	background: linear-gradient(to bottom, #ffffff22, #ffffff22);
+	padding-left: .5em;
 }
 
-i.dialect sup {
-	font-size: .5em;
-	position: relative;
-	vertical-align: unset;
-	bottom: 10px;
-	left: 3px;
-	padding-right: 5px;
-}
-
-i.dialect span {
-	font-style: normal;
-}
-
-.crum_error {
-	color: orangered;
+ul#dictionary li.entry > ul > li > ul > li + li {
+	margin-top: .5rem;
 }
