@@ -25,9 +25,12 @@
 		U+2E17, /* slanted double hyphen */
 		
 		U+1AB4, /* combining triple dot above*/
+		U+0028, /* left parenthesis */
+		U+0029, /* right parenthesis */
 		U+002C, /* comma */
 		U+002E, /* period */
 		U+003A, /* colon */
+		U+003F, /* question mark */
 		U+2018, /* single quote left */
 		U+2019, /* single quote right */
 		U+201C, /* double quote left */
@@ -37,18 +40,55 @@
 
 @font-face {
 	font-family: rk_greek;
-	//src: url("https://randykomforty.github.io/styles/fonts/SBL_grk.ttf");
-	//src: url("https://randykomforty.github.io/styles/fonts/LiakDemoExtraLightItalic-x3ABV.ttf");
-	src: url("https://randykomforty.github.io/styles/fonts/GentiumPlus-Regular.ttf");
-	unicode-range: U+0323, U+0370-03FF, U+1F00-1FFF;
+	//src: url("./fonts/SBL_grk.ttf");
+	//src: url("./fonts/LiakDemoExtraLightItalic-x3ABV.ttf");
+	src: url("./fonts/GentiumPlus-Regular.ttf");
+	unicode-range:
+		U+0323,
+		U+0370-03FF,
+		U+1F00-1FFF;
+}
+
+@font-face {
+	font-family: rk_arabic;
+	src: url("./fonts/NotoSansArabic.ttf");
+	unicode-range:
+		U+0600–06FF;
+}
+
+@font-face {
+	font-family: rk_hebrew;
+	src: url("./fonts/NotoSansHebrew.ttf");
+	unicode-range:
+		U+0590–05FF;
+}
+
+@font-face {
+	font-family: rk_aramaic;
+	src: url("./fonts/SertoAntochBible_2020_Release.ttf");
+	unicode-range:
+		U+10840–1085F;
 }
 
 .coptic {
-	color: gold;
+	color: goldenrod;
 	font-family: rk_coptic;
 }
 
 .greek {
 	color: darkseagreen;
 	font-family: rk_greek;
+	font-size: 1.1em;
+}
+
+.arabic {
+	color: steelblue;
+	font-family: rk_arabic;
+	font-size: 1.2em;
+}
+
+.aramaic {
+	color: coral;
+	font-family: rk_aramaic;
+	font-size: 1.5em;
 }

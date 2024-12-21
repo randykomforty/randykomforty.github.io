@@ -1,8 +1,9 @@
+@import url("../../../styles/fonts.css");
+
 body {
 	font-size: 16px;
 	color: gray;
 	background: #111;
-	//font-family: "Noto Sans";
 	font-family: sans-serif;
 	margin: 1em;
 	padding: 1em;
@@ -10,173 +11,105 @@ body {
 	outline: 1px dotted lightgreen;
 }
 
-@font-face {
-	font-family: rk_coptic;
-	src: url("./NotoSansCoptic.ttf");
-/* 	src: local("Noto Sans Coptic Regular"); */
-/* 	src: local("Noto Sans Coptic"); */
-	unicode-range:
-		U+03E2-03EF, /* greek and coptic */ 
-		U+2C80-2CFF, /* coptic */
-		U+0304, /* normal stroke */
-		U+0305, /* number, abbr., etc. */
-		U+033F, /* double stroke */
-		U+0FE24, /* left half stroke */
-		U+0FE26, /* long stroke */
-		U+0FE25, /* right half stroke */
-
-		U+035E, /* double combine stroke */
-		U+0323, /* combine dot under */
-		U+0307, /* combine dot over */
-		U+0301, /* combine acute */
-		U+0300, /* combine grave */
-		U+0302, /* combine circumflex pointed */
-		U+0311, /* combine circumflex curved */
-		U+0361, /* wide inverted breve */
-		U+0308, /* combine diaeresis */
-
-		U+00B7, /* middle dot */
-		U+2E17, /* slanted double hyphen */
-		
-		U+1AB4 /* combining triple dot above*/;
-}
-
-@font-face {
-	font-family: rk_greek;
-	//src: url("./SBL_grk.ttf");
-	//src: url("./LiakDemoExtraLightItalic-x3ABV.ttf");
-	src: url("./GentiumPlus-Regular.ttf");
-/* 	src: local("Noto Sans"); */
-	unicode-range: U+0323, U+0370-03FF, U+1F00-1FFF;
-}
-
-@font-face {
-	font-family: rk_arabic;
-	src: url("./NotoSansArabic.ttf");
-/* 	src: local("Noto Sans Arabic"); */
-	unicode-range: U+0600–06FF;
-}
-
-@font-face {
-	font-family: rk_hebrew;
-	src: url("./NotoSansHebrew.ttf");
-/* 	src: local("Noto Sans Hebrew"); */
-	unicode-range: U+0590–05FF;
-}
-
-@font-face {
-	font-family: rk_sans-serif;
-	src: local("Arial");
-	unicode-range: U+2020;
-}
-
-#preface
+#preface,
 #additions_and_corrections,
-#abbreviations .non-source,
-#abbreviations .bible {
-	display: none;
+#list_of_abbreviations,
+#dictionary {
+	font-size: 1.2em;
+}
+
+#preface p {
+	text-indent: 2em;
+	text-align: justify;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
 	margin-top: 0em;
+	font-variant: small-caps;
 }
 
 i.dialect {
-	color: violet;
-	height: 1em;
-	background: #ffffff33;
-	aspect-ratio: 1 / 1;
-	//text-align: center;
-	position: relative;
-	padding: 2px;
-	line-height: 1;
-	border-radius: 2px;
-	outline: 1px solid;
-	display: inline-block;
-}
-
-.dialect sup {
-	font-size: inherit;
-	font-size: .75em;
-	line-height: 0;
-	padding-left: 2px;
+	color: steelblue;
 }
 
 .dialect sup.lycopolitan {
 	font-size: inherit;
 	font-size: .5em;
-	line-height: 0;
 	font-style: normal;
 	padding-left: 0;
 }
 
-sup.footnote {
-	color: #ffb600;
-	font-size: inherit;
-	font-size: .5em;
+p sup {
 	line-height: 0;
 }
 
-#preface a:has(.footnote) {
+p sup a {
+	color: #ffb600;
+	font-size: 80%;
 	text-decoration: none;
 }
 
-#footnotes a {
-	color: gold;
+#preface .footnotes a {
+	color: lime;
 	text-decoration: none;
-	line-height: 1;
+	padding-right: 5px;
+	user-select: none;
 }
 
-#footnotes li:has(:target) {
+#preface .footnotes li:target {
 	background: #ffb60022;
 }
 
-#preface #footnotes .greek {
-	font-family: rk_greek;
-	color: lightblue;
-	line-height: inherit;
-}
-
-#preface .greek {
-	font-family: rk_greek;
-	color: lightblue;
-	line-height: inherit;
-}
-
-#abbreviations a {
+#list_of_abbreviations a {
 	text-decoration: none;
 }
 
-#abbreviations > ul,
-#bible > ul,
-#etc > ul {
-	padding-left: 0;
+#additions_and_corrections ul,
+#list_of_abbreviations ul,
+#dictionary ul,
+#dictionary li {
+	padding-left: .5em;
 	list-style-type: none;
 }
 
-#abbreviations .abbr {
-	color: lightblue;
+#dictionary .headword {
+	color: violet;
+	font-family: rk_coptic;
+	font-size: 1.5em;
 }
 
-#abbreviations li a:before {
+#list_of_abbreviations .abbr {
+	color: seagreen;
+}
+
+#list_of_abbreviations #all .non-source,
+#list_of_abbreviations #all .bible {
+	display: none;
+}
+
+#list_of_abbreviations li a {
+	text-decoration: none;
+}
+
+#list_of_abbreviations li a:before {
 	content: "[↵]";
 	color: gold;
 }
 
-#abbreviations li a[href^="https://archive.org/"]:before,
-#abbreviations li a[href^="https://books.google.com/"]:before,
-#abbreviations li a[href^="https://babel.hathitrust.org/"]:before,
-#abbreviations li a[href^="https://www.jstor.org/"]:before,
-#abbreviations li a[href^="https://www.scribd.com/"]:before,
-#abbreviations li a[href^="https://digitale-sammlungen.ulb.uni-bonn.de/"]:before,
-#abbreviations li a[href^="https://gallica.bnf.fr/"]:before {
+#list_of_abbreviations li a[href^="https://archive.org/"]:before,
+#list_of_abbreviations li a[href^="https://books.google.com/"]:before,
+#list_of_abbreviations li a[href^="https://babel.hathitrust.org/"]:before,
+#list_of_abbreviations li a[href^="https://www.jstor.org/"]:before,
+#list_of_abbreviations li a[href^="https://www.scribd.com/"]:before,
+#list_of_abbreviations li a[href^="https://digitale-sammlungen.ulb.uni-bonn.de/"]:before,
+#list_of_abbreviations li a[href^="https://gallica.bnf.fr/"]:before {
 	content: "";
 	display: inline-block;
 	vertical-align: middle;
 }
 
-#abbreviations li a[href^="https://archive.org/"]:before {
+#list_of_abbreviations li a[href^="https://archive.org/"]:before {
 	background-image: url("./archive.jpg");
 	background-size: 20px 20px;
 	width: 20px;
@@ -184,116 +117,48 @@ sup.footnote {
 	mix-blend-mode: screen;
 }
 
-#abbreviations li a[href^="https://books.google.com/"]:before {
+#list_of_abbreviations li a[href^="https://books.google.com/"]:before {
 	background-image: url("./google-books.png");
 	background-size: 20px 20px;
 	width: 20px;
 	height: 20px;
 }
 
-#abbreviations li a[href^="https://babel.hathitrust.org/"]:before {
+#list_of_abbreviations li a[href^="https://babel.hathitrust.org/"]:before {
 	background-image: url("./hathitrust.png");
 	background-size: 20px 20px;
 	width: 20px;
 	height: 20px;
 }
 
-#abbreviations li a[href^="https://www.jstor.org/"]:before {
+#list_of_abbreviations li a[href^="https://www.jstor.org/"]:before {
 	background-image: url("./jstor_16.png");
 	background-size: 16px 16px;
 	width: 16px;
 	height: 16px;
 }
 
-#abbreviations li a[href^="https://www.scribd.com/"]:before {
+#list_of_abbreviations li a[href^="https://www.scribd.com/"]:before {
 	background-image: url("./scribd.ico");
 	background-size: 16px 16px;
 	width: 16px;
 	height: 16px;
 }
 
-#abbreviations li a[href^="https://digitale-sammlungen.ulb.uni-bonn.de/"]:before {
+#list_of_abbreviations li a[href^="https://digitale-sammlungen.ulb.uni-bonn.de/"]:before {
 	background-image: url("./uni-bonn.ico");
 	background-size: 16px 16px;
 	width: 16px;
 	height: 16px;
 }
 
-#abbreviations li a[href^="https://gallica.bnf.fr/"]:before {
+#list_of_abbreviations li a[href^="https://gallica.bnf.fr/"]:before {
 	background-image: url("./bnf.ico");
 	background-size: 16px 16px;
 	width: 16px;
 	height: 16px;
 }
 
-#abbreviations,
-#abbreviations ul,
-#bible,
-#bible ul,
-#etc,
-#etc ul {
-	//list-style-type: none;
-	//padding-left: 0;
-}
-
-ul#dictionary li.entry .coptic {
-	color: lightgreen;
-}
-
-ul#dictionary li.entry .greek {
-	color: lightblue;
-}
-
 ul#dictionary li.entry + li.entry {
 	margin-top: 1em;
-}
-
-ul#dictionary li.entry > ul {
-	border-left: 2px solid #ffffff99;
-}
-
-ul#dictionary li.entry > ul > li > ul {
-	border-left: 2px solid #ffffff66;
-}
-
-ul#dictionary li.entry > ul > li > ul > li > ul {
-	border-left: 2px solid #ffffff33;
-}
-
-ul#dictionary li.entry > ul > li,
-ul#dictionary li.entry > ul > li > ul > li,
-ul#dictionary li.entry > ul > li > ul > li > ul > li {
-	margin-left: -1.5em;
-}
-
-ul#dictionary li {
-	list-style-type: "├";
-	list-style-type: "─";
-}
-
-ul#dictionary li:last-child {
-	list-style-type: "└";
-}
-
-ul#dictionary li.entry {
-	//outline: 1px solid white;
-	list-style-type: none;
-}
-
-ul#dictionary li.entry > ul {
-	border-top: 1px solid white;
-}
-
-ul#dictionary li.entry > ul > li {
-	//padding-left: .5em;
-	
-}
-
-ul#dictionary li.entry li:not(:has(ul)) {
-	background: linear-gradient(to bottom, #ffffff22, #ffffff22);
-	padding-left: .5em;
-}
-
-ul#dictionary li.entry > ul > li > ul > li + li {
-	margin-top: .5rem;
 }
