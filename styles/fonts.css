@@ -53,7 +53,8 @@
 	font-family: rk_arabic;
 	src: url("./fonts/NotoSansArabic.ttf");
 	unicode-range:
-		U+0600–06FF;
+		U+0600–06FF,
+		U+05F3;
 }
 
 @font-face {
