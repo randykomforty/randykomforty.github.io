@@ -151,15 +151,41 @@ p sup a {
 	height: 16px;
 }
 
+#dictionary {
+	//background: #ffb60006;
+	//outline: 1px solid #ffb600aa;
+	padding: .5em 0 0 .5em;
+}
+
+#dictionary ul {
+	margin: 0;
+	padding-left: 1em;
+}
+
+#dictionary > ul {
+	padding-left: 0em;
+	list-style-type: none;
+}
+
+#dictionary .entry {
+	//outline: 1px solid #ffffffaa;
+	padding: 1em;
+	border-radius: .5em;
+	background: #ffcfcf11;
+}
+
+#dictionary .entry + .entry {
+	margin-top: 1em;
+}
 
 #dictionary .headword {
 	color: violet;
 	font-family: rk_coptic;
-	font-size: 1.5em;
+	//font-size: 1.5em;
 }
 
 #dictionary .entry .subsection {
-	outline: 1px dashed #ffffff44;
+	//outline: 1px dashed #ffffff44;
 	//margin: .5em 0 0 .5em;
-	background: #ffffff09;
+	background: #ffffff05;
 }

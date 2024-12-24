@@ -45,6 +45,8 @@
 	src: url("./fonts/GentiumPlus-Regular.ttf");
 	unicode-range:
 		U+0323,
+		U+0028, /* left parenthesis */
+		U+0029, /* right parenthesis */
 		U+0370-03FF,
 		U+1F00-1FFF;
 }
@@ -54,7 +56,6 @@
 	src: url("./fonts/NotoSansArabic.ttf");
 	unicode-range:
 		U+0600–06FF,
-		U+05F3;
 }
 
 @font-face {
@@ -84,7 +85,7 @@
 
 .arabic {
 	color: steelblue;
-	font-family: rk_arabic;
+	font-family: rk_arabic, rk_hebrew;
 	font-size: 1.2em;
 }
 
