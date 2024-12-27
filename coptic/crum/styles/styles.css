@@ -11,6 +11,15 @@ body {
 	outline: 1px dotted lightgreen;
 }
 
+h1 {
+	display: none;
+}
+
+#menu {
+	border: 1px solid #ccc;
+	display: none;
+}
+
 #preface,
 #additions_and_corrections,
 #list_of_abbreviations,
@@ -19,8 +28,22 @@ body {
 }
 
 #preface p {
+	//columns: 200px 2;
+	//column-rule: 1px solid lightblue;
+	//column-gap: 1em;
+	//min-height: 100px;
+	//border-bottom: 1px dotted gray;
+	//padding-bottom: 1em;
+}
+
+#preface h2 {
+	column-span: all;
+}
+
+#preface p {
 	text-indent: 2em;
 	text-align: justify;
+	margin-top: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -61,14 +84,35 @@ p sup a {
 	background: #ffb60022;
 }
 
-#list_of_abbreviations a {
-	text-decoration: none;
-}
+
 
 #additions_and_corrections ul,
 #list_of_abbreviations ul {
 	padding-left: .5em;
 	list-style-type: none;
+}
+
+#list_of_abbreviations > ul > li {
+	//display: table;
+}
+
+#list_of_abbreviations > ul > li > ul {
+	display: table;
+	border-collapse: collapse;
+}
+
+#list_of_abbreviations > ul > li > ul > li {
+	display: table-row;
+}
+
+#list_of_abbreviations > ul > li > ul > li > .cell {
+	display: table-cell;
+	padding: .2em;
+	border: 1px solid #333;
+}
+
+#list_of_abbreviations a {
+	text-decoration: none;
 }
 
 #list_of_abbreviations .abbr {
