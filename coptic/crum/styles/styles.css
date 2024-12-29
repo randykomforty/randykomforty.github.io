@@ -225,11 +225,16 @@ p sup a {
 #dictionary .headword {
 	color: violet;
 	font-family: rk_coptic;
-	//font-size: 1.5em;
+	font-size: 1.5em;
+	line-height: inherit;
 }
 
 #dictionary .entry .subsection {
 	//outline: 1px dashed #ffffff44;
 	//margin: .5em 0 0 .5em;
 	background: #ffffff05;
+}
+
+#dictionary .entry .subsection + .subsection {
+	margin-top: .5em;
 }
