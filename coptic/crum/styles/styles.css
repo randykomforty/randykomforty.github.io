@@ -56,12 +56,18 @@ i.dialect {
 	color: steelblue;
 }
 
-.dialect sup.lycopolitan {
+.dialect sup {
+	line-height: 0;
 	font-size: inherit;
 	font-size: .5em;
-	font-style: normal;
 	padding-left: 0;
 }
+
+.dialect.lycopolitan sup {
+	font-style: normal;
+}
+
+
 
 p sup {
 	line-height: 0;
@@ -70,6 +76,7 @@ p sup {
 p sup a {
 	color: #ffb600;
 	font-size: 80%;
+	font-size: .5em;
 	text-decoration: none;
 }
 
@@ -196,45 +203,52 @@ p sup a {
 }
 
 #dictionary {
-	//background: #ffb60006;
 	//outline: 1px solid #ffb600aa;
-	padding: .5em 0 0 .5em;
 }
 
 #dictionary ul {
-	margin: 0;
-	padding-left: 1em;
+	list-style-type: none;
+	padding-left: .5em;
 }
 
 #dictionary > ul {
-	padding-left: 0em;
-	list-style-type: none;
+	padding-left: 0;
+}
+
+#dictionary > ul li {
+	margin-top: .0em;
 }
 
 #dictionary .entry {
-	//outline: 1px solid #ffffffaa;
-	padding: 1em;
-	border-radius: .5em;
-	background: #ffcfcf11;
+	margin-top: 2em;
 }
 
-#dictionary .entry + .entry {
-	margin-top: 1em;
+#dictionary .entry li.group {
+	margin-top: .5em;
+	list-style-type: none;
+}
+
+#dictionary .entry .group > ul {
+	background: #ff00ff11;
+	border-left: 1px solid #ffffff55;
+	border-bottom: 1px solid #ffffff55;
+	border: 1px solid #ffffff55;
+	//list-style-position: inside;
+}
+
+#dictionary .entry .pos,
+#dictionary .entry .subsection {
+	margin-top: .5em
 }
 
 #dictionary .headword {
 	color: violet;
 	font-family: rk_coptic;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	line-height: inherit;
 }
 
-#dictionary .entry .subsection {
-	//outline: 1px dashed #ffffff44;
-	//margin: .5em 0 0 .5em;
-	background: #ffffff05;
+#dictionary .entry li.group ul {
+	padding: .2em .5em;
 }
 
-#dictionary .entry .subsection + .subsection {
-	margin-top: .5em;
-}
