@@ -1,0 +1,254 @@
+@import url("../../../styles/fonts.css");
+
+body {
+	font-size: 16px;
+	color: gray;
+	background: #111;
+	font-family: sans-serif;
+	margin: 1em;
+	padding: 1em;
+	line-height: 1.2;
+	outline: 1px dotted lightgreen;
+}
+
+h1 {
+	display: none;
+}
+
+#menu {
+	border: 1px solid #ccc;
+	display: none;
+}
+
+#preface,
+#additions_and_corrections,
+#list_of_abbreviations,
+#dictionary {
+	font-size: 1.2em;
+}
+
+#preface p {
+	//columns: 200px 2;
+	//column-rule: 1px solid lightblue;
+	//column-gap: 1em;
+	//min-height: 100px;
+	//border-bottom: 1px dotted gray;
+	//padding-bottom: 1em;
+}
+
+#preface h2 {
+	column-span: all;
+}
+
+#preface p {
+	text-indent: 2em;
+	text-align: justify;
+	margin-top: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	margin-top: 0em;
+	font-variant: small-caps;
+}
+
+i.dialect {
+	color: steelblue;
+}
+
+.dialect sup {
+	line-height: 0;
+	font-size: inherit;
+	font-size: .5em;
+	padding-left: 0;
+}
+
+.dialect.lycopolitan sup {
+	font-style: normal;
+}
+
+
+
+p sup {
+	line-height: 0;
+}
+
+p sup a {
+	color: #ffb600;
+	font-size: 80%;
+	font-size: .5em;
+	text-decoration: none;
+}
+
+#preface .footnotes a {
+	color: lime;
+	text-decoration: none;
+	padding-right: 5px;
+	user-select: none;
+}
+
+#preface .footnotes li:target {
+	background: #ffb60022;
+}
+
+
+
+#additions_and_corrections ul,
+#list_of_abbreviations ul {
+	padding-left: .5em;
+	list-style-type: none;
+}
+
+#list_of_abbreviations > ul > li {
+	//display: table;
+}
+
+#list_of_abbreviations > ul > li > ul {
+	display: table;
+	border-collapse: collapse;
+}
+
+#list_of_abbreviations > ul > li > ul > li {
+	display: table-row;
+}
+
+#list_of_abbreviations > ul > li > ul > li > .cell {
+	display: table-cell;
+	padding: .2em;
+	border: 1px solid #333;
+}
+
+#list_of_abbreviations a {
+	text-decoration: none;
+}
+
+#list_of_abbreviations .abbr {
+	color: seagreen;
+}
+
+#list_of_abbreviations #all .non-source,
+#list_of_abbreviations #all .bible {
+	display: none;
+}
+
+#list_of_abbreviations li a {
+	text-decoration: none;
+}
+
+#list_of_abbreviations li a:before {
+	content: "[↵]";
+	color: gold;
+}
+
+#list_of_abbreviations li a[href^="https://archive.org/"]:before,
+#list_of_abbreviations li a[href^="https://books.google.com/"]:before,
+#list_of_abbreviations li a[href^="https://babel.hathitrust.org/"]:before,
+#list_of_abbreviations li a[href^="https://www.jstor.org/"]:before,
+#list_of_abbreviations li a[href^="https://www.scribd.com/"]:before,
+#list_of_abbreviations li a[href^="https://digitale-sammlungen.ulb.uni-bonn.de/"]:before,
+#list_of_abbreviations li a[href^="https://gallica.bnf.fr/"]:before {
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#list_of_abbreviations li a[href^="https://archive.org/"]:before {
+	background-image: url("./archive.jpg");
+	background-size: 20px 20px;
+	width: 20px;
+	height: 20px;
+	mix-blend-mode: screen;
+}
+
+#list_of_abbreviations li a[href^="https://books.google.com/"]:before {
+	background-image: url("./google-books.png");
+	background-size: 20px 20px;
+	width: 20px;
+	height: 20px;
+}
+
+#list_of_abbreviations li a[href^="https://babel.hathitrust.org/"]:before {
+	background-image: url("./hathitrust.png");
+	background-size: 20px 20px;
+	width: 20px;
+	height: 20px;
+}
+
+#list_of_abbreviations li a[href^="https://www.jstor.org/"]:before {
+	background-image: url("./jstor_16.png");
+	background-size: 16px 16px;
+	width: 16px;
+	height: 16px;
+}
+
+#list_of_abbreviations li a[href^="https://www.scribd.com/"]:before {
+	background-image: url("./scribd.ico");
+	background-size: 16px 16px;
+	width: 16px;
+	height: 16px;
+}
+
+#list_of_abbreviations li a[href^="https://digitale-sammlungen.ulb.uni-bonn.de/"]:before {
+	background-image: url("./uni-bonn.ico");
+	background-size: 16px 16px;
+	width: 16px;
+	height: 16px;
+}
+
+#list_of_abbreviations li a[href^="https://gallica.bnf.fr/"]:before {
+	background-image: url("./bnf.ico");
+	background-size: 16px 16px;
+	width: 16px;
+	height: 16px;
+}
+
+#dictionary {
+	//outline: 1px solid #ffb600aa;
+}
+
+#dictionary ul {
+	list-style-type: none;
+	padding-left: .5em;
+}
+
+#dictionary > ul {
+	padding-left: 0;
+}
+
+#dictionary > ul li {
+	margin-top: .0em;
+}
+
+#dictionary .entry {
+	margin-top: 2em;
+}
+
+#dictionary .entry li.group {
+	margin-top: .5em;
+	list-style-type: none;
+}
+
+#dictionary .entry .group > ul {
+	background: #ff00ff11;
+	border-left: 1px solid #ffffff55;
+	border-bottom: 1px solid #ffffff55;
+	border: 1px solid #ffffff55;
+	//list-style-position: inside;
+}
+
+#dictionary .entry .pos,
+#dictionary .entry .subsection {
+	margin-top: .5em
+}
+
+#dictionary .headword {
+	color: violet;
+	font-family: rk_coptic;
+	font-size: 1.2em;
+	line-height: inherit;
+}
+
+#dictionary .entry li.group ul {
+	padding: .2em .5em;
+}
+
