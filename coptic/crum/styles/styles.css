@@ -146,6 +146,7 @@ p sup a {
 #list_of_abbreviations li a[href^="https://www.jstor.org/"]:before,
 #list_of_abbreviations li a[href^="https://www.scribd.com/"]:before,
 #list_of_abbreviations li a[href^="https://digitale-sammlungen.ulb.uni-bonn.de/"]:before,
+#list_of_abbreviations li a[href^="http://archives.getty.edu"]:before,
 #list_of_abbreviations li a[href^="https://gallica.bnf.fr/"]:before {
 	content: "";
 	display: inline-block;
@@ -197,6 +198,13 @@ p sup a {
 
 #list_of_abbreviations li a[href^="https://gallica.bnf.fr/"]:before {
 	background-image: url("./bnf.ico");
+	background-size: 16px 16px;
+	width: 16px;
+	height: 16px;
+}
+
+#list_of_abbreviations li a[href^="http://archives.getty.edu"]:before {
+	background-image: url("./getty.png");
 	background-size: 16px 16px;
 	width: 16px;
 	height: 16px;
