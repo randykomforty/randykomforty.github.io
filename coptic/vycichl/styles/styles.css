@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-	display: none;
+	//display: none;
 }
 
 #menu {
@@ -34,22 +34,6 @@ h1 {
 	//min-height: 100px;
 	//border-bottom: 1px dotted gray;
 	//padding-bottom: 1em;
-}
-
-#preface h2 {
-	column-span: all;
-}
-
-#preface p {
-	text-indent: 2em;
-	text-align: justify;
-	margin-top: 0;
-}
-
-h1, h2, h3, h4, h5, h6 {
-	font-weight: normal;
-	margin-top: 0em;
-	font-variant: small-caps;
 }
 
 i.dialect {
@@ -135,73 +119,6 @@ p sup a {
 	text-decoration: none;
 }
 
-#list_of_abbreviations li a:before {
-	content: "[↵]";
-	color: gold;
-}
-
-#list_of_abbreviations li a[href^="https://archive.org/"]:before,
-#list_of_abbreviations li a[href^="https://books.google.com/"]:before,
-#list_of_abbreviations li a[href^="https://babel.hathitrust.org/"]:before,
-#list_of_abbreviations li a[href^="https://www.jstor.org/"]:before,
-#list_of_abbreviations li a[href^="https://www.scribd.com/"]:before,
-#list_of_abbreviations li a[href^="https://digitale-sammlungen.ulb.uni-bonn.de/"]:before,
-#list_of_abbreviations li a[href^="https://gallica.bnf.fr/"]:before {
-	content: "";
-	display: inline-block;
-	vertical-align: middle;
-}
-
-#list_of_abbreviations li a[href^="https://archive.org/"]:before {
-	background-image: url("./archive.jpg");
-	background-size: 20px 20px;
-	width: 20px;
-	height: 20px;
-	mix-blend-mode: screen;
-}
-
-#list_of_abbreviations li a[href^="https://books.google.com/"]:before {
-	background-image: url("./google-books.png");
-	background-size: 20px 20px;
-	width: 20px;
-	height: 20px;
-}
-
-#list_of_abbreviations li a[href^="https://babel.hathitrust.org/"]:before {
-	background-image: url("./hathitrust.png");
-	background-size: 20px 20px;
-	width: 20px;
-	height: 20px;
-}
-
-#list_of_abbreviations li a[href^="https://www.jstor.org/"]:before {
-	background-image: url("./jstor_16.png");
-	background-size: 16px 16px;
-	width: 16px;
-	height: 16px;
-}
-
-#list_of_abbreviations li a[href^="https://www.scribd.com/"]:before {
-	background-image: url("./scribd.ico");
-	background-size: 16px 16px;
-	width: 16px;
-	height: 16px;
-}
-
-#list_of_abbreviations li a[href^="https://digitale-sammlungen.ulb.uni-bonn.de/"]:before {
-	background-image: url("./uni-bonn.ico");
-	background-size: 16px 16px;
-	width: 16px;
-	height: 16px;
-}
-
-#list_of_abbreviations li a[href^="https://gallica.bnf.fr/"]:before {
-	background-image: url("./bnf.ico");
-	background-size: 16px 16px;
-	width: 16px;
-	height: 16px;
-}
-
 #dictionary {
 	//outline: 1px solid #ffb600aa;
 }
@@ -252,3 +169,152 @@ p sup a {
 	padding: .2em .5em;
 }
 
+
+/** vycichl **/
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+h1, h2 {
+	text-transform: uppercase;
+}
+
+#introduction,
+#bibliographie,
+#abreviations,
+#terminologie_phonetique {
+	line-height: 1.5;
+}
+
+#bibliographie > ul,
+#terminologie_phonetique > ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#bibliographie > ul > li,
+#terminologie_phonetique > ul > li {
+	margin-top: .5em;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+#bibliographie > ul > li > ul,
+#abreviations > ol > li > ul,
+#terminologie_phonetique > ul > li > ul {
+	padding: 0;
+}
+
+#bibliographie > ul > li > ul > li,
+#abreviations > ol > li > ul > li,
+#terminologie_phonetique > ul > li > ul > li {
+	margin-top: .5em;
+	list-style-type: none;
+}
+
+#bibliographie > ul > li > ul > li:before {
+	content: "—: ";
+	color: lightgreen;
+}
+
+.author {
+	color: lightgreen;
+	font-variant: small-caps;
+}
+
+.phoneme {
+	font-family: sans-serif;
+	color: steelblue;
+}
+
+.dialect {
+	color: violet;
+}
+
+.egypt-hiero {
+	margin-right: .5em;
+}
+
+.a:before,
+.m:before,
+.XVII:before,
+.n:before,
+.pyr:before,
+.XIX:before,
+.ME:before,
+.e:before,
+.derniere:before {
+	font-family: sans-serif;
+	font-size: 50%;
+	vertical-align: top;
+	//line-height: 0;
+}
+.egypt-hiero,
+.egypt-translit {
+	//line-height: 0;
+}
+
+.a:before {
+	content: "a";
+}
+
+.m:before {
+	content: "m";
+}
+
+.XVII:before {
+	content: "XVII";
+}
+
+.n:before {
+	content: "n";
+}
+
+.pyr:before {
+	content: "pyr";
+}
+
+.XIX:before {
+	content: "XIX";
+}
+
+.ME:before {
+	content: "ME";
+}
+
+.e:before {
+	content: "e";
+}
+
+.premiere:before {
+	content: "*";
+}
+
+.derniere:before {
+	content: "o";
+}
+
+.two-ticks:before {
+	content: "\"";
+	font-style: normal;
+}
+
+#abreviations {
+	//outline: 1px dashed gold;
+}
+
+#abreviations > ol {
+	padding-left: 1em;
+	//outline: 1px solid red;
+}
+
+#abreviations > ol > li + li {
+	list-style-type: upper-roman;
+	margin-top: 2em;
+}
+
+#terminologie_phonetique {
+	
+}

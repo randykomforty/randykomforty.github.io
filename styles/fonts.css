@@ -72,6 +72,43 @@
 		U+10840–1085F;
 }
 
+@font-face {
+	font-family: rk_egypt-hiero;
+	src: url("./fonts/eot.ttf");
+	unicode-range:
+		U+FE00-FE0F, /* variation selectors */
+		U+13000–1342F, /* hieroglyphs */
+		U+13430–1345F, /* format controls */
+		U+13460–143FF; /* hieroglyphs extended-a */
+}
+
+@font-face {
+	font-family: rk_egypt-translit;
+	src: url("./fonts/newathu5_8.ttf");
+	unicode-range:
+		U+002E, /* period */
+		U+A723, /* egyptological alef */
+		U+A725, /* egyptological ayin */
+		U+A7BD, /* egyptological iota */
+		U+00EF, /* i with diaeresis */
+		U+1E25, /* 2nd h */
+		U+1E2B, /* 3rd h */
+		U+1E96, /* 4th h */
+		U+015B, /* s with acute */
+		U+0161, /* s with caron */
+		U+1E33, /* k with dot below */
+		U+010D, /* c with caron */
+		U+1E6F, /* t with line below */
+		U+1E6D, /* t with dot below */
+		U+1E71, /* demotic t */
+		U+1E0F, /* d with line below */
+		U+27E8, /* left angle bracket */
+		U+27E9, /* right angle bracket */
+		U+2E22, /* left half bracket */
+		U+2E23, /* right half bracket */
+		U+2E17; /* coptic oblique hyphen */
+}
+
 .coptic {
 	color: goldenrod;
 	font-family: rk_coptic;
@@ -93,4 +130,17 @@
 	color: coral;
 	font-family: rk_aramaic;
 	font-size: 1.5em;
+}
+
+.egypt-hiero {
+	color: gold;
+	font-family: rk_egypt-hiero;
+	font-size: 1.5em;
+}
+
+.egypt-translit {
+	color: lightblue;
+	font-family: rk_egypt-translit;
+	font-size: 1.2em;
+	//letter-spacing: 1px;
 }
