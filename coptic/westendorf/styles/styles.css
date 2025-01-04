@@ -7,13 +7,98 @@ body {
 	font-family: sans-serif;
 	margin: 1em;
 	padding: 1em;
-	line-height: 1.2;
+	line-height: 1.5;
 	outline: 1px dotted lightgreen;
 }
 
 h1 {
-	display: none;
+	text-align: center;
 }
+
+h1 span {
+	font-size: .5em;
+}
+
+
+#inhaltsubersicht {
+	
+}
+
+#inhaltsubersicht h3 {
+	text-align: center;
+}
+
+#inhaltsubersicht ul {
+	list-style-type: none;
+}
+
+#inhaltsubersicht ul#toc {
+	padding-left: 0;
+}
+
+#inhaltsubersicht ol {
+	//padding-left: 1em;
+	margin-top: 1em;
+}
+
+#inhaltsubersicht #toc li {
+	border-bottom: 1px dotted gray;
+	position: relative;
+	top: 0;
+	left: 0;
+	line-height: 1.5;
+}
+
+#inhaltsubersicht #toc li:has(ol) {
+	border-bottom: none;
+}
+
+#inhaltsubersicht #toc .section_name {
+	background: #111;
+	padding-right: 5px;
+	position: relative;
+	bottom: -5px;
+}
+
+#inhaltsubersicht #toc .section_page {
+	float: right;
+	background: #111;
+	padding-left: 5px;
+	position: relative;
+	bottom: -5px;
+}
+
+#erscheinungstermine {
+	outline: 1px dotted lightgreen;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #menu {
 	border: 1px solid #ccc;
@@ -34,22 +119,6 @@ h1 {
 	//min-height: 100px;
 	//border-bottom: 1px dotted gray;
 	//padding-bottom: 1em;
-}
-
-#preface h2 {
-	column-span: all;
-}
-
-#preface p {
-	text-indent: 2em;
-	text-align: justify;
-	margin-top: 0;
-}
-
-h1, h2, h3, h4, h5, h6 {
-	font-weight: normal;
-	margin-top: 0em;
-	font-variant: small-caps;
 }
 
 i.dialect {
@@ -135,73 +204,6 @@ p sup a {
 	text-decoration: none;
 }
 
-#list_of_abbreviations li a:before {
-	content: "[↵]";
-	color: gold;
-}
-
-#list_of_abbreviations li a[href^="https://archive.org/"]:before,
-#list_of_abbreviations li a[href^="https://books.google.com/"]:before,
-#list_of_abbreviations li a[href^="https://babel.hathitrust.org/"]:before,
-#list_of_abbreviations li a[href^="https://www.jstor.org/"]:before,
-#list_of_abbreviations li a[href^="https://www.scribd.com/"]:before,
-#list_of_abbreviations li a[href^="https://digitale-sammlungen.ulb.uni-bonn.de/"]:before,
-#list_of_abbreviations li a[href^="https://gallica.bnf.fr/"]:before {
-	content: "";
-	display: inline-block;
-	vertical-align: middle;
-}
-
-#list_of_abbreviations li a[href^="https://archive.org/"]:before {
-	background-image: url("./archive.jpg");
-	background-size: 20px 20px;
-	width: 20px;
-	height: 20px;
-	mix-blend-mode: screen;
-}
-
-#list_of_abbreviations li a[href^="https://books.google.com/"]:before {
-	background-image: url("./google-books.png");
-	background-size: 20px 20px;
-	width: 20px;
-	height: 20px;
-}
-
-#list_of_abbreviations li a[href^="https://babel.hathitrust.org/"]:before {
-	background-image: url("./hathitrust.png");
-	background-size: 20px 20px;
-	width: 20px;
-	height: 20px;
-}
-
-#list_of_abbreviations li a[href^="https://www.jstor.org/"]:before {
-	background-image: url("./jstor_16.png");
-	background-size: 16px 16px;
-	width: 16px;
-	height: 16px;
-}
-
-#list_of_abbreviations li a[href^="https://www.scribd.com/"]:before {
-	background-image: url("./scribd.ico");
-	background-size: 16px 16px;
-	width: 16px;
-	height: 16px;
-}
-
-#list_of_abbreviations li a[href^="https://digitale-sammlungen.ulb.uni-bonn.de/"]:before {
-	background-image: url("./uni-bonn.ico");
-	background-size: 16px 16px;
-	width: 16px;
-	height: 16px;
-}
-
-#list_of_abbreviations li a[href^="https://gallica.bnf.fr/"]:before {
-	background-image: url("./bnf.ico");
-	background-size: 16px 16px;
-	width: 16px;
-	height: 16px;
-}
-
 #dictionary {
 	//outline: 1px solid #ffb600aa;
 }
@@ -252,3 +254,274 @@ p sup a {
 	padding: .2em .5em;
 }
 
+
+/** vycichl **/
+
+h1, h2, h3, h4, h5 {
+	font-weight: normal;
+}
+
+h1, h2 {
+	text-transform: uppercase;
+}
+
+#introduction,
+#bibliographie,
+#abreviations,
+#terminologie_phonetique {
+	line-height: 1.5;
+}
+
+#bibliographie > ul,
+#terminologie_phonetique > ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#bibliographie > ul > li,
+#terminologie_phonetique > ul > li {
+	margin-top: .5em;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+#bibliographie > ul > li > ul,
+#abreviations > ol > li > ul,
+#terminologie_phonetique > ul > li > ul {
+	padding: 0;
+}
+
+#bibliographie > ul > li > ul > li,
+#abreviations > ol > li > ul > li,
+#terminologie_phonetique > ul > li > ul > li {
+	margin-top: .5em;
+	list-style-type: none;
+}
+
+#bibliographie > ul > li > ul > li:before {
+	content: "—: ";
+	color: lightgreen;
+}
+
+.author {
+	color: lightgreen;
+	font-variant: small-caps;
+}
+
+.phoneme {
+	font-family: sans-serif;
+	color: steelblue;
+}
+
+.dialect {
+	color: violet;
+}
+
+.egypt-hiero {
+	margin-right: .5em;
+}
+
+.a:before,
+.m:before,
+.XVII:before,
+.n:before,
+.pyr:before,
+.XIX:before,
+.ME:before,
+.e:before,
+.derniere:before {
+	font-family: sans-serif;
+	font-size: 50%;
+	vertical-align: top;
+	//line-height: 0;
+}
+.egypt-hiero,
+.egypt-translit {
+	//line-height: 0;
+}
+
+.a:before {
+	content: "a";
+}
+
+.m:before {
+	content: "m";
+}
+
+.XVII:before {
+	content: "XVII";
+}
+
+.n:before {
+	content: "n";
+}
+
+.pyr:before {
+	content: "pyr";
+}
+
+.XIX:before {
+	content: "XIX";
+}
+
+.ME:before {
+	content: "ME";
+}
+
+.e:before {
+	content: "e";
+}
+
+.premiere:before {
+	content: "*";
+}
+
+.derniere:before {
+	content: "o";
+}
+
+.two-ticks:before {
+	content: "\"";
+	font-style: normal;
+}
+
+#abreviations {
+	//outline: 1px dashed gold;
+}
+
+#abreviations > ol {
+	padding-left: 1em;
+	//outline: 1px solid red;
+}
+
+#abreviations > ol > li + li {
+	list-style-type: upper-roman;
+	margin-top: 2em;
+}
+
+#terminologie_phonetique {
+	
+}
+
+#index #les_mots_francais,
+#index #les_mots_egyptiens,
+#index #les_mots_coptes,
+#index #les_mots_grecs,
+#index #les_mots_demotiques,
+#index #langues_semitiques,
+#index #langues_chamitiques,
+#index #langues_indo-europeennes,
+#index #autres_langues {
+	max-height: 500px;
+	overflow-y: auto;
+}
+
+#index #les_mots_francais h3,
+#index #les_mots_egyptiens h3,
+#index #les_mots_coptes h3,
+#index #les_mots_grecs h3,
+#index #les_mots_demotiques h3,
+#index #langues_semitiques h3,
+#index #langues_chamitiques h3,
+#index #langues_indo-europeennes h3,
+#index #autres_langues h3 {
+	margin: 0;
+	padding: .5em .5em;
+	border: 1px solid gray;
+	position: sticky;
+	top: 0;
+	background: #222;
+}
+
+#index #les_mots_francais table,
+#index #les_mots_egyptiens table,
+#index #les_mots_coptes table,
+#index #les_mots_grecs table,
+#index #les_mots_demotiques table,
+#index #langues_semitiques table,
+#index #langues_chamitiques table,
+#index #langues_indo-europeennes table,
+#index #autres_langues table {
+	border-collapse: collapse;
+}
+
+#index #les_mots_francais table td,
+#index #les_mots_egyptiens table td,
+#index #les_mots_coptes table td,
+#index #les_mots_grecs table td,
+#index #les_mots_demotiques table td,
+#index #langues_semitiques table td,
+#index #langues_chamitiques table td,
+#index #langues_indo-europeennes table td,
+#index #autres_langues table td {
+	border: 1px solid gray;
+	padding: .5em;
+}
+
+#index #les_mots_francais table .term,
+#index #les_mots_egyptiens table .term,
+#index #les_mots_coptes table .term,
+#index #les_mots_grecs table .term,
+#index #les_mots_demotiques table .term,
+#index #langues_semitiques table .term,
+#index #langues_chamitiques table .term,
+#index #langues_indo-europeennes table .term,
+#index #autres_langues table .term {
+	width: 200px;
+}
+
+#index #autres_langues {
+	border: 1px solid gray;
+	border-top: none;
+}
+
+#index #langues_indo-europeennes h4,
+#index #langues_indo-europeennes div,
+#index #autres_langues h4,
+#index #autres_langues div {
+	padding-left: 1em;
+}
+
+#index #langues_chamitiques h4 {
+	background: #ffb60033;
+}
+
+#index #autres_langues h4 {
+	color: gold;
+}
+
+#index #autres_langues h5 {
+	color: silver;
+}
+
+#index #langues_chamitiques > div {
+	//margin-bottom: 1em;
+}
+
+#index #langues_chamitiques > div > div {
+	//float: left;
+	display: inline-block;
+	padding-right: 1em;
+}
+
+#index #langues_chamitiques h4 {
+	clear: both;
+	margin-top: 1em;
+	padding: .5em;
+}
+
+#index #autres_langues div,
+#index #langues_indo-europeennes div {
+	float: left;
+	min-height: 200px;
+}
+
+#index #autres_langues h4,
+#index #langues_indo-europeennes h4 {
+	clear: both;
+}
+
+#index > * {
+	padding-bottom: 1em;
+}
