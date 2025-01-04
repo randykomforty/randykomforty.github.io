@@ -17,11 +17,23 @@ a {
 }
 
 h1, h2 {
-	font-family: rk_coptic;
-	color: lightblue;
+	font-family: "Noto Sans";
 	font-weight: normal;
+	margin: 0;
+}
+
+h1 {
+	color: lightblue;
+}
+
+h2 {
+	color: gold;
 }
 
 .dialect {
 	color: violet;
+}
+
+img {
+	max-width: 300px;
 }
