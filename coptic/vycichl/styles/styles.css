@@ -391,9 +391,15 @@ h1, h2 {
 	border-top: none;
 }
 
+#index #langues_indo-europeennes h4,
+#index #langues_indo-europeennes div,
 #index #autres_langues h4,
 #index #autres_langues div {
 	padding-left: 1em;
+}
+
+#index #langues_chamitiques h4 {
+	background: #ffb60033;
 }
 
 #index #autres_langues h4 {
@@ -404,13 +410,35 @@ h1, h2 {
 	color: silver;
 }
 
-#index #autres_langues div {
+#index #langues_chamitiques > div {
+	//margin-bottom: 1em;
+}
+
+#index #langues_chamitiques > div > div {
+	//float: left;
+	display: inline-block;
+	padding-right: 1em;
+}
+
+#index #langues_chamitiques h4 {
+	clear: both;
+	margin-top: 1em;
+	padding: .5em;
+}
+
+#index #autres_langues div,
+#index #langues_indo-europeennes div {
 	float: left;
 	min-height: 200px;
 }
 
-#index #autres_langues h4 {
+#index #autres_langues h4,
+#index #langues_indo-europeennes h4 {
 	clear: both;
+}
+
+#index > * {
+	padding-bottom: 1em;
 }
 
 #index_toc ul {
