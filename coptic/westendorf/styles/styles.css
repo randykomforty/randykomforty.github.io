@@ -19,6 +19,35 @@ h1 span {
 	font-size: .5em;
 }
 
+.dialect {
+	color: violet;
+}
+
+.dialect:before,
+.arabic:before,
+.greek:before {
+	content: "(";
+}
+
+.arabic:after,
+.greek:after,
+.dialect:after {
+	content: ")";
+}
+
+.etymology {
+	//line-height: 1;
+}
+
+.etymology li {
+	list-style-type: "＜";
+}
+
+.etymology li::marker {
+	font-size: 2em;
+	line-height: 0;
+	//font-weight: normal;
+}
 
 #inhaltsubersicht {
 	
