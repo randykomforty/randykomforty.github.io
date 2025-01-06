@@ -330,6 +330,7 @@ h1, h2 {
 #index #autres_langues {
 	max-height: 500px;
 	overflow-y: auto;
+	//box-sizing: border-box;
 }
 
 #index #les_mots_francais h3,
@@ -359,6 +360,11 @@ h1, h2 {
 #index #langues_indo-europeennes table,
 #index #autres_langues table {
 	border-collapse: collapse;
+	width: calc(100% - 2em);
+	//margin: 1em;
+	margin-left: 1em;
+	margin-top: 1em;
+	//box-sizing: border-box;
 }
 
 #index #les_mots_francais table td,
@@ -383,7 +389,7 @@ h1, h2 {
 #index #langues_chamitiques table .term,
 #index #langues_indo-europeennes table .term,
 #index #autres_langues table .term {
-	width: 200px;
+	//width: 200px;
 }
 
 #index #autres_langues {
