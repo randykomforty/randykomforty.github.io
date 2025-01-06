@@ -11,6 +11,53 @@ body {
 	outline: 1px dotted lightgreen;
 }
 
+#preface {
+	position: relative;
+}
+
+#preface h2 {
+	//line-height: 1.5;
+	//position: relative;
+}
+
+#preface,
+#list_of_abbreviations,
+#additions_and_corrections,
+#dictionary {
+	max-height: auto;
+	transition: max-height .5s ease-in-out;
+	overflow: hidden;
+}
+
+#preface.collapse,
+#list_of_abbreviations.collapse,
+#additions_and_corrections.collapse,
+#dictionary.collapse {
+	max-height: 1.5em;
+}
+
+#preface h2:before,
+#list_of_abbreviations h2:before,
+#additions_and_corrections h2:before,
+#dictionary h2:before {
+	content: "+ ";
+	color: lightgreen;
+	width: 0px;
+	overflow-x: hidden;
+	vertical-align: middle;
+	display: inline-block;
+	transition: width .5s ease-in-out;
+	
+}
+
+#preface.collapse h2:before,
+#list_of_abbreviations.collapse h2:before,
+#additions_and_corrections.collapse h2:before,
+#dictionary.collapse h2:before {
+	width: 1em;
+	//line-height: 1.5;
+}
+
 h1 {
 	display: none;
 }
