@@ -397,6 +397,10 @@ h1, h2 {
 	border-top: none;
 }
 
+#index #langues_semitiques table i {
+	color: lightblue;
+}
+
 #index #langues_indo-europeennes h4,
 #index #langues_indo-europeennes div,
 #index #autres_langues h4,
