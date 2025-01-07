@@ -126,6 +126,12 @@
 	font-size: 1.2em;
 }
 
+.hebrew {
+	color: pink;
+	font-family: rk_hebrew;
+	font-size: 1.5em;
+}
+
 .aramaic {
 	color: coral;
 	font-family: rk_aramaic;
