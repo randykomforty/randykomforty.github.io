@@ -5,6 +5,21 @@
 	display: none;
 }
 
+#carte {
+	background: linear-gradient(90deg, #3f3f3f, #2f2f2f);
+	margin-top: 1em;
+	padding: .5em 0;
+}
+
+#carte img {
+	width: 100%;
+	max-width: 1000px;
+	display: block;
+	filter: invert(1) grayscale(1);
+	rotate: -0.4deg;
+	margin: auto;
+}
+
 i.dialect {
 	color: steelblue;
 }
@@ -201,8 +216,7 @@ i.dialect {
 }
 
 #index_toc {
-	outline: 1px dashed #ffffff33;
-	padding: .5em;
+	//outline: 1px dashed #ffffff33;
 }
 
 #index_toc ul {

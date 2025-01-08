@@ -8,15 +8,11 @@
 }
 
 *.collapse :is(h2, h3):before {
-	width: 1em;
+	content: "➕ ";
 }
 
 :is(h2, h3):before {
-	content: "+ ";
+	content: "➖ ";
 	color: lightgreen;
-	width: 0px;
-	overflow-x: hidden;
-	vertical-align: middle;
 	display: inline-block;
-	transition: width .5s ease-in-out;
 }
