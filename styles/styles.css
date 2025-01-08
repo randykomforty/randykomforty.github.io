@@ -1,24 +1,19 @@
 @import url("./fonts.css");
+@import url("./interactive.css");
 
 body {
 	font-size: 16px;
 	color: gray;
 	background: #111;
-	font-family: sans-serif;
+	font-family: "Noto Sans", sans-serif;
 	margin: 1em;
 	padding: 1em;
-	line-height: 1.2;
 	outline: 1px dotted lightgreen;
 }
 
-a {
-	text-decoration: none;
-	color: lightgreen;
-}
-
-h1, h2 {
-	font-family: "Noto Sans";
+h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
+	text-transform: uppercase;
 	margin: 0;
 }
 
@@ -30,8 +25,9 @@ h2 {
 	color: gold;
 }
 
-.dialect {
-	color: violet;
+a {
+	text-decoration: none;
+	color: lightgreen;
 }
 
 img {

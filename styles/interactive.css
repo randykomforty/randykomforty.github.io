@@ -1,0 +1,22 @@
+*:has(h2) > *:not(h2),
+*:has(h3) > *:not(h3) {
+	//display: block;
+}
+
+.collapse > *:not(h2, h3) {
+	display: none;
+}
+
+*.collapse :is(h2, h3):before {
+	width: 1em;
+}
+
+:is(h2, h3):before {
+	content: "+ ";
+	color: lightgreen;
+	width: 0px;
+	overflow-x: hidden;
+	vertical-align: middle;
+	display: inline-block;
+	transition: width .5s ease-in-out;
+}

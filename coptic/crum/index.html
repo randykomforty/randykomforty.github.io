@@ -16,7 +16,7 @@
 			</ul>
 		</div>
 		<div id="preface">
-			<h2 onclick="collapse_preface()">Preface</h2>
+			<h2>Preface</h2>
 			<p>Preparations for systematic work with a view to a Coptic dictionary were begun by me some thirty years ago, but intervening undertakings delayed effective progress for some time. Meanwhile it was ascertained that the Clarendon Press would be not unwilling to consider, when the time came, a project of publication. But early in 1914 a definite proposal to publish, at their expense and with provision of funds for collaboration, photography &amp;c., came from the Berlin Academy. This generous offer I owed to Professor Erman, who saw the need of a Coptic dictionary on a scale worthy of that of the hieroglyphic <i>Wörterbuch</i> and who issued a statement on the subject. <sup id="cite_ref-01"><a href="#cite_note-01">[1]</a></sup> A scheme was drawn up and work begun <sup id="cite_ref-02"><a href="#cite_note-02">[2]</a></sup> and if the outbreak of war had not put an end to all hopes of carrying through such projects, the book would have been completed long ere now. Yet it was found possible to retain the help of German collaborators, as well as of those in the allied countries, and a few years after the end of the war a collection of material had been amassed large enough to justify a renewal of negotiations with the Clarendon Press. These resulted in the arrangement whereby the dictionary is now published.</p>
 			<p>In 1921 the late Professor Spiegelberg produced his <i>Handwörterbuch</i>, which he modestly described as a revision of Peyron's <i>Lexicon</i> (1835), but which in reality is far more than that. Its most conspicuous novelty was the addition, in all cases where in the author's opinion justifiable, of the hieroglyphic or demotic etymology of the Coptic form. The absence of this important element from the present work some students may regret; it was only after much hesitation that I decided to omit it. I cannot claim an independent judgement as to the appositeness of a demotic etymology, while to reproduce these in hieroglyphic type—for a mere transcription satisfies no one—would greatly have increased costs and yet have added nothing of adequate importance to what Spiegelberg has already given us. <sup id="cite_ref-03"><a href="#cite_note-03">[3]</a></sup></p>
 			<p>What is here offered represents an entirely new and independent working over of the total available material. Our word-collecting has all been done directly, from the texts; all those in print have of course been utilized—often after collation with the originals; so too all unpublished manuscripts, ostraca and inscriptions, to which access could be obtained. The quantity of material used amounts, at a rough estimate, to some 240,000 slips. <sup id="cite_ref-04"><a href="#cite_note-04">[4]</a></sup> It is hoped that these resources give a sufficient basis for a comprehensive view of the language, in all its dialects and in all aspects of its literature: biblical, patristic and mundane. The total of recorded independent words—ignoring the countless derived forms—is 3,308, whereof some 390 are still of unknown meaning. These are mostly <span class="greek">ἅπαξ λεγόμενα</span> and some are no doubt misread.</p>
@@ -60,7 +60,7 @@
 			</ol>
 		</div>
 		<div id="list_of_abbreviations">
-			<h2 onclick="collapse_listOfAbbreviations()">List of Abbreviations</h2>
+			<h2>List of Abbreviations</h2>
 			<ul>
 				<li id="all">
 					<ul>
@@ -550,7 +550,7 @@
 			</ul>
 		</div>
 		<div id="additions_and_corrections">
-			<h2 onclick="collapse_additionsAndCorrections()">Additions and Corrections</h2>
+			<h2>Additions and Corrections</h2>
 			<p><i>a</i>, <i>b</i> refer to columns 1 &amp; 2.</p>
 			<ul>
 				<li><span class="page">1 <i>a</i></span>11 up, add <span class="coptic">ⲁⲁ-</span> <i class="dialect">S</i>: Mor 50 62, HT <i>W</i> 79 <span class="coptic">ⲛⲁⲁⲡϣⲁⲩ</span>.</li>
@@ -611,7 +611,7 @@
 			</ul>
 		</div>
 		<div id="dictionary">
-			<h2 onclick="collapse_dictionary()">Dictionary</h2>
+			<h2>Dictionary</h2>
 			<ul>
 				<li class="entry"><span class="headword coptic">ⲟⲛ</span> <i class="dialect">S</i><i class="dialect">B</i>, <span class="coptic">ⲁⲛ</span> <i class="dialect">A</i><i class="dialect lycopolitan">A<sup>2</sup></i><i class="dialect">F</i>
 					<ul>
@@ -2164,23 +2164,6 @@
 				</li>
 			</ul>
 		</div>
-		<script>
-			function collapse_preface() {
-				var preface = document.getElementById("preface");
-				preface.classList.toggle("collapse");
-			}
-			function collapse_listOfAbbreviations() {
-				var listOfAbbreviations = document.getElementById("list_of_abbreviations");
-				listOfAbbreviations.classList.toggle("collapse");
-			}
-			function collapse_additionsAndCorrections() {
-				var additionsAndCorrections = document.getElementById("additions_and_corrections");
-				additionsAndCorrections.classList.toggle("collapse");
-			}
-			function collapse_dictionary() {
-				var dictionary = document.getElementById("dictionary");
-				dictionary.classList.toggle("collapse");
-			}
-		</script>
+		<script src="../../scripts/scripts.js"></script>
 	</body>
 </html>

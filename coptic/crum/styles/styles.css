@@ -1,102 +1,8 @@
-@import url("../../../styles/fonts.css");
-
-body {
-	font-size: 16px;
-	color: gray;
-	background: #111;
-	font-family: sans-serif;
-	margin: 1em;
-	padding: 1em;
-	line-height: 1.2;
-	outline: 1px dotted lightgreen;
-}
-
-#preface {
-	position: relative;
-}
-
-#preface h2 {
-	//line-height: 1.5;
-	//position: relative;
-}
-
-#preface,
-#list_of_abbreviations,
-#additions_and_corrections,
-#dictionary {
-	max-height: auto;
-	transition: max-height .5s ease-in-out;
-	overflow: hidden;
-}
-
-#preface.collapse,
-#list_of_abbreviations.collapse,
-#additions_and_corrections.collapse,
-#dictionary.collapse {
-	max-height: 1.5em;
-}
-
-#preface h2:before,
-#list_of_abbreviations h2:before,
-#additions_and_corrections h2:before,
-#dictionary h2:before {
-	content: "+ ";
-	color: lightgreen;
-	width: 0px;
-	overflow-x: hidden;
-	vertical-align: middle;
-	display: inline-block;
-	transition: width .5s ease-in-out;
-	
-}
-
-#preface.collapse h2:before,
-#list_of_abbreviations.collapse h2:before,
-#additions_and_corrections.collapse h2:before,
-#dictionary.collapse h2:before {
-	width: 1em;
-	//line-height: 1.5;
-}
-
-h1 {
-	display: none;
-}
+@import url("../../../styles/styles.css");
 
 #menu {
 	border: 1px solid #ccc;
 	display: none;
-}
-
-#preface,
-#additions_and_corrections,
-#list_of_abbreviations,
-#dictionary {
-	font-size: 1.2em;
-}
-
-#preface p {
-	//columns: 200px 2;
-	//column-rule: 1px solid lightblue;
-	//column-gap: 1em;
-	//min-height: 100px;
-	//border-bottom: 1px dotted gray;
-	//padding-bottom: 1em;
-}
-
-#preface h2 {
-	column-span: all;
-}
-
-#preface p {
-	text-indent: 2em;
-	text-align: justify;
-	margin-top: 0;
-}
-
-h1, h2, h3, h4, h5, h6 {
-	font-weight: normal;
-	margin-top: 0em;
-	font-variant: small-caps;
 }
 
 i.dialect {
@@ -113,8 +19,6 @@ i.dialect {
 .dialect.lycopolitan sup {
 	font-style: normal;
 }
-
-
 
 p sup {
 	line-height: 0;

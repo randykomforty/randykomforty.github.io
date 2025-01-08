@@ -1,190 +1,12 @@
-@import url("../../../styles/fonts.css");
-
-body {
-	font-size: 16px;
-	color: gray;
-	background: #111;
-	font-family: sans-serif;
-	margin: 1em;
-	padding: 1em;
-	line-height: 1.2;
-	outline: 1px dotted lightgreen;
-}
-
-h1 {
-	//display: none;
-}
+@import url("../../../styles/styles.css");
 
 #menu {
 	border: 1px solid #ccc;
 	display: none;
 }
 
-#preface,
-#additions_and_corrections,
-#list_of_abbreviations,
-#dictionary {
-	font-size: 1.2em;
-}
-
-#preface p {
-	//columns: 200px 2;
-	//column-rule: 1px solid lightblue;
-	//column-gap: 1em;
-	//min-height: 100px;
-	//border-bottom: 1px dotted gray;
-	//padding-bottom: 1em;
-}
-
 i.dialect {
 	color: steelblue;
-}
-
-.dialect sup {
-	line-height: 0;
-	font-size: inherit;
-	font-size: .5em;
-	padding-left: 0;
-}
-
-.dialect.lycopolitan sup {
-	font-style: normal;
-}
-
-
-
-p sup {
-	line-height: 0;
-}
-
-p sup a {
-	color: #ffb600;
-	font-size: 80%;
-	font-size: .5em;
-	text-decoration: none;
-}
-
-#preface .footnotes a {
-	color: lime;
-	text-decoration: none;
-	padding-right: 5px;
-	user-select: none;
-}
-
-#preface .footnotes li:target {
-	background: #ffb60022;
-}
-
-
-
-#additions_and_corrections ul,
-#list_of_abbreviations ul {
-	padding-left: .5em;
-	list-style-type: none;
-}
-
-#list_of_abbreviations > ul > li {
-	//display: table;
-}
-
-#list_of_abbreviations > ul > li > ul {
-	display: table;
-	border-collapse: collapse;
-}
-
-#list_of_abbreviations > ul > li > ul > li {
-	display: table-row;
-}
-
-#list_of_abbreviations > ul > li > ul > li > .cell {
-	display: table-cell;
-	padding: .2em;
-	border: 1px solid #333;
-}
-
-#list_of_abbreviations a {
-	text-decoration: none;
-}
-
-#list_of_abbreviations .abbr {
-	color: seagreen;
-}
-
-#list_of_abbreviations #all .non-source,
-#list_of_abbreviations #all .bible {
-	display: none;
-}
-
-#list_of_abbreviations li a {
-	text-decoration: none;
-}
-
-#dictionary {
-	//outline: 1px solid #ffb600aa;
-}
-
-#dictionary ul {
-	list-style-type: none;
-	padding-left: .5em;
-}
-
-#dictionary > ul {
-	padding-left: 0;
-}
-
-#dictionary > ul li {
-	margin-top: .0em;
-}
-
-#dictionary .entry {
-	margin-top: 2em;
-}
-
-#dictionary .entry li.group {
-	margin-top: .5em;
-	list-style-type: none;
-}
-
-#dictionary .entry .group > ul {
-	background: #ff00ff11;
-	border-left: 1px solid #ffffff55;
-	border-bottom: 1px solid #ffffff55;
-	border: 1px solid #ffffff55;
-	//list-style-position: inside;
-}
-
-#dictionary .entry .pos,
-#dictionary .entry .subsection {
-	margin-top: .5em
-}
-
-#dictionary .headword {
-	color: violet;
-	font-family: rk_coptic;
-	font-size: 1.2em;
-	line-height: inherit;
-}
-
-#dictionary .entry li.group ul {
-	padding: .2em .5em;
-}
-
-
-/** vycichl **/
-
-h1, h2, h3, h4, h5 {
-	font-weight: normal;
-}
-
-h1, h2 {
-	text-transform: uppercase;
-}
-
-#introduction,
-#bibliographie,
-#abreviations,
-#terminologie_phonetique {
-	line-height: 1.5;
 }
 
 #bibliographie > ul,
@@ -315,140 +137,72 @@ h1, h2 {
 	margin-top: 2em;
 }
 
-#terminologie_phonetique {
-	
+#index h3 + div {
+	margin-bottom: 1em;
 }
 
-#index #les_mots_francais,
-#index #les_mots_egyptiens,
-#index #les_mots_coptes,
-#index #les_mots_grecs,
-#index #les_mots_demotiques,
-#index #langues_semitiques,
-#index #langues_chamitiques,
-#index #langues_indo-europeennes,
-#index #autres_langues {
+#index > div {
 	max-height: 500px;
+	width: calc(100% - 1px);
 	overflow-y: auto;
-	//box-sizing: border-box;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	margin-top: 1em;
+	border: 1px solid #ffffff22;
 }
 
-#index #les_mots_francais h3,
-#index #les_mots_egyptiens h3,
-#index #les_mots_coptes h3,
-#index #les_mots_grecs h3,
-#index #les_mots_demotiques h3,
-#index #langues_semitiques h3,
-#index #langues_chamitiques h3,
-#index #langues_indo-europeennes h3,
-#index #autres_langues h3 {
-	margin: 0;
-	padding: .5em .5em;
+:is(#les_mots_egyptiens, #les_mots_demotiques, #langues_semitiques) td.middle {
+	width: 100%;
+}
+
+:is(#les_mots_francais, #les_mots_grecs) td.middle {
+	display: none;
+}
+
+#index td.term, #index td.page {
+	white-space: nowrap;
+}
+
+#index td.page {
+	text-align: right;
+}
+
+#index :is(h3, h4, h5) {
+	padding: 0em .5em;
 	border: 1px solid gray;
-	position: sticky;
-	top: 0;
 	background: #222;
 }
 
-#index #les_mots_francais table,
-#index #les_mots_egyptiens table,
-#index #les_mots_coptes table,
-#index #les_mots_grecs table,
-#index #les_mots_demotiques table,
-#index #langues_semitiques table,
-#index #langues_chamitiques table,
-#index #langues_indo-europeennes table,
-#index #autres_langues table {
+#index  table {
 	border-collapse: collapse;
-	width: calc(100% - 2em);
-	//margin: 1em;
-	margin-left: 1em;
-	margin-top: 1em;
-	//box-sizing: border-box;
+	width: calc(100%);
 }
 
-#index #les_mots_francais table td,
-#index #les_mots_egyptiens table td,
-#index #les_mots_coptes table td,
-#index #les_mots_grecs table td,
-#index #les_mots_demotiques table td,
-#index #langues_semitiques table td,
-#index #langues_chamitiques table td,
-#index #langues_indo-europeennes table td,
-#index #autres_langues table td {
-	border: 1px solid gray;
+#index table td {
+	border: 1px solid #ffffff22;
 	padding: .5em;
+	vertical-align: top;
 }
 
-#index #les_mots_francais table .term,
-#index #les_mots_egyptiens table .term,
-#index #les_mots_coptes table .term,
-#index #les_mots_grecs table .term,
-#index #les_mots_demotiques table .term,
-#index #langues_semitiques table .term,
-#index #langues_chamitiques table .term,
-#index #langues_indo-europeennes table .term,
-#index #autres_langues table .term {
-	//width: 200px;
-}
-
-#index #autres_langues {
-	border: 1px solid gray;
-	border-top: none;
-}
-
-#index #langues_semitiques table i {
+#index > * > table i {
 	color: lightblue;
-}
-
-#index #langues_indo-europeennes h4,
-#index #langues_indo-europeennes div,
-#index #autres_langues h4,
-#index #autres_langues div {
-	padding-left: 1em;
-}
-
-#index #langues_chamitiques h4 {
-	background: #ffb60033;
 }
 
 #index #autres_langues h4 {
 	color: gold;
 }
 
-#index #autres_langues h5 {
+#index h5 {
 	color: silver;
 }
 
-#index #langues_chamitiques > div {
-	//margin-bottom: 1em;
-}
-
-#index #langues_chamitiques > div > div {
-	//float: left;
-	display: inline-block;
-	padding-right: 1em;
-}
-
-#index #langues_chamitiques h4 {
-	clear: both;
+#index :is(h4, h5) {
 	margin-top: 1em;
+}
+
+#index_toc {
+	outline: 1px dashed #ffffff33;
 	padding: .5em;
-}
-
-#index #autres_langues div,
-#index #langues_indo-europeennes div {
-	float: left;
-	min-height: 200px;
-}
-
-#index #autres_langues h4,
-#index #langues_indo-europeennes h4 {
-	clear: both;
-}
-
-#index > * {
-	padding-bottom: 1em;
 }
 
 #index_toc ul {
