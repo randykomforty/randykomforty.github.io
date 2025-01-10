@@ -1,18 +1,38 @@
-*:has(h2) > *:not(h2),
-*:has(h3) > *:not(h3) {
-	//display: block;
-}
-
-.collapse > *:not(h2, h3) {
+.collapse:has(> h2) > :not(h2):not(h3) {
 	display: none;
 }
 
-*.collapse :is(h2, h3):before {
-	content: "➕ ";
+.collapse:has(> h3) > :not(h3) {
+	display: none;
 }
 
-:is(h2, h3):before {
-	content: "➖ ";
-	color: lightgreen;
+.entry.collapse > li {
+	display: none;
+}
+
+
+
+h2, h3, .entry {
+	position: relative;
+	left: 1em;
+}
+
+:is(h2, h3, .entry):hover:before {
+	color: #ffb600ff;
+}
+
+*.collapse :is(h2, h3, .entry):before {
+	transform: rotate(0deg);
+}
+
+:is(h2, h3, .entry):before {
+	content: "▷";
+	position: absolute;
+	left: -1em;
+	color: #ffb60022;
 	display: inline-block;
+	transform: rotate(90deg);
+	transition:
+		transform .2s ease-in-out,
+		color .2s ease-in-out;
 }
