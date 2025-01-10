@@ -1,7 +1,6 @@
 var elementsH2 = document.querySelectorAll("h2");
 var elementsH3 = document.querySelectorAll("h3");
-var children = document.querySelectorAll(":has(> :is(h2, h3)) > :not(h2):not(h3)");
-var entries = document.querySelectorAll(".entry");
+var entries = document.getElementsByClassName("entry");
 
 elementsH2.forEach(elementH2 => {
 	elementH2.addEventListener("click", function (e) {
@@ -15,8 +14,29 @@ elementsH3.forEach(elementH3 => {
 		elementH3.parentNode.classList.toggle("collapse");
 	});
 });
+
+/*
+entries.forEach(addCollapse);
+
+function addCollapse(a, b) {
+	console.log(a + " " + b);
+	a.addEventListener("click", function (e) {
+		this.childNodes.classList.toggle("collapse");
+	});
+}
+*/
+
+for (let i = 0; i < entries.length; i++) {
+	console.log(entries);
+	entries[i].addEventListener("click", function (e) {
+		entries[i].classList.toggle("collapse");
+	});
+}
+/*
 entries.forEach(entry => {
 	entry.addEventListener("click", function (e) {
-		entry.parentNode.classList.toggle("collapse");
+		console.log(entry.children.classList);
+		//entry.childNodes.classList.toggle("collapse");
 	});
 });
+*/

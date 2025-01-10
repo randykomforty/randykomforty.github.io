@@ -178,13 +178,10 @@ p sup a {
 	margin-top: .0em;
 }
 
-#dictionary .entry {
-	margin-top: 2em;
-}
-
 #dictionary .entry li.group {
 	margin-top: .5em;
 	list-style-type: none;
+	width: calc(100% - 1em);
 }
 
 #dictionary .entry .group > ul {

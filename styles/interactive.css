@@ -6,26 +6,37 @@
 	display: none;
 }
 
-.entry.collapse > li {
+.entry.collapse > ul {
 	display: none;
 }
 
 
 
-h2, h3, .entry {
+h2, h3 {
 	position: relative;
 	left: 1em;
 }
 
-:is(h2, h3, .entry):hover:before {
+h2, h3, li.entry {
+	//position: relative;
+	//left: 1em;
+}
+
+:is(h2, h3):hover:before {
 	color: #ffb600ff;
 }
 
-*.collapse :is(h2, h3, .entry):before {
+.entry:hover:before {
+	color: #ffb600ff;
+}
+
+.collapse :is(h2, h3):before {
 	transform: rotate(0deg);
 }
 
-:is(h2, h3, .entry):before {
+
+
+:is(h2, h3):before {
 	content: "▷";
 	position: absolute;
 	left: -1em;
@@ -35,4 +46,24 @@ h2, h3, .entry {
 	transition:
 		transform .2s ease-in-out,
 		color .2s ease-in-out;
+}
+
+li.entry {
+	position: relative;
+	left: 1em;
+	line-height: 1.5;
+}
+
+li.entry:before {
+	content: "▷";
+	color: #ffb60022;
+	position: absolute;
+	left: -1em;
+	transform: rotate(90deg);
+	transition: transform .2s ease-in-out;
+	line-height: 1.5;
+}
+
+li.entry.collapse:before {
+	transform: rotate(0deg);
 }
