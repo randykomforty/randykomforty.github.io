@@ -83,6 +83,7 @@
 }
 
 #format_control_buttons p {
+	display: none;
 	margin: 0;
 	background: lightblue;
 }
