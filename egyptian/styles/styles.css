@@ -1,0 +1,5 @@
+@import url("../../styles/styles.css");
+
+textarea {
+	background: linear-gradient(to right, #111, #222);
+}
