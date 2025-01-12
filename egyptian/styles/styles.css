@@ -1,5 +1,149 @@
 @import url("../../styles/styles.css");
 
+button {
+	cursor: pointer;
+	font-size: 1.5em;
+	//min-width: 1em;
+	//font-family: rk_egypt-hiero;
+	//color: lightgreen;
+	background: #111;
+	//border-radius: 5px;
+	border: none;
+}
+
+svg {
+	fill: lightgreen;
+	//outline: 1px solid gold;
+	width: 100%;
+	width: 3em;
+	height: 3.5em;
+}
+
 textarea {
 	background: linear-gradient(to right, #111, #222);
+}
+
+#format_control_buttons {
+	display: flex;
+	//max-width: 100%;
+	//box-sizing: border-box;
+	flex-wrap: wrap;
+}
+
+#uFE00:after {
+	content: "\fe00";
+}
+.u13430:after {
+	content: "\13430";
+}
+.u13431:after {
+	content: "\13431";
+}
+.u13432:after {
+	content: "\13432";
+}
+.u13433:after {
+	content: "\13433";
+}
+.u13434:after {
+	content: "\13434";
+}
+.u13435:after {
+	content: "\13435";
+}
+.u13436:after {
+	content: "\13436";
+}
+.u13437:after {
+	content: "\13437";
+}
+.u13438:after {
+	content: "\13438";
+}
+.u13439:after {
+	content: "\13439";
+}
+.u1343A:after {
+	content: "\1343A";
+}
+.u1343B:after {
+	content: "\1343B";
+}
+.u1343C:after {
+	content: "\1343C";
+}
+.u1343D:after {
+	content: "\1343D";
+}
+.u1343E:after {
+	content: "\1343E";
+}
+.u1343F:after {
+	content: "\1343F";
+}
+.u13440:after {
+	content: "\13440";
+}
+.u13441:after {
+	content: "\13441";
+}
+.u13442:after {
+	content: "\13442";
+}
+.u13443:after {
+	content: "\13443";
+}
+.u13444:after {
+	content: "\13444";
+}
+.u13445:after {
+	content: "\13445";
+}
+.u13446:after {
+	content: "\13446";
+}
+.u13447:after {
+	content: "\13447";
+}
+.u13448:after {
+	content: "\13448";
+}
+.u13449:after {
+	content: "\13449";
+}
+.u1344A:after {
+	content: "\1344A";
+}
+.u1344B:after {
+	content: "\1344B";
+}
+.u1344C:after {
+	content: "\1344C";
+}
+.u1344D:after {
+	content: "\1344D";
+}
+.u1344E:after {
+	content: "\1344E";
+}
+.u1344F:after {
+	content: "\1344F";
+}
+.u13450:after {
+	content: "\13450";
+}
+.u13451:after {
+	content: "\13451";
+}
+.u13452:after {
+	content: "\13452";
+}
+.u13453:after {
+	content: "\13453";
+}
+.u13454:after {
+	content: "\13454";
+}
+.u13455:after {
+	content: "\13455";
 }
