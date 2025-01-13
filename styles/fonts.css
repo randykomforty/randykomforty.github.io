@@ -88,6 +88,11 @@
 }
 
 @font-face {
+	font-family: rk_egypt-hiero-pdf-2;
+	src: url("./fonts/NMHOPK-UniHieroglyphica.ttf");
+}
+
+@font-face {
 	font-family: rk_egypt-translit;
 	src: url("./fonts/newathu5_8.ttf");
 	unicode-range:
@@ -151,7 +156,7 @@
 
 .egypt-hiero-test {
 	color: gold;
-	font-family: rk_egypt-hiero-pdf;
+	font-family: rk_egypt-hiero-pdf, rk_egypt-hiero-pdf-2;
 	font-size: 1.5em;
 }
 
