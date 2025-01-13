@@ -1,0 +1,41 @@
+@import url("../../../styles/styles.css");
+
+#interface {
+	//display: grid;
+	//grid-template-columns: repeat(1, 1fr);
+	//grid-template-rows: auto repeat(3, 1fr);
+	gap: .5em;
+	padding: .5em;
+	//background: #ffb60088;
+	background: gray;
+	//box-sizing: border-box;
+}
+
+#preview_area {
+	color: gold;
+	font-size: 3em;
+	padding: .5rem;
+	min-height: 4rem;
+	//min-height: 53px;
+	max-height: 11rem;
+	background: #000;
+	outline: 1px solid lightgreen;
+	color: #ffb60000;
+	transition: color .5s ease-in-out;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	//box-sizing: border-box;
+}
+
+#dialect {
+	//outline: 1px dashed gold;
+}
+
+label[for=dialect],
+label[for=language],
+label[for=formatting] {
+	font-size: 2em;
+	color: lightgreen;
+	display: block;
+	background: #333;
+}

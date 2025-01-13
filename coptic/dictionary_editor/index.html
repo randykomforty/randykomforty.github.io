@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Dictionary Editor (Crum, &amp;c.)</title>
+		<link rel="stylesheet" href="./styles/styles.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<h1>Dictionary editor</h1>
+		<div id="hieroglyph_editor">
+			<h2>Crum</h2>
+			<div id="info">
+				<p>Editor for building new entries for etymological dictionaries.</p>
+			</div>
+			<div id="interface">
+				<div id="preview_area">
+					
+				</div>
+				<div id="format_control_buttons">
+					<form action="">
+						<label for="dialect">Dialect</label>
+						<select id="dialect" name="dialect">
+							<option value="saidic">Saʿîdic</option>
+							<option value="saidic-a">Saʿîdic with Achmîmic</option>
+							<option value="saidic-f">Saʿîdic with Fayyûmic</option>
+							<option value="bohairic">Bohairic</option>
+							<option value="fayyumic">Fayyûmic</option>
+							<option value="fayyumic-b">Fayyûmic with Bohairic</option>
+							<option value="achmimic">Achmîmic</option>
+							<option value="subachmimic">Subachmîmic</option>
+							<option value="old">Old Coptic</option>
+						</select>
+						<label for="language">Language</label>
+						<select id="language" name="language">
+							<option value="coptic">Coptic</option>
+							<option value="greek">Greek</option>
+							<option value="arabic">Arabic</option>
+							<option value="hebrew">Hebrew</option>
+							<option value="aramaic">Aramaic</option>
+						</select>
+						<label for="formatting">Rich Text</label>
+						<select id="formatting" name="formatting">
+							<option value="bold">Bold</option>
+							<option value="italic">Italic</option>
+							<option value="qualitative">Qualitative</option>
+						</select>
+						<input type="text" id="dialect_id" name="dialect_name" placeholder="">
+						<!--
+						<input type="submit" value="Submit">
+						-->
+					</form>
+				</div>
+			</div>
+		</div>
+		<script src="../../scripts/scripts.js"></script>
+		<script src="./scripts/scripts.js"></script>
+	</body>
+</html>
