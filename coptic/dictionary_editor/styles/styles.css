@@ -1,9 +1,9 @@
 @import url("../../../styles/styles.css");
 
 #interface {
-	//display: grid;
-	//grid-template-columns: repeat(1, 1fr);
-	//grid-template-rows: auto repeat(3, 1fr);
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	//grid-template-rows: repeat(1, 1fr);
 	gap: .5em;
 	padding: .5em;
 	//background: #ffb60088;
@@ -34,8 +34,22 @@
 label[for=dialect],
 label[for=language],
 label[for=formatting] {
-	font-size: 2em;
+	font-size: 1.5em;
 	color: lightgreen;
 	display: block;
 	background: #333;
+}
+
+select#dialect,
+select#language,
+select#formatting {
+	background: #111111;
+	color: gold;
+	font-size: 1.5em;
+}
+
+input#text_id {
+	background: #111111;
+	color: lightblue;
+	font-size: 1.2em;
 }
