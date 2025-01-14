@@ -1,13 +1,68 @@
 var currentText = document.querySelector("textarea");
 var preview = document.querySelector("#preview_area");
+var schematic = document.querySelector("#schematic_area");
 var buttons = document.querySelectorAll("button");
 
 function showPreview() {
-	var text = currentText.value;
-	preview.textContent = text;
-	var lastLetter = text.charAt(text.length - 1);
-	console.log("Last letter typed: " + lastLetter);
+	var previewText = currentText.value;
+	const glyphSubstitutes = {
+		"𓐰": "",
+		"𓐱": "",
+		"𓐲": "",
+		"𓐳": "",
+		"𓐴": "",
+		"𓐵": "",
+		"𓐶": "",
+		"𓐷": "",
+		"𓐸": "",
+		"𓐹": "",
+		"𓐺": "",
+		"𓐻": "",
+		"𓐼": "",
+		"𓐽": "",
+		"𓐾": "",
+		"𓐿": "",
+		"𓑀": "",
+		"𓑁": "",
+		"𓑂": "",
+		"𓑃": "",
+		"𓑄": "",
+		"𓑅": "",
+		
+		"𓑆": "",
+		"𓑇": "",
+		"𓑈": "",
+		"𓑉": "",
+		"𓑊": "",
+		"𓑋": "",
+		"𓑌": "",
+		"𓑍": "",
+		"𓑎": "",
+		"𓑏": "",
+		"𓑐": "",
+		"𓑑": "",
+		"𓑒": "",
+		"𓑓": "",
+		"𓑔": "",
+		"𓑕": "",
+		
+		
+		"︀": "",
+		"︁": "",
+		"︂": "",
+		"︃": "",
+		"︆": ""
+	};
+	let s = currentText.value;
+	let schematicText = s.replace(/(𓐰|𓐱|𓐲|𓐳|𓐴|𓐵|𓐶|𓐷|𓐸|𓐹|𓐺|𓐻|𓐼|𓐽|𓐾|𓐿|𓑀|𓑁|𓑂|𓑃|𓑄|𓑅|𓑆|𓑇|𓑈|𓑉|𓑊|𓑋|𓑍|𓑌|𓑎|𓑏|𓑐|𓑑|𓑒|𓑓|𓑔|𓑕|︀|︁|︂|︃|︆)/g, m => glyphSubstitutes[m]);
+	preview.textContent = previewText;
+	schematic.textContent = schematicText;
+	//var lastLetterPreview = previewText.charAt(previewText.length - 1);
+	//var lastLetterSchematic = schematicText.charAt(schematicText.length - 1);
+	//console.log("Last letter typed: " + lastLetterPreview);
+	//console.log("Last letter typed: " + lastLetterSchematic);
 	preview.style.color = "#ffb600ff";
+	schematic.style.color = "#ffb600ff";
 }
 
 currentText.addEventListener("keyup", showPreview);
@@ -19,123 +74,3 @@ buttons.forEach(button => {
 		navigator.clipboard.writeText(button.value);
 	});
 });
-
-/*
-function variantSelector() {
-	navigator.clipboard.writeText("︀")
-}
-function verticalJoiner() {
-	navigator.clipboard.writeText("𓐰")
-}
-function horizontalJoiner() {
-	navigator.clipboard.writeText("𓐱")
-}
-function insertAtTopStart() {
-	navigator.clipboard.writeText("𓐲")
-}
-function insertAtBottomStart() {
-	navigator.clipboard.writeText("𓐳")
-}
-function insertAtTopEnd() {
-	navigator.clipboard.writeText("𓐴")
-}
-function insertAtBottomEnd() {
-	navigator.clipboard.writeText("𓐵")
-}
-function overlayMiddle() {
-	navigator.clipboard.writeText("𓐶")
-}
-function beginSegment() {
-	navigator.clipboard.writeText("𓐷")
-}
-function endSegment() {
-	navigator.clipboard.writeText("𓐸")
-}
-function insertAtMiddle() {
-	navigator.clipboard.writeText("𓐹")
-}
-function insertAtTop() {
-	navigator.clipboard.writeText("𓐺")
-}
-function insertAtBottom() {
-	navigator.clipboard.writeText("𓐻")
-}
-function beginEnclosure() {
-	navigator.clipboard.writeText("𓐼")
-}
-function endEnclosure() {
-	navigator.clipboard.writeText("𓐽")
-}
-function beginWalledEnclosure() {
-	navigator.clipboard.writeText("𓐾")
-}
-function endWalledEnclosure() {
-	navigator.clipboard.writeText("𓐿")
-}
-function mirrorHorizontally() {
-	navigator.clipboard.writeText("𓑀")
-}
-function fullBlank() {
-	navigator.clipboard.writeText("𓑁")
-}
-function halfBlank() {
-	navigator.clipboard.writeText("𓑂")
-}
-function lostSign() {
-	navigator.clipboard.writeText("𓑃")
-}
-function halfLostSign() {
-	navigator.clipboard.writeText("𓑄")
-}
-function tallLostSign() {
-	navigator.clipboard.writeText("𓑅")
-}
-function wideLostSign() {
-	navigator.clipboard.writeText("𓑆")
-}
-function modifierDamagedAtTopStart() {
-	navigator.clipboard.writeText("𓑇")
-}
-function modifierDamagedAtBottomStart() {
-	navigator.clipboard.writeText("𓑈")
-}
-function modifierDamagedAtStart() {
-	navigator.clipboard.writeText("𓑉")
-}
-function modifierDamagedAtTopEnd() {
-	navigator.clipboard.writeText("𓑊")
-}
-function modifierDamagedAtTop() {
-	navigator.clipboard.writeText("𓑋")
-}
-function modifierDamagedAtBottomStartAndTopEnd() {
-	navigator.clipboard.writeText("𓑌")
-}
-function modifierDamagedAtStartAndTop() {
-	navigator.clipboard.writeText("𓑍")
-}
-function modifierDamagedAtBottomEnd() {
-	navigator.clipboard.writeText("𓑎")
-}
-function modifierDamagedAtTopStartAndBottomEnd() {
-	navigator.clipboard.writeText("𓑏")
-}
-function modifierDamagedAtBottom() {
-	navigator.clipboard.writeText("𓑐")
-}
-function modifierDamagedAtStartAndBottom() {
-	navigator.clipboard.writeText("𓑑")
-}
-function modifierDamagedAtEnd() {
-	navigator.clipboard.writeText("𓑒")
-}
-function modifierDamagedAtTopAndEnd() {
-	navigator.clipboard.writeText("𓑓")
-}
-function modifierDamagedAtBottomAndEnd() {
-	navigator.clipboard.writeText("𓑔")
-}
-function modifierDamaged() {
-	navigator.clipboard.writeText("𓑕")
-}
-*/

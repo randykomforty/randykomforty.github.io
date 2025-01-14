@@ -6,29 +6,39 @@
 
 #interface {
 	display: grid;
-	//grid-template-columns: repeat(1, 1fr);
-	//grid-template-rows: auto repeat(3, 1fr);
 	gap: .5em;
 	padding: .5em;
-	//background: #ffb60088;
-	background: gray;
-	//box-sizing: border-box;
+	background: transparent;
 }
 
 #preview_area {
-	color: gold;
-	font-size: 3em;
+	color: lightblue !important;
+	font-size: 2em;
+	font-family: rk_egypt-hiero;
 	padding: .5rem;
 	min-height: 4rem;
-	//min-height: 53px;
 	max-height: 11rem;
 	background: #000;
-	outline: 1px solid lightgreen;
 	color: #ffb60000;
 	transition: color .5s ease-in-out;
 	overflow-x: hidden;
 	overflow-y: scroll;
-	//box-sizing: border-box;
+	line-break: anywhere;
+}
+
+#schematic_area {
+	color: gold;
+	font-size: 2em;
+	font-family: rk_egypt-hiero-pdf, rk_variant-selectors;
+	padding: .5rem;
+	min-height: 4rem;
+	max-height: 11rem;
+	background: #000;
+	color: #ffb60000;
+	transition: color .5s ease-in-out;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	line-break: anywhere;
 }
 
 #typing_area {
@@ -38,18 +48,18 @@
 }
 
 #typing_area textarea {
-	background: linear-gradient(to right, #111, #222);
-	//background: white;
+	background: #000000;
+	font-family: monospace;
 	color: lightgreen;
 	padding: .5rem;
-	font-size: 3em;
+	font-size: 2em;
 	display: block;
 	width: 100%;
 	max-width: 100%;
 	min-height: 4rem;
 	max-height: 11rem;
-	outline: 1px solid lightgreen;
 	resize: none;
+	line-break: anywhere;
 	border: none;
 	height: 100%;
 	box-sizing: border-box;
@@ -57,16 +67,23 @@
 	overflow-y: scroll;
 }
 
+fieldset {
+	border: 1px solid lightgreen;
+}
+
+legend {
+	color: lightgreen;
+	font-size: 1.2em;
+}
+
+.fc {
+	color: gray !important;
+}
+
 #format_control_buttons {
-	//background: blue;
 	display: flex;
 	flex-wrap: wrap;
 	gap: 5px;
-	//overflow-x: auto;
-	//resize: horizontal;
-	//resize: none;
-	//max-height: 100px;
-	//flex-basis: content;
 }
 
 #format_control_buttons > * {
@@ -104,7 +121,7 @@
 	display: block;
 	cursor: pointer;
 	border: none;
-	 font-family: rk_egypt-hiero-pdf;
+	font-family: rk_egypt-hiero-pdf, rk_variant-selectors;
 	color: lightgreen;
 	font-size: 3em;
 	width: 100%;
@@ -116,48 +133,4 @@
 	mix-blend-mode: difference;
 	width: 100%;
 	aspect-ratio: 1;
-}
-
-#extended {
-	color: goldenrod;
-	line-height: 1.5;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	//gap: .5em;
-	margin-top: .5em;
-	box-sizing: border-box;
-	width: 100%;
-	justify-content: space-between;
-	//align-content: stretch;
-}
-
-#extended > * {
-	border: 1px solid gray;
-	//font-size: 1.5em;
-	width: 10%;
-	display: inline-flex;
-	justify-content:space-between;
-	align-items: center;
-	padding: 0 .2em;
-}
-
-#extended .hex {
-	padding-left: .2em;
-}
-
-#extended .dec {
-	display: none;
-}
-
-#extended .hex,
-#extended .dec {
-	font-family: monospace;
-	font-size: .75em;
-}
-
-#extended .glyph {
-	position: relative;
-	bottom: -5px;
-	font-size: 2em;
 }

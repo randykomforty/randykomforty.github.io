@@ -83,6 +83,19 @@
 }
 
 @font-face {
+	font-family: rk_variant-selectors;
+	src: url("./fonts/NOILMP-SpecialsUC6.ttf");
+}
+
+@font-face {
+	font-family: rk_egypt-format;
+	/*src: url("./fonts/eot.ttf");*/
+	src: local("Open Sans");
+	unicode-range:
+		U+13430–1345F; /* format controls */
+}
+
+@font-face {
 	font-family: rk_egypt-hiero-pdf;
 	src: url("./fonts/NMHNNB-SpecialsUC6.ttf");
 }

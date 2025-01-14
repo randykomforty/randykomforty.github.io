@@ -10,54 +10,69 @@
 		<div id="hieroglyph_editor">
 			<h2>Hieroglyph editor</h2>
 			<div id="info">
-				<p>Simple editor for previewing text from the <a href="https://en.wikipedia.org/wiki/Egyptian_Hieroglyphs_(Unicode_block)">Egyptian Hieroglyphs</a>, <a href="https://en.wikipedia.org/wiki/Egyptian_Hieroglyphs_Extended-A">Egyptian Hieroglyphs Extended-A</a>, and <a href="https://en.wikipedia.org/wiki/Egyptian_Hieroglyph_Format_Controls">Egyptian Hieroglyph Format Controls</a> Unicode blocks.</p>
+				<p>Simple editor for previewing text from the <a href="https://en.wikipedia.org/wiki/Egyptian_Hieroglyphs_(Unicode_block)" target="_blank">Egyptian Hieroglyphs</a>, <a href="https://en.wikipedia.org/wiki/Egyptian_Hieroglyphs_Extended-A" target="_blank">Egyptian Hieroglyphs Extended-A</a>, and <a href="https://en.wikipedia.org/wiki/Egyptian_Hieroglyph_Format_Controls" target="_blank">Egyptian Hieroglyph Format Controls</a> Unicode blocks.</p>
 			</div>
 			<div id="interface">
-				<div id="preview_area" class="egypt-hiero-test">
-					
-				</div>
-				<div id="typing_area">
-					<textarea class="egypt-hiero-test"></textarea>
-				</div>
+				<fieldset>
+					<legend>Formatted View</legend>
+						<div id="preview_area">
+						</div>
+				</fieldset>
+				<fieldset>
+					<legend>Schematic View</legend>
+						<div id="schematic_area">
+						</div>
+					</fieldset>
+					<fieldset>
+						<legend>Editor View</legend>
+						<div id="typing_area">
+							<textarea placeholder="Enter text here…"></textarea>
+						</div>
+					</fieldset>
 				<div id="format_control_buttons">
-					<div><p><span>U+134</span><span></span></p><button class="u13430" name="button" value="𓐰"></button></div>
-					<div><p><span>U+134</span><span></span></p><button class="u13431" name="button" value="𓐱"></button></div>
-					<div><p><span>U+134</span><span></span></p><button class="u13432" name="button" value="𓐲"></button></div>
-					<div><p><span>U+134</span><span></span></p><button class="u13433" name="button" value="𓐳"></button></div>
-					<div><p><span>U+134</span><span></span></p><button class="u13434" name="button" value="𓐴"></button></div>
-					<div><p><span>U+134</span><span></span></p><button class="u13435" name="button" value="𓐵"></button></div>
-					<div><p><span>U+134</span><span></span></p><button class="u13436" name="button" value="𓐶"></button></div>
-					<div><p><span>U+134</span><span></span></p><button class="u13437" name="button" value="𓐷"></button></div>
-					<div><p><span>U+134</span><span></span></p><button class="u13438" name="button" value="𓐸"></button></div>
-					<div><p><span>U+134</span><span></span></p><button class="u13439" name="button" value="𓐹"></button></div>
-					<div><p><span>U+134</span><span></span></p><button class="u1343A" name="button" value="𓐺"></button></div>
-					<div><p><span>U+134</span><span></span></p><button class="u1343B" name="button" value="𓐻"></button></div>
-					<div><p><span>U+134</span><span></span></p><button class="u1343C" name="button" value="𓐼"></button></div>
-					<div><p><span>U+134</span><span></span></p><button class="u1343D" name="button" value="𓐽"></button></div>
-					<div><p><span>U+134</span><span></span></p><button class="u1343E" name="button" value="𓐾"></button></div>
-					<div><p><span>U+134</span><span></span></p><button class="u1343F" name="button" value="𓐿"></button></div>
-					<div><p><span>U+134</span><span></span></p><button class="u13440" name="button" value="𓑀"></button></div>
-					<div><p><span>U+134</span><span></span></p><button class="u13441" name="button" value="𓑁"></button></div>
-					<div><p><span>U+134</span><span></span></p><button class="u13442" name="button" value="𓑂"></button></div>
-					<div><p><span>U+134</span><span></span></p><button class="u13443" name="button" value="𓑃"></button></div>
-					<div><p><span>U+134</span><span></span></p><button class="u13444" name="button" value="𓑄"></button></div>
-					<div><p><span>U+134</span><span></span></p><button class="u13445" name="button" value="𓑅"></button></div>
-					<div><p><span>U+134</span><span></span></p><button class="u13446" name="button" value="𓑆"></button></div>
-					<div><p><span>U+134</span><span></span></p><button class="u13447" name="button" value="𓑇"></button></div>
-					<div><p><span>U+134</span><span></span></p><button class="u13448" name="button" value="𓑈"></button></div>
-					<div><p><span>U+134</span><span></span></p><button class="u13449" name="button" value="𓑉"></button></div>
-					<div><p><span>U+134</span><span></span></p><button class="u1344A" name="button" value="𓑊"></button></div>
-					<div><p><span>U+134</span><span></span></p><button class="u1344B" name="button" value="𓑋"></button></div>
-					<div><p><span>U+134</span><span></span></p><button class="u1344C" name="button" value="𓑌"></button></div>
-					<div><p><span>U+134</span><span></span></p><button class="u1344D" name="button" value="𓑍"></button></div>
-					<div><p><span>U+134</span><span></span></p><button class="u1344E" name="button" value="𓑎"></button></div>
-					<div><p><span>U+134</span><span></span></p><button class="u1344F" name="button" value="𓑏"></button></div>
-					<div><p><span>U+134</span><span></span></p><button class="u13450" name="button" value="𓑐"></button></div>
-					<div><p><span>U+134</span><span></span></p><button class="u13451" name="button" value="𓑑"></button></div>
-					<div><p><span>U+134</span><span></span></p><button class="u13452" name="button" value="𓑒"></button></div>
-					<div><p><span>U+134</span><span></span></p><button class="u13453" name="button" value="𓑓"></button></div>
-					<div><p><span>U+134</span><span></span></p><button class="u13454" name="button" value="𓑔"></button></div>
-					<div><p><span>U+134</span><span></span></p><button class="u13455" name="button" value="𓑕"></button></div>
+					<div><p><span>U+13430</span><span></span></p><button class="u13430" name="button" title="U+13430 Egyptian Hieroglyph Vertical Joiner" value="𓐰"></button></div>
+					<div><p><span>U+13431</span><span></span></p><button class="u13431" name="button" title="U+13431 Egyptian Hieroglyph Horizontal Joiner" value="𓐱"></button></div>
+					<div><p><span>U+13432</span><span></span></p><button class="u13432" name="button" title="U+13432 Egyptian Hieroglyph Insert At Top Start" value="𓐲"></button></div>
+					<div><p><span>U+13433</span><span></span></p><button class="u13433" name="button" title="U+13433 Egyptian Hieroglyph Insert At Bottom Start" value="𓐳"></button></div>
+					<div><p><span>U+13434</span><span></span></p><button class="u13434" name="button" title="U+13434 Egyptian Hieroglyph Insert At Top End" value="𓐴"></button></div>
+					<div><p><span>U+13435</span><span></span></p><button class="u13435" name="button" title="U+13435 Egyptian Hieroglyph Insert At Bottom End" value="𓐵"></button></div>
+					<div><p><span>U+13436</span><span></span></p><button class="u13436" name="button" title="U+13436 Egyptian Hieroglyph Overlay Middle" value="𓐶"></button></div>
+					<div><p><span>U+13437</span><span></span></p><button class="u13437" name="button" title="U+13437 Egyptian Hieroglyph Begin Segment" value="𓐷"></button></div>
+					<div><p><span>U+13438</span><span></span></p><button class="u13438" name="button" title="U+13438 Egyptian Hieroglyph End Segment" value="𓐸"></button></div>
+					<div><p><span>U+13439</span><span></span></p><button class="u13439" name="button" title="U+13439 Egyptian Hieroglyph Insert At Middle" value="𓐹"></button></div>
+					<div><p><span>U+1343A</span><span></span></p><button class="u1343A" name="button" title="U+1343A Egyptian Hieroglyph Insert At Top" value="𓐺"></button></div>
+					<div><p><span>U+1343B</span><span></span></p><button class="u1343B" name="button" title="U+1343B Egyptian Hieroglyph Insert At Bottom" value="𓐻"></button></div>
+					<div><p><span>U+1343C</span><span></span></p><button class="u1343C" name="button" title="U+1343C Egyptian Hieroglyph Begin Enclosure" value="𓐼"></button></div>
+					<div><p><span>U+1343D</span><span></span></p><button class="u1343D" name="button" title="U+1343D Egyptian Hieroglyph End Enclosure" value="𓐽"></button></div>
+					<div><p><span>U+1343E</span><span></span></p><button class="u1343E" name="button" title="U+1343E Egyptian Hieroglyph Begin Walled Enclosure" value="𓐾"></button></div>
+					<div><p><span>U+1343F</span><span></span></p><button class="u1343F" name="button" title="U+1343F Egyptian Hieroglyph End Walled Enclosure" value="𓐿"></button></div>
+					<div><p><span>U+13440</span><span></span></p><button class="u13440" name="button" title="U+13440 Egyptian Hieroglyph Mirror Horizontally" value="𓑀"></button></div>
+					<div><p><span>U+13441</span><span></span></p><button class="u13441" name="button" title="U+13441 Egyptian Hieroglyph Full Blank" value="𓑁"></button></div>
+					<div><p><span>U+13442</span><span></span></p><button class="u13442" name="button" title="U+13442 Egyptian Hieroglyph Half Blank" value="𓑂"></button></div>
+					<div><p><span>U+13443</span><span></span></p><button class="u13443" name="button" title="U+13443 Egyptian Hieroglyph Lost Sign" value="𓑃"></button></div>
+					<div><p><span>U+13444</span><span></span></p><button class="u13444" name="button" title="U+13444 Egyptian Hieroglyph Half Lost Sign" value="𓑄"></button></div>
+					<div><p><span>U+13445</span><span></span></p><button class="u13445" name="button" title="U+13445 Egyptian Hieroglyph Tall Lost Sign" value="𓑅"></button></div>
+					<div><p><span>U+13446</span><span></span></p><button class="u13446" name="button" title="U+13446 Egyptian Hieroglyph Wide Lost Sign" value="𓑆"></button></div>
+					<div><p><span>U+13447</span><span></span></p><button class="u13447" name="button" title="U+13447 Egyptian Hieroglyph Modifier Damaged At Top Start" value="𓑇"></button></div>
+					<div><p><span>U+13448</span><span></span></p><button class="u13448" name="button" title="U+13448 Egyptian Hieroglyph Modifier Damaged At Bottom Start" value="𓑈"></button></div>
+					<div><p><span>U+13449</span><span></span></p><button class="u13449" name="button" title="U+13449 Egyptian Hieroglyph Modifier Damaged At Start" value="𓑉"></button></div>
+					<div><p><span>U+1344A</span><span></span></p><button class="u1344A" name="button" title="U+1344A Egyptian Hieroglyph Modifier Damaged At Top End" value="𓑊"></button></div>
+					<div><p><span>U+1344B</span><span></span></p><button class="u1344B" name="button" title="U+1344B Egyptian Hieroglyph Modifier Damaged At Top" value="𓑋"></button></div>
+					<div><p><span>U+1344C</span><span></span></p><button class="u1344C" name="button" title="U+1344C Egyptian Hieroglyph Modifier Damaged At Bottom Start and Top End" value="𓑌"></button></div>
+					<div><p><span>U+1344D</span><span></span></p><button class="u1344D" name="button" title="U+1344D Egyptian Hieroglyph Modifier Damaged At Start and Top" value="𓑍"></button></div>
+					<div><p><span>U+1344E</span><span></span></p><button class="u1344E" name="button" title="U+1344E Egyptian Hieroglyph Modifier Damaged At Bottom End" value="𓑎"></button></div>
+					<div><p><span>U+1344F</span><span></span></p><button class="u1344F" name="button" title="U+1344F Egyptian Hieroglyph Modifier Damaged At Top Start and Bottom End" value="𓑏"></button></div>
+					<div><p><span>U+13450</span><span></span></p><button class="u13450" name="button" title="U+13450 Egyptian Hieroglyph Modifier Damaged At Bottom" value="𓑐"></button></div>
+					<div><p><span>U+13451</span><span></span></p><button class="u13451" name="button" title="U+13451 Egyptian Hieroglyph Modifier Damaged At Start and Bottom" value="𓑑"></button></div>
+					<div><p><span>U+13452</span><span></span></p><button class="u13452" name="button" title="U+13452 Egyptian Hieroglyph Modifier Damaged At End" value="𓑒"></button></div>
+					<div><p><span>U+13453</span><span></span></p><button class="u13453" name="button" title="U+13453 Egyptian Hieroglyph Modifier Damaged At Top and End" value="𓑓"></button></div>
+					<div><p><span>U+13454</span><span></span></p><button class="u13454" name="button" title="U+13454 Egyptian Hieroglyph Modifier Damaged At Bottom and End" value="𓑔"></button></div>
+					<div><p><span>U+13455</span><span></span></p><button class="u13455" name="button" title="U+13455 Egyptian Hieroglyph Modifier Damaged" value="𓑕"></button></div>
+					<div><p><span>U+FE00</span><span></span></p><button class="ufe00" name="button" title="U+FE00 Variation Selector-1" value="︀"></button></div>
+					<div><p><span>U+FE01</span><span></span></p><button class="ufe01" name="button" title="U+FE01 Variation Selector-2" value="︁"></button></div>
+					<div><p><span>U+FE02</span><span></span></p><button class="ufe02" name="button" title="U+FE02 Variation Selector-3" value="︂"></button></div>
+					<div><p><span>U+FE03</span><span></span></p><button class="ufe03" name="button" title="U+FE03 Variation Selector-4" value="︃"></button></div>
+					<div><p><span>U+FE06</span><span></span></p><button class="ufe06" name="button" title="U+FE06 Variation Selector-7" value="︆"></button></div>
 				</div>
 			</div>
 		</div>
