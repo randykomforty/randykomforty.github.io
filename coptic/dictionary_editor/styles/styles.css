@@ -1,55 +1,104 @@
 @import url("../../../styles/styles.css");
 
 #interface {
+	display: flex;
+	flex-direction: column;
+}
+
+#editor_options {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	//grid-template-rows: repeat(1, 1fr);
-	gap: .5em;
-	padding: .5em;
-	//background: #ffb60088;
-	background: gray;
-	//box-sizing: border-box;
+	grid-template-rows: repeat(2, 1fr);
+	//width: max-content;
 }
 
-#preview_area {
+legend sup {
+	line-height: 0;
+}
+
+input[type="radio"] + label {
+	//font-size: 1.2em;
+}
+
+input[type="radio"] {
+	//font-size: 2em;
+	//background: purple;
+	//scale: 2;
+}
+
+
+
+#preview {
+	display: grid;
+}
+
+#preview legend {
+	text-transform: uppercase;
+	color: steelblue;
+}
+
+#preview_rendered {
 	color: gold;
-	font-size: 3em;
+	font-size: 1em;
 	padding: .5rem;
-	min-height: 4rem;
-	//min-height: 53px;
-	max-height: 11rem;
-	background: #000;
-	outline: 1px solid lightgreen;
-	color: #ffb60000;
-	transition: color .5s ease-in-out;
-	overflow-x: hidden;
-	overflow-y: scroll;
-	//box-sizing: border-box;
 }
 
-#dialect {
-	//outline: 1px dashed gold;
+#preview_rendered b {
+	color: steelblue;
 }
 
-label[for=dialect],
-label[for=language],
-label[for=formatting] {
-	font-size: 1.5em;
-	color: lightgreen;
-	display: block;
-	background: #333;
-}
-
-select#dialect,
-select#language,
-select#formatting {
-	background: #111111;
-	color: gold;
-	font-size: 1.5em;
-}
-
-input#text_id {
-	background: #111111;
+#preview_rendered i {
 	color: lightblue;
-	font-size: 1.2em;
+}
+
+#preview_markup {
+	color: lightgreen;
+	font-size: 1em;
+	padding: .5rem;
+}
+
+input {
+	width: fit-content;
+}
+
+fieldset {
+	color: #ffffff66;
+	border: 1px dashed #ffffff22;
+}
+
+fieldset + fieldset {
+	//float: left;
+}
+
+fieldset :is(input[type="radio"], label) {
+	float: left;
+}
+fieldset label + input[type="radio"] {
+	clear: both;
+}
+
+input[type="radio"]:last-of-type {
+	//margin-bottom: 1em;
+}
+
+fieldset :is(input[type="text"], input[type="submit"]) {
+	clear: both;
+	display: block;
+	margin-top: 2em;
+}
+
+
+#lsaanguage_fieldset {
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+.div4 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.div5 {
+    grid-column-start: 3;
+    grid-row-start: 1;
 }
