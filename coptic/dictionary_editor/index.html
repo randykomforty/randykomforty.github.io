@@ -3,24 +3,40 @@
 	<head>
 		<title>Dictionary Editor (Crum, &amp;c.)</title>
 		<link rel="stylesheet" href="./styles/styles.css">
+		<link rel="stylesheet" href="../../styles/prism.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	<body>
 		<h1>Dictionary editor</h1>
 		<div id="info">
+		<pre><code class="language-html">
+		&lt;div&gt;ads;lka;lfk&lt;/div&gt;&lt;span&gt;kajklasdlkj&lt;/span&gt;
+		</code>
+		</pre>
 			<p>Editor for building new entries for etymological dictionaries.</p>
 		</div>
 		<div id="interface">
-			<div id="preview">
-				<fieldset id="rendered_fieldset">
-					<legend>Rendered</legend>
-					<div id="preview_rendered"></div>
-				</fieldset>
-				<fieldset id="markup_fieldset">
-					<legend>Markup</legend>
-					<div id="preview_markup"></div>
+			<div id="editor_text">
+				<fieldset>
+					<legend>Text</legend>
+					<textarea></textarea>
 				</fieldset>
 			</div>
+			<!--
+			<div id="markup_view">
+				<fieldset>
+					<legend>Markup view</legend>
+					<pre><code class="language-html"></code></pre>
+				</fieldset>
+			</div>
+			-->
+			<div id="rendered_view">
+				<fieldset>
+					<legend>Rendered view</legend>
+					<div></div>
+				</fieldset>
+			</div>
+			<!--
 			<div id="editor_options">
 				<fieldset id="dialect_fieldset">
 					<legend>Dialect</legend>
@@ -57,8 +73,10 @@
 					<input id="add_qualitative" type="submit" value="Add †">
 				</fieldset>
 			</div>
+			-->
 		</div>
 		<script src="../../scripts/scripts.js"></script>
 		<script src="./scripts/scripts.js"></script>
+		<script src="../../scripts/prism.js"></script>
 	</body>
 </html>

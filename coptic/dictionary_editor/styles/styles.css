@@ -1,5 +1,72 @@
 @import url("../../../styles/styles.css");
 
+fieldset {
+	border: 1px solid gray;
+}
+
+#interface {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(1, 1fr);
+	gap: .5em;
+	box-sizing: border-box;
+}
+
+#editor_text textarea,
+#markup_view pre,
+#rendered_view div {
+	min-height: 500px;
+	//display: block;
+	box-sizing: border-box;
+	width: 100%;
+	border: 1px dashed gray;
+}
+
+#editor_text textarea,
+#rendered_view div {
+	background: #111;
+}
+
+#editor_text textarea {
+	font-size: 1em;
+	font-family: rk_coptic, monospace;
+	font-weight: normal;
+	resize: none;
+	color: gold;
+	padding: .5em;
+}
+
+i.dialect {
+	color: lightblue;
+}
+
+#editor_text textarea:focus {
+	outline: 1px dashed gold;
+	border: none;
+}
+
+#markup_view fieldset {
+	
+}
+
+#markup_view pre {
+	margin: 0;
+	padding: .5em;
+}
+
+#markup_view code {
+	font-family: rk_coptic, monospace;
+	white-space: pre-wrap;
+	tab-size: 1;
+}
+
+#rendered_view div {
+	
+}
+
+/*
+
 #interface {
 	display: flex;
 	flex-direction: column;
@@ -102,3 +169,4 @@ fieldset :is(input[type="text"], input[type="submit"]) {
     grid-column-start: 3;
     grid-row-start: 1;
 }
+*/
