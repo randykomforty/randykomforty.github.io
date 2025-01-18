@@ -34,3 +34,9 @@ a {
 img {
 	max-width: 300px;
 }
+
+#container {
+	display: flex;
+	text-direction: row;
+	flex-wrap: wrap;
+}

@@ -125,8 +125,16 @@ legend {
 	color: lightgreen;
 	font-size: 3em;
 	width: 100%;
+	scale: 1;
+	//transition: scale .5s ease-out;
 }
 
+#format_control_buttons button:hover {
+	color: gold;
+	scale: .9;
+}
+
+/*
 #format_control_buttons img {
 	display: block;
 	background: lightgreen;
@@ -134,3 +142,4 @@ legend {
 	width: 100%;
 	aspect-ratio: 1;
 }
+*/

@@ -65,7 +65,7 @@ function showPreview() {
 	schematic.style.color = "#ffb600ff";
 }
 
-currentText.addEventListener("keyup", showPreview);
+currentText.addEventListener("input", showPreview);
 
 buttons.forEach(button => {
 	button.addEventListener("click", function (e) {

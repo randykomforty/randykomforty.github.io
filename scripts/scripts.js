@@ -4,13 +4,13 @@ var entries = document.getElementsByClassName("entry");
 
 elementsH2.forEach(elementH2 => {
 	elementH2.addEventListener("click", function (e) {
-		console.log("This is the #" + elementH2.parentElement.id + " element.");
+		//console.log("This is the #" + elementH2.parentElement.id + " element.");
 		elementH2.parentNode.classList.toggle("collapse");
 	});
 });
 elementsH3.forEach(elementH3 => {
 	elementH3.addEventListener("click", function (e) {
-		console.log("This is the #" + elementH3.parentElement.id + " element.");
+		//console.log("This is the #" + elementH3.parentElement.id + " element.");
 		elementH3.parentNode.classList.toggle("collapse");
 	});
 });
@@ -27,7 +27,7 @@ function addCollapse(a, b) {
 */
 
 for (let i = 0; i < entries.length; i++) {
-	console.log(entries);
+	//console.log(entries);
 	entries[i].addEventListener("click", function (e) {
 		entries[i].classList.toggle("collapse");
 	});
