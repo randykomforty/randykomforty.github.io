@@ -1,5 +1,13 @@
+@import url("../../../styles/styles.css");
+
+sup {
+	line-height: 0;
+}
+
+/*
 :root {
-	/* new as of 11.11.2023: */
+	new as of 11.11.2023: */
+	/*
 	--background-bg: 334, 17%, 8%;
 	--partition-bg: 333, 18%, 10%;
 	--text-color: 333, 18%, 90%;
@@ -270,8 +278,6 @@ audio:hover {
 	right: 1.5em;
 }
 
-/*
-
 #pos_screen {
 	color: transparent;
 	background: #1c2310;
@@ -292,8 +298,8 @@ audio:hover {
 	color: greenyellow;
 }
 
-*/
-
 #pos_screen {
 	display: none;
 }
+
+*/
