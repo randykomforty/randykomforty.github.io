@@ -5,18 +5,18 @@ fieldset {
 }
 
 #interface {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-template-columns: repeat(2, 1fr);
-	grid-template-rows: repeat(1, 1fr);
-	gap: .5em;
+	//display: grid;
+	//grid-template-columns: repeat(3, 1fr);
+	//grid-template-columns: repeat(2, 1fr);
+	//grid-template-rows: repeat(1, 1fr);
+	//gap: .5em;
 	box-sizing: border-box;
 }
 
 #key {
-	display: grid;
-	grid-template-columns: repeat(1, 1fr max-content);
-	grid-template-rows: repeat(1, 1fr min-content);
+	//display: grid;
+	//grid-template-columns: repeat(1, 1fr max-content);
+	//grid-template-rows: repeat(1, 1fr min-content);
 	/*
 	display: flex;
 	flex-wrap: wrap;
@@ -27,16 +27,16 @@ fieldset {
 }
 
 #key > div:nth-child(1) {
-	grid-row: span 2 / span 2;
-	width: max-content;
+	//grid-row: span 2 / span 2;
+	//width: max-content;
 }
 
 #key > div:nth-child(2) {
-	grid-column-start: 3;
+	//grid-column-start: 3;
 }
 
 #key > div:nth-child(3) {
-	grid-column-start: 3;
+	//grid-column-start: 3;
 }
 
 #key > div {
@@ -94,11 +94,11 @@ fieldset {
 #editor_text textarea,
 #markup_view pre,
 #rendered_view div {
-	min-height: 500px;
+	//min-height: 500px;
 	//display: block;
 	box-sizing: border-box;
 	width: 100%;
-	border: 1px dashed gray;
+	//border: 1px dashed gray;
 }
 
 #editor_text textarea,
@@ -113,6 +113,8 @@ fieldset {
 	font-weight: normal;
 	resize: none;
 	color: gold;
+	border: none;
+	line-height: 1.5;
 }
 
 #rendered_view div {
