@@ -13,6 +13,14 @@ fieldset {
 	box-sizing: border-box;
 }
 
+#interface > * {
+	
+}
+
+#interface fieldset {
+	min-height: 150px;
+}
+
 #key {
 	//display: grid;
 	//grid-template-columns: repeat(1, 1fr max-content);
@@ -119,6 +127,7 @@ fieldset {
 
 #rendered_view div {
 	text-indent: 1em;
+	line-height: 1.5;
 }
 
 i.dialect {
@@ -144,7 +153,7 @@ i.dialect {
 }
 
 #editor_text textarea:focus {
-	outline: 1px dashed gold;
+	outline: 1px dashed #ffb60033;
 	border: none;
 }
 

@@ -1,15 +1,14 @@
 let editorText = document.querySelector("#editor_text textarea");
 const previewRendered = document.querySelector("#rendered_view div");
-editorText.value = "~co1[ϩⲟⲩⲏⲧ] _d[S]_d[A2], pl ~co[ϩⲟⲩⲁⲧⲉ] _d[S] & sg as pl, nn, _[passenger] on board ship (?): Ex 27 29 ~co[ⲛⲉϩ.] (_d[B] om) ~gr[ἐπιβάτης] (var ~gr[ναύτης]) _[nauta]; P1312 156 ~co[ⲛⲛⲉⲉϥ…ⲙⲛⲛⲉϩ. ⲉⲧⲧⲁⲗⲏⲩ ⲛⲙⲙⲁⲩ]";
 //previewRendered.innerHTML = editorText.value;
 //previewRendered.addEventListener("load", applyRegexes);
 
-//applyRegexes(editorText.value);
-editorText.addEventListener("focus", applyRegexes);
+applyRegexes(editorText);
+//editorText.addEventListener("focus", applyRegexes);
 editorText.addEventListener("input", applyRegexes);
 
 function applyRegexes(x) {
-	let processedText = this.value;
+	let processedText = (x.value || this.value);
 	const bold = [/\*\[(.*?)\]/, "<b>$1<\/b>"];
 	const italic = [/\_\[(.*?)\]/, "<i>$1<\/i>"];
 	const dialect = [/\_d\[(.)\]/, "<i class=\"dialect\">$1<\/i>"];
