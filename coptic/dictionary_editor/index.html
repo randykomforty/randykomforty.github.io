@@ -9,17 +9,44 @@
 	<body>
 		<h1>Dictionary editor</h1>
 		<div id="info">
-		<pre><code class="language-html">
-		&lt;div&gt;ads;lka;lfk&lt;/div&gt;&lt;span&gt;kajklasdlkj&lt;/span&gt;
-		</code>
-		</pre>
+			<!--
+			<pre><code class="language-html">
+			&lt;div&gt;ads;lka;lfk&lt;/div&gt;&lt;span&gt;kajklasdlkj&lt;/span&gt;
+			</code>
+			</pre>
+			-->
 			<p>Editor for building new entries for etymological dictionaries.</p>
+			<div id="key">
+				<div>
+					<h4>Key:</h4>
+					<ul >
+						<li><code>_[(text)]</code> = <i>italics</i></li>
+						<li><code>*[(text)]</code> = <b>bold</b></li>
+						<li><code>_d[(text)]</code> = <i class="dialect">dialect</i></li>
+						<li><code>~co1[(text)]</code> = <span class="headword coptic">headword</span></li>
+						<li><code>~co[(text)]</code> = <span class="coptic">Coptic text</span></li>
+						<li><code>~gr[(text)]</code> = <span class="greek">Greek text</span></li>
+						<li><code>~ab[(text)]</code> = <span class="arabic">Arabic text</span></li>
+						<li><code>~he[(text)]</code> = <span class="hebrew">Hebrew text</span></li>
+						<li><code>~am[(text)]</code> = <span class="aramaic">Aramaic text</span></li>
+					</ul>
+				</div>
+				<div>
+					<h4>Example syntax:</h4>
+					<!--<p>sdsdfsdfsdfsdf f jkdslf jsf jlskf jsf jslkdf jsdfjf slkjslf j sflk jsdflkj sdfljs flksjd flsfj lksf jslkdfj sdlkfjs lkdjsldk jsdlkf jsfd</p>-->
+					<pre><code>~co1[ϩⲟⲩⲏⲧ] _d[S]_d[A2], pl ~co[ϩⲟⲩⲁⲧⲉ] _d[S] &amp; sg as pl, nn, _[passenger] on board ship (?): Ex 27 29 ~co[ⲛⲉϩ.] (_d[B] om) ~gr[ἐπιβάτης] (var ~gr[ναύτης]) _[nauta]; P1312 156 ~co[ⲛⲛⲉⲉϥ…ⲙⲛⲛⲉϩ. ⲉⲧⲧⲁⲗⲏⲩ ⲛⲙⲙⲁⲩ]</code></pre>
+				</div>
+				<div>
+					<h4>Example entry to copy:</h4>
+					<img src="./images/example.png">
+				</div>
+			</div>
 		</div>
 		<div id="interface">
 			<div id="editor_text">
 				<fieldset>
 					<legend>Text</legend>
-					<textarea></textarea>
+					<textarea>~co1[ϩⲟⲩⲏⲧ] _d[S]_d[A2], pl ~co[ϩⲟⲩⲁⲧⲉ] _d[S] & sg as pl, nn, _[passenger] on board ship (?): Ex 27 29 ~co[ⲛⲉϩ.] (_d[B] om) ~gr[ἐπιβάτης] (var ~gr[ναύτης]) _[nauta]; P1312 156 ~co[ⲛⲛⲉⲉϥ…ⲙⲛⲛⲉϩ. ⲉⲧⲧⲁⲗⲏⲩ ⲛⲙⲙⲁⲩ]</textarea>
 				</fieldset>
 			</div>
 			<!--
@@ -77,6 +104,6 @@
 		</div>
 		<script src="../../scripts/scripts.js"></script>
 		<script src="./scripts/scripts.js"></script>
-		<script src="../../scripts/prism.js"></script>
+		<!--<script src="../../scripts/prism.js"></script>--:
 	</body>
 </html>

@@ -1,26 +1,12 @@
+/*
 [
 {
-"entry": "headword main info goes here",
-"more_info": "this is were all the other info after the headword info goes e.g. part of speech, gender, number, different senses, all the subsections and groups of syntactical constructions including greek and other languages"
+"headword": "~co1[ϩⲟⲩⲏⲧ] _d[S]_d[A2], pl ~co[ϩⲟⲩⲁⲧⲉ] _d[S] &amp; sg as pl, nn, _[passenger] on board ship (?):",
+"expanded": "EZ 27 29"
 },
 {
-"entry": "this is a test for the headword syntax: ~co[ⲁϥϣⲱⲡⲉ ϯⲟ ⲛ̄ϩⲗⲗⲟ] _d[B]_d[A]_d[Sf]_d[Bf]_d[A2] ~gr[dikaiosunh], _[sdasdas] *[adasdasd] aasfsafaf ~ab[sadsASD] dfdfsdfsdsdf _d[Sf]_d[Bf] ~co[skdjalksdjk]… asdsadasd.",
-"more_info": "this is were all the other info after the headword info goes e.g. part of speech, gender, number, different senses, all the subsections and groups of syntactical constructions including greek and other languages"
-},
-{
-"entry": "one",
-"more_info": "more info more info more info more info more info more info more info more info more info more info more info more info more info more info more info more info more info"
-},
-{
-"entry": "two",
-"more_info": "more info more info more info more info more info more info more info more info more info more info more info more info more info more info more info more info more info more info"
-},
-{
-"entry": "three",
-"more_info": "more info more info more info more info more info more info more info more info more info more info more info more info"
-},
-{
-"entry": "test entry",
-"more_info": "more info more info more info more info more info more info more info more info more info more info more info more info more info more info more info more info more info more info more info"
+"headword": "this is a test for the headword syntax: ~co[ⲁϥϣⲱⲡⲉ ϯⲟ ⲛ̄ϩⲗⲗⲟ] asafsaasfafas _d[B]_d[A]_d[Sf]_d[Bf]_d[A2] ~gr[dikaiosunh], _[sdasdas] *[adasdasd] aasfsafaf ~ab[sadsASD] dfdfsdfsdsdf _d[Sf]_d[Bf] ~co[skdjalksdjk]… asdsadasd.",
+"expanded": "this is were all the other info after the headword info goes e.g. part of speech, gender, number, different senses, all the subsections and groups of syntactical constructions including greek and other languages"
 }
 ]
+*/

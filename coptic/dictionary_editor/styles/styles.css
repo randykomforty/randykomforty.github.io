@@ -13,6 +13,84 @@ fieldset {
 	box-sizing: border-box;
 }
 
+#key {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr max-content);
+	grid-template-rows: repeat(1, 1fr min-content);
+	/*
+	display: flex;
+	flex-wrap: wrap;
+	*/
+	//gap: .5em;
+	background: #ffffff11;
+	box-sizing: border-box;
+}
+
+#key > div:nth-child(1) {
+	grid-row: span 2 / span 2;
+	width: max-content;
+}
+
+#key > div:nth-child(2) {
+	grid-column-start: 3;
+}
+
+#key > div:nth-child(3) {
+	grid-column-start: 3;
+}
+
+#key > div {
+	margin: 0;
+	padding: .5em;
+	//outline: 1px solid lightgreen;
+	
+}
+
+#key > div:nth-child(2),
+#key > div:nth-child(3) {
+	//width: 40%;
+}
+
+#key div h4 {
+	color: #fff;
+}
+
+#key div pre{
+	white-space: pre-wrap;
+	background: #000;
+	padding: .5em;
+	outline: 1px solid lightgreen;
+}
+
+#key *{
+	
+	font-size: 1rem !important;
+}
+
+#key ul {
+	line-height: 1.5em;
+	list-style-type: none;
+	//outline: 1px solid;
+	padding-left: 0;
+}
+
+#key li {
+	//width: max-content;
+}
+
+#key code {
+	font-family: monospace;
+	color: lightgreen;
+}
+
+#key img {
+	max-width: 100%;
+	width: auto;
+	//aspect-ratio: 1;
+	display: block;
+	margin-top: 1em;
+}
+
 #editor_text textarea,
 #markup_view pre,
 #rendered_view div {
@@ -26,6 +104,7 @@ fieldset {
 #editor_text textarea,
 #rendered_view div {
 	background: #111;
+	padding: .5em;
 }
 
 #editor_text textarea {
@@ -34,11 +113,32 @@ fieldset {
 	font-weight: normal;
 	resize: none;
 	color: gold;
-	padding: .5em;
+}
+
+#rendered_view div {
+	text-indent: 1em;
 }
 
 i.dialect {
-	color: lightblue;
+	color: steelblue;
+}
+
+.dialect sup {
+	line-height: 0;
+	font-size: inherit;
+	font-size: .5em;
+	padding-left: 0;
+}
+
+.dialect.lycopolitan sup {
+	font-style: normal;
+}
+
+.headword {
+	color: violet;
+	font-family: rk_coptic;
+	font-size: 1.2em;
+	line-height: inherit;
 }
 
 #editor_text textarea:focus {
@@ -46,6 +146,7 @@ i.dialect {
 	border: none;
 }
 
+/*
 #markup_view fieldset {
 	
 }
@@ -64,7 +165,7 @@ i.dialect {
 #rendered_view div {
 	
 }
-
+*/
 /*
 
 #interface {

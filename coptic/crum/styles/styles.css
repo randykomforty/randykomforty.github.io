@@ -171,12 +171,13 @@ p sup a {
 }
 
 #dictionary > ul {
-	padding-left: 0;
+	padding-left: 1em;
 }
 
 #dictionary > ul li {
 	margin-top: .0em;
 }
+
 
 #dictionary .entry li.group {
 	margin-top: .5em;
@@ -197,7 +198,13 @@ p sup a {
 	margin-top: .5em
 }
 
-#dictionary .headword {
+#dictionary .entry > ul > li:first-child {
+	position: sticky;
+	top: 0;
+	background: #111;
+}
+
+.headword {
 	color: violet;
 	font-family: rk_coptic;
 	font-size: 1.2em;
