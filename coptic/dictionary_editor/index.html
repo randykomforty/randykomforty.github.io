@@ -20,22 +20,24 @@
 				<div>
 					<h4>Key:</h4>
 					<ul >
-						<li><code>_[(text)]</code> = <i>italics</i></li>
-						<li><code>*[(text)]</code> = <b>bold</b></li>
-						<li><code>_d[(text)]</code> = <i class="dialect">dialect</i></li>
-						<li><code>~co1[(text)]</code> = <span class="headword coptic">headword</span></li>
-						<li><code>~co[(text)]</code> = <span class="coptic">Coptic text</span></li>
-						<li><code>~gr[(text)]</code> = <span class="greek">Greek text</span></li>
-						<li><code>~ab[(text)]</code> = <span class="arabic">Arabic text</span></li>
-						<li><code>~he[(text)]</code> = <span class="hebrew">Hebrew text</span></li>
-						<li><code>~am[(text)]</code> = <span class="aramaic">Aramaic text</span></li>
+						<li><code>_[<span>(text)</span>]</code> = <i>italics</i></li>
+						<li><code>*[<span>(text)</span>]</code> = <b>bold</b></li>
+						<li><code>_d[<span>(text)</span>]</code> = <i class="dialect">dialect</i></li>
+						<li><code>~co1[<span>(text)</span>]</code> = <span class="headword coptic">headword</span></li>
+						<li><code>~co[<span>(text)</span>]</code> = <span class="coptic">Coptic text</span></li>
+						<li><code>~gr[<span>(text)</span>]</code> = <span class="greek">Greek text</span></li>
+						<li><code>~ab[<span>(text)</span>]</code> = <span class="arabic">Arabic text</span></li>
+						<li><code>~he[<span>(text)</span>]</code> = <span class="hebrew">Hebrew text</span></li>
+						<li><code>~am[<span>(text)</span>]</code> = <span class="aramaic">Aramaic text</span></li>
 					</ul>
 				</div>
+				<!--
 				<div>
 					<h4>Example syntax:</h4>
-					<!--<p>sdsdfsdfsdfsdf f jkdslf jsf jlskf jsf jslkdf jsdfjf slkjslf j sflk jsdflkj sdfljs flksjd flsfj lksf jslkdfj sdlkfjs lkdjsldk jsdlkf jsfd</p>-->
+					
 					<pre><code>~co1[ϩⲟⲩⲏⲧ] _d[S]_d[A2], pl ~co[ϩⲟⲩⲁⲧⲉ] _d[S] &amp; sg as pl, nn, _[passenger] on board ship (?): Ex 27 29 ~co[ⲛⲉϩ.] (_d[B] om) ~gr[ἐπιβάτης] (var ~gr[ναύτης]) _[nauta]; P1312 156 ~co[ⲛⲛⲉⲉϥ…ⲙⲛⲛⲉϩ. ⲉⲧⲧⲁⲗⲏⲩ ⲛⲙⲙⲁⲩ]</code></pre>
 				</div>
+				-->
 				<div>
 					<h4>Example entry to copy:</h4>
 					<img src="./images/example.png">
@@ -45,8 +47,8 @@
 		<div id="interface">
 			<div id="editor_text">
 				<fieldset>
-					<legend>Text</legend>
-					<textarea rows="5">~co1[ϩⲟⲩⲏⲧ] _d[S]_d[A2], pl ~co[ϩⲟⲩⲁⲧⲉ] _d[S] & sg as pl, nn, _[passenger] on board ship (?): Ex 27 29 ~co[ⲛⲉϩ.] (_d[B] om) ~gr[ἐπιβάτης] (var ~gr[ναύτης]) _[nauta]; P1312 156 ~co[ⲛⲛⲉⲉϥ…ⲙⲛⲛⲉϩ. ⲉⲧⲧⲁⲗⲏⲩ ⲛⲙⲙⲁⲩ] ~gr[ναύ.…ἐπ.], BHom88 ship of faith ~co[ⲉⲣⲉⲛⲛⲉⲉϥ ϩⲓⲱⲱϥ] that is clergy, ~co[ⲉⲣⲉⲛⲉϩⲟⲩⲁⲧⲉ ⲧⲁⲗⲏⲩ ⲉⲣⲟϥ] that is Christian folk, ManiP 123 _d[A2] ~co[ⲁⲡⲥⲧⲁⲩⲣⲟⲥ ⲣ ϫⲁⲓ ⲁⲙⲯⲩⲭⲁⲩⲉ ⲣ ϩ.]; P 44 54 ~co[ⲛⲉϩ.] ~ab[قرايا] _[yards] of mast (_[v]? BIF 20 64 n, Almk 2 101, HA Winkler _[Volksk.] 60, here misunderst?). _[V] Griffith _[Stories] 100, HO Lange _[Amenemope] 133.</textarea>
+					<legend>Template View</legend>
+					<textarea rows="5" placeholder="Type text here…">~co1[ϩⲟⲩⲏⲧ] _d[S]_d[A2], pl ~co[ϩⲟⲩⲁⲧⲉ] _d[S] & sg as pl, nn, _[passenger] on board ship (?): Ex 27 29 ~co[ⲛⲉϩ.] (_d[B] om) ~gr[ἐπιβάτης] (var ~gr[ναύτης]) _[nauta]; P1312 156 ~co[ⲛⲛⲉⲉϥ…ⲙⲛⲛⲉϩ. ⲉⲧⲧⲁⲗⲏⲩ ⲛⲙⲙⲁⲩ] ~gr[ναύ.…ἐπ.], BHom88 ship of faith ~co[ⲉⲣⲉⲛⲛⲉⲉϥ ϩⲓⲱⲱϥ] that is clergy, ~co[ⲉⲣⲉⲛⲉϩⲟⲩⲁⲧⲉ ⲧⲁⲗⲏⲩ ⲉⲣⲟϥ] that is Christian folk, ManiP 123 _d[A2] ~co[ⲁⲡⲥⲧⲁⲩⲣⲟⲥ ⲣ ϫⲁⲓ ⲁⲙⲯⲩⲭⲁⲩⲉ ⲣ ϩ.]; P 44 54 ~co[ⲛⲉϩ.] ~ab[قرايا] _[yards] of mast (_[v]? BIF 20 64 n, Almk 2 101, HA Winkler _[Volksk.] 60, here misunderst?). _[V] Griffith _[Stories] 100, HO Lange _[Amenemope] 133.</textarea>
 				</fieldset>
 			</div>
 			<!--

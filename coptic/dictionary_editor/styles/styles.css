@@ -89,6 +89,12 @@ fieldset {
 #key code {
 	font-family: monospace;
 	color: lightgreen;
+	background: #000;
+}
+
+#key code span {
+	color: gray;
+	background: #222 !important;
 }
 
 #key img {
@@ -120,7 +126,7 @@ fieldset {
 	font-family: rk_coptic, monospace;
 	font-weight: normal;
 	resize: none;
-	color: gold;
+	color: lightgreen;
 	border: none;
 	line-height: 1.5;
 }
