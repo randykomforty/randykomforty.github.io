@@ -9,8 +9,15 @@ i.dialect {
 	color: steelblue;
 }
 
-.dialect sup {
+sup {
 	line-height: 0;
+}
+
+.entry * {
+	line-height: 1.5;
+}
+
+.dialect sup {
 	font-size: inherit;
 	font-size: .5em;
 	padding-left: 0;
