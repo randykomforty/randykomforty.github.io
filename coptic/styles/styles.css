@@ -1,0 +1,92 @@
+/* Crum */
+
+
+#dictionary ul {
+	list-style-type: none;
+	padding-left: .5em;
+}
+
+#dictionary > ul {
+	padding-left: 1em;
+}
+
+#dictionary > ul li {
+	margin-top: .0em;
+}
+
+
+#dictionary .entry li.group {
+	margin-top: .5em;
+	list-style-type: none;
+	width: calc(100% - 1em);
+}
+
+#dictionary .entry .group > ul {
+	background: #ff00ff11;
+	border-left: 1px solid #ffffff55;
+	border-bottom: 1px solid #ffffff55;
+	border: 1px solid #ffffff55;
+	//list-style-position: inside;
+}
+
+#dictionary .entry .pos,
+#dictionary .entry .subsection {
+	margin-top: .5em
+}
+
+#dictionary .entry > ul > li:first-child {
+	position: sticky;
+	top: 0;
+	background: #111;
+}
+
+.headword {
+	color: violet;
+	font-family: rk_coptic;
+	font-size: 1.2em;
+	line-height: inherit;
+}
+
+#dictionary .entry li.group ul {
+	padding: .2em .5em;
+}
+
+
+
+
+
+
+
+
+i.dialect {
+	color: steelblue;
+}
+
+sup {
+	line-height: 0;
+}
+
+.entry * {
+	line-height: 1.5;
+}
+
+.dialect sup {
+	font-size: inherit;
+	font-size: .5em;
+	padding-left: 0;
+}
+
+.dialect.lycopolitan sup {
+	font-style: normal;
+}
+
+p sup {
+	line-height: 0;
+}
+
+p sup a {
+	color: #ffb600;
+	font-size: 80%;
+	font-size: .5em;
+	text-decoration: none;
+}
