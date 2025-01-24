@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Japanese Verbs  (AJAX, JSON)</title>
+		<link rel="stylesheet" href="./styles/styles.css">
+	</head>
+	<body>
+		<div class="card">
+			<div class="card-header">
+				<h1>Japanese Verbs</h1>
+				<h2 class="card-section-no"></h2>
+				<!--<p class="card-irregular"></p>-->
+				<h3 class="card-conjugation"></h3>
+				<div style="clear: both;"></div>
+			</div>
+			<p class="intro">Click the top-left corner to generate a new card.<br />Hover over Japanese sentence to see transliteration (rōmaji).</p>
+			<ul>
+				<li class="card-description"></li>
+				<li class="card-example-kanji"></li>
+				<li class="card-example-romaji"></li>
+				<li class="card-reveal">—Click here for translation—</li>
+				<li class="card-translation"></li>
+				<li class="card-footnotes"></li>
+			</ul>
+		</div>
+		<div id="generate-card"></div>
+		<script src="./scripts/flashcards.js"></script>
+	</body>
+</html>

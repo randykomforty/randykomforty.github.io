@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|Noto+Sans|Kosugi+Maru');
+
+@font-face {
+	font-family: jp-verbs-cover-font;
+	src: url('NHLLA___.TTF');
+}
+
+* {
+	font-family: "Open Sans", "Kosugi Maru";
+	font-weight: normal;
+	font-style: normal;
+	text-shadow: 0px 0px 1px black;
+	line-height: 2;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 12px;
+	background: #000;
+	background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8"%3E%3Cg fill="%239C92AC" fill-opacity="0.2"%3E%3Cpath fill-rule="evenodd" d="M0 0h4v4H0V0zm4 4h4v4H4V4z"/%3E%3C/g%3E%3C/svg%3E');
+	color: gray;
+}
+
+body {
+	margin: 30px;
+}
+
+h1 {
+	font-size: 2.5em;
+	letter-spacing: 2px;
+	font-family: jp-verbs-cover-font;
+	text-align: center;
+}
+
+h2, h3 {
+	font-size: 1.25em;
+	line-height: 2;
+}
+
+em {
+	color: coral;
+}
+
+rt {
+	color: coral;
+	font-size: .4em;
+}
+
+ul {
+	padding-left: 0px;
+}
+
+p, li {
+	margin: 30px 30px;
+}
+
+li {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+.card-description {
+	font-size: 1em;
+	display: none;
+}
+
+.card-example-kanji {
+	font-size: 1em;
+	line-height: 2.5;
+}
+
+.card-example-romaji {
+	font-size: 1em;
+	line-height: 2.5;
+}
+
+.card-reveal {
+	font-size: 1em;
+	display: none;
+}
+
+.card-translation {
+	font-size: 1em;
+	display: none;
+}
+
+#generate-card {
+	background: radial-gradient(ellipse at center, coral 0%,rgba(0,0,0,1) 100%);
+	width: 160px;
+	height: 160px;
+	border-radius: 160px;
+	position: fixed;
+	top: -80px;
+	left: -80px;
+}
+
+.card {
+	font-size: 2em;
+	margin: 0;
+	padding: 0;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#232323+0,2c3859+100 */
+background: rgb(35,35,35); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgba(35,35,35,1) 0%, rgba(44,56,89,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(35,35,35,1) 0%,rgba(44,56,89,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(35,35,35,1) 0%,rgba(44,56,89,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#232323', endColorstr='#2c3859',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	min-height: 300px;
+	border: 5px outset #444;
+}
+
+.card-example-kanji,
+.card-example-romaji {
+	display: none;
+}
+
+.intro {
+	text-align: center;
+}
+
+.card-header {
+	padding: 10px 30px;
+	border-bottom: 10px groove #444;
+}
+
+.card-section-no {
+	float: left;
+}
+
+.card-conjugation {
+	float: right;
+	text-align: right;
+}
+
+.card-conjugation rt {
+	display: none;
+}
