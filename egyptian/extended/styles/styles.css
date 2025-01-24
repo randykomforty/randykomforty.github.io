@@ -1,76 +1,83 @@
 @import url("../../../styles/styles.css");
 
+body {
+	margin: .5em;
+	padding: 0;
+	outline: none;
+}
+
 #extended {
 	color: goldenrod;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	gap: .5em .5em;
-	margin-top: .5em;
-	box-sizing: border-box;
-	width: 100%;
+	gap: .5em;
 }
 
 #extended > * {
-	//border: 1px solid gray;
+	display: flex;
+	background: linear-gradient(to right, #fdab0e, #fb4545);
+	border-radius: 10px;
+}
+
+#extended > * .pdf,
+#extended > * .real {
+	color: #ffffff;
+	background: #000000;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	/*
-	display: flex;
-	//justify-content: space-between;
-	//align-items: normal;
-	*/
-	//gap: 1em;
+	width: 100%;
+	mix-blend-mode: multiply;
 }
+
+#extended .real,
+#extended .pdf {
+	border: 1px solid white;
+	border-radius: 10px;
+	
+}
+
 
 #extended .pdf {
-	
+	border-right: none;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
 }
+
 
 #extended .real {
-	order: -1;
+	border-left: none;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
 }
 
-#extended .real .real-hex {
-	color: lightgreen;
-}
-
-#extended :is(.real, .pdf) {
-	background: #ffffff22;
+#extended .real > div,
+#extended .pdf > div {
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	padding: .2em 0 0 .2em;
 }
 
-#extended :is(.real, .pdf) > div {
-	display: grid;
-}
-
-#extended :is(.real, .pdf) > div:has(.hex),
-#extended :is(.real, .pdf) > div:has(.real-hex) {
-	margin: .2em;
-}
-
-#extended :is(.real) > div:has(.real-glyph),
-#extended :is(.pdf) > div:has(.glyph) {
+#extended .pdf > div:has(.glyph) {
 	display: flex;
 	align-items: center;
-}
-
-#extended :is(.pdf) > div:has(.glyph) {
+	align-content: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	//width: 1em;
+	overflow-x: hidden;
+	background: #000000;
 	
 }
 
-#extended .hex,
-#extended .dec,
-#extended .oct,
-#extended .real-glyph {
-	display: none;
+#extended .real > div:has(.real-glyph) {
+	//display: flex;
+	//align-items: center;
+	//align-content: center;
+	//justify-content: center;
+	//flex-wrap: wrap;
+	//background: #00ff0022;
+	//width: 1em;
+	overflow-x: hidden;
 }
-
-#extended :is(.pdf) > div:has(.hex),
-#extended :is(.real) > div:has(.real-glyph) {
-	display: none;
-}
-
 
 #extended .hex,
 #extended .dec,
@@ -79,27 +86,35 @@
 #extended .real-dec,
 #extended .real-oct {
 	font-family: monospace;
-	font-size: .75em;
-	display: block;
+	font-size: .5em;
 	text-transform: uppercase;
-	margin: .2em;
+	margin: .5em;
 }
+
 
 #extended .glyph,
 #extended .real-glyph {
 	display: block;
 	margin: 0;
 	padding: 0;
+	font-size: 3em;
+	//overflow-x: clip;
+	width: 1em;
+	line-height: 1.5;
+}
+
+#extended .real {
+	//order: -1;
+}
+
+#extended .real-hex {
+	color: lightgreen;
 }
 
 #extended .glyph {
 	font-family: rk_egypt-hiero-pdf-2;
-	font-size: 1em;
-	scale: 3;
-	padding-left: .5em;
 }
 
 #extended .real-glyph {
 	font-family: rk_egypt-hiero;
-	font-size: 3em;
 }
