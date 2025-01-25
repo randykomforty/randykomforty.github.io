@@ -8,7 +8,11 @@
 	display: grid;
 	gap: .5em;
 	padding: .5em;
-	background: transparent;
+	background: #111111;
+	position: sticky;
+	top: 0;
+	z-index: 999;
+	
 }
 
 #preview_area {
@@ -39,6 +43,8 @@
 	overflow-x: hidden;
 	overflow-y: scroll;
 	line-break: anywhere;
+	pointer-events: none;
+	user-select: none;
 }
 
 #typing_area {
@@ -52,14 +58,14 @@
 	font-family: monospace;
 	color: lightgreen;
 	padding: .5rem;
-	font-size: 2em;
+	font-size: 3em;
 	display: block;
 	width: 100%;
 	max-width: 100%;
 	min-height: 4rem;
 	max-height: 11rem;
 	resize: none;
-	line-break: anywhere;
+	//line-break: anywhere;
 	border: none;
 	height: 100%;
 	box-sizing: border-box;
@@ -76,33 +82,39 @@ legend {
 	font-size: 1.2em;
 }
 
+fieldset pre {
+	margin: 0;
+	white-space: break-spaces;
+}
+
 .fc {
 	color: gray !important;
 }
 
-#format_control_buttons {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 5px;
+#hieroglyphs {
+	margin-top: 1em;
 }
 
-#format_control_buttons > * {
-	background: linear-gradient(-225deg, maroon, black);
-	background: gray;
-	background: #111;
-	background: lightgreen;
-	background: #000;
+#format_control_buttons,
+#hieroglyphs {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1em;
+	justify-content: space-between;
+}
+
+#format_control_buttons > *,
+#hieroglyphs > div {
 	width: 3em;
-	padding: 5px;
-	border: 1px solid black;
-	border: none;
+	
 	
 }
 
 #format_control_buttons p {
-	display: none;
 	margin: 0;
-	background: lightblue;
+	display: flex;
+	justify-content: center;
+	margin-top: -1em;
 }
 
 #format_control_buttons p span:first-child {
@@ -110,14 +122,34 @@ legend {
 }
 
 #format_control_buttons p span:last-child {
-	display: none;
+	font-family: monospace;
+	position: relative;
+	text-align: center;
+	margin-bottom: .5em;
+	user-select: none;
 }
 
-#format_control_buttons button {
+#format_control_buttons p span:last-child:before {
+	content: "⃣";
+	font-size: 1.5em;
+	position: relative;
+	top: 1em;
+	//left: 0em;
+	//text-align: center;
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+#format_control_buttons button,
+#hieroglyphs button {
 	background: lightgreen;
 	background: transparent;
 	aspect-ratio: 1;
+	margin: 0;
 	padding: 0;
+	padding-block: 0;
+	padding-inline: 0;
 	display: block;
 	cursor: pointer;
 	border: none;
@@ -127,9 +159,21 @@ legend {
 	width: 100%;
 	scale: 1;
 	//transition: scale .5s ease-out;
+	user-select: none;
 }
 
-#format_control_buttons button:hover {
+#format_control_buttons button {
+	user-select: none;
+}
+
+#hieroglyphs button {
+	border: 1px solid #333333cc;
+	background: #ffffff11;
+	border-radius: 10px;
+}
+
+#format_control_buttons button:hover,
+#hieroglyphs button:hover {
 	color: gold;
 	scale: .9;
 }
