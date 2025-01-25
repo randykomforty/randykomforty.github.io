@@ -1,6 +1,20 @@
 @import url("../../../styles/styles.css");
 @import url("../../styles/styles.css");
 
+sup.dialect,
+sup.lang {
+	color: lightgreen;
+}
+
+.letter {
+	font-size: 3em;
+	color: darkmagenta;
+	text-align: center;
+}
+
+.author {
+	font-variant: small-caps;
+}
 
 
 #preface .footnotes li:target {
