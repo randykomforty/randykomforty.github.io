@@ -6,17 +6,21 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	<body>
-		<h1>Ancient Egyptian language stuff</h1>
-		<div id="hieroglyph_editor">
-			<h2>Hieroglyph editor</h2>
-			<div id="info">
+		<h1>Hieroglyph editor</h1>
+		<div id="info">
+			<div>
 				<p>Simple editor for previewing text from the <a href="https://en.wikipedia.org/wiki/Egyptian_Hieroglyphs_(Unicode_block)" target="_blank">Egyptian Hieroglyphs</a>, <a href="https://en.wikipedia.org/wiki/Egyptian_Hieroglyphs_Extended-A" target="_blank">Egyptian Hieroglyphs Extended-A</a>, and <a href="https://en.wikipedia.org/wiki/Egyptian_Hieroglyph_Format_Controls" target="_blank">Egyptian Hieroglyph Format Controls</a> Unicode blocks.</p>
-				<p>Shortcuts for hieroglyphs:</p>
-				<p><code>\u_13xxx</code> = Unicode hex value | ex:<code>\u_13000</code> for <code>𓀀</code></p>
-				<p><code>\g_(Gardiner code)</code> = Gardiner code | ex: <code>\g_a1</code> for <code>𓀀</code></p>
-				<p>Note: Letters must be in lowercase for the above.</p>
-				<p>Shortcuts for uniliterals:</p>
-				<p>Just type the letters. Uppercase gives variants for <code>w</code>, <code>y</code>, <code>m</code>, <code>n</code>, and <code>g</code>.</p>
+			</div>
+			<div>
+				<b>Shortcuts for hieroglyphs:</b>
+				<p>Hex value: <span>\u13xxx,</span></p>
+				<p>Gardiner code: <span>\g_(Gardiner code),</span></p>
+				<p><span>\u_13000,</span> or <span>\g_a1,</span> outputs to <span class="egypt-hiero">𓀀</span>.</p>
+			</div>
+			<div>
+				<b>Shortcuts for uniliterals:</b>
+				<p>Standard MdC, plus uppercase variants for <span>w</span>, <span>y</span>, <span>m</span>, <span>n</span>, and <span>g</span>.</p>
+				<p><span>\u_1340d,</span> or <span>\g_aa1,</span> or <span>x</span> outputs to <span class="egypt-hiero">𓐍</span>.</p>
 			</div>
 		</div>
 		<div id="interface">
@@ -35,7 +39,7 @@
 			<fieldset>
 				<legend>Editor View</legend>
 				<div>
-					<textarea id="typing_area" spellcheck="false" placeholder="Start typing…"></textarea>
+					<textarea id="typing_area" spellcheck="false" placeholder="Type here"></textarea>
 				</div>
 			</fieldset>
 		</div>
