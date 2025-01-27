@@ -8,41 +8,44 @@
 	display: grid;
 	gap: .5em;
 	padding: .5em;
-	background: #111111;
-	position: sticky;
-	top: 0;
-	z-index: 999;
-	
+}
+
+#button_container {
+	overflow-x: hidden;
+	overflow-y: scroll;
+	max-height: 500px;
+}
+
+#preview_area,
+#schematic_area {
+	font-size: 2em;
+	margin: 0;
+	padding: .5rem;
+	line-height: 1;
+	min-height: 1em;
+	max-height: 3em;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	line-break: anywhere;
 }
 
 #preview_area {
 	color: lightblue !important;
-	font-size: 2em;
+	
 	font-family: rk_egypt-hiero;
-	padding: .5rem;
-	min-height: 4rem;
-	max-height: 11rem;
+	
 	background: #000;
 	color: #ffb60000;
-	transition: color .5s ease-in-out;
-	overflow-x: hidden;
-	overflow-y: scroll;
-	line-break: anywhere;
+	//transition: color .5s ease-in-out;
+	
 }
 
 #schematic_area {
 	color: gold;
-	font-size: 2em;
 	font-family: rk_egypt-hiero-pdf, rk_variant-selectors;
-	padding: .5rem;
-	min-height: 4rem;
-	max-height: 11rem;
 	background: #000;
 	color: #ffb60000;
-	transition: color .5s ease-in-out;
-	overflow-x: hidden;
-	overflow-y: scroll;
-	line-break: anywhere;
+	//transition: color .5s ease-in-out;
 	pointer-events: none;
 	user-select: none;
 }
@@ -58,12 +61,12 @@
 	font-family: monospace;
 	color: lightgreen;
 	padding: .5rem;
-	font-size: 3em;
+	font-size: 2em;
 	display: block;
 	width: 100%;
 	max-width: 100%;
-	min-height: 4rem;
-	max-height: 11rem;
+	min-height: 1em;
+	max-height: 3em;
 	resize: none;
 	//line-break: anywhere;
 	border: none;
@@ -99,7 +102,7 @@ fieldset pre {
 #hieroglyphs {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 1em;
+	gap: 125em 0;
 	justify-content: space-between;
 }
 
@@ -158,7 +161,6 @@ fieldset pre {
 	font-size: 3em;
 	width: 100%;
 	scale: 1;
-	//transition: scale .5s ease-out;
 	user-select: none;
 }
 
@@ -177,13 +179,3 @@ fieldset pre {
 	color: gold;
 	scale: .9;
 }
-
-/*
-#format_control_buttons img {
-	display: block;
-	background: lightgreen;
-	mix-blend-mode: difference;
-	width: 100%;
-	aspect-ratio: 1;
-}
-*/
