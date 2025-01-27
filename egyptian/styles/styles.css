@@ -1,89 +1,109 @@
 @import url("../../styles/styles.css");
 
-#hieroglyph_editor {
-	
-}
-
 #interface {
 	display: grid;
 	gap: .5em;
 	padding: .5em;
 }
 
-#button_container {
-	overflow-x: hidden;
-	overflow-y: scroll;
-	max-height: 500px;
-}
-
-#preview_area,
-#schematic_area {
-	font-size: 2em;
-	margin: 0;
-	padding: .5rem;
-	line-height: 1;
-	min-height: 1em;
-	max-height: 3em;
-	overflow-x: hidden;
-	overflow-y: scroll;
-	line-break: anywhere;
-}
-
-#preview_area {
-	color: lightblue !important;
-	
-	font-family: rk_egypt-hiero;
-	
-	background: #000;
-	color: #ffb60000;
-	//transition: color .5s ease-in-out;
-	
-}
-
-#schematic_area {
-	color: gold;
-	font-family: rk_egypt-hiero-pdf, rk_variant-selectors;
-	background: #000;
-	color: #ffb60000;
-	//transition: color .5s ease-in-out;
-	pointer-events: none;
-	user-select: none;
-}
-
-#typing_area {
-	padding: 0em;
-	margin: 0;
-	display: block;
-}
-
-#typing_area textarea {
+#info code {
 	background: #000000;
+	color: pink;
 	font-family: monospace;
-	color: lightgreen;
-	padding: .5rem;
-	font-size: 2em;
-	display: block;
-	width: 100%;
-	max-width: 100%;
-	min-height: 1em;
-	max-height: 3em;
-	resize: none;
-	//line-break: anywhere;
-	border: none;
-	height: 100%;
-	box-sizing: border-box;
-	overflow-x: hidden;
-	overflow-y: scroll;
 }
 
 fieldset {
 	border: 1px solid lightgreen;
+	background: #000000;
+	margin: 0;
+	padding: 1rem;
+	position: relative;
+	box-sizing: border-box;
+	line-height: 1.5;
+	z-index: 999;
+}
+
+fieldset:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 1rem;
+	bottom: 1rem;
+	width: calc(100% - 2rem);
+	background: linear-gradient(to bottom, #000000 0% 10%, transparent 20% 80%, #000000 90% 100%);
+}
+
+fieldset > div {
+	font-size: 1.5em;
+	box-sizing: border-box;
+	position: relative;
+	max-height: 6rem;
+	overflow-y: scroll;
 }
 
 legend {
 	color: lightgreen;
-	font-size: 1.2em;
 }
+
+#preview_area,
+#schematic_area,
+#typing_area,
+#button_container {
+	
+}
+
+#preview_area,
+#schematic_area,
+#typing_area {
+	position: relative;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	background: #000000;
+	margin: 0;
+	line-height: 1.5;
+	line-break: anywhere;
+	min-height: calc(1em + 0.5em);
+}
+
+#preview_area {
+	color: lightblue !important;
+	font-family: monospace, rk_egypt-hiero;
+	z-index: -999;
+}
+
+#schematic_area {
+	color: #ffb60000;
+	font-family: monospace, rk_egypt-hiero-pdf, rk_variant-selectors;
+	//pointer-events: none;
+	//user-select: none;
+	z-index: -999;
+}
+
+#typing_area {
+	background: #000000;
+	box-sizing: border-box;
+	display: block;
+	font-family: monospace;
+	color: lightgreen;
+	width: 100% !important;
+	//line-break: anywhere;
+	border: none;
+	font-size: inherit;
+	outline: none;
+	
+}
+
+fieldset div:has(#typing_area) {
+	max-height: none;
+}
+
+
+
+
+
+
+
+
 
 fieldset pre {
 	margin: 0;
@@ -96,20 +116,22 @@ fieldset pre {
 
 #hieroglyphs {
 	margin-top: 1em;
+	justify-content: center;
+	gap: .2em;
 }
 
 #format_control_buttons,
 #hieroglyphs {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 125em 0;
-	justify-content: space-between;
+	gap: .2em;
+	justify-content: center;
 }
 
 #format_control_buttons > *,
 #hieroglyphs > div {
 	width: 3em;
-	
+	overflow-x: clip;
 	
 }
 
@@ -117,7 +139,7 @@ fieldset pre {
 	margin: 0;
 	display: flex;
 	justify-content: center;
-	margin-top: -1em;
+	//margin-top: -1em;
 }
 
 #format_control_buttons p span:first-child {
@@ -148,7 +170,7 @@ fieldset pre {
 #hieroglyphs button {
 	background: lightgreen;
 	background: transparent;
-	aspect-ratio: 1;
+	//aspect-ratio: 1;
 	margin: 0;
 	padding: 0;
 	padding-block: 0;
@@ -161,7 +183,7 @@ fieldset pre {
 	font-size: 3em;
 	width: 100%;
 	scale: 1;
-	user-select: none;
+	//user-select: none;
 }
 
 #format_control_buttons button {

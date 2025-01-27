@@ -11,21 +11,31 @@
 			<h2>Hieroglyph editor</h2>
 			<div id="info">
 				<p>Simple editor for previewing text from the <a href="https://en.wikipedia.org/wiki/Egyptian_Hieroglyphs_(Unicode_block)" target="_blank">Egyptian Hieroglyphs</a>, <a href="https://en.wikipedia.org/wiki/Egyptian_Hieroglyphs_Extended-A" target="_blank">Egyptian Hieroglyphs Extended-A</a>, and <a href="https://en.wikipedia.org/wiki/Egyptian_Hieroglyph_Format_Controls" target="_blank">Egyptian Hieroglyph Format Controls</a> Unicode blocks.</p>
+				<p>Shortcuts for hieroglyphs:</p>
+				<p><code>\u_13xxx</code> = Unicode hex value | ex:<code>\u_13000</code> for <code>𓀀</code></p>
+				<p><code>\g_(Gardiner code)</code> = Gardiner code | ex: <code>\g_a1</code> for <code>𓀀</code></p>
+				<p>Note: Letters must be in lowercase for the above.</p>
+				<p>Shortcuts for uniliterals:</p>
+				<p>Just type the letters. Uppercase gives variants for <code>w</code>, <code>y</code>, <code>m</code>, <code>n</code>, and <code>g</code>.</p>
 			</div>
 		</div>
 		<div id="interface">
 			<fieldset>
 				<legend>Formatted View</legend>
-				<pre id="preview_area"></pre>
+				<div>
+					<pre id="preview_area"></pre>
+				</div>
 			</fieldset>
 			<fieldset>
 				<legend>Schematic View</legend>
-				<pre id="schematic_area"></pre>
+				<div>
+					<pre id="schematic_area"></pre>
+				</div>
 			</fieldset>
 			<fieldset>
 				<legend>Editor View</legend>
-				<div id="typing_area">
-					<textarea placeholder="Enter text here…"></textarea>
+				<div>
+					<textarea id="typing_area" spellcheck="false" placeholder="Start typing…"></textarea>
 				</div>
 			</fieldset>
 		</div>
