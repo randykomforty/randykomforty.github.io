@@ -45,6 +45,12 @@ legend {
 	color: lightgreen;
 }
 
+#button_container {
+	overflow-y: scroll;
+	height: 25vh;
+}
+
+
 #preview_area,
 #schematic_area,
 #typing_area,
