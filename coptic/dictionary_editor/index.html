@@ -9,13 +9,8 @@
 	<body>
 		<h1>Dictionary editor</h1>
 		<div id="info">
-			<!--
-			<pre><code class="language-html">
-			&lt;div&gt;ads;lka;lfk&lt;/div&gt;&lt;span&gt;kajklasdlkj&lt;/span&gt;
-			</code>
-			</pre>
-			-->
 			<p>Editor for building new entries for etymological dictionaries.</p>
+			<!--
 			<div id="key">
 				<div>
 					<h4>Key:</h4>
@@ -31,18 +26,12 @@
 						<li><code>~am[<span>(text)</span>]</code> = <span class="aramaic">Aramaic text</span></li>
 					</ul>
 				</div>
-				<!--
-				<div>
-					<h4>Example syntax:</h4>
-					
-					<pre><code>~co1[ϩⲟⲩⲏⲧ] _d[S]_d[A2], pl ~co[ϩⲟⲩⲁⲧⲉ] _d[S] &amp; sg as pl, nn, _[passenger] on board ship (?): Ex 27 29 ~co[ⲛⲉϩ.] (_d[B] om) ~gr[ἐπιβάτης] (var ~gr[ναύτης]) _[nauta]; P1312 156 ~co[ⲛⲛⲉⲉϥ…ⲙⲛⲛⲉϩ. ⲉⲧⲧⲁⲗⲏⲩ ⲛⲙⲙⲁⲩ]</code></pre>
-				</div>
-				-->
 				<div>
 					<h4>Example entry to copy:</h4>
 					<img src="./images/example.png">
 				</div>
 			</div>
+			-->
 		</div>
 		<div id="interface">
 			<div id="editor_text">
@@ -51,61 +40,15 @@
 					<textarea rows="5" placeholder="Type text here…">~co1[ϩⲟⲩⲏⲧ] _d[S]_d[A2], pl ~co[ϩⲟⲩⲁⲧⲉ] _d[S] & sg as pl, nn, _[passenger] on board ship (?): Ex 27 29 ~co[ⲛⲉϩ.] (_d[B] om) ~gr[ἐπιβάτης] (var ~gr[ναύτης]) _[nauta]; P1312 156 ~co[ⲛⲛⲉⲉϥ…ⲙⲛⲛⲉϩ. ⲉⲧⲧⲁⲗⲏⲩ ⲛⲙⲙⲁⲩ] ~gr[ναύ.…ἐπ.], BHom88 ship of faith ~co[ⲉⲣⲉⲛⲛⲉⲉϥ ϩⲓⲱⲱϥ] that is clergy, ~co[ⲉⲣⲉⲛⲉϩⲟⲩⲁⲧⲉ ⲧⲁⲗⲏⲩ ⲉⲣⲟϥ] that is Christian folk, ManiP 123 _d[A2] ~co[ⲁⲡⲥⲧⲁⲩⲣⲟⲥ ⲣ ϫⲁⲓ ⲁⲙⲯⲩⲭⲁⲩⲉ ⲣ ϩ.]; P 44 54 ~co[ⲛⲉϩ.] ~ab[قرايا] _[yards] of mast (_[v]? BIF 20 64 n, Almk 2 101, HA Winkler _[Volksk.] 60, here misunderst?). _[V] Griffith _[Stories] 100, HO Lange _[Amenemope] 133.</textarea>
 				</fieldset>
 			</div>
-			<!--
-			<div id="markup_view">
-				<fieldset>
-					<legend>Markup view</legend>
-					<pre><code class="language-html"></code></pre>
-				</fieldset>
-			</div>
-			-->
 			<div id="rendered_view">
 				<fieldset>
 					<legend>Rendered view</legend>
 					<div></div>
 				</fieldset>
 			</div>
-			<!--
-			<div id="editor_options">
-				<fieldset id="dialect_fieldset">
-					<legend>Dialect</legend>
-					<input type="radio" id="" name="selected_dialect" value="S" checked><label for="">Saʿîdic</label>
-					<input type="radio" id="" name="selected_dialect" value="S<sup>a</sup>"><label for="">Saʿîdic with Achmîmic</label>
-					<input type="radio" id="" name="selected_dialect" value="S<sup>f</sup>"><label for="">Saʿîdic with Fayyûmic</label>
-					<input type="radio" id="" name="selected_dialect" value="B"><label for="">Bohairic</label>
-					<input type="radio" id="" name="selected_dialect" value="F"><label for="">Fayyûmic</label>
-					<input type="radio" id="" name="selected_dialect" value="F<sup>b</sup>"><label for="">Fayyûmic with Bohairic</label>
-					<input type="radio" id="" name="selected_dialect" value="A"><label for="">Achmîmic</label>
-					<input type="radio" id="" name="selected_dialect" value="A<sup>2</sup>"><label for="">Subachmîmic</label>
-					<input type="radio" id="" name="selected_dialect" value="O"><label for="">Old Coptic</label>
-					<input id="add_dialect" type="submit" value="Add dialect">
-				</fieldset>
-				<fieldset id="formatted_fieldset">
-					<legend>Formatted</legend>
-					<input type="radio" id="" name="selected_formatted" value="b" checked><label for="">Bold</label>
-					<input type="radio" id="" name="selected_formatted" value="i"><label for="">Italic</label>
-					<input type="text" id="formatted_text" name="formatted_name" placeholder="Enter text here.">
-					<input id="add_formatted" type="submit" value="Add text">
-				</fieldset>
-				<fieldset id="language_fieldset">
-					<legend>Language</legend>
-					<input type="radio" id="" name="selected_language" value="coptic" checked><label for="">Coptic</label>
-					<input type="radio" id="" name="selected_language" value="greek"><label for="">Greek</label>
-					<input type="radio" id="" name="selected_language" value="arabic"><label for="">Arabic</label>
-					<input type="radio" id="" name="selected_language" value="hebrew"><label for="">Hebrew</label>
-					<input type="radio" id="" name="selected_language" value=""><label for="">Aramaic</label>
-					<input type="text" id="language_text" name="language_name" placeholder="Enter text here.">
-					<input id="add_language" type="submit" value="Add text">
-				</fieldset>
-				<fieldset id="qualitative_fieldset">
-					<legend>Qualitative (<sup>†</sup>)</legend>
-					<input id="add_qualitative" type="submit" value="Add †">
-				</fieldset>
-			</div>
-			-->
 		</div>
 		<script src="../../scripts/scripts.js"></script>
 		<script src="./scripts/scripts.js"></script>
-		<!--<script src="../../scripts/prism.js"></script>--:
+		<script src="../../scripts/prism.js"></script>
 	</body>
 </html>

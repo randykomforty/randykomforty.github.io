@@ -125,16 +125,28 @@ fieldset {
 	font-size: 1em;
 	font-family: rk_coptic, monospace;
 	font-weight: normal;
-	resize: none;
+	//resize: none;
 	color: lightgreen;
 	border: none;
 	line-height: 1.5;
+	tab-size: 1em;
 }
 
 #rendered_view div {
 	text-indent: 1em;
 	line-height: 1.5;
 }
+
+#rendered_view div li.subsection {
+	border: 1px solid cyan;
+	background: #00ff0011;
+}
+
+#rendered_view div li.group {
+	outline: 1px solid violet;
+	background: #ff000011;
+}
+
 
 i.dialect {
 	color: steelblue;

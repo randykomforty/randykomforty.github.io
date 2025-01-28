@@ -34,6 +34,23 @@
 	margin-top: .5em
 }
 
+#dictionary .entry .group > ul > li {
+	text-indent: -1em;
+	padding-left: 1.5em;
+}
+
+#dictionary .entry .group > ul {
+	padding-left: 0 !important;
+}
+
+#dictionary .entry .group > ul > li:before {
+	//list-style-type: square;
+	//content: "•";
+	//color: goldenrod;
+	//padding-left: 0;
+	list-style-position: inside;
+}
+
 #dictionary .entry > ul > li:first-child {
 	position: sticky;
 	top: 0;

@@ -1,7 +1,12 @@
 @import url("../../../styles/styles.css");
 @import url("../../styles/styles.css");
 
-
+h1,
+#preface,
+#list_of_abbreviations,
+#additions_and_corrections {
+	//display: none;
+}
 
 #preface .footnotes li:target {
 	background: #ffb60022;

@@ -48,7 +48,7 @@ function applyRegexes(x) {
 	for (let i = 0; i < x.length; i++) {
 		processedText += '<li class="entry">';
 		processedText += '<ul>';
-		processedText += '<li>' + x[i].headword + '</li>\n';
+		processedText += '<li class="collapse">' + x[i].headword + '</li>\n';
 		processedText += '<li>' + x[i].expanded + '</li>\n';
 		processedText += '</ul>';
 		processedText += '</li>';
