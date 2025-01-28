@@ -1,6 +1,7 @@
-let editorText = document.querySelector("#editor_text textarea");
+let editorText = document.querySelector("#text_goes_here");
 let previewRendered = document.querySelector("#rendered_view div");
 
+applyRegexes(editorText);
 editorText.addEventListener("input", applyRegexes);
 
 editorText.addEventListener("keydown", function(e) {
@@ -10,7 +11,7 @@ editorText.addEventListener("keydown", function(e) {
 		var end = this.selectionEnd;
 		// set textarea value to: text before caret + tab + text after caret
 		
-		this.value = this.value.substring(0, start) + "\t" + this.value.substring(end);
+		this.innerHTML = this.innerHTML.substring(0, start) + "\t" + this.innerHTML.substring(end);
 		
 		// put caret at right position again
 		
@@ -21,14 +22,15 @@ editorText.addEventListener("keydown", function(e) {
 		var start = this.selectionStart;
 		var end = this.selectionEnd;
 
-		this.value = this.value.substring(0, start) + "\n" + this.value.substring(end);
+		this.innerHTML = this.innerHTML.substring(0, start) + "\n" + this.innerHTML.substring(end);
 
 		this.selectionStart = this.selectionEnd = start + 1;
 	}
 });
 
 function applyRegexes(x) {
-	let processedText = x.target.value;
+	
+	let processedText = (x.innerHTML||this.innerHTML);
 	//const indent = [/\t/, "<span class=\"indent-space\"> </span>"];
 	const bold = [/\*\[(.*?)\]/, "<b>$1<\/b>"];
 	const italic = [/\_\[(.*?)\]/, "<i>$1<\/i>"];

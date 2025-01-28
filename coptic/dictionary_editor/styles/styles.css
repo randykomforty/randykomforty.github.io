@@ -105,7 +105,7 @@ fieldset {
 	margin-top: 1em;
 }
 
-#editor_text textarea,
+#editor_text #text_goes_here,
 #markup_view pre,
 #rendered_view div {
 	//min-height: 500px;
@@ -115,13 +115,13 @@ fieldset {
 	//border: 1px dashed gray;
 }
 
-#editor_text textarea,
+#editor_text #text_goes_here,
 #rendered_view div {
 	background: #111;
 	padding: .5em;
 }
 
-#editor_text textarea {
+#editor_text #text_goes_here {
 	font-size: 1em;
 	font-family: rk_coptic, monospace;
 	font-weight: normal;
