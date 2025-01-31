@@ -170,9 +170,27 @@ i.dialect {
 	line-height: inherit;
 }
 
-#editor_text textarea:focus {
+#text_goes_here {
+	line-height: 2;
+}
+
+#text_goes_here:focus {
 	outline: 1px dashed #ffb60033;
 	border: none;
+}
+
+#text_goes_here > .discrete {
+	background: #ffffff33;
+	display: inline-block;
+	//line-height: 8px !important;
+	height: 32px;
+	vertical-align: middle;
+	border-radius: 5px;
+	padding: .2em;
+}
+
+#text_goes_here > .discrete:hover {
+	background: #ffb60033;
 }
 
 /*
