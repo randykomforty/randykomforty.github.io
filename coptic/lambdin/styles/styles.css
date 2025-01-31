@@ -114,3 +114,124 @@ function convertForClamp(vOldMax, vOldMin, fMax, fMin) {
 	position: relative;
 	bottom: -5px;
 }
+
+div[id^="lesson_"] h3 {
+	color: steelblue;
+}
+
+h4 {
+	color: orangered;
+	margin-top: 1em;
+}
+
+div[id^="lesson_"] table {
+	//border-collapse: collapse;
+	border-spacing: 0;
+	border: 1px solid steelblue;
+	border-radius: 5px;
+}
+
+div[id^="lesson_"] td,
+#lesson_01 th {
+	border: 1px solid #ffffff22;
+	padding: .5em;
+}
+
+div[id^="lesson_"] table th:first-child,
+div[id^="lesson_"] table tr:first-child td:first-child {
+	border-top-left-radius: 5px;
+}
+
+div[id^="lesson_"] table th:last-child,
+div[id^="lesson_"] table tr:first-child td:last-child {
+	border-top-right-radius: 5px;
+}
+
+div[id^="lesson_"] table tr:last-child td:first-child {
+	border-bottom-left-radius: 5px;
+}
+
+div[id^="lesson_"] table tr:last-child td:last-child {
+	border-bottom-right-radius: 5px;
+}
+
+.vocabulary {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.exercises.has-subsection {
+	padding-left: 0;
+	list-style-position: inside;
+}
+
+.exercises.has-subsection > li {
+	list-style-type: upper-alpha;
+}
+
+li:has(> :not(input[type="checkbox"]:checked)) > ul > li:last-child {
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity .5s ease;
+}
+
+li:has(> input[type="checkbox"]:checked) > ul > li:last-child {
+	visibility: visible;
+	color: lightgreen;
+	opacity: 1;
+	transition: opacity .5s ease;
+}
+
+li > input[type="checkbox"] {
+	background: none;
+	filter: invert(1);
+	position: absolute;
+}
+
+li:has(> input[type="checkbox"]) {
+	position: relative;
+	list-style: decimal outside;
+	top: 0;
+}
+
+li:has(> input[type="checkbox"]) > ul {
+	position: relative;
+	left: 1.5em;
+	list-style-type: none;
+	padding-left: 0;
+}
+
+/* regex:
+
+\t*<li><span class=\"coptic\">(.+?)<\/span>\n\t+<ul>\n\t+<li>(.+?)<\/li>\n\t+<\/ul>\n\t+<\/li>
+
+or
+
+\t*<li><span class=\"coptic\">(.+?)<\/span><ul><li>(.+?)<\/li><\/ul><\/li>
+
+*/
+
+/* substitute:
+
+<li><input type="checkbox">\n\t<ul>\n\t\t<li class="coptic">$1</li>\n\t\t<li>$2</li>\n\t</ul>\n</li>
+
+*/
+
+/* notepad++ version (i.e. has \r)
+
+\t*<li><span class=\"coptic\">(.+?)<\/span>\r\n\t+<ul>\r\n\t+<li>(.+?)<\/li>\r\n\t+<\/ul>\r\n\t+<\/li>
+
+or
+
+\t*<li><span class=\"coptic\">(.+?)<\/span><ul><li>(.+?)<\/li><\/ul><\/li>
+
+
+
+
+
+
+
+
+<li><input type="checkbox">\r\n\t<ul>\r\n\t\t<li class="coptic">$1</li>\r\n\t\t<li>$2</li>\r\n\t</ul>\r\n</li>
+
+*/
