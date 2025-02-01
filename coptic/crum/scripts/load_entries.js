@@ -20,28 +20,31 @@ xmlhttp.onreadystatechange = function() {
 xmlhttp.open("GET", url, true);
 xmlhttp.send();
 
-const indent = [/\t/, "<span class=\"indent-space\"> </span>"];
-const bold = [/\*\[(.*?)\]/, "<b>$1<\/b>"];
-const italic = [/\_\[(.*?)\]/, "<i>$1<\/i>"];
-const superscript = [/\^(\d)/, "<sup>$1<\/sup>"];
-const qualitative = [/\^\+/, "<sup>†<\/sup>"];
-const dialect = [/\_d\[(.)\]/, "<i class=\"dialect\">$1<\/i>"];
-const subdialect = [/\_d\[(.)([a-zA-Z])\]/, "<i class=\"dialect\">$1<sup>$2<\/sup><\/i>"];
-const subdialectLyco = [/\_d\[(.)([0-9])\]/, "<i class=\"dialect lycopolitan\">$1<sup>$2<\/sup><\/i>"];
-const headword = [/\~co1\[(.*?)\]/, "<span class=\"headword coptic\">$1<\/span>"];
-const coptic = [/\~co\[(.*?)\]/, "<span class=\"coptic\">$1<\/span>"];
-const greek = [/\~gr\[(.*?)\]/, "<span class=\"greek\">$1<\/span>"];
-const arabic = [/\~ab\[(.*?)\]/, "<span class=\"arabic\">$1<\/span>"];
-const hebrew = [/\~he\[(.*?)\]/, "<span class=\"hebrew\">$1<\/span>"];
-const aramaic = [/\~am\[(.*?)\]/, "<span class=\"aramaic\">$1<\/span>"];
-const arrayStyling = [bold, italic, superscript, qualitative, dialect, subdialect, subdialectLyco, headword, coptic, greek, arabic, hebrew, aramaic];
-const liOpen = [/{-(?!-)/, "<li>"];
-const liOpenSubsection = [/{s-/, "<li class=\"subsection\">"];
-const liOpenGroup = [/{g-/, "<li class=\"group\">"];
-const liClose = [/(?<!-)-}/, "</li>"];
-const ulOpen = [/({--)/, "<ul>"];
-const ulClose = [/(--})/, "</ul>"];
-const arrayListing = [liOpen, liOpenSubsection, liOpenGroup, liClose, ulOpen, ulClose];
+let arrayStyling = [
+	bold = [/\*(.*?)\*/, "<b>$1<\/b>"],
+	italic = [/_(.*?)_/, "<i>$1<\/i>"],
+	dialect = [/\[\[(S|B|A|F|O)\]\]/, "<i class=\"dialect\">$1<\/i>"],
+	subdialect = [/\[\[(S|F)\^(a|f|b)\]\]/, "<i class=\"dialect\">$1<sup>$2<\/sup><\/i>"],
+	subdialectLyco = [/\[\[(A\^2)\]\]/, "<i class=\"dialect lycopolitan\">A<sup>2<\/sup><\/i>"],
+	superscript = [/\^(\d+)/, "<sup>$1<\/sup>"],
+	coptic = [/\~co\[(.*?)\]/, "<span class=\"coptic\">$1<\/span>"],
+	coptic = [/(\#?-?([\u2c80-\u2cFF\u0305\ufe26\u2e17\u03e2-\u03ef]+\(.+?†?\)|[\u2c80-\u2cFF\u0305\ufe26\u2e17\u03e2-\u03ef]+(†|-|\.|\?|\.\?)?)(\s(?=-?[\u2c80-\u2cFF\u0305\ufe26\u2e17\u03e2-\u03ef]))?\#?)/, "<span class=\"coptic\">$1<\/span>"],
+	//greek = [/\~gr\[(.*?)\]/, "<span class=\"greek\">$1<\/span>"],
+	greek = [/(-?([\u0323\u0370-\u03e1\u03f0-\u03ff\u1f00-\u1fff]+\(.+?\)|[\u0323\u0370-\u03e1\u03f0-\u03ff\u1f00-\u1fff]+(-|\.|\?|\.\?)?)(\s(?=-?[\u0323\u0370-\u03e1\u03f0-\u03ff\u1f00-\u1fff]))?)/, "<span class=\"greek\">$1<\/span>"],
+	arabic = [/\~ab\[(.*?)\]/, "<span class=\"arabic\">$1<\/span>"],
+	hebrew = [/\~he\[(.*?)\]/, "<span class=\"hebrew\">$1<\/span>"],
+	aramaic = [/\~am\[(.*?)\]/, "<span class=\"aramaic\">$1<\/span>"]
+];
+const arrayListing = [
+	liOpen = [/{-(?!-)/, "<li>"],
+	liOpenSubsection = [/{s-/, "<li class=\"subsection\">"],
+	liOpenGroup = [/{g-/, "<li class=\"group\">"],
+	liClose = [/(?<!-)-}/, "</li>"],
+	ulOpen = [/({--)/, "<ul>"],
+	ulClose = [/(--})/, "</ul>"],
+	newLine = [/(\\n)/, "<br>"],
+	tab = [/(\\t)/, "\t"]
+];
 
 function applyRegexes(x) {
 	let processedText = "";
@@ -58,6 +61,12 @@ function applyRegexes(x) {
 		let regexStyling = new RegExp(arrayStyling[i][0], "msg");
 		y = y.replace(regexStyling, arrayStyling[i][1]);
 	}
+	
+	const headword = [/<span class=\"coptic\">\#(.*?)\#<\/span>/, "<span class=\"headword coptic\">$1<\/span>"];
+	
+	let regex = new RegExp(headword[0], "msg");
+	y = y.replace(regex, headword[1]);
+	
 	return y;
 }
 
