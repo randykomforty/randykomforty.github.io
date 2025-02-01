@@ -199,6 +199,7 @@ i.dialect {
 #text_goes_here {
 	line-height: 2;
 	white-space: pre-wrap;
+	font-family: rk_coptic, rk_greek;
 }
 
 #text_goes_here:focus {
