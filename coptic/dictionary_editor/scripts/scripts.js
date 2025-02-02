@@ -48,6 +48,7 @@ function applyRegexes(x) {
 		//coptic = [/\~co\[(.*?)\]/, "<span class=\"coptic\">$1<\/span>"],
 		coptic = [/\~co\[(.*?)\]/, "<span class=\"coptic\">$1<\/span>"],
 		coptic = [/(\#?-?([\u2c80-\u2cFF\u0305\ufe26\u2e17\u03e2-\u03ef]+\(.+?†?\)|[\u2c80-\u2cFF\u0305\ufe26\u2e17\u03e2-\u03ef]+(†|-|\.|\?|\.\?)?)(\s(?=-?[\u2c80-\u2cFF\u0305\ufe26\u2e17\u03e2-\u03ef]))?\#?)/, "<span class=\"coptic\">$1<\/span>"],
+		qualitative = [/†/, "<sup>†<\/sup>"],
 		//greek = [/\~gr\[(.*?)\]/, "<span class=\"greek\">$1<\/span>"],
 		greek = [/(-?([\u0323\u0370-\u03e1\u03f0-\u03ff\u1f00-\u1fff]+\(.+?\)|[\u0323\u0370-\u03e1\u03f0-\u03ff\u1f00-\u1fff]+(-|\.|\?|\.\?)?)(\s(?=-?[\u0323\u0370-\u03e1\u03f0-\u03ff\u1f00-\u1fff]))?)/, "<span class=\"greek\">$1<\/span>"],
 		arabic = [/\~ab\[(.*?)\]/, "<span class=\"arabic\">$1<\/span>"],
