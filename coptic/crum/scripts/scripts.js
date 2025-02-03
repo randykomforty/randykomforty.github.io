@@ -7,6 +7,7 @@ const tabContents = [
 	document.querySelector("#additions_and_corrections"),
 	document.querySelector("#dictionary")
 ];
+const entries = document.querySelectorAll(".entry > ul > li:nth-child(1)");
 tabs.forEach((x, i) => {
 	x.addEventListener("click", y => {
 		for (let i = 0; i < tabContents.length; i++) {
@@ -19,15 +20,14 @@ tabs.forEach((x, i) => {
 			left: 0,
 			behavior: "smooth"
 		});
+		window.scrollTo({
+			top: 0
+		});
 	});
 });
-const menuObserver = new ResizeObserver((entries) => {
-	const isTall = entries[0].contentRect.height >= 64;
-	//let isSecondRow = "";
-	//for (let i = 0; i < tabs.length; i++) {
-		//isSecondRow = tabs[i].offsetTop = 48;
-		//tabs[i].style.height = isSecondRow ? "4em" : "2em";
-	//}
-	//entries[0].target.style.background = isTall ? "linear-gradient(to top, #232448 50%, transparent 50%)" : "transparent";
+entries.forEach(x => {
+	x.addEventListener("click", function (e) {
+		//console.log("This is the #" + elementH2.parentElement.id + " element.");
+		x.classList.toggle("collapse");
+	});
 });
-menuObserver.observe(tabMenu);

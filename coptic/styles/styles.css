@@ -50,12 +50,7 @@
 	background: #111;
 }
 
-.headword {
-	color: violet;
-	font-family: rk_coptic;
-	font-size: 1.2em;
-	line-height: inherit;
-}
+
 
 #dictionary .entry li.group ul {
 	padding: .2em .5em;
@@ -63,32 +58,11 @@
 
 
 
-
-
-
-
-
-i.dialect {
-	color: steelblue;
-}
-
-sup {
-	line-height: 0;
-}
-
 .entry * {
 	line-height: 1.5;
 }
 
-.dialect sup {
-	font-size: inherit;
-	font-size: .5em;
-	padding-left: 0;
-}
 
-.dialect.lycopolitan sup {
-	font-style: normal;
-}
 
 p sup {
 	line-height: 0;
