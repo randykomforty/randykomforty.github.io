@@ -1,3 +1,4 @@
+/*
 :is(h2, h3):before {
 	content: "▷";
 	position: absolute;
@@ -56,3 +57,4 @@ h2, h3 {
 .entry > ul > li:first-child.collapse + li {
 	display: none;
 }
+*/

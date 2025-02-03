@@ -1,11 +1,88 @@
 @import url("../../../styles/styles.css");
 @import url("../../styles/styles.css");
 
-h1,
+p {
+	text-indent: 2em;
+}
+
+#dictionary > ul {
+	padding-left : 0em;
+}
+
+.entry {
+	position: relative;
+}
+
+.entry:before {
+	content: "▷";
+	position: absolute;
+	//left: 1em;
+	color: #ffb60022;
+	display: inline-block;
+	transform: rotate(90deg);
+	transition:
+		transform .2s ease-in-out,
+		color .2s ease-in-out;
+}
+
+.entry > ul > li:nth-child(1):hover:before {
+	color: #ffb600ff;
+}
+
+.entry > ul {
+	position: relative;
+	padding-left: 1em;
+}
+
+.entry > ul > li {
+	position: absolute;
+	left: 1em;
+}
+
+#menu ul {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	gap: 5px;
+	padding-left: 0;
+	border-bottom: 1px solid gray;
+}
+
+#menu ul li {
+	flex-grow:1;
+	list-style-type: none;
+	border: 1px solid gray;
+	border-bottom: none;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	color: #e0c7c7;
+	background: #3d0000;
+	text-align: center;
+	padding: .5em;
+}
+
+#menu ul li.active {
+	background: #2d3085;
+}
+#menu ul li:hover {
+	background: #2f5953;
+	cursor: pointer;
+}
+
+:is(#preface,
+#list_of_abbreviations,
+#additions_and_corrections,
+#dictionary).show {
+	height: auto;
+}
+
+
 #preface,
 #list_of_abbreviations,
-#additions_and_corrections {
-	//display: none;
+#additions_and_corrections,
+#dictionary {
+	height: 0em;
+	overflow: hidden;
 }
 
 #preface .footnotes li:target {
@@ -47,14 +124,14 @@ h1,
 }
 
 #list_of_abbreviations {
-	--archive: url(./archive.jpg);
-	--google-books: url(./google-books.png);
-	--hathi-trust: url(./hathitrust.png);
-	--jstor: url(./jstor_16.png);
-	--scribd: url(./scribd.ico);
-	--uni-bonn: url(./uni-bonn.ico);
-	--bnf: url(./bnf.ico);
-	--getty: url(./getty.png);
+	--archive: url(../images/archive.jpg);
+	--google-books: url(../images/google-books.png);
+	--hathi-trust: url(../images/hathitrust.png);
+	--jstor: url(../images/jstor_16.png);
+	--scribd: url(../images/scribd.ico);
+	--uni-bonn: url(../images/uni-bonn.ico);
+	--bnf: url(../images/bnf.ico);
+	--getty: url(../images/getty.png);
 }
 
 #list_of_abbreviations li .cell:has(> a) a:before {
