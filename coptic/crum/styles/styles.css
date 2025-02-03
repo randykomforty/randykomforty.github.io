@@ -1,72 +1,90 @@
 @import url("../../../styles/styles.css");
 @import url("../../styles/styles.css");
 
+::selection {
+	color: goldenrod;
+	background: black;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	//border: .5em solid #222222;
+	//border-top: none;
+}
+
+h1 {
+	color: goldenrod;
+	font-size: 1em;
+	line-height: 1;
+	margin: 0.5em 1em 1em;
+}
+
+h2 {
+	display: none;
+}
+
 p {
-	text-indent: 2em;
+	text-align: justify;
+	text-indent: 1em;
+	padding: 0 1em;
 }
 
-#dictionary > ul {
-	padding-left : 0em;
+header {
+	position: sticky;
+	z-index: 1;
+	top: 0;
+	padding-top: .5em;
+	//border-top: .5em solid #222222;
+	background: linear-gradient(to right, #111111, #111111);
 }
 
-.entry {
-	position: relative;
-}
-
-.entry:before {
-	content: "▷";
-	position: absolute;
-	//left: 1em;
-	color: #ffb60022;
-	display: inline-block;
-	transform: rotate(90deg);
-	transition:
-		transform .2s ease-in-out,
-		color .2s ease-in-out;
-}
-
-.entry > ul > li:nth-child(1):hover:before {
-	color: #ffb600ff;
-}
-
-.entry > ul {
-	position: relative;
-	padding-left: 1em;
-}
-
-.entry > ul > li {
-	position: absolute;
-	left: 1em;
+#menu {
+	overflow-x: auto;
+	border-bottom: 1px solid gray;
 }
 
 #menu ul {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: flex-start;
 	flex-wrap: wrap;
-	gap: 5px;
-	padding-left: 0;
-	border-bottom: 1px solid gray;
+	gap: 0 .5em;
+	margin: 0;
+	padding: 0 .5em;
+	width: max-content;
 }
 
 #menu ul li {
-	flex-grow:1;
+	//flex-grow:1;
 	list-style-type: none;
 	border: 1px solid gray;
 	border-bottom: none;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
+	padding: 0 .5em;
 	color: #e0c7c7;
-	background: #3d0000;
-	text-align: center;
-	padding: .5em;
+	background: #232448;
+	//background: green;
+	line-height: 2;
 }
 
 #menu ul li.active {
-	background: #2d3085;
+	order: -1;
+	background: #191c7c;
 }
 #menu ul li:hover {
-	background: #2f5953;
+	//background: #2f5953;
 	cursor: pointer;
+}
+
+#menu ul.tall li {
+	padding-bottom: 2em;
+}
+
+#menu ul.tall li.second-row {
+	//margin-top: -2em;
+	//padding-bottom: 0em;
 }
 
 :is(#preface,
@@ -85,15 +103,17 @@ p {
 	overflow: hidden;
 }
 
+#additions_and_corrections ul,
+#list_of_abbreviations ul {
+	margin: 0;
+	padding: 1em;
+	list-style-type: none;
+}
+
 #preface .footnotes li:target {
 	background: #ffb60022;
 }
 
-#additions_and_corrections ul,
-#list_of_abbreviations ul {
-	padding-left: .5em;
-	list-style-type: none;
-}
 
 #list_of_abbreviations > ul > li > ul {
 	display: table;
@@ -189,3 +209,59 @@ p {
 #list_of_abbreviations li a[href^="http://archives.getty.edu"]:before {
 	background-image: var(--getty);
 }
+
+#additions_and_corrections p {
+	margin-bottom: 0;
+	text-indent: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+#dictionary > ul {
+	list-style-type: none;
+	padding: 0 1em;
+}
+
+.entry {
+	position: relative;
+}
+
+.entry:before {
+	content: "▷";
+	font-size: 1em;
+	position: absolute;
+	//left: 1em;
+	color: #ffb60022;
+	display: inline-block;
+	transform: rotate(90deg);
+	transition:
+		transform .2s ease-in-out,
+		color .2s ease-in-out;
+}
+
+.entry:hover:before {
+	color: #ffb600ff;
+}
+
+.entry > ul {
+	position: relative;
+	padding-left: 1em !important;
+}
+
+.entry > ul > li {
+	
+}
+
+
+
+
+
+
