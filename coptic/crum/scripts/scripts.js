@@ -8,6 +8,7 @@ const tabContents = [
 	document.querySelector("#dictionary")
 ];
 const entries = document.querySelectorAll(".entry > ul > li:nth-child(1)");
+const entriesExpanded = document.querySelectorAll(".entry > ul > li:nth-child(2)");
 tabs.forEach((x, i) => {
 	x.addEventListener("click", y => {
 		for (let i = 0; i < tabContents.length; i++) {
@@ -25,9 +26,18 @@ tabs.forEach((x, i) => {
 		});
 	});
 });
-entries.forEach(x => {
+let findHeight = "";
+let expandedHeight = [];
+entries.forEach((x, i) => {
+	findHeight = window.getComputedStyle(x.nextElementSibling);
+	expandedHeight = findHeight.getPropertyValue("height");
+	x.nextElementSibling.style.height = expandedHeight;
+	x.classList.toggle("collapse");
+});
+
+entries.forEach((x, i) => {
 	x.addEventListener("click", function (e) {
-		//console.log("This is the #" + elementH2.parentElement.id + " element.");
+		
 		x.classList.toggle("collapse");
 	});
 });

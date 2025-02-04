@@ -28,7 +28,7 @@ h2 {
 p {
 	text-align: justify;
 	text-indent: 1em;
-	padding: 0 1em;
+	margin: 1em 1em 0;
 }
 
 header {
@@ -122,10 +122,43 @@ header:before {
 	list-style-type: none;
 }
 
+#preface .signed {
+	float: right;
+}
+
+#preface .dated {
+	float: left;
+	text-indent: 0;
+}
+
+#preface hr {
+	clear: both;
+	border: none;
+	width: 100%;
+	height: 1px;
+	background: linear-gradient(to right, transparent, gray, transparent);
+	margin-top: 2em;
+	display: inline-block
+}
+
+#preface .footnotes {
+	//text-align: justify;
+	margin-top: 1em;
+	padding: 0 3em;
+}
+
+#preface .footnotes li {
+	margin-top: 1em;
+}
+
 #preface .footnotes li:target {
 	background: #ffb60022;
 }
 
+#preface .footnotes li a {
+	width: 1em;
+	display: inline-block;
+}
 
 #list_of_abbreviations > ul > li > ul {
 	display: table;
@@ -247,7 +280,22 @@ header:before {
 }
 
 .entry > ul {
+	position: relative;
+	padding-left: 2em;
 	list-style-type: none;
+}
+
+.entry > ul > li {
+	margin-left: -1em;
+}
+
+.entry > ul > li:nth-child(2) {
+	background: #111111;
+	margin-left: 0em;
+}
+
+.entry > ul > li:nth-child(1) {
+	background: #111111;
 }
 
 .entry > ul > li:nth-child(1):before {
@@ -272,7 +320,29 @@ header:before {
 }
 
 .entry > ul > li:nth-child(1).collapse + li {
-	display: none;
+	height: 0px !important;
+	transition: height .25s linear;
+}
+
+.entry > ul > li:nth-child(1) + li {
+	max-height: 500px;
+	//border-top: 5px solid;
+	margin-right: -1em;
+	//width: calc(100% - 2em);
+	background: #222222;
+	overflow-y: auto;
+	transition: height .25s linear;
+}
+
+
+
+.entry  ul ul {
+	padding-left: 1em;
+	list-style-type: none;
+}
+
+.entry .group ul {
+	padding-left: 0;
 }
 
 .dialect sup {
@@ -298,15 +368,6 @@ sup {
 	font-family: rk_coptic;
 	font-size: 1.2em;
 	line-height: inherit;
-}
-
-.entry > ul {
-	position: relative;
-	padding-left: 1em !important;
-}
-
-.entry > ul > li {
-	
 }
 
 
