@@ -189,3 +189,25 @@ i.dialect {
 	font-family: sans-serif;
 }
 
+/* simple mode: */
+#legend {
+	display: none;
+}
+#interface {
+	display: flex;
+}
+#editor_text, #rendered_view {
+	width: 62vw;
+	overflow-y: auto;
+	height: calc(98dvh - 1em);
+	border: none;
+}
+
+#editor_text {
+	border: none;
+}
+
+#rendered_view {
+	border: none;
+	white-space: pre-wrap;
+}

@@ -319,9 +319,13 @@ header:before {
 	color: #ffb600ff;
 }
 
+.entry > ul > li:nth-child(1) + li,
+.entry > ul > li:nth-child(1).collapse + li {
+	transition: height .25s ease-out;
+}
+
 .entry > ul > li:nth-child(1).collapse + li {
 	height: 0px !important;
-	transition: height .25s linear;
 }
 
 .entry > ul > li:nth-child(1) + li {
@@ -331,7 +335,6 @@ header:before {
 	//width: calc(100% - 2em);
 	background: #222222;
 	overflow-y: auto;
-	transition: height .25s linear;
 }
 
 
