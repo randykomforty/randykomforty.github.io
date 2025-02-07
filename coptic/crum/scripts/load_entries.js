@@ -22,8 +22,8 @@ xmlhttp.send();
 */
 
 let arrayStyling = [
-	ampersand = [/&/, "&amp;"],
-	asterisk = [/\\*/, "&ast;"],
+	//ampersand = [/&/, "&amp;"],
+	asterisk = [/\\\*/, "&ast;"],
 	bold = [/\*(.+?)\*/, "<b>$1<\/b>"],
 	italic = [/_(.+?)_/, "<i>$1<\/i>"],
 	dialect = [/\[\[(S|B|A|F|O)\]\]/, "<i class=\"dialect\">$1<\/i>"],

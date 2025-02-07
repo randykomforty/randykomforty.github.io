@@ -102,7 +102,10 @@ header:before {
 :is(#preface,
 #list_of_abbreviations,
 #additions_and_corrections,
-#dictionary).show {
+#dictionary,
+#english_index,
+#greek_index,
+#arabic_index).show {
 	height: auto;
 }
 
@@ -110,7 +113,10 @@ header:before {
 #preface,
 #list_of_abbreviations,
 #additions_and_corrections,
-#dictionary {
+#dictionary,
+#english_index,
+#greek_index,
+#arabic_index {
 	height: 0em;
 	overflow: hidden;
 }

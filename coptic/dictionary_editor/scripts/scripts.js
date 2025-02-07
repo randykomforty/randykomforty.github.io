@@ -6,7 +6,6 @@ editorText.addEventListener("input", applyRegexes);
 
 editorText.addEventListener("keydown", function(e) {
 
-
 	if (e.keyCode === 9) { // tab key
 		e.preventDefault();  // this will prevent us from tabbing out of the editor
 
@@ -30,8 +29,8 @@ function applyRegexes(x) {
 	
 	let processedText = (x.innerHTML||this.innerHTML);
 	let arrayStyling = [
-		ampersand = [/&/, "&amp;"],
-		asterisk = [/\\*/, "&ast;"],
+		ampersand = [/\&/, "&amp;"],
+		asterisk = [/\\\*/, "&ast;"],
 		bold = [/\*(.+?)\*/, "<b>$1<\/b>"],
 		italic = [/_(.+?)_/, "<i>$1<\/i>"],
 		dialect = [/\[\[(S|B|A|F|O)\]\]/, "<i class=\"dialect\">$1<\/i>"],

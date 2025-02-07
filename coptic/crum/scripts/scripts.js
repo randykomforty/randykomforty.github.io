@@ -5,7 +5,10 @@ const tabContents = [
 	document.querySelector("#preface"),
 	document.querySelector("#list_of_abbreviations"),
 	document.querySelector("#additions_and_corrections"),
-	document.querySelector("#dictionary")
+	document.querySelector("#dictionary"),
+	document.querySelector("#english_index"),
+	document.querySelector("#greek_index"),
+	document.querySelector("#arabic_index")
 ];
 const entries = document.querySelectorAll(".entry > ul > li:nth-child(1)");
 const entriesExpanded = document.querySelectorAll(".entry > ul > li:nth-child(2)");
