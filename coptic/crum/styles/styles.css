@@ -64,7 +64,7 @@ header:before {
 	gap: 0 .5em;
 	margin: 0;
 	padding: 0 .5em;
-	width: max-content;
+	//width: max-content;
 }
 
 #menu ul li {

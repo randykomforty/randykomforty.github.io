@@ -1,0 +1,20 @@
+{
+  "name": "randykomforty.github.io",
+  "version": "1.0.0",
+  "description": "p ϩⲉⲛⲥϩⲁⲓ ϩⲛ̄ⲧⲙⲛⲧⲣⲙⲛⲕⲏⲙⲉ",
+  "main": "csv2js.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/randykomforty/randykomforty.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/randykomforty/randykomforty.github.io/issues"
+  },
+  "homepage": "https://github.com/randykomforty/randykomforty.github.io#readme"
+}
