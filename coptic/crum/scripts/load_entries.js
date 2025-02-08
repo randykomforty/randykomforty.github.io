@@ -28,7 +28,7 @@ xmlhttp.onreadystatechange = function() {
 		const appliedRegexes = applyRegexesAdditions(fetchFromJSON);
 		//const convertedAdditions = countReplacements(appliedRegexes);
 		const convertedAdditions = appliedRegexes;
-		const additionsAndCorrections = document.querySelector("#additions_and_corrections ul");
+		const additionsAndCorrections = document.querySelector("#additions_and_corrections table");
 		additionsAndCorrections.innerHTML += convertedAdditions;
 	}
 };
@@ -38,6 +38,7 @@ xmlhttp.send();
 let arrayStyling = [
 	ampersand = [/&(?!amp;)/, "&amp;"],
 	asterisk = [/\\\*/, "&ast;"],
+	tab = [/(\n\t)/, "<br>⇥⇥"],
 	bold = [/\*(.+?)\*/, "<b>$1<\/b>"],
 	italic = [/_(.+?)_/, "<i>$1<\/i>"],
 	dialect = [/\[\[(S|B|A|F|O)\]\]/, "<i class=\"dialect\">$1<\/i>"],
@@ -48,9 +49,9 @@ let arrayStyling = [
 	headword = [/<span class=\"coptic\">\#(\(?.*?\)?)\#<\/span>/, "<span class=\"headword coptic\">$1<\/span>"],
 	qualitative = [/†/, "<sup>†<\/sup>"],
 	greek = [/(-?([\u0323\u0370-\u03e1\u03f0-\u03ff\u1f00-\u1fff]+\(.+?\)|[\u0323\u0370-\u03e1\u03f0-\u03ff\u1f00-\u1fff]+(-|\.|\?|\.\?)?)(\s(?=-?[\u0323\u0370-\u03e1\u03f0-\u03ff\u1f00-\u1fff]))?)/, "<span class=\"greek\">$1<\/span>"],
-	arabic = [/(?:\[)([\u0600-\u06FF\uFE70-\uFEFF]+\u05f3?)(?:\])/, "<span class=\"arabic\">$1<\/span>"],
+	arabic = [/(?:\[)(([\u0600-\u06FF\uFE70-\uFEFF]+\u05f3?\s?)+)(?:\])/, "<span class=\"arabic\">$1<\/span>"],
 	hebrew = [/\~he\[(.*?)\]/, "<span class=\"hebrew\">$1<\/span>"],
-	aramaic = [/(?:\[)([\u0700-\u074F]+\u05f3?)(?:\])/, "<span class=\"aramaic\">$1<\/span>"]
+	aramaic = [/(?:\[)(([\u0700-\u074F]+\u05f3?\s?)+)(?:\])/, "<span class=\"aramaic\">$1<\/span>"]
 ];
 const arrayListing = [
 	liOpen = [/{-(?!-)/, "<li>"],
@@ -84,7 +85,7 @@ function applyRegexesDictionary(x) {
 function applyRegexesAdditions(x) {
 	let processedText = "";
 	for (let i = 0; i < x.length; i++) {
-		processedText += "<li>" + x[i].line + "</li>\n";
+		processedText += x[i].line + "\n";
 	}
 	let y = processedText;
 	for (let i = 0; i < arrayStyling.length; i++) {

@@ -266,9 +266,41 @@ header:before {
 	text-indent: 0;
 }
 
+#additions_and_corrections table {
+	//border-collapse: collapse;
+	margin: .5em;
+	border-spacing: 0 .5em;
+}
 
+#additions_and_corrections table * {
+	line-height: 2em;
+}
 
+#additions_and_corrections td {
+	//border: 1px solid gold;
+}
 
+#additions_and_corrections td.page {
+	color: #ffffff;
+	text-align: right;
+	vertical-align: top;
+	padding: 0 .5em;
+	background: #ffffff11;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+#additions_and_corrections td.note {
+	padding: 0 .5em;
+	background: #ffffff07;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+#additions_and_corrections td.note p {
+	text-indent: 1em;
+	margin: 0;
+}
 
 
 
