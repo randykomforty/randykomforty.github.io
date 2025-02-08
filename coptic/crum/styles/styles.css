@@ -267,13 +267,8 @@ header:before {
 }
 
 #additions_and_corrections table {
-	//border-collapse: collapse;
 	margin: .5em;
 	border-spacing: 0 .5em;
-}
-
-#additions_and_corrections table * {
-	//line-height: 2em;
 }
 
 #additions_and_corrections td {
@@ -429,4 +424,50 @@ sup {
 .arabic,
 .aramaic {
 	line-height: 0;
+}
+
+#english_index .add {
+	color: lightblue;
+}
+
+#english_index table {
+	border-collapse: collapse;
+	margin: .5em;
+	//border-spacing: 0 .2em;
+	width: calc(100% - 1em);
+	font-style: italic;
+}
+
+#english_index table i {
+	font-style: normal;
+}
+
+#english_index table td {
+	padding: .2em .5em;
+	line-height: 1.5;
+	border: 1px solid #ffffff33;
+}
+
+#english_index table td.term {
+	color: #ffffff;
+	white-space: nowrap;
+	vertical-align: top;
+	background: #ffffff11;
+	//border-top-left-radius: 5px;
+	//border-bottom-left-radius: 5px;
+}
+
+#english_index table td.page {
+	background: #ffffff07;
+	//border-top-right-radius: 5px;
+	//border-bottom-right-radius: 5px;
+	//border-left: none;
+}
+
+#english_index table td.page span {
+	white-space: nowrap;
+}
+
+#english_index table td.page span:hover {
+	color: goldenrod;
 }
