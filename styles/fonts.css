@@ -140,42 +140,46 @@
 .greek {
 	color: darkseagreen;
 	font-family: rk_greek;
-	font-size: 1.1em;
+	//font-size: 1.1em;
 }
 
 .arabic {
 	color: brown;
 	font-family: rk_arabic, rk_hebrew;
-	font-size: 1.2em;
+	//font-size: 1.2em;
 }
 
 .hebrew {
 	color: pink;
 	font-family: rk_hebrew;
-	font-size: 1.5em;
+	//font-size: 1.5em;
 }
 
 .aramaic {
 	color: coral;
 	font-family: rk_aramaic;
-	font-size: 1.5em;
+	//font-size: 1.5em;
 }
 
 .egypt-hiero {
 	color: gold;
 	font-family: rk_egypt-hiero;
-	font-size: 1.5em;
+	//font-size: 1.5em;
 }
 
 .egypt-hiero-test {
 	color: gold;
 	font-family: rk_egypt-hiero-pdf, rk_egypt-hiero-pdf-2;
-	font-size: 1.5em;
+	//font-size: 1.5em;
 }
 
 .egypt-translit {
 	color: lightblue;
 	font-family: rk_egypt-translit;
-	font-size: 1.2em;
+	//font-size: 1.2em;
 	font-style: italic;
+}
+
+* {
+	//line-height: 1em !important;
 }
