@@ -471,3 +471,47 @@ sup {
 #english_index table td.page span:hover {
 	color: goldenrod;
 }
+
+#greek_index table {
+	margin: 1em;
+	width: calc(100% - 2em);
+}
+
+#greek_index table td {
+	padding: .2em .5em;
+	line-height: 1.5;
+	border: 1px solid #ffffff33;
+}
+
+#greek_index table td.term {
+	color: lightblue;
+	white-space: nowrap;
+	background: #ffffff11;
+}
+
+#greek_index table td.page {
+	background: #ffffff07;
+}
+
+#arabic_index table {
+	direction: rtl;
+	margin: 1em;
+	width: calc(100% - 2em);
+}
+
+#arabic_index table td {
+	padding: .2em .5em;
+	line-height: 1.5;
+	border: 1px solid #ffffff33;
+}
+
+#arabic_index table td.term {
+	color: limegreen;
+	white-space: nowrap;
+	background: #ffffff11;
+}
+
+#arabic_index table td.page {
+	direction: ltr;
+	background: #ffffff07;
+}
