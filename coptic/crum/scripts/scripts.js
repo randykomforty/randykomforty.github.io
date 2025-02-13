@@ -1,3 +1,4 @@
+const container = document.querySelector("#container");
 const menu = document.querySelector("#menu");
 const tabMenu = document.querySelector("#menu ul");
 const activeTab = document.querySelector("#menu > ul > li:nth-child(1) a");
@@ -27,7 +28,9 @@ inactiveTabs.forEach((x, i) => {
 		e.preventDefault();
 		window.history.pushState({}, "", x.href);
 		checkUrl(e.target);
-		//console.log(e.target.parentElement);
+		container.scrollTo({
+			top: 0
+		});
 	});
 });
 
@@ -78,14 +81,8 @@ function checkUrl(linkToSwap) {
 		default:
 			tabContents[0].classList.add("show");
 	}
-	
 }
-
-
-
-
-
-
+/*
 let findHeight = "";
 let expandedHeight = [];
 entries.forEach((x, i) => {
@@ -94,10 +91,9 @@ entries.forEach((x, i) => {
 	x.nextElementSibling.style.height = expandedHeight;
 	x.classList.toggle("collapse");
 });
-
+*/
 entries.forEach((x, i) => {
 	x.addEventListener("click", function (e) {
-		
 		x.classList.toggle("collapse");
 	});
 });
