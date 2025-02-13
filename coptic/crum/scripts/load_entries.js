@@ -22,22 +22,6 @@ xmlhttp.onreadystatechange = function() {
 xmlhttp.open("GET", url);
 xmlhttp.send();
 
-/*
-url = "./scripts/additions_and_corrections.json";
-xmlhttp.onreadystatechange = function() {
-	if (this.readyState == 4 && this.status == 200) {
-		const fetchFromJSON = JSON.parse(this.responseText);
-		const appliedRegexes = applyRegexesAdditions(fetchFromJSON);
-		const convertedAdditions = appliedRegexes;
-		const additionsAndCorrections = document.querySelector("#additions_and_corrections table");
-		additionsAndCorrections.innerHTML += convertedAdditions;
-	}
-};
-xmlhttp.open("GET", url);
-xmlhttp.send();
-*/
-
-
 function applyRegexesDictionary(x) {
 	let processedText = "";
 	for (let i = 0; i < x.length; i++) {
@@ -54,27 +38,4 @@ function applyRegexesDictionary(x) {
 		y = y.replace(regexStyling, arrayStyling[i][1]);
 	}
 	return y;
-}
-
-let add_and_correct  = document.querySelector("#additions_and_corrections table").innerHTML;
-applyRegexesAdditions(add_and_correct);
-
-function applyRegexesAdditions(x) {
-	/*
-	for (let i = 0; i < x.length; i++) {
-		processedText += x[i].line + "\n";
-	}
-	for (let i = 0; i < arrayStyling.length; i++) {
-		let regexStyling = new RegExp(arrayStyling[i][0], "msg");
-		y = y.replace(regexStyling, arrayStyling[i][1]);
-	}
-	let processedText = "";
-	*/
-	//let y = x;
-	for (let key in arrayStyling) {
-		let regexStyling = new RegExp(arrayStyling[key][0], "msg");
-		x= x.replace(regexStyling, arrayStyling[key][1]);
-	}
-	
-	//return y;
 }

@@ -1,3 +1,5 @@
+import arrayStyling from "../../scripts/dictionary_regexes.js";
+
 const container = document.querySelector("#container");
 const menu = document.querySelector("#menu");
 const tabMenu = document.querySelector("#menu ul");
@@ -97,3 +99,21 @@ entries.forEach((x, i) => {
 		x.classList.toggle("collapse");
 	});
 });
+
+let addAndCorrectPage = document.querySelectorAll("#additions_and_corrections table tr td.page");
+let addAndCorrectNote = document.querySelectorAll("#additions_and_corrections table tr td.note");
+addAndCorrectPage.forEach(x => {
+	x.innerHTML = applyRegexesAdditions(x);
+});
+addAndCorrectNote.forEach(x => {
+	x.innerHTML = applyRegexesAdditions(x);
+});
+
+function applyRegexesAdditions(y) {
+	let cellContent = y.innerHTML;
+	for (let key in arrayStyling) {
+		let regexStyling = new RegExp(arrayStyling[key][0], "msg");
+		cellContent = cellContent.replace(regexStyling, arrayStyling[key][1]);
+	}
+	return cellContent;
+}
