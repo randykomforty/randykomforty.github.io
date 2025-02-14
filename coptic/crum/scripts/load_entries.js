@@ -25,17 +25,46 @@ xmlhttp.send();
 function applyRegexesDictionary(x) {
 	let processedText = "";
 	for (let i = 0; i < x.length; i++) {
+		let headword = x[i].headword;
+		let expanded = x[i].expanded;
+		//headword = headword.replace(/\\\\(\(|\))/msg, "\\$1");
+		//expanded = expanded.replace(/\\\\(\(|\))/msg, "\\$1");
+		//console.log(expanded);
+		for (let key in arrayStyling) {
+			let regexStyling = new RegExp(arrayStyling[key][0], "msg");
+			headword = headword.replace(regexStyling, arrayStyling[key][1]);
+			headword = headword.replace(/\\/, "");
+			expanded = expanded.replace(regexStyling, arrayStyling[key][1]);
+			expanded = expanded.replace(/\\/, "");
+		}
 		processedText += '<li class="entry">';
 		processedText += '<ul>';
-		processedText += '<li class="collapse">' + x[i].headword + '</li>\n';
-		processedText += '<li>' + x[i].expanded + '</li>\n';
+		processedText += '<li class="collapse">' + headword + '</li>\n';
+		processedText += '<li>' + expanded + '</li>\n';
 		processedText += '</ul>';
 		processedText += '</li>';
 	}
 	let y = processedText;
-	for (let i = 0; i < arrayStyling.length; i++) {
-		let regexStyling = new RegExp(arrayStyling[i][0], "msg");
-		y = y.replace(regexStyling, arrayStyling[i][1]);
-	}
 	return y;
+}
+
+
+let addAndCorrectPage = document.querySelectorAll("#additions_and_corrections table tr td.page");
+let addAndCorrectNote = document.querySelectorAll("#additions_and_corrections table tr td.note");
+addAndCorrectPage.forEach(x => {
+	x.innerHTML = applyRegexesAdditions(x);
+});
+addAndCorrectNote.forEach(x => {
+	x.innerHTML = applyRegexesAdditions(x);
+});
+
+function applyRegexesAdditions(y) {
+	let cellContent = [];
+	cellContent[0] = y.innerHTML;
+	for (let key in arrayStyling) {
+		let regexStyling = new RegExp(arrayStyling[key][0], "msg");
+		cellContent[0] = cellContent[0].replace(regexStyling, arrayStyling[key][1]);
+		cellContent[0] = cellContent[0].replace(/\\\\(\[|\]|\(|\))/mgs, "$1");
+	}
+	return cellContent[0];
 }

@@ -412,7 +412,7 @@ header:before {
 	//border-top: 5px solid;
 	margin-right: -1em;
 	//width: calc(100% - 2em);
-	background: #222222;
+	//background: #222222;
 	overflow-y: auto;
 }
 
