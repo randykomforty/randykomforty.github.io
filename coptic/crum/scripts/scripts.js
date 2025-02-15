@@ -117,3 +117,4 @@ function applyRegexesAdditions(y) {
 	}
 	return cellContent;
 }
+

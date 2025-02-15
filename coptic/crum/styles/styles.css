@@ -356,6 +356,22 @@ header:before {
 
 .entry {
 	position: relative;
+	margin-right: 1em;
+}
+
+#dictionary {
+	opacity: 1;
+	transition: opacity .5s;
+}
+
+#dictionary:hover .entry {
+	opacity: .2;
+	transition: opacity .5s;
+}
+
+#dictionary .entry:hover {
+	opacity: 1;
+	transition: opacity .5s;
 }
 
 .entry > ul {
@@ -408,7 +424,7 @@ header:before {
 }
 
 .entry > ul > li:nth-child(1) + li {
-	max-height: 500px;
+	//max-height: 500px;
 	//border-top: 5px solid;
 	margin-right: -1em;
 	//width: calc(100% - 2em);
@@ -416,7 +432,18 @@ header:before {
 	overflow-y: auto;
 }
 
+.entry > ul > li:nth-child(1) + li p {
+	text-indent: 1em;
+	margin: 0;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding: 0;
+}
 
+.entry > ul > li:nth-child(1) + li p + p {
+	//margin-top: 1em;
+	//margin-bottom: 1em;
+}
 
 .entry ul ul {
 	padding-left: 1em;

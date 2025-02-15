@@ -33,14 +33,14 @@ function applyRegexesDictionary(x) {
 		for (let key in arrayStyling) {
 			let regexStyling = new RegExp(arrayStyling[key][0], "msg");
 			headword = headword.replace(regexStyling, arrayStyling[key][1]);
-			headword = headword.replace(/\\/, "");
+			//headword = headword.replace(/\\\\/, "");
 			expanded = expanded.replace(regexStyling, arrayStyling[key][1]);
-			expanded = expanded.replace(/\\/, "");
+			//expanded = expanded.replace(/(?:\\\\)(\[|\]|\(|\))/, "$1");
 		}
 		processedText += '<li class="entry">';
 		processedText += '<ul>';
-		processedText += '<li class="collapse">' + headword + '</li>\n';
-		processedText += '<li>' + expanded + '</li>\n';
+		processedText += '<li>' + headword + '</li>\n';
+		processedText += '<li><p>' + expanded + '</p></li>\n';
 		processedText += '</ul>';
 		processedText += '</li>';
 	}
