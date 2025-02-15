@@ -12,10 +12,18 @@ xmlhttp.onreadystatechange = function() {
 		const addToDictionary = document.querySelector("#dictionary ul");
 		addToDictionary.innerHTML += convertedEntries;
 	}
-	const dict_entries = document.querySelectorAll("#dictionary > ul > li.entry > ul > li:first-child");
-	dict_entries.forEach(dict_entry => {
-		dict_entry.addEventListener("click", function (e) {
-			dict_entry.classList.toggle("collapse");
+	const entries = document.querySelectorAll(".entry");
+	entries.forEach(x => {
+		x.classList.add("temp-padding");
+		const styles = window.getComputedStyle(x);
+		//console.log(styles.padding);
+		const height = styles.height;
+		x.style.height = height;
+		x.classList.remove("temp-padding");
+		//x.style.height = "calc(" + height + " + 2em)";
+		x.classList.toggle("collapse");
+		x.querySelector(".togglable").addEventListener("click", function (e) {
+			x.classList.toggle("collapse");
 		});
 	});
 };
@@ -26,23 +34,12 @@ function applyRegexesDictionary(x) {
 	let processedText = "";
 	for (let i = 0; i < x.length; i++) {
 		let headword = x[i].headword;
-		let expanded = x[i].expanded;
-		//headword = headword.replace(/\\\\(\(|\))/msg, "\\$1");
-		//expanded = expanded.replace(/\\\\(\(|\))/msg, "\\$1");
-		//console.log(expanded);
 		for (let key in arrayStyling) {
 			let regexStyling = new RegExp(arrayStyling[key][0], "msg");
 			headword = headword.replace(regexStyling, arrayStyling[key][1]);
 			//headword = headword.replace(/\\\\/, "");
-			expanded = expanded.replace(regexStyling, arrayStyling[key][1]);
-			//expanded = expanded.replace(/(?:\\\\)(\[|\]|\(|\))/, "$1");
 		}
-		processedText += '<li class="entry">';
-		processedText += '<ul>';
-		processedText += '<li>' + headword + '</li>\n';
-		processedText += '<li><p>' + expanded + '</p></li>\n';
-		processedText += '</ul>';
-		processedText += '</li>';
+		processedText += '<li class="entry"><div class="togglable"></div><div class="definition"><p>' + headword + '</p></div></li>\n';
 	}
 	let y = processedText;
 	return y;

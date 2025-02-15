@@ -16,8 +16,7 @@ const tabContents = [
 	document.querySelector("#arabic_index")
 ];
 
-const entries = document.querySelectorAll(".entry > ul > li:nth-child(1)");
-const entriesExpanded = document.querySelectorAll(".entry > ul > li:nth-child(2)");
+
 
 checkUrl();
 
@@ -84,21 +83,20 @@ function checkUrl(linkToSwap) {
 			tabContents[0].classList.add("show");
 	}
 }
+
+const entries = document.querySelectorAll(".entry");
+
 /*
-let findHeight = "";
-let expandedHeight = [];
-entries.forEach((x, i) => {
-	findHeight = window.getComputedStyle(x.nextElementSibling);
-	expandedHeight = findHeight.getPropertyValue("height");
-	x.nextElementSibling.style.height = expandedHeight;
-	x.classList.toggle("collapse");
-});
-*/
-entries.forEach((x, i) => {
+entries.forEach(x => {
+	const styles = window.getComputedStyle(x);
+	const height = styles.height;
+	x.style.background = "green";
+	console.log(x.style.height);
 	x.addEventListener("click", function (e) {
 		x.classList.toggle("collapse");
 	});
 });
+*/
 
 let addAndCorrectPage = document.querySelectorAll("#additions_and_corrections table tr td.page");
 let addAndCorrectNote = document.querySelectorAll("#additions_and_corrections table tr td.note");

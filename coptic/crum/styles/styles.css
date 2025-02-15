@@ -2,8 +2,8 @@
 @import url("../../styles/styles.css");
 
 ::selection {
-	color: goldenrod;
-	background: black;
+	color: black;
+	background: white;
 }
 
 body {
@@ -347,112 +347,111 @@ header:before {
 
 
 
-
-
-#dictionary > ul {
-	list-style-type: none;
-	padding: 0 1em;
-}
-
-.entry {
-	position: relative;
-	margin-right: 1em;
-}
-
 #dictionary {
 	opacity: 1;
 	transition: opacity .5s;
 }
 
-#dictionary:hover .entry {
-	opacity: .2;
-	transition: opacity .5s;
-}
-
-#dictionary .entry:hover {
-	opacity: 1;
-	transition: opacity .5s;
-}
-
-.entry > ul {
-	position: relative;
-	padding-left: 2em;
+#dictionary ul {
 	list-style-type: none;
+	padding: 0 1em;
 }
 
-.entry > ul > li {
-	margin-left: -1em;
-}
-
-.entry > ul > li:nth-child(2) {
-	background: #111111;
-	margin-left: 0em;
-}
-
-.entry > ul > li:nth-child(1) {
-	background: #111111;
-}
-
-.entry > ul > li:nth-child(1):before {
-	content: "▷";
-	font-size: 1em;
+#dictionary ul .entry {
+	overflow-y: hidden;
+	list-style-type: none;
+	transition: height .25s ease-in-out;
 	position: relative;
-	left: -.5em;
-	color: #ffb60022;
-	display: inline-block;
-	rotate: 90deg;
-	transition:
-		rotate .2s ease-in-out,
-		color .2s ease-in-out;
+	//padding: 0 1em;
+	display: flex;
 }
 
-.entry > ul > li:nth-child(1).collapse:before {
-	rotate: 0deg;
+.temp-padding {
+	padding: 0 1em;
 }
 
-.entry > ul > li:nth-child(1):hover:before {
-	color: #ffb600ff;
+#dictionary ul .entry.collapse {
+	height: 1.5em !important;
 }
 
-.entry > ul > li:nth-child(1) + li,
-.entry > ul > li:nth-child(1).collapse + li {
-	transition: height .25s ease-out;
-}
-
-.entry > ul > li:nth-child(1).collapse + li {
-	height: 0px !important;
-}
-
-.entry > ul > li:nth-child(1) + li {
-	//max-height: 500px;
-	//border-top: 5px solid;
-	margin-right: -1em;
-	//width: calc(100% - 2em);
-	//background: #222222;
-	overflow-y: auto;
-}
-
-.entry > ul > li:nth-child(1) + li p {
-	text-indent: 1em;
-	margin: 0;
+#dictionary ul .entry + .entry {
 	margin-top: 1em;
-	margin-bottom: 1em;
+}
+
+#dictionary ul .entry .definition p {
+	margin: 0 0em;
+	padding: 0 0 0 0.5em;
+	transition:
+		padding .25s ease-in-out,
+		outline .25s ease-in-out;
+}
+
+#dictionary ul .entry.collapse .definition p {
+	margin: 0;
 	padding: 0;
 }
 
-.entry > ul > li:nth-child(1) + li p + p {
-	//margin-top: 1em;
-	//margin-bottom: 1em;
+#dictionary ul .entry .definition p + p {
+	padding-top: .5em;
 }
 
-.entry ul ul {
-	padding-left: 1em;
-	list-style-type: none;
+#dictionary:hover ul .entry {
+	//opacity: .2;
+	//transition: opacity .5s;
 }
 
-.entry .group ul {
-	padding-left: 0;
+#dictionary ul .entry:hover {
+	//opacity: 1;
+	//transition: opacity .5s;
 }
+
+#dictionary ul .entry .togglable:before {
+	content: "▷";
+	font-size: 1em;
+	//position: absolute;
+	left: 0em;
+	color: #ffb60022;
+	//display: inline-block;
+	/*rotate: 90deg;*/
+	transform: rotate(90deg);
+	transition:
+		/*rotate .2s ease-in-out,*/
+		transform .2s ease-in-out,
+		color .2s ease-in-out;
+}
+
+#dictionary ul .entry.collapse .togglable:before {
+	//rotate: 0deg;
+	transform: rotate(0deg);
+}
+
+#dictionary ul .entry:hover .togglable:before {
+	color: #ffb600ff;
+}
+
+#dictionary ul .entry .definition {
+	margin: 0 .0em;
+	margin-left: 0.5em;
+	padding-left: 0.5em;
+	border-left: 1px solid #ffffff33;
+	transition: border .5s;
+}
+
+#dictionary ul .entry.collapse .definition {
+	border-left: 1px solid #ffffff00;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .dialect sup {
 	font-size: inherit;
@@ -496,6 +495,13 @@ sup {
 .aramaic {
 	line-height: 0;
 }
+
+
+
+
+
+
+
 
 #english_index .add {
 	color: lightblue;
