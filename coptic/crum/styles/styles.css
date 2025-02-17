@@ -1,21 +1,69 @@
 @import url("../../../styles/styles.css");
 @import url("../../styles/styles.css");
+@import url("../../../styles/fonts.css");
 
 ::selection {
-	color: black;
-	background: white;
+	//color: black;
+	//background: white;
 }
 
 body {
 	display: flex;
 	flex-direction: column;
 	//grid-template-rows: auto 1fr;
+	background: #111111;
+	color: grey;
+	//font-family: "serif";
 	margin: 0;
 	padding: 0;
 	height: 100dvh;
 	outline: none;
 	//border: .5em solid #222222;
 	//border-top: none;
+}
+
+.dialect sup {
+	font-size: inherit;
+	font-size: .8em;
+	padding-left: 0;
+}
+
+.dialect.lycopolitan sup {
+	font-style: normal;
+}
+
+i.dialect {
+	color: steelblue;
+}
+
+sup {
+	line-height: 0;
+}
+
+#dictionary ul .entry .definition .headword {
+	color: violet;
+	font-family: rk_coptic;
+	font-size: 1.5em;
+	line-height: 0;
+}
+
+.greek {
+	//font-size: 1.2em;
+}
+
+.arabic {
+	//font-size: 1.3em;
+}
+
+.aramaic {
+	//font-size: 1.5em;
+}
+
+.headword,
+.greek,
+.arabic,
+.aramaic {
+	//line-height: 0;
 }
 
 #container {
@@ -94,7 +142,7 @@ header:before {
 	gap: 0 .5em;
 	margin: 0;
 	padding: 0 .5em;
-	//width: max-content;
+	width: max-content;
 }
 
 #menu > ul > li:nth-child(1) {
@@ -348,8 +396,7 @@ header:before {
 
 
 #dictionary {
-	opacity: 1;
-	transition: opacity .5s;
+	
 }
 
 #dictionary ul {
@@ -362,16 +409,18 @@ header:before {
 	list-style-type: none;
 	transition: height .25s ease-in-out;
 	position: relative;
-	//padding: 0 1em;
-	display: flex;
+	display: grid;
+	grid-template-columns: 2em 1fr;
+	transition: height .5s, grid-template-columns .5s;
 }
 
 .temp-padding {
-	padding: 0 1em;
+	padding: 0 .5em;
 }
 
 #dictionary ul .entry.collapse {
 	height: 1.5em !important;
+	grid-template-columns: 1em 1fr;
 }
 
 #dictionary ul .entry + .entry {
@@ -379,14 +428,6 @@ header:before {
 }
 
 #dictionary ul .entry .definition p {
-	margin: 0 0em;
-	padding: 0 0 0 0.5em;
-	transition:
-		padding .25s ease-in-out,
-		outline .25s ease-in-out;
-}
-
-#dictionary ul .entry.collapse .definition p {
 	margin: 0;
 	padding: 0;
 }
@@ -395,106 +436,54 @@ header:before {
 	padding-top: .5em;
 }
 
-#dictionary:hover ul .entry {
-	//opacity: .2;
-	//transition: opacity .5s;
+#dictionary ul .entry .togglable {
+	box-sizing: border-box;
+	background: #ffffff22;
+	//width: 2em;
+	border-right: 10px solid;
+	//border-width: 1px;
+	//border-style: solid;
+	//border-image: linear-gradient(to bottom, transparent 10px, gray 10px, gray calc(100% - 10px), transparent calc(100% - 10px), transparent 100%) 1 100%;
+	//border-top: 0;
+	//border-left: 0;
+	//border-bottom: 0;
+	transition: border .5s;
+	left: 0;
+	top: 0;
+	z-index: 999;
 }
 
-#dictionary ul .entry:hover {
-	//opacity: 1;
-	//transition: opacity .5s;
-}
-
-#dictionary ul .entry .togglable:before {
-	content: "▷";
-	font-size: 1em;
-	//position: absolute;
-	left: 0em;
-	color: #ffb60022;
-	//display: inline-block;
-	/*rotate: 90deg;*/
-	transform: rotate(90deg);
-	transition:
-		/*rotate .2s ease-in-out,*/
-		transform .2s ease-in-out,
-		color .2s ease-in-out;
-}
-
-#dictionary ul .entry.collapse .togglable:before {
-	//rotate: 0deg;
-	transform: rotate(0deg);
-}
-
-#dictionary ul .entry:hover .togglable:before {
-	color: #ffb600ff;
+#dictionary ul .entry.collapse .togglable {
+	//border-image: linear-gradient(to bottom, transparent 0%, transparent 100%) 1 100%;
+	//width: 1em;
+	border-right: 10px solid;
 }
 
 #dictionary ul .entry .definition {
-	margin: 0 .0em;
-	margin-left: 0.5em;
-	padding-left: 0.5em;
-	border-left: 1px solid #ffffff33;
-	transition: border .5s;
+	padding-left: 1em;
+	transition: padding .5s;
 }
 
 #dictionary ul .entry.collapse .definition {
-	border-left: 1px solid #ffffff00;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-.dialect sup {
-	font-size: inherit;
-	font-size: .5em;
 	padding-left: 0;
+	
 }
 
-.dialect.lycopolitan sup {
-	font-style: normal;
+#dictionary ul .entry .definition p {
+	line-height: 1.5;
 }
 
-i.dialect {
-	color: steelblue;
+#dictionary ul .entry .definition p {
+	padding-right: 0em;
+	transition: padding-right .5s;
 }
 
-sup {
-	line-height: 0;
+#dictionary ul .entry.collapse .definition p {
+	padding-left: 0em;
+	padding-right: 2em;
 }
 
-.headword {
-	color: violet;
-	font-family: rk_coptic;
-	font-size: 1.2em;
-}
 
-.greek {
-	font-size: 1.2em;
-}
-
-.arabic {
-	font-size: 1.3em;
-}
-
-.aramaic {
-	font-size: 1.5em;
-}
-
-.headword,
-.greek,
-.arabic,
-.aramaic {
-	line-height: 0;
-}
 
 
 

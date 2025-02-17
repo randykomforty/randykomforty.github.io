@@ -10,7 +10,6 @@
 		U+0FE24, /* left half stroke */
 		U+0FE26, /* long stroke */
 		U+0FE25, /* right half stroke */
-
 		U+035E, /* double combine stroke */
 		U+0323, /* combine dot under */
 		U+0307, /* combine dot over */
@@ -20,10 +19,8 @@
 		U+0311, /* combine circumflex curved */
 		U+0361, /* wide inverted breve */
 		U+0308, /* combine diaeresis */
-
 		U+00B7, /* middle dot */
 		U+2E17, /* slanted double hyphen */
-		
 		U+1AB4, /* combining triple dot above*/
 		U+0028, /* left parenthesis */
 		U+0029, /* right parenthesis */
@@ -177,7 +174,7 @@
 	color: lightblue;
 	font-family: rk_egypt-translit;
 	//font-size: 1.2em;
-	font-style: italic;
+	//font-style: italic;
 }
 
 * {
