@@ -407,7 +407,6 @@ header:before {
 #dictionary ul .entry {
 	overflow-y: hidden;
 	list-style-type: none;
-	transition: height .25s ease-in-out;
 	position: relative;
 	display: grid;
 	grid-template-columns: 2em 1fr;
@@ -439,23 +438,12 @@ header:before {
 #dictionary ul .entry .togglable {
 	box-sizing: border-box;
 	background: #ffffff22;
-	//width: 2em;
 	border-right: 10px solid;
-	//border-width: 1px;
-	//border-style: solid;
-	//border-image: linear-gradient(to bottom, transparent 10px, gray 10px, gray calc(100% - 10px), transparent calc(100% - 10px), transparent 100%) 1 100%;
-	//border-top: 0;
-	//border-left: 0;
-	//border-bottom: 0;
 	transition: border .5s;
-	left: 0;
-	top: 0;
-	z-index: 999;
+	cursor: pointer;
 }
 
 #dictionary ul .entry.collapse .togglable {
-	//border-image: linear-gradient(to bottom, transparent 0%, transparent 100%) 1 100%;
-	//width: 1em;
 	border-right: 10px solid;
 }
 
