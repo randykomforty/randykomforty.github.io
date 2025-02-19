@@ -1,278 +1,326 @@
 [
 	{
-	"headword": "#[ⲁ]# first letter of alphabet, called [ⲁⲗⲫⲁ] [[S]] (PS 353, Br 124, Leyd 458, P 131^3 77, My 38) &amp; [[B]] (Ap 1 8, K1, Stern p 418), [الفة]. As numeral = _one_ [[B]][[F]], rarely [[S]] (Br 127) except in semi-Gk documents. Represents vowels unwritten in earlier hierogl., but sometimes visible in the half-consonants of later &amp; of dem. Dialectal equivalents: *a.* [[S]] [ⲁ] = elsewhere ([[A]][[F]]) [ⲉ], [ⲏ], as [ⲁⲗ], [ⲁⲩⲁⲛ], [ⲃⲁϩⲥⲉ], [ⲙⲁ], [ⲙⲁⲁⲃ], [ⲡⲁϩⲟⲩ], [ⲣⲙⲙⲁⲟ], [ⲟⲩⲁϩⲉ], [ϩⲧⲁⲓ]. *b.* [[S]] [ⲁ] = elsewhere [ⲟ] ([[A]][[B]]), as [ⲁⲛϩ], [ⲕⲁⲉ], [ⲥⲛⲁⲩ]. *c.* [ⲁ] elsewhere (mostly [[B]]) = [[S]] [ⲉ], as [ⲉⲃⲟⲧ], [ⲉⲗⲟⲟⲗⲉ], [ⲉⲩⲱ], [ⲕⲉⲗⲉⲛⲕⲉϩ], [ⲙⲉϩ-], [ϩⲉⲙⲛⲓϥⲉ], (or [[A]]) as [ⲃⲉⲛⲓⲡⲉ], [ⲉ-], [ⲉⲣⲏⲩ], [ⲉⲛⲉϩ]. *d.* [ⲁ] elsewhere ([[A]][[F]]) = [[S]] [ⲟ], as [ⲁⲗⲟⲩ], [ⲉⲓⲟⲟⲣ], [ⲕⲟⲉⲓϩ], [ⲗⲟ], [ⲙⲁϣⲟ], [ⲟⲉⲓⲙⲉ], [ⲟⲟⲧⲉ], [ϩⲟⲟⲗⲉ] &amp; in causatives, as [ⲧⲁⲗⲟ], [ⲑⲃⲃⲓⲟ]. *e.* [[S]] final [ⲁ] = [[B]] [ⲁⲓ], as [ⲛⲁ], [ⲟⲩⲁ], [ϣⲁ]. *f.* [[B]] adds prosthetic [ⲁ-] in [ⲁⲙⲟⲛⲓ], [ⲁⲛⲁⲓⲱ], [ⲁⲟⲩⲱ] _await_, [ⲁⲟⲩⲱⲛ], [ⲁⲟⲩⲏⲣ], [ⲁϫⲟ], [ⲁϫⲛ], [ⲁϭⲟ], [[F]] in [ⲁⲛⲟⲩϩ], [[S]] (?) in [ⲁⲧⲟ]. On changes from &amp; to [ⲁ] in [[A]][[A^2]] _v_ Rösch 35, El 27, AP _Einl_ 14; [[S^a]] _v_ Ep 1 236; in [[F]] _v_ Asmus 16. Before final [ϩ] [[S]][[F]] in 3-rad. words [ⲁ] sometimes replaces _ĕ_, as [ⲉⲓⲱⲣⲁϩ], [ⲥⲱⲟⲩⲁϩ] (_cf_ JKP 2 46 48 [ⲥⲱⲟⲩϩⲁ]), [ⲱⲛⲁϩ]."
+	"headword": "<span class=\"simple\">#[ⲁ]# first letter of alphabet, called [ⲁⲗⲫⲁ]</span> [[S]] (PS 353, Br 124, Leyd 458, P 131^3 77, My 38) &amp; [[B]] (Ap 1 8, K1, Stern p 418)<span class=\"simple\">, [الفة]</span>. As numeral = _one_ [[B]][[F]], rarely [[S]] (Br 127) except in semi-Gk documents. Represents vowels unwritten in earlier hierogl., but sometimes visible in the half-consonants of later &amp; of dem. Dialectal equivalents: *a.* [[S]] [ⲁ] = elsewhere ([[A]][[F]]) [ⲉ], [ⲏ], as [ⲁⲗ], [ⲁⲩⲁⲛ], [ⲃⲁϩⲥⲉ], [ⲙⲁ], [ⲙⲁⲁⲃ], [ⲡⲁϩⲟⲩ], [ⲣⲙⲙⲁⲟ], [ⲟⲩⲁϩⲉ], [ϩⲧⲁⲓ]. *b.* [[S]] [ⲁ] = elsewhere [ⲟ] ([[A]][[B]]), as [ⲁⲛϩ], [ⲕⲁⲉ], [ⲥⲛⲁⲩ]. *c.* [ⲁ] elsewhere (mostly [[B]]) = [[S]] [ⲉ], as [ⲉⲃⲟⲧ], [ⲉⲗⲟⲟⲗⲉ], [ⲉⲩⲱ], [ⲕⲉⲗⲉⲛⲕⲉϩ], [ⲙⲉϩ-], [ϩⲉⲙⲛⲓϥⲉ], (or [[A]]) as [ⲃⲉⲛⲓⲡⲉ], [ⲉ-], [ⲉⲣⲏⲩ], [ⲉⲛⲉϩ]. *d.* [ⲁ] elsewhere ([[A]][[F]]) = [[S]] [ⲟ], as [ⲁⲗⲟⲩ], [ⲉⲓⲟⲟⲣ], [ⲕⲟⲉⲓϩ], [ⲗⲟ], [ⲙⲁϣⲟ], [ⲟⲉⲓⲙⲉ], [ⲟⲟⲧⲉ], [ϩⲟⲟⲗⲉ] &amp; in causatives, as [ⲧⲁⲗⲟ], [ⲑⲃⲃⲓⲟ]. *e.* [[S]] final [ⲁ] = [[B]] [ⲁⲓ], as [ⲛⲁ], [ⲟⲩⲁ], [ϣⲁ]. *f.* [[B]] adds prosthetic [ⲁ-] in [ⲁⲙⲟⲛⲓ], [ⲁⲛⲁⲓⲱ], [ⲁⲟⲩⲱ] _await_, [ⲁⲟⲩⲱⲛ], [ⲁⲟⲩⲏⲣ], [ⲁϫⲟ], [ⲁϫⲛ], [ⲁϭⲟ], [[F]] in [ⲁⲛⲟⲩϩ], [[S]] (?) in [ⲁⲧⲟ]. On changes from &amp; to [ⲁ] in [[A]][[A^2]] _v_ Rösch 35, El 27, AP _Einl_ 14; [[S^a]] _v_ Ep 1 236; in [[F]] _v_ Asmus 16. Before final [ϩ] [[S]][[F]] in 3-rad. words [ⲁ] sometimes replaces _ĕ_, as [ⲉⲓⲱⲣⲁϩ], [ⲥⲱⲟⲩⲁϩ] (_cf_ JKP 2 46 48 [ⲥⲱⲟⲩϩⲁ]), [ⲱⲛⲁϩ]."
 	},
 	{
-	"headword": "#[ⲁ-]# [[S]][[A]][[B]][[F]] verbal prefix derived from [ⲉⲓⲣⲉ], characterizes (_a_) perf, (_b_) pluperf, (_c_) aorist tenses, as (_a_) [ⲁⲧⲉⲩϭⲟⲙ ⲱϫⲛ], [ⲁⲕⲥⲱⲧⲉ ⲙⲡⲉⲕⲗⲁⲟⲥ], [ⲛⲁⲓϭⲉ ⲛⲧⲁⲩϣⲱⲡⲉ], (_b_) [ⲛⲉⲁⲩϣⲧⲟⲣⲧⲣⲡⲉ], (_c_) [ϣⲁⲣⲉⲟⲩⲉⲓⲱⲧ ϣⲛϩⲧⲏϥ], [ϣⲁⲥⲣ ϣⲡⲏⲣⲉ]."
+	"headword": "<span class=\"simple\">#[ⲁ-]# [[S]][[A]][[B]][[F]] verbal prefix derived from [ⲉⲓⲣⲉ]</span>, characterizes (_a_) perf, (_b_) pluperf, (_c_) aorist tenses, as (_a_) [ⲁⲧⲉⲩϭⲟⲙ ⲱϫⲛ], [ⲁⲕⲥⲱⲧⲉ ⲙⲡⲉⲕⲗⲁⲟⲥ], [ⲛⲁⲓϭⲉ ⲛⲧⲁⲩϣⲱⲡⲉ], (_b_) [ⲛⲉⲁⲩϣⲧⲟⲣⲧⲣⲡⲉ], (_c_) [ϣⲁⲣⲉⲟⲩⲉⲓⲱⲧ ϣⲛϩⲧⲏϥ], [ϣⲁⲥⲣ ϣⲡⲏⲣⲉ]."
 	},
 	{
-	"headword": "#[ⲁ-]# [[S]][[A]][[B]][[F]][[O]] (also [ⲉ-] [[O]]) imperat prefix of vbs [ⲗⲟ], [ⲛⲁⲩ], [ⲟⲩⲱⲙ] ([[B]] only, Ez 12 18, BSM 44), [ⲟⲩⲱⲛ], [ⲟⲩⲱϩ] ([[S]] in [ⲁⲟⲩⲱ], [ⲁⲩⲱ] _and_), [ϫⲱ]; _v_ Sethe _Verbum_ 2 507, Spg _Dem Gram_ 214, Sdff 331 ([ⲁϫⲱϩⲙ] is 2 sg f pf); also prefixed to special imperat forms: [ⲁⲗⲓⲟⲩⲓ], [ⲁⲙⲟⲩ] &amp;c, [ⲁⲛⲓ] &amp;c, [ⲁⲣⲓ], [ⲁⲩ], [ⲁⲩⲉⲓⲥ]."
+	"headword": "<span class=\"simple\">#[ⲁ-]# [[S]][[A]][[B]][[F]][[O]] (also [ⲉ-] [[O]]) imperat prefix of vbs [ⲗⲟ], [ⲛⲁⲩ], [ⲟⲩⲱⲙ] ([[B]] only, Ez 12 18, BSM 44), [ⲟⲩⲱⲛ], [ⲟⲩⲱϩ] ([[S]] in [ⲁⲟⲩⲱ], [ⲁⲩⲱ] _and_), [ϫⲱ]</span>; _v_ Sethe _Verbum_ 2 507, Spg _Dem Gram_ 214, Sdff 331 ([ⲁϫⲱϩⲙ] is 2 sg f pf); also prefixed to special imperat forms: [ⲁⲗⲓⲟⲩⲓ], [ⲁⲙⲟⲩ] &amp;c, [ⲁⲛⲓ] &amp;c, [ⲁⲣⲓ], [ⲁⲩ], [ⲁⲩⲉⲓⲥ]."
 	},
 	{
-	"headword": "#[ⲁ-]# [[A]] prep _v_ [ⲉ-]."
+	"headword": "<span class=\"simple\">#[ⲁ-]# [[A]] prep _v_ [ⲉ-]</span>."
 	},
 	{
-	"headword": "#[ⲁ-]# [[S]][[A]][[B]][[F]] ([[B]] rare, [[A]] El 44), [ⲁⲩ-] [[B]], adv of indefiniteness, _about_; often with [ⲛ-] (rare [ⲛⲛ-]) prefixed; _v_ AZ 51 122. *a.* of distance, mostly [ⲛⲁ-], [ⲛⲁⲩ-]: Ge 21 16 [[S]][[B]] [ⲛⲁ-], Jon 3 3 [[B]] [ⲛⲁⲩ-] ([[S]][[A]] [ⲉⲥⲛⲁⲣ]) [ὡσεί], Mt 14 24 [[B]] [ⲛⲁⲩ-] ([[S]] [ⲛ-]), Jo 21 8 [[S]] [ⲛⲁ-] ([[B]] [ⲛⲁⲩ-]), El 44 [[A]] [ⲛⲁⲧⲉⲓⲟⲩⲉ ⲛⲥⲧⲁⲇ.], N &amp; E 39 339 [[B]] near village [ⲁⲩⲅ̅ϯ ⲙⲙⲩⲗⲗⲓⲟⲛ], MG 25 347 [[B]] distant from cell [ⲉⲛⲁⲩⲫⲟⲩⲱϣ ⲙⲓ̅ⲃ̅ ⲙⲙⲓⲗ.], BM 524 [[F]] let them not dwell [ⲛⲁϣⲏⲧ ⲙⲙⲓⲗ. ⲉⲡⲕⲱⲧⲓ], BMis 448 [[S]] when was distant [ⲛⲁϣⲟⲙⲛⲧ ⲙⲙⲓⲗ.] *b.* of height, depth: Nu 11 31 [[S]] [ⲛⲛⲁ-] ([[B]] [ⲛⲁⲩ-]) [ὡσεί], _cf_ BAp 88, ShC 42 200 [[S]] down into earth [ⲛⲁⲡϣⲱⲕϩ ⲛⲟⲩϣⲏⲓ], SHel 55 [[S]] palace [ⲉϥⲛⲁⲉⲣ ⲁϣⲉ ⲙⲙⲁϩⲉ ⲛϫⲓⲥⲉ], AM 56 [[B]] plunged in river [ⲛⲁⲩⲩ̅ ⲙⲙⲁϩⲓ], Mor 24 25 [[F]] pits dug [ⲉⲛⲁⲛ̅ ⲙⲙⲉϩⲓ] ([[S]] [ⲛϣϥⲉ ⲛ-]). *c.* of weight: Mk 6 37 [[S]] [ⲛⲁ-] ([[B]] Gk om), ShC 73 145 [[S]] [ⲉⲡϣⲁⲩ ⲛⲁϯⲟⲩ ⲛⲃⲓⲣ] (var [ⲛ-]), TstAb 168 [[B]] tears exceeded smiles [ⲛⲁⲩⲓ̅ⲁ̅ ⲛⲕⲱⲃ ⲛⲥⲟⲡ]. *d.* of number, mostly [ⲁ-], [ⲁⲩ]: Ex 32 28 [[S]] ([[B]] om) [ⲁ-] [εἰς], Jos 7 4 [[S]] [ὡσεί], 1 Kg 22 2 [[S]] [ⲁ-] [ὡς], Ac 4 4 [[S]] [ⲁϯⲟⲩ ⲛϣⲟ] (var [ⲛⲉ̅], [[B]] om) [ὡσεί], Va 77 177 [[B]] [ϩⲁⲛⲁⲑⲃⲁⲛⲉ ⲧⲟⲩⲏⲡⲓ] (Gk om). *e.* of time: Dan 1 12 [[B]] ([[S]] Gk om), Ac 19 34 [[S]] [ⲛⲁ-] (var [ⲛⲛⲁ-]), [[B]] [ⲛⲁⲩ-] [ὡς ἐπί] acc, Mk 5 25 [[S]] [ⲛⲁ-] ([[B]] Gk om), Lu 8 42 [[S]] [ⲁ-] ([[B]] om) [ὡς], Ro 4 19 [[S]] [ⲁ-] ([[B]] [ⲛⲁⲩ], varr [ⲁⲩ-], [ⲁ-]) [πού], MG 17 316 [[S]] [ⲛⲉϥϩⲛⲁϫⲟⲩⲱⲧⲉ ⲛⲣⲟⲙⲡⲉ] ([[B]] _ib_ 5 om) [περί] acc, Est 4 11, Mk 9 21 [[S]] [ⲉⲓⲥ ⲁ-] ([[B]] Gk om), BAp 78 [[S]] [ⲉⲓⲥ ⲁⲟⲩⲏⲣ ⲛⲛⲁⲩ], 1 Thes 2 17 [[S]] [ⲛⲁ-], [[F]] [ⲁ-] ([[B]] Gk om), PSBA 10 398 [[B]] [ⲛⲁⲡϣⲁⲩ ⲛⲟⲩⲟⲩⲛⲟⲩ], _cf_ Va 63 7 [[B]] loaves [ⲛⲁⲡϣⲁⲩ ⲛⲭⲱ ϧⲁⲣⲱⲟⲩ] ([[S]] BMis 374 [ⲛⲁⲡϣⲓ])."
+	"headword": "<span class=\"simple\">#[ⲁ-]# [[S]][[A]][[B]][[F]] ([[B]] rare, [[A]] El 44), [ⲁⲩ-] [[B]], adv of indefiniteness, _about_</span>; often with [ⲛ-] (rare [ⲛⲛ-]) prefixed; _v_ AZ 51 122. *a.* of distance, mostly [ⲛⲁ-], [ⲛⲁⲩ-]: Ge 21 16 [[S]][[B]] [ⲛⲁ-], Jon 3 3 [[B]] [ⲛⲁⲩ-] ([[S]][[A]] [ⲉⲥⲛⲁⲣ]) [ὡσεί], Mt 14 24 [[B]] [ⲛⲁⲩ-] ([[S]] [ⲛ-]), Jo 21 8 [[S]] [ⲛⲁ-] ([[B]] [ⲛⲁⲩ-]), El 44 [[A]] [ⲛⲁⲧⲉⲓⲟⲩⲉ ⲛⲥⲧⲁⲇ.], N &amp; E 39 339 [[B]] near village [ⲁⲩⲅ̅ϯ ⲙⲙⲩⲗⲗⲓⲟⲛ], MG 25 347 [[B]] distant from cell [ⲉⲛⲁⲩⲫⲟⲩⲱϣ ⲙⲓ̅ⲃ̅ ⲙⲙⲓⲗ.], BM 524 [[F]] let them not dwell [ⲛⲁϣⲏⲧ ⲙⲙⲓⲗ. ⲉⲡⲕⲱⲧⲓ], BMis 448 [[S]] when was distant [ⲛⲁϣⲟⲙⲛⲧ ⲙⲙⲓⲗ.] *b.* of height, depth: Nu 11 31 [[S]] [ⲛⲛⲁ-] ([[B]] [ⲛⲁⲩ-]) [ὡσεί], _cf_ BAp 88, ShC 42 200 [[S]] down into earth [ⲛⲁⲡϣⲱⲕϩ ⲛⲟⲩϣⲏⲓ], SHel 55 [[S]] palace [ⲉϥⲛⲁⲉⲣ ⲁϣⲉ ⲙⲙⲁϩⲉ ⲛϫⲓⲥⲉ], AM 56 [[B]] plunged in river [ⲛⲁⲩⲩ̅ ⲙⲙⲁϩⲓ], Mor 24 25 [[F]] pits dug [ⲉⲛⲁⲛ̅ ⲙⲙⲉϩⲓ] ([[S]] [ⲛϣϥⲉ ⲛ-]). *c.* of weight: Mk 6 37 [[S]] [ⲛⲁ-] ([[B]] Gk om), ShC 73 145 [[S]] [ⲉⲡϣⲁⲩ ⲛⲁϯⲟⲩ ⲛⲃⲓⲣ] (var [ⲛ-]), TstAb 168 [[B]] tears exceeded smiles [ⲛⲁⲩⲓ̅ⲁ̅ ⲛⲕⲱⲃ ⲛⲥⲟⲡ]. *d.* of number, mostly [ⲁ-], [ⲁⲩ]: Ex 32 28 [[S]] ([[B]] om) [ⲁ-] [εἰς], Jos 7 4 [[S]] [ὡσεί], 1 Kg 22 2 [[S]] [ⲁ-] [ὡς], Ac 4 4 [[S]] [ⲁϯⲟⲩ ⲛϣⲟ] (var [ⲛⲉ̅], [[B]] om) [ὡσεί], Va 77 177 [[B]] [ϩⲁⲛⲁⲑⲃⲁⲛⲉ ⲧⲟⲩⲏⲡⲓ] (Gk om). *e.* of time: Dan 1 12 [[B]] ([[S]] Gk om), Ac 19 34 [[S]] [ⲛⲁ-] (var [ⲛⲛⲁ-]), [[B]] [ⲛⲁⲩ-] [ὡς ἐπί] acc, Mk 5 25 [[S]] [ⲛⲁ-] ([[B]] Gk om), Lu 8 42 [[S]] [ⲁ-] ([[B]] om) [ὡς], Ro 4 19 [[S]] [ⲁ-] ([[B]] [ⲛⲁⲩ], varr [ⲁⲩ-], [ⲁ-]) [πού], MG 17 316 [[S]] [ⲛⲉϥϩⲛⲁϫⲟⲩⲱⲧⲉ ⲛⲣⲟⲙⲡⲉ] ([[B]] _ib_ 5 om) [περί] acc, Est 4 11, Mk 9 21 [[S]] [ⲉⲓⲥ ⲁ-] ([[B]] Gk om), BAp 78 [[S]] [ⲉⲓⲥ ⲁⲟⲩⲏⲣ ⲛⲛⲁⲩ], 1 Thes 2 17 [[S]] [ⲛⲁ-], [[F]] [ⲁ-] ([[B]] Gk om), PSBA 10 398 [[B]] [ⲛⲁⲡϣⲁⲩ ⲛⲟⲩⲟⲩⲛⲟⲩ], _cf_ Va 63 7 [[B]] loaves [ⲛⲁⲡϣⲁⲩ ⲛⲭⲱ ϧⲁⲣⲱⲟⲩ] ([[S]] BMis 374 [ⲛⲁⲡϣⲓ])."
 	},
 	{
-	"headword": "#[ⲁ-]# in [ⲁⲧⲟⲟⲧ⸗], [ⲁⲡⲁⲧⲟⲟⲧ⸗] _v_ [ⲧⲱⲣⲉ] ([ⲧⲟⲟⲧ⸗])."
+	"headword": "<span class=\"simple\">#[ⲁ-]# in [ⲁⲧⲟⲟⲧ⸗], [ⲁⲡⲁⲧⲟⲟⲧ⸗] _v_ [ⲧⲱⲣⲉ] ([ⲧⲟⲟⲧ⸗])</span>."
 	},
 	{
-	"headword": "#[ⲁ-]# in [ⲁⲧⲱϥ] _v_ [ⲡⲱ⸗] ([ⲧⲱ⸗])."
+	"headword": "<span class=\"simple\">#[ⲁ-]# in [ⲁⲧⲱϥ] _v_ [ⲡⲱ⸗] ([ⲧⲱ⸗])</span>."
 	},
 	{
-	"headword": "#[ⲁⲉⲓⲉ]# [[A]] _v_ [ϩⲁⲉⲓⲟ]."
+	"headword": "<span class=\"simple\">#[ⲁⲉⲓⲉ]# [[A]] _v_ [ϩⲁⲉⲓⲟ]</span>."
 	},
 	{
-	"headword": "#[ⲁⲓⲁⲓ]# ([ⲁⲁⲓ] J 89 &amp; 86) [[S]][[B]], [ⲁⲓⲉⲩⲉ] (Ex 2 10), [ⲁⲉⲓⲉⲩⲧⲉ] [[A]], [ⲁⲓⲉⲓ] (Mor 38 103) [[F]], [ⲟⲓ] [[S]][[B]][[O]]†, [ⲁⲉⲓ] [[A]][[O]]† vb *I.* intr, _increase_ in size, _advance_ in age: Ge 1 28 [[S]][[A]][[B]], 35 11 [[S]][[B]], Jer 3 16 [[S]][[B]], Ac 7 17 [[B]][[F]] (paral [ⲁϣⲁⲓ]), Mt 6 28 [[B]], 13 30 [[S]][[B]][[F]], _ib_ 32 [[B]][[F]] ([[S]] [ⲣ ⲛⲟϭ]), Jo 3 30 [[B]] ([[S]] [ϫⲓⲥⲉ]) [αὐξάνειν], Lammayer 37 [[S]] God's spirit [ⲧⲣⲉⲩⲁ.] = R 1 2 36 [ⲁⲩⲝⲁⲛⲉ ⲙⲙⲟⲟⲩ], ROC 17 401 [[B]] [ⲉⲁϥⲑⲣⲉⲛⲁⲛⲁⲣⲉⲧⲏ … ⲁ.] [συναυξάν.]; Ps 19 6 [[S]][[B]], 91 6 [[S]] ([[B]] [ⲉⲣ ⲛⲓϣϯ]), Pro 8 16 [[S]][[A]] ([[B]] do), Ez 16 7 [[S]][[B]] (paral [ⲁϣⲁⲓ]) [μεγαλύνθεσθαι]; Ge 18 11 [[S]] (var [ⲁⲗⲉ ⲉϩⲣⲁⲓ]) [[B]], Jos 13 1, 23 1 [[S]] (var do) [[B]], Jth 16 23 [[S]], 2 Mac 6 18 [[A]], Lu 1 7 [[S]][[B]] [προβαίνειν]; Is 44 14 [[S]] ([[B]] [ϣⲓⲁⲓ]) [μηκύνειν], Ex 2 10 [[A]], ROC 17 401 [[B]] [ἁδρύνεσθαι], Job 14 8 [[B]] ([[S]] [ⲣ ϩⲗⲗⲟ]) [γηράσκειν], BMar 159 [[S]] [ⲡⲉⲛⲧⲁϥⲁ. ϩⲛⲑⲏⲗⲓⲕⲓⲁ] [πρεσβύτης εἶναι], Ge 7 17 [[S]] ([[B]] [ⲛⲏⲟⲩ ⲛⲁϣⲁⲓ]) [πληθύναι], Ex 10 1 [[S]][[B]] (? _l_ [ἐπλήσθη], _cf_ 11 9), C 86 189 [[B]] [ⲛⲓⲛⲁϩϯ ⲉϥⲛⲏⲟⲩ ⲛⲛⲁ.] (_sic_), Abst 263 [[B]] of crops, Wess 18 54 [[S]] of hair.\n*II.* tr Deu 6 3 [[B]] (PSBA 25 101, var [ⲁϣⲁⲓ]) [πληθ.] Qual _great_, _goodly_, _honoured_: Jos 4 4 [[S]][[B]], 1 Kg 22 14 [[S]], 2 Kg 23 19 [[S]], Nah 3 10 [[A]] ([[B]] [ⲧⲁⲓⲏⲟⲩⲧ]), [ἔνδοξος], Jud 5 29 [[S]] (Masp.) [ἄρχων], 2 Kg 1 23 [[S]] [ⲉⲩⲟⲓ ϩⲙⲡⲉⲩⲱⲛϩ] (Mor, _cf_ Masp), Cl 60 4 [[A]] [ⲡⲕⲣⲉⲛ ⲉⲧⲁⲉⲓ] (so BM 205 [[S]]) [πανάρετος] (var [ἔνδοξος]); ShP 130^4 157 [[S]] [ⲡⲉⲥⲭⲏⲙⲁ ⲉⲧⲟⲓ ⲉⲧϩⲁⲉⲟⲟⲩ], 2 Kg 1 19 (Mor, _cf_ Masp) [[S]] [ⲛⲉⲧⲱⲉⲓ ⲛⲧⲟⲟⲧⲕ] [τὰ ὕψη σου]; ShC 73 27 [[S]] [ⲡϣⲏⲣⲉ ⲉⲧⲟⲓ ⲛⲧⲟⲟⲧⲥ], ShBM Or 8800 3 [[S]] [ⲛⲉⲧϥⲟⲉⲓ ⲛⲧⲟⲟⲧⲟⲩ] (_sic_ _l_ R 2 3 8), Hor 79 [[O]] [ⲁϥⲁⲉⲓ ⲛⲧⲱⲧϥ], AZ 21 94 [[O]] Michael [ⲉⲧⲟⲓ ⲛⲧⲉⲙⲡⲛ︤ⲉ︥], Ryl 94 (33 f 2) [[S]] some [ⲉⲩⲟⲓ ⲛⲧⲟⲟⲧⲧⲏⲩⲧⲛ] like right hand (_cf_ Sa 12 7, Jth 15 11 [ⲉⲧⲧⲁⲉⲓⲏⲩ ⲛⲧⲟⲟⲧ⸗], also Ps 138 17 [[S]] where [ⲁ.] = [[B]] [ⲧⲁⲓⲟ]), Bor 284 2 [[S]] [ⲡⲉⲓⲛⲟϭ ⲛⲏⲓ ⲉⲧⲛⲉⲥⲱϥ ⲁⲩⲱ ⲉⲧⲟⲓ], AM 15 [[B]] [ⲉϥⲟⲓ ⲛⲟⲓ ⲛϭⲁⲥⲓϩⲏⲧ], EW 4 [[B]] God made man [ⲉϥⲟⲓ ⲉⲛⲁⲫⲱⲫ].\n— [[S]][[B]] nn m, _increase_, _growth_: Eph 4 16, Col 2 19 [[B]] [αὔξησις], My 32 [[S]] [ⲡⲁ. ⲛⲧϩⲩⲗⲓⲕⲓⲁ], Va 61 118 [[B]] [ⲡⲁ. ⲛⲛⲓⲟⲩⲧⲁϩ]; with [ϯ] [[B]]: Eph 4 15, Va 57 21, _ib_ 134 [αὐξάνειν], Va 58 29 [ⲉⲣⲉⲫϯ ϯ ⲁ. ⲛⲛⲓϣϣⲏⲛ], C 89 35 [ⲛⲁϥϯ ⲉⲡⲁ. ϧⲉⲛⲛⲓⲥⲃⲱⲟⲩⲓ] (? _l_ [ⲁⲛⲁⲓ], _cf_ _ib_ _infra_); with [ϭⲓ] [[B]]: Va 57 175 [ⲉⲩϭⲓ ⲁ. ⲟⲩⲟϩ ⲉⲩⲟⲓ ⲙⲃⲉⲣⲓ] [ἀκμάζειν], _ib_ 98 [ἀνθεῖν].\n[ϫⲓⲛⲁ.] [[B]] nn m f, _increase_: Va 57 99 [ⲡⲓϫ. ⲛⲧⲉ ⲛⲟⲩⲕⲁⲣⲡⲟⲥ], Va 58 10 [ϣⲁⲧⲉϥϫ. ϧⲉⲛϯϩⲩⲗⲓⲕⲓⲁ]; [ϫⲓⲛϯ ⲁ.] [[B]]: Va 57 79 [ⲡϫ. ⲛϯⲕⲁⲕⲓⲁ].\n[ⲁⲉⲓⲏⲥ], [ⲁⲏⲥ], [ⲁⲉⲏⲥ] (C 42 98) [[S]] Sh only, [ⲁⲉⲓⲉⲓⲥ], [ⲁⲉⲓⲥ], [ⲁⲓⲉⲓ] (Cl) [[A]], nn f, _greatness_, _size_, _quality_: C 73 23 [ⲛⲉⲓⲉⲟⲟⲩ ⲛⲧⲉⲓⲁ.] (var [ⲙⲓⲛⲉ]), C 42 37 [ⲟⲩⲥⲙⲟⲩ ⲛⲁϣ ⲛⲁ.] (paral [ϭⲟⲧ]), BMOr 8664 7 [ⲛⲁϣ ⲛⲁ. ⲛⲉ ⲛⲉⲯⲩⲭⲏ] of virgins ?, Cl 45 7 [[A]] [τοσοῦτο].\n_V_ also [ⲟ] _great_."
+	"headword": "<span class=\"simple\">#[ⲁⲓⲁⲓ]# ([ⲁⲁⲓ] J 89 &amp; 86) [[S]][[B]], [ⲁⲓⲉⲩⲉ] (Ex 2 10), [ⲁⲉⲓⲉⲩⲧⲉ] [[A]], [ⲁⲓⲉⲓ] (Mor 38 103) [[F]], [ⲟⲓ] [[S]][[B]][[O]]†, [ⲁⲉⲓ] [[A]][[O]]† vb *I.* intr, _increase_ in size, _advance_ in age</span>: Ge 1 28 [[S]][[A]][[B]], 35 11 [[S]][[B]], Jer 3 16 [[S]][[B]], Ac 7 17 [[B]][[F]] (paral [ⲁϣⲁⲓ]), Mt 6 28 [[B]], 13 30 [[S]][[B]][[F]], _ib_ 32 [[B]][[F]] ([[S]] [ⲣ ⲛⲟϭ]), Jo 3 30 [[B]] ([[S]] [ϫⲓⲥⲉ]) [αὐξάνειν], Lammayer 37 [[S]] God's spirit [ⲧⲣⲉⲩⲁ.] = R 1 2 36 [ⲁⲩⲝⲁⲛⲉ ⲙⲙⲟⲟⲩ], ROC 17 401 [[B]] [ⲉⲁϥⲑⲣⲉⲛⲁⲛⲁⲣⲉⲧⲏ … ⲁ.] [συναυξάν.]; Ps 19 6 [[S]][[B]], 91 6 [[S]] ([[B]] [ⲉⲣ ⲛⲓϣϯ]), Pro 8 16 [[S]][[A]] ([[B]] do), Ez 16 7 [[S]][[B]] (paral [ⲁϣⲁⲓ]) [μεγαλύνθεσθαι]; Ge 18 11 [[S]] (var [ⲁⲗⲉ ⲉϩⲣⲁⲓ]) [[B]], Jos 13 1, 23 1 [[S]] (var do) [[B]], Jth 16 23 [[S]], 2 Mac 6 18 [[A]], Lu 1 7 [[S]][[B]] [προβαίνειν]; Is 44 14 [[S]] ([[B]] [ϣⲓⲁⲓ]) [μηκύνειν], Ex 2 10 [[A]], ROC 17 401 [[B]] [ἁδρύνεσθαι], Job 14 8 [[B]] ([[S]] [ⲣ ϩⲗⲗⲟ]) [γηράσκειν], BMar 159 [[S]] [ⲡⲉⲛⲧⲁϥⲁ. ϩⲛⲑⲏⲗⲓⲕⲓⲁ] [πρεσβύτης εἶναι], Ge 7 17 [[S]] ([[B]] [ⲛⲏⲟⲩ ⲛⲁϣⲁⲓ]) [πληθύναι], Ex 10 1 [[S]][[B]] (? _l_ [ἐπλήσθη], _cf_ 11 9), C 86 189 [[B]] [ⲛⲓⲛⲁϩϯ ⲉϥⲛⲏⲟⲩ ⲛⲛⲁ.] (_sic_), Abst 263 [[B]] of crops, Wess 18 54 [[S]] of hair.\n*II.* tr Deu 6 3 [[B]] (PSBA 25 101, var [ⲁϣⲁⲓ]) [πληθ.] Qual _great_, _goodly_, _honoured_: Jos 4 4 [[S]][[B]], 1 Kg 22 14 [[S]], 2 Kg 23 19 [[S]], Nah 3 10 [[A]] ([[B]] [ⲧⲁⲓⲏⲟⲩⲧ]), [ἔνδοξος], Jud 5 29 [[S]] (Masp.) [ἄρχων], 2 Kg 1 23 [[S]] [ⲉⲩⲟⲓ ϩⲙⲡⲉⲩⲱⲛϩ] (Mor, _cf_ Masp), Cl 60 4 [[A]] [ⲡⲕⲣⲉⲛ ⲉⲧⲁⲉⲓ] (so BM 205 [[S]]) [πανάρετος] (var [ἔνδοξος]); ShP 130^4 157 [[S]] [ⲡⲉⲥⲭⲏⲙⲁ ⲉⲧⲟⲓ ⲉⲧϩⲁⲉⲟⲟⲩ], 2 Kg 1 19 (Mor, _cf_ Masp) [[S]] [ⲛⲉⲧⲱⲉⲓ ⲛⲧⲟⲟⲧⲕ] [τὰ ὕψη σου]; ShC 73 27 [[S]] [ⲡϣⲏⲣⲉ ⲉⲧⲟⲓ ⲛⲧⲟⲟⲧⲥ], ShBM Or 8800 3 [[S]] [ⲛⲉⲧϥⲟⲉⲓ ⲛⲧⲟⲟⲧⲟⲩ] (_sic_ _l_ R 2 3 8), Hor 79 [[O]] [ⲁϥⲁⲉⲓ ⲛⲧⲱⲧϥ], AZ 21 94 [[O]] Michael [ⲉⲧⲟⲓ ⲛⲧⲉⲙⲡⲛ︤ⲉ︥], Ryl 94 (33 f 2) [[S]] some [ⲉⲩⲟⲓ ⲛⲧⲟⲟⲧⲧⲏⲩⲧⲛ] like right hand (_cf_ Sa 12 7, Jth 15 11 [ⲉⲧⲧⲁⲉⲓⲏⲩ ⲛⲧⲟⲟⲧ⸗], also Ps 138 17 [[S]] where [ⲁ.] = [[B]] [ⲧⲁⲓⲟ]), Bor 284 2 [[S]] [ⲡⲉⲓⲛⲟϭ ⲛⲏⲓ ⲉⲧⲛⲉⲥⲱϥ ⲁⲩⲱ ⲉⲧⲟⲓ], AM 15 [[B]] [ⲉϥⲟⲓ ⲛⲟⲓ ⲛϭⲁⲥⲓϩⲏⲧ], EW 4 [[B]] God made man [ⲉϥⲟⲓ ⲉⲛⲁⲫⲱⲫ].\n— [[S]][[B]] nn m, _increase_, _growth_: Eph 4 16, Col 2 19 [[B]] [αὔξησις], My 32 [[S]] [ⲡⲁ. ⲛⲧϩⲩⲗⲓⲕⲓⲁ], Va 61 118 [[B]] [ⲡⲁ. ⲛⲛⲓⲟⲩⲧⲁϩ]; with [ϯ] [[B]]: Eph 4 15, Va 57 21, _ib_ 134 [αὐξάνειν], Va 58 29 [ⲉⲣⲉⲫϯ ϯ ⲁ. ⲛⲛⲓϣϣⲏⲛ], C 89 35 [ⲛⲁϥϯ ⲉⲡⲁ. ϧⲉⲛⲛⲓⲥⲃⲱⲟⲩⲓ] (? _l_ [ⲁⲛⲁⲓ], _cf_ _ib_ _infra_); with [ϭⲓ] [[B]]: Va 57 175 [ⲉⲩϭⲓ ⲁ. ⲟⲩⲟϩ ⲉⲩⲟⲓ ⲙⲃⲉⲣⲓ] [ἀκμάζειν], _ib_ 98 [ἀνθεῖν].\n[ϫⲓⲛⲁ.] [[B]] nn m f, _increase_: Va 57 99 [ⲡⲓϫ. ⲛⲧⲉ ⲛⲟⲩⲕⲁⲣⲡⲟⲥ], Va 58 10 [ϣⲁⲧⲉϥϫ. ϧⲉⲛϯϩⲩⲗⲓⲕⲓⲁ]; [ϫⲓⲛϯ ⲁ.] [[B]]: Va 57 79 [ⲡϫ. ⲛϯⲕⲁⲕⲓⲁ].\n[ⲁⲉⲓⲏⲥ], [ⲁⲏⲥ], [ⲁⲉⲏⲥ] (C 42 98) [[S]] Sh only, [ⲁⲉⲓⲉⲓⲥ], [ⲁⲉⲓⲥ], [ⲁⲓⲉⲓ] (Cl) [[A]], nn f, _greatness_, _size_, _quality_: C 73 23 [ⲛⲉⲓⲉⲟⲟⲩ ⲛⲧⲉⲓⲁ.] (var [ⲙⲓⲛⲉ]), C 42 37 [ⲟⲩⲥⲙⲟⲩ ⲛⲁϣ ⲛⲁ.] (paral [ϭⲟⲧ]), BMOr 8664 7 [ⲛⲁϣ ⲛⲁ. ⲛⲉ ⲛⲉⲯⲩⲭⲏ] of virgins ?, Cl 45 7 [[A]] [τοσοῦτο].\n_V_ also [ⲟ] _great_."
 	},
 	{
-	"headword": "#[ⲁⲉⲓⲟ]# [[B]] _v_ [ϩⲁⲉⲓⲟ]."
+	"headword": "<span class=\"simple\">#[ⲁⲉⲓⲟ]# [[B]] _v_ [ϩⲁⲉⲓⲟ]</span>."
 	},
 	{
-	"headword": "#[ⲁⲃ]# _v_ [ⲁϥ] _flesh_ &amp; [ⲁϥ] _fly_."
+	"headword": "<span class=\"simple\">#[ⲁⲃ]# _v_ [ⲁϥ] _flesh_ &amp; [ⲁϥ] _fly_</span>."
 	},
 	{
-	"headword": "#[ⲁⲃⲉ]# [[A]], [ⲁⲃⲓ] [[F]] _v_ [ⲉⲓⲃⲉ]."
+	"headword": "<span class=\"simple\">#[ⲁⲃⲉ]# [[A]], [ⲁⲃⲓ] [[F]] _v_ [ⲉⲓⲃⲉ]</span>."
 	},
 	{
-	"headword": "#[ⲁⲃⲉ]# [[S]] _v_ [ⲱϥⲉ]."
+	"headword": "<span class=\"simple\">#[ⲁⲃⲉ]# [[S]] _v_ [ⲱϥⲉ]</span>."
 	},
 	{
-	"headword": "#[ⲁⲃⲉ]# [[S]] nn f, meaning unknown: ST 389 they imprisoned me in village, [ⲉⲓⲥ ⲡⲛⲟⲩ\\(ⲧⲉ\\) ⲙⲛⲛⲉⲧⲛϣⲗⲏⲗ ⲁⲏϯ ⲑⲉ ⲛⲁⲓ ⲁⲓⲛⲟⲩϩ ⲧⲁⲃⲉ ⲁⲓⲃⲱⲕ ⲛⲁⲓ] and am come to you. _L_ ? [ⲁⲃⲱ] or [ⲧⲁⲃⲉⲛⲛⲏⲥⲉ] or [ⲧⲁ-ⲃⲉ]."
+	"headword": "<span class=\"simple\">#[ⲁⲃⲉ]# [[S]] nn f, meaning unknown</span>: ST 389 they imprisoned me in village, [ⲉⲓⲥ ⲡⲛⲟⲩ\\(ⲧⲉ\\) ⲙⲛⲛⲉⲧⲛϣⲗⲏⲗ ⲁⲏϯ ⲑⲉ ⲛⲁⲓ ⲁⲓⲛⲟⲩϩ ⲧⲁⲃⲉ ⲁⲓⲃⲱⲕ ⲛⲁⲓ] and am come to you. _L_ ? [ⲁⲃⲱ] or [ⲧⲁⲃⲉⲛⲛⲏⲥⲉ] or [ⲧⲁ-ⲃⲉ]."
 	},
 	{
-	"headword": "#[ⲁⲃⲱ]# [[S]][[B]][[F]], [ⲁⲃⲟⲩ] [[A]], pl [ⲁⲃⲟⲟⲩⲉ] [[S]] (R 1 2 13, Mor 52 25), sg as pl (Eccl 7 27) [[S]] nn f, _drag net_ for fish or animals: Eccl 7 27 [[S]], Hab 1 16 [[A]][[B]], Is 19 8 [[S]][[B]], Mt 13 47 [[S]][[F]] [σαγήνη] [شبكة]; opp [ϣⲛⲉ]: Hab _l_ _c_, Gu 98 [[S]] [ϣⲛⲏ ϩⲓⲁ.], BAp 40 [[S]] [ⲁⲓⲥⲟⲕⲟⲩ ⲛⲛⲁϣⲛⲏ ⲉⲧⲁ.], Mich '22 (sermon) [[S]] [ⲉⲣⲉⲧⲁ. ⲡⲟⲣϣ ⲉⲃⲟⲗ ⲉⲩⲣⲱϩⲧ ⲙⲡⲉϣⲛⲏ], Cai 42573 1 [ⲛⲟⲩϫ ⲛⲟⲩⲁ. ⲉⲑⲁⲗⲁⲥⲥⲁ ⲏ ⲟⲩϣⲛⲏ ⲉϭⲁⲡ ⲧⲃⲧ], BMis 478 [[S]] whilst drawing [ϣⲛⲏ], boy fell into water [ⲁϥⲃⲱⲕ ⲉϩⲣⲁⲓ ⲉⲧⲁ.] &amp; I could not draw up [ϣⲛⲏ], ShA 2 164 [[S]] fisher [ⲛⲁⲛⲉϫ ⲧⲁ. ⲉⲡⲙⲟⲟⲩ], PSBA 33 115 [[S]] heaven &amp; earth shall tremble like [ⲛⲟⲩϩ ⲛⲁ.], Tri 713 [[S]] for bird-catching, MG 25 319 [[B]] net of saint's prayers hath gathered us here, Mor 54 41 [[S]] [ⲣⲉϥⲛⲉϫ ⲁ. ⲉⲑⲁⲗⲁⲥⲥⲁ]. A pun upon [ⲁ.] &amp; name [ⲡⲁⲃⲱ] Baouit 1 115."
+	"headword": "<span class=\"simple\">#[ⲁⲃⲱ]# [[S]][[B]][[F]], [ⲁⲃⲟⲩ] [[A]], pl [ⲁⲃⲟⲟⲩⲉ] [[S]] (R 1 2 13, Mor 52 25), sg as pl (Eccl 7 27) [[S]] nn f, _drag net_ for fish or animals</span>: Eccl 7 27 [[S]], Hab 1 16 [[A]][[B]], Is 19 8 [[S]][[B]], Mt 13 47 [[S]][[F]] [σαγήνη] [شبكة]; opp [ϣⲛⲉ]: Hab _l_ _c_, Gu 98 [[S]] [ϣⲛⲏ ϩⲓⲁ.], BAp 40 [[S]] [ⲁⲓⲥⲟⲕⲟⲩ ⲛⲛⲁϣⲛⲏ ⲉⲧⲁ.], Mich '22 (sermon) [[S]] [ⲉⲣⲉⲧⲁ. ⲡⲟⲣϣ ⲉⲃⲟⲗ ⲉⲩⲣⲱϩⲧ ⲙⲡⲉϣⲛⲏ], Cai 42573 1 [ⲛⲟⲩϫ ⲛⲟⲩⲁ. ⲉⲑⲁⲗⲁⲥⲥⲁ ⲏ ⲟⲩϣⲛⲏ ⲉϭⲁⲡ ⲧⲃⲧ], BMis 478 [[S]] whilst drawing [ϣⲛⲏ], boy fell into water [ⲁϥⲃⲱⲕ ⲉϩⲣⲁⲓ ⲉⲧⲁ.] &amp; I could not draw up [ϣⲛⲏ], ShA 2 164 [[S]] fisher [ⲛⲁⲛⲉϫ ⲧⲁ. ⲉⲡⲙⲟⲟⲩ], PSBA 33 115 [[S]] heaven &amp; earth shall tremble like [ⲛⲟⲩϩ ⲛⲁ.], Tri 713 [[S]] for bird-catching, MG 25 319 [[B]] net of saint's prayers hath gathered us here, Mor 54 41 [[S]] [ⲣⲉϥⲛⲉϫ ⲁ. ⲉⲑⲁⲗⲁⲥⲥⲁ]. A pun upon [ⲁ.] &amp; name [ⲡⲁⲃⲱ] Baouit 1 115."
 	},
 	{
-	"headword": "#[ⲁⲃⲱ]# [[S]], pl. [ⲁⲃⲁⲧⲉ], nn f [قلعة]. So AZ 24 88 (Bsciai). Cannot be traced. _Cf_ KKS 54. But MS seems to read [ⲃⲱ], _v_ [ϥⲟ]."
+	"headword": "<span class=\"simple\">#[ⲁⲃⲱ]# [[S]], pl. [ⲁⲃⲁⲧⲉ], nn f [قلعة]</span>. So AZ 24 88 (Bsciai). Cannot be traced. _Cf_ KKS 54. But MS seems to read [ⲃⲱ], _v_ [ϥⲟ]."
 	},
 	{
-	"headword": "#[ⲁⲃⲱⲕ]# [[S]][[B]][[F]], seldom [ⲁⲃⲟⲕ] [[S]][[B]], [ⲉⲃⲱⲕ] DM, f [ⲁⲃⲟⲕⲉ] [[S]] (Ryl 63 1), [ⲁⲃⲟⲕⲓ] [[B]] (BSM 119, Cat 147), pl [ⲁⲃⲟⲟⲕⲉ] [[S]], [ⲁⲃⲁⲕⲉ] [[A]] )Pro 24 52, Zeph 2 14), [ⲁⲃⲟⲕⲓ] [[B]] (Va 57 271), [ⲁⲃⲁⲁⲕⲓ] [[F]] (Is 34 11), sg often as pl, nn m, _crow_, _raven_: Lev 11 14 [[S]][[B]], Job 38 41 [[S]][[B]] [κόραξ]; Jer 3 2, Ep Jer 54 [[B]] [κορώνη]; Miss 8 237 [[S]] [ⲟⲩⲁ. ⲉϥⲕⲏⲙ], MG 25 8 [[B]] [ⲟⲩⲁ. ⲛⲭⲁⲙⲉ], LCyp 3 [[S]] [ⲧⲁⲥⲡⲉ ⲛⲛⲁⲃⲟⲟⲕⲉ], BM 527 [[F]] [ⲥⲛⲁϥ ⲛⲁ.]; [ⲃⲁⲗ ⲛⲁ.] [κύαμος ἑλληνική] Z 629 [[S]], PMéd 267 [[S]], CR '87 376 [[S]], WS 52 [[S]] (all medic), Bal [[S]] in list of herbs, _cf_ DM 5 24 _bel n_ [ⲉⲃⲱⲕ]; Ps 146 9 [[S]][[B]] [ⲙⲁⲥ ⲛⲁ.]\nAs name: Bodl(P) g 14 [[S]] [ⲁⲡⲁ \\(ⲁ\\)ⲃⲱⲕ], [Ἀβόκ], [Ἀβῶκ] (Preisigke)."
+	"headword": "<span class=\"simple\">#[ⲁⲃⲱⲕ]# [[S]][[B]][[F]], seldom [ⲁⲃⲟⲕ] [[S]][[B]], [ⲉⲃⲱⲕ] DM, f [ⲁⲃⲟⲕⲉ] [[S]] (Ryl 63 1), [ⲁⲃⲟⲕⲓ] [[B]] (BSM 119, Cat 147), pl [ⲁⲃⲟⲟⲕⲉ] [[S]], [ⲁⲃⲁⲕⲉ] [[A]]) Pro 24 52, Zeph 2 14), [ⲁⲃⲟⲕⲓ] [[B]] (Va 57 271), [ⲁⲃⲁⲁⲕⲓ] [[F]] (Is 34 11), sg often as pl, nn m, _crow_, _raven_</span>: Lev 11 14 [[S]][[B]], Job 38 41 [[S]][[B]] [κόραξ]; Jer 3 2, Ep Jer 54 [[B]] [κορώνη]; Miss 8 237 [[S]] [ⲟⲩⲁ. ⲉϥⲕⲏⲙ], MG 25 8 [[B]] [ⲟⲩⲁ. ⲛⲭⲁⲙⲉ], LCyp 3 [[S]] [ⲧⲁⲥⲡⲉ ⲛⲛⲁⲃⲟⲟⲕⲉ], BM 527 [[F]] [ⲥⲛⲁϥ ⲛⲁ.]; [ⲃⲁⲗ ⲛⲁ.] [κύαμος ἑλληνική] Z 629 [[S]], PMéd 267 [[S]], CR '87 376 [[S]], WS 52 [[S]] (all medic), Bal [[S]] in list of herbs, _cf_ DM 5 24 _bel n_ [ⲉⲃⲱⲕ]; Ps 146 9 [[S]][[B]] [ⲙⲁⲥ ⲛⲁ.]\nAs name: Bodl(P) g 14 [[S]] [ⲁⲡⲁ \\(ⲁ\\)ⲃⲱⲕ], [Ἀβόκ], [Ἀβῶκ] (Preisigke)."
 	},
 	{
-	"headword": "#[ⲁⲃⲁⲗ]# [[A]] _v_ [ⲃⲱⲗ] ([ⲉⲃⲟⲗ])."
+	"headword": "<span class=\"simple\">#[ⲁⲃⲁⲗ]# [[A]] _v_ [ⲃⲱⲗ] ([ⲉⲃⲟⲗ])</span>."
 	},
 	{
-	"headword": "#[ⲁⲃⲁⲛ]# _v_ [ⲁⲩⲁⲛ]."
+	"headword": "<span class=\"simple\">#[ⲁⲃⲁⲛ]# _v_ [ⲁⲩⲁⲛ]</span>."
 	},
 	{
-	"headword": "#[ⲁⲃⲏⲛ]# _v_ [ⲁⲩⲉⲓⲛ]."
+	"headword": "<span class=\"simple\">#[ⲁⲃⲏⲛ]# _v_ [ⲁⲩⲉⲓⲛ]</span>."
 	},
 	{
-	"headword": "#[ⲁⲃⲓⲛ]# [[O]] nn pl, meaning unknown: AZ 21 105 [ⲛⲉϩⲥⲉ ⲡϣⲟⲓ ⲛⲥⲁⲧϣⲁⲡϣⲓ…ⲛⲉϩⲥⲓ ⲛⲑⲱⲩⲑ ⲛⲥⲁⲛⲁⲃⲓⲛ] (_cf_ _ib_ 38 92)."
+	"headword": "<span class=\"simple\">#[ⲁⲃⲓⲛ]# [[O]] nn pl, meaning unknown</span>: AZ 21 105 [ⲛⲉϩⲥⲉ ⲡϣⲟⲓ ⲛⲥⲁⲧϣⲁⲡϣⲓ…ⲛⲉϩⲥⲓ ⲛⲑⲱⲩⲑ ⲛⲥⲁⲛⲁⲃⲓⲛ] (_cf_ _ib_ 38 92)."
 	},
 	{
-	"headword": "#[ⲁⲃⲏⲣ]# [[B]] _v_ [ⲟⲩⲏⲣ]."
+	"headword": "<span class=\"simple\">#[ⲁⲃⲏⲣ]# [[B]] _v_ [ⲟⲩⲏⲣ]</span>."
 	},
 	{
-	"headword": "#[ⲁⲃⲣⲉⲙ]# [[B]] nn, only 1 Chr 16 3 (Lag, HCons) [ⲟⲩⲱⲓⲕ ⲛⲁ.] [ἄρτος ἀρτοκοπικός] _torta panis_; _cf_ [ⲁⲙⲣⲉ] (Spg). But ? _l_ [ⲱⲓⲕ \\(ⲛ\\)ⲛⲁⲃⲣⲉ ⲙⲫⲣⲱⲙⲓ]; _v_ HCons 176 (_cf_ [ⲛⲁⲡⲣⲉ])."
+	"headword": "<span class=\"simple\">#[ⲁⲃⲣⲉⲙ]# [[B]] nn, only 1 Chr 16 3 (Lag, HCons) [ⲟⲩⲱⲓⲕ ⲛⲁ.] [ἄρτος ἀρτοκοπικός] _torta panis_</span>; _cf_ [ⲁⲙⲣⲉ] (Spg). But ? _l_ [ⲱⲓⲕ \\(ⲛ\\)ⲛⲁⲃⲣⲉ ⲙⲫⲣⲱⲙⲓ]; _v_ HCons 176 (_cf_ [ⲛⲁⲡⲣⲉ])."
 	},
 	{
-	"headword": "#[ⲁⲃⲉⲣⲏϫ]# [[S]] nn m, a stone, only Mor 52 13, where jewels likened to 12 apostles; [λιγύριον] a water-hued stone resembling [ⲁ.], which is [ⲟⲩⲱⲛⲉ ⲉϥϫⲟⲕⲣ], not soluble like salt. ? = Pers [فيروزج] turquoise, [ابريز] [ὄβρυζον] not likely. _Cf_ K 203 (for [ⲃⲁⲣⲁⲗⲓⲟⲛ] 1° _l_ [ⲗⲓⲕⲓⲣⲓⲟⲛ]), Ludolf _Comment_. 210 (both confused lists)."
+	"headword": "<span class=\"simple\">#[ⲁⲃⲉⲣⲏϫ]# [[S]] nn m, a stone, only Mor 52 13, where jewels likened to 12 apostles</span>; [λιγύριον] a water-hued stone resembling [ⲁ.], which is [ⲟⲩⲱⲛⲉ ⲉϥϫⲟⲕⲣ], not soluble like salt. ? = Pers [فيروزج] turquoise, [ابريز] [ὄβρυζον] not likely. _Cf_ K 203 (for [ⲃⲁⲣⲁⲗⲓⲟⲛ] 1° _l_ [ⲗⲓⲕⲓⲣⲓⲟⲛ]), Ludolf _Comment_. 210 (both confused lists)."
 	},
 	{
-	"headword": "#[ⲁⲃⲥⲱⲛ]# (Pey), [ⲁⲩⲥⲟⲛ] (K) [[B]] nn m, _wild mint_: K 195 [نعناع جبلي]."
+	"headword": "<span class=\"simple\">#[ⲁⲃⲥⲱⲛ]# (Pey), [ⲁⲩⲥⲟⲛ] (K) [[B]] nn m, _wild mint_</span>: K 195 [نعناع جبلي]."
 	},
 	{
-	"headword": "#[ⲁⲃⲁⲧ]# [[F]], [ⲁⲃⲟⲧ] [[B]] _v_ [ⲉⲃⲟⲧ]."
+	"headword": "<span class=\"simple\">#[ⲁⲃⲁⲧ]# [[F]], [ⲁⲃⲟⲧ] [[B]] _v_ [ⲉⲃⲟⲧ]</span>."
 	},
 	{
-	"headword": "#[ⲁⲃⲏⲧ]# _v_ [ⲁⲩⲏⲧ]."
+	"headword": "<span class=\"simple\">#[ⲁⲃⲏⲧ]# _v_ [ⲁⲩⲏⲧ]</span>."
 	},
 	{
-	"headword": "#[ⲁⲃⲓⲧ]# [[B]] nn (?), _Monday_ (?): BM 872, 886, heading of Monday's Theotokia, [ⲑ. ⲛⲧⲉ ⲫⲟⲟⲩ ⲛⲁ.] [يوم الأثنين], P 44 186 [ⲫⲟⲩ ⲛⲁ.] do. Elsewhere Monday [[B]] [ⲡⲓⲉⲟⲟⲩ ⲙⲙⲁϩⲃ̅] O'LearyTh 22, or [ⲡⲉϩ. ⲙⲡⲃ̅] Absal 159; [[S]] P 44 21 (from Theot.) [ⲡⲣⲁⲥⲧⲉ ⲃ̅] _Cf_ [ⲁⲩⲏⲧ] _sub fin_."
+	"headword": "<span class=\"simple\">#[ⲁⲃⲓⲧ]# [[B]] nn (?), _Monday_ (?)</span>: BM 872, 886, heading of Monday's Theotokia, [ⲑ. ⲛⲧⲉ ⲫⲟⲟⲩ ⲛⲁ.] [يوم الأثنين], P 44 186 [ⲫⲟⲩ ⲛⲁ.] do. Elsewhere Monday [[B]] [ⲡⲓⲉⲟⲟⲩ ⲙⲙⲁϩⲃ̅] O'LearyTh 22, or [ⲡⲉϩ. ⲙⲡⲃ̅] Absal 159; [[S]] P 44 21 (from Theot.) [ⲡⲣⲁⲥⲧⲉ ⲃ̅] _Cf_ [ⲁⲩⲏⲧ] _sub fin_."
 	},
 	{
-	"headword": "#[ⲁⲃⲏϣ]# [[S]] nn or adj, meaning unknown, epithet of certain edibles: Ep 533 [ⲧⲏⲃⲧ ⲛⲁ.], BP 5181 [ⲥⲟⲩⲟ ⲛⲁ.]"
+	"headword": "<span class=\"simple\">#[ⲁⲃⲏϣ]# [[S]] nn or adj, meaning unknown, epithet of certain edibles</span>: Ep 533 [ⲧⲏⲃⲧ ⲛⲁ.], BP 5181 [ⲥⲟⲩⲟ ⲛⲁ.]"
 	},
 	{
-	"headword": "#[ⲁⲃϩⲉ]# [[A]], [ⲁⲃϩ], [ⲁⲃⲁϩ] [[F]] _v_ [ⲟⲃϩⲉ]."
+	"headword": "<span class=\"simple\">#[ⲁⲃϩⲉ]# [[A]], [ⲁⲃϩ], [ⲁⲃⲁϩ] [[F]] _v_ [ⲟⲃϩⲉ]</span>."
 	},
 	{
-	"headword": "#[ⲁⲃⲁϭⲏⲉⲓⲛ]# (PS), [ϩⲁⲃ-] (Ap 4), [ⲁⲃⲓϭⲏⲉⲓⲛ], [ⲁⲃⲁⲕⲏⲓⲛⲉ], [ⲁϥⲉϭⲉⲉⲛⲉ] (Mor 31 211), [ⲁⲃⲓϭⲉⲉⲓⲛⲉ] [[S]], [ⲁⲃⲁϫⲏⲓⲛⲓ], [ⲁⲃⲁϫⲓⲛⲓ], [ⲃⲁϫⲓⲛⲓ], [ⲃⲁϫⲏⲓⲛⲓ], [ⲃⲁϫⲏⲛⲓ] [[B]], [ⲁⲃⲓϭⲉⲛⲓ] [[F]] (many varr [[S]][[B]]), sg as pl Mor 47 178, C 43 128, nn m f (C 86 356, 359), _glass_, _cf_ Pers [آبگينه] (Tattam): Job 28 17 [[B]], Ap 21 18 [[S]][[B]], [ὕαλος], Ap 4 6 [[S]][[B]] [ὑάλινος], P 44 61 [[S]] [زجاج]. Objects of glass: [εἶδος] MG 25 370 [[B]], PMéd 219, 230 [[S]]; [σκεῦος] Mor 19 91 [[S]], _ib_ 48 56 [[S]] = C 43 128 [[B]], MG 25 255 [[B]] (chalices in poor churches, _cf_ PO 5 62, Ryl _Bulletin_ 11 293); [ποτήριον] BM 1008 [[S]]; [ⲙⲟⲕⲓ] MG 25 191 [[B]]; [ⲡⲟⲛⲕϥ] Mor 31 211 [[S]]; [ϭⲁⲗⲗⲁϩⲧ] Kropp F; [ϩⲁⲃⲥ] cover, lid BKU 1 26 18 [[F]]; [ⲕⲁⲩⲧⲏⲣ], [ⲕⲁⲧⲏⲗ] [قدير] Bodl(P) a 1 _f_, a 3 22 (_cf_ a 2 60); sapphire-hued from Alexandria Mor 47 178 [[S]], pure ([καθαρός]) violet-hued ([ⲓⲱⲓⲁⲥ] ? [ἰόεις]) Z 611 [[S]], white Syrian [ⲛⲁϣ\\(ϣ\\)ⲉⲙⲓ] ([الشامى]) [ⲛⲁⲗⲁⲩ] Bodl(P) a 2 38.\n[ⲥⲁⲛⲁⲃⲁϭⲏⲉⲓⲛ], [-ϫⲏⲓⲛⲓ] [[S]][[B]] nn m, _glass-blower_ or _seller_: C 41 67, K 128 [[B]] [زجّاج], Mor 50 45 [[S]], CO 162 [[S]]. [ⲃⲁϫ](var [ⲅ])[ⲏⲓⲛⲓⲧⲏⲥ] [زجّاج] K 111 [[B]].\nIn place-name: PSBA 29 301 Monastery of [ⲛⲓⲁⲛ] (? [ⲛⲓⲥⲁⲛ]) [ⲁⲃⲁϫⲱⲛⲓ] [دير الزجاج], W. of Alexandria."
+	"headword": "<span class=\"simple\">#[ⲁⲃⲁϭⲏⲉⲓⲛ]# (PS), [ϩⲁⲃ-] (Ap 4), [ⲁⲃⲓϭⲏⲉⲓⲛ], [ⲁⲃⲁⲕⲏⲓⲛⲉ], [ⲁϥⲉϭⲉⲉⲛⲉ] (Mor 31 211), [ⲁⲃⲓϭⲉⲉⲓⲛⲉ] [[S]], [ⲁⲃⲁϫⲏⲓⲛⲓ], [ⲁⲃⲁϫⲓⲛⲓ], [ⲃⲁϫⲓⲛⲓ], [ⲃⲁϫⲏⲓⲛⲓ], [ⲃⲁϫⲏⲛⲓ] [[B]], [ⲁⲃⲓϭⲉⲛⲓ] [[F]] (many varr [[S]][[B]]), sg as pl Mor 47 178, C 43 128, nn m f (C 86 356, 359), _glass_, _cf_ Pers [آبگينه] (Tattam)</span>: Job 28 17 [[B]], Ap 21 18 [[S]][[B]], [ὕαλος], Ap 4 6 [[S]][[B]] [ὑάλινος], P 44 61 [[S]] [زجاج]. Objects of glass: [εἶδος] MG 25 370 [[B]], PMéd 219, 230 [[S]]; [σκεῦος] Mor 19 91 [[S]], _ib_ 48 56 [[S]] = C 43 128 [[B]], MG 25 255 [[B]] (chalices in poor churches, _cf_ PO 5 62, Ryl _Bulletin_ 11 293); [ποτήριον] BM 1008 [[S]]; [ⲙⲟⲕⲓ] MG 25 191 [[B]]; [ⲡⲟⲛⲕϥ] Mor 31 211 [[S]]; [ϭⲁⲗⲗⲁϩⲧ] Kropp F; [ϩⲁⲃⲥ] cover, lid BKU 1 26 18 [[F]]; [ⲕⲁⲩⲧⲏⲣ], [ⲕⲁⲧⲏⲗ] [قدير] Bodl(P) a 1 _f_, a 3 22 (_cf_ a 2 60); sapphire-hued from Alexandria Mor 47 178 [[S]], pure ([καθαρός]) violet-hued ([ⲓⲱⲓⲁⲥ] ? [ἰόεις]) Z 611 [[S]], white Syrian [ⲛⲁϣ\\(ϣ\\)ⲉⲙⲓ] ([الشامى]) [ⲛⲁⲗⲁⲩ] Bodl(P) a 2 38.\n[ⲥⲁⲛⲁⲃⲁϭⲏⲉⲓⲛ], [-ϫⲏⲓⲛⲓ] [[S]][[B]] nn m, _glass-blower_ or _seller_: C 41 67, K 128 [[B]] [زجّاج], Mor 50 45 [[S]], CO 162 [[S]]. [ⲃⲁϫ](var [ⲅ])[ⲏⲓⲛⲓⲧⲏⲥ] [زجّاج] K 111 [[B]].\nIn place-name: PSBA 29 301 Monastery of [ⲛⲓⲁⲛ] (? [ⲛⲓⲥⲁⲛ]) [ⲁⲃⲁϫⲱⲛⲓ] [دير الزجاج], W. of Alexandria."
 	},
 	{
-	"headword": "#[ⲁⲑⲏⲣ]# [[B]] _v_ [ϩⲁⲧⲏⲣ]."
+	"headword": "<span class=\"simple\">#[ⲁⲑⲏⲣ]# [[B]] _v_ [ϩⲁⲧⲏⲣ]</span>."
 	},
 	{
-	"headword": "#[ⲁⲑⲱⲣ]# [[B]] _v_ [ϩⲁⲧⲱⲣ]."
+	"headword": "<span class=\"simple\">#[ⲁⲑⲱⲣ]# [[B]] _v_ [ϩⲁⲧⲱⲣ]</span>."
 	},
 	{
-	"headword": "#[ⲁⲑⲣⲉⲩ]# [[B]] _v_ [ϩⲁⲧⲣⲉ]."
+	"headword": "<span class=\"simple\">#[ⲁⲑⲣⲉⲩ]# [[B]] _v_ [ϩⲁⲧⲣⲉ]</span>."
 	},
 	{
-	"headword": "#[ⲁⲑⲁϩ]# [[B]] _v_ [ⲱⲧϩ]."
+	"headword": "<span class=\"simple\">#[ⲁⲑⲁϩ]# [[B]] _v_ [ⲱⲧϩ]</span>."
 	},
 	{
-	"headword": "#[ⲁⲕ]# _v_ [ⲱⲕ]."
+	"headword": "<span class=\"simple\">#[ⲁⲕ]# _v_ [ⲱⲕ]</span>."
 	},
 	{
-	"headword": "#[ⲁⲉⲓⲕ]# [[A]][[F]] _v_ [ⲟⲉⲓⲕ]."
+	"headword": "<span class=\"simple\">#[ⲁⲉⲓⲕ]# [[A]][[F]] _v_ [ⲟⲉⲓⲕ]</span>."
 	},
 	{
-	"headword": "#[ⲁⲉⲓⲕ]# [[S]][[A^2]], [ⲁⲓⲕ] [[B]] nn m, _consecration_ of church, altar, house &amp;c: Nu 7 10 [[B]] ([[S]] [ϫⲓⲁ.]), 2 Chr 7 9 [[B]], Dan 3 3 [[B]], Ps 29 1 [[B]] ([[S]] [ϫⲓ ⲁ.]), [ἐγκαινισμός]; Dan 3 2 [[B]], Jo 10 22 [[B]] ([[S]] [ϫⲓ ⲁ.]) [ἐγκαίνια], MG 25 112, 113, 387 [[B]] bishops &amp; clergy gathered for ceremony, EW 127 [[B]] lections for [ⲡⲓⲁ.] of a [σκηνή] _i e_ its anniversary, Miss 4 685 [[S]], Pcod 6 [[S]].\n[ⲉⲣ ⲁ.] [[B]], _consecrate_: 3 Kg 8 63, 2 Chr 7 5 [ἐγκαινεῖν], P arab 203 150 [[B]] of patriarch [ⲛⲧⲉϥⲓⲣⲓ ⲙⲡⲁ. ⲛϩⲁⲛⲏⲓ ⲙⲃⲉⲣⲓ] [كرز].\n[ϫⲓ], [ϭⲓ ⲁ.] [[S]][[B]], _consecrate_: He 9 18 [[S]] ([[B]] [ⲧⲟⲩⲃⲟ]), Deu 20 5 [[B]] ([[S]] [ϫⲓ ⲁ. ⲉⲃⲟⲗ]) [ἐγκαινεῖν].\n— [[S]][[A^2]][[B]] nn m, _consecration_, _cf_ above, [ⲁ.] nn: Mor 22 40 [[S]] [ⲡϫⲓ ⲁ.] ([ⲟⲉⲓⲕ]) [ⲙⲡⲉϥⲧⲟⲡⲟⲥ] = [[B]] [ⲡⲓⲁⲅⲓⲁⲥⲙⲟⲥ], Mich 550 41 [[S]] saint urged to perform [ϫⲓ ⲁ.] of new church acc to canons, BMis 526 [[S]], _cf_ _ib_ [ϩⲁⲅⲓⲁⲍⲉ] used of same ceremony; but _ib_ 225 [[S]] [ϫⲓ ⲁ.] &amp; [ϩⲁⲅ.] seem distinct, _cf_ also Miss 4 631 [[S]]. Prob = [تكريز] by bishops at new or restored church (PO 16 749, Synax 1 156, 269, 2 171, Abû Ṣâliḥ 30 b, 45 b, 47 b), which = [ϫⲓⲛⲉⲣⲁⲅⲓⲁⲍⲓⲛ] HCons 1, TEuch 1 463; C 86 257 [[B]] [ⲡⲓⲉϩⲟⲟⲩ ⲛⲧⲉ ⲡⲉⲕϭⲓ.]\n[ⲁ.], Tri 141 [[S]] = [تجديد] _renovation_."
+	"headword": "<span class=\"simple\">#[ⲁⲉⲓⲕ]# [[S]][[A^2]], [ⲁⲓⲕ] [[B]] nn m, _consecration_ of church, altar, house &amp;c</span>: Nu 7 10 [[B]] ([[S]] [ϫⲓⲁ.]), 2 Chr 7 9 [[B]], Dan 3 3 [[B]], Ps 29 1 [[B]] ([[S]] [ϫⲓ ⲁ.]), [ἐγκαινισμός]; Dan 3 2 [[B]], Jo 10 22 [[B]] ([[S]] [ϫⲓ ⲁ.]) [ἐγκαίνια], MG 25 112, 113, 387 [[B]] bishops &amp; clergy gathered for ceremony, EW 127 [[B]] lections for [ⲡⲓⲁ.] of a [σκηνή] _i e_ its anniversary, Miss 4 685 [[S]], Pcod 6 [[S]].\n[ⲉⲣ ⲁ.] [[B]], _consecrate_: 3 Kg 8 63, 2 Chr 7 5 [ἐγκαινεῖν], P arab 203 150 [[B]] of patriarch [ⲛⲧⲉϥⲓⲣⲓ ⲙⲡⲁ. ⲛϩⲁⲛⲏⲓ ⲙⲃⲉⲣⲓ] [كرز].\n[ϫⲓ], [ϭⲓ ⲁ.] [[S]][[B]], _consecrate_: He 9 18 [[S]] ([[B]] [ⲧⲟⲩⲃⲟ]), Deu 20 5 [[B]] ([[S]] [ϫⲓ ⲁ. ⲉⲃⲟⲗ]) [ἐγκαινεῖν].\n— [[S]][[A^2]][[B]] nn m, _consecration_, _cf_ above, [ⲁ.] nn: Mor 22 40 [[S]] [ⲡϫⲓ ⲁ.] ([ⲟⲉⲓⲕ]) [ⲙⲡⲉϥⲧⲟⲡⲟⲥ] = [[B]] [ⲡⲓⲁⲅⲓⲁⲥⲙⲟⲥ], Mich 550 41 [[S]] saint urged to perform [ϫⲓ ⲁ.] of new church acc to canons, BMis 526 [[S]], _cf_ _ib_ [ϩⲁⲅⲓⲁⲍⲉ] used of same ceremony; but _ib_ 225 [[S]] [ϫⲓ ⲁ.] &amp; [ϩⲁⲅ.] seem distinct, _cf_ also Miss 4 631 [[S]]. Prob = [تكريز] by bishops at new or restored church (PO 16 749, Synax 1 156, 269, 2 171, Abû Ṣâliḥ 30 b, 45 b, 47 b), which = [ϫⲓⲛⲉⲣⲁⲅⲓⲁⲍⲓⲛ] HCons 1, TEuch 1 463; C 86 257 [[B]] [ⲡⲓⲉϩⲟⲟⲩ ⲛⲧⲉ ⲡⲉⲕϭⲓ.]\n[ⲁ.], Tri 141 [[S]] = [تجديد] _renovation_."
 	},
 	{
-	"headword": "#[ⲁⲕⲉ]# [[A]] _v_ [ⲟⲕⲉ]."
+	"headword": "<span class=\"simple\">#[ⲁⲕⲉ]# [[A]] _v_ [ⲟⲕⲉ]</span>."
 	},
 	{
-	"headword": "#[ⲁⲕⲏ]# [[S]] nn, meaning unknown: WS 140 [ⲡϩⲁⲙⲁ.]"
+	"headword": "<span class=\"simple\">#[ⲁⲕⲏ]# [[S]] nn, meaning unknown</span>: WS 140 [ⲡϩⲁⲙⲁ.]"
 	},
 	{
-	"headword": "#[ⲁⲕⲱ]#, [ⲁⲅⲱ], [ⲅⲱ] [[S]][[B]] nn f, _thing destroyed_, _carrion_, _filth_, _destruction_: Lev 5 22 [[B]] ([[S]] [ⲛⲕⲁ]) [ⲁ. ⲉⲥⲥⲟⲣⲉⲙ] _res perdita_, Pro 1 26 [[B]] (var [ⲧⲁⲕⲟ]) Jer 12 11 [[B]] ([[S]] [ⲧⲁⲕⲟ]), _ib_ 18 17 [[B]] ([[S]] do), 2 Pet 2 1 [[B]] ([[S]] do) [ἀπώλεια]; ShP 130^5 17 [[S]] [ⲛϥⲣ ⲧⲃⲛⲏ ⲁⲛ ⲙⲡⲁϩⲥ ⲏ ⲛⲁ.], P 131^5 76 [[S]] [ⲟⲩⲁ. ⲉⲥⲛⲏϫ ⲉⲃⲟⲗ], Mor 50 57 [[S]] demoniac ate excrement [ϩⲓⲁⲅⲱ ⲛⲓⲙ], Mor 51 22 [[S]] wine spoilt…[ⲉⲩⲟ ⲛⲅⲱ ϩⲓϩⲏⲙϫ]; Lev 5 2, 7 24 [[S]] ([[B]] diff) [θηριάλωτος], ShWess 9 86 [[S]] sim. _Cf_ [ⲧⲁⲕⲟ]."
+	"headword": "<span class=\"simple\">#[ⲁⲕⲱ]#, [ⲁⲅⲱ], [ⲅⲱ] [[S]][[B]] nn f, _thing destroyed_, _carrion_, _filth_, _destruction_</span>: Lev 5 22 [[B]] ([[S]] [ⲛⲕⲁ]) [ⲁ. ⲉⲥⲥⲟⲣⲉⲙ] _res perdita_, Pro 1 26 [[B]] (var [ⲧⲁⲕⲟ]) Jer 12 11 [[B]] ([[S]] [ⲧⲁⲕⲟ]), _ib_ 18 17 [[B]] ([[S]] do), 2 Pet 2 1 [[B]] ([[S]] do) [ἀπώλεια]; ShP 130^5 17 [[S]] [ⲛϥⲣ ⲧⲃⲛⲏ ⲁⲛ ⲙⲡⲁϩⲥ ⲏ ⲛⲁ.], P 131^5 76 [[S]] [ⲟⲩⲁ. ⲉⲥⲛⲏϫ ⲉⲃⲟⲗ], Mor 50 57 [[S]] demoniac ate excrement [ϩⲓⲁⲅⲱ ⲛⲓⲙ], Mor 51 22 [[S]] wine spoilt…[ⲉⲩⲟ ⲛⲅⲱ ϩⲓϩⲏⲙϫ]; Lev 5 2, 7 24 [[S]] ([[B]] diff) [θηριάλωτος], ShWess 9 86 [[S]] sim. _Cf_ [ⲧⲁⲕⲟ]."
 	},
 	{
-	"headword": "#[ⲁⲕⲗⲏ]#, [ⲕⲁⲗⲏ] [[B]] nn f, _weasel_: K 173 [عرسة] = [γαλῆ]; _cf_ PMéd 245. _V_ [ⲕⲗⲏ]."
+	"headword": "<span class=\"simple\">#[ⲁⲕⲗⲏ]#, [ⲕⲁⲗⲏ] [[B]] nn f, _weasel_</span>: K 173 [عرسة] = [γαλῆ]; _cf_ PMéd 245. _V_ [ⲕⲗⲏ]."
 	},
 	{
-	"headword": "#[ⲁⲕⲗⲏ]#, [ⲁⲕⲗⲓ], [ⲁⲗⲕⲏ] (P 55 11, Montp 167), [ⲕⲁⲗⲏ] (Lab) [[B]] nn f, among vessels: K 150 [لفتية] (so mostly), [قنية] (Montp), _l_ ? [لقنية] ([λεκάνιον]); _cf_ ? _ib_ 151 [ⲕⲗⲏ] [زير]."
+	"headword": "<span class=\"simple\">#[ⲁⲕⲗⲏ]#, [ⲁⲕⲗⲓ], [ⲁⲗⲕⲏ] (P 55 11, Montp 167), [ⲕⲁⲗⲏ] (Lab) [[B]] nn f, among vessels</span>: K 150 [لفتية] (so mostly), [قنية] (Montp), _l_ ? [لقنية] ([λεκάνιον]); _cf_ ? _ib_ 151 [ⲕⲗⲏ] [زير]."
 	},
 	{
-	"headword": "#[ⲁⲕⲟⲩⲗⲁⲩϫⲉ]# [[S]] nn f, a vessel, receptacle ?: Mor 51 42 no herbs in garden, [ⲟⲩⲇⲉ ϣⲗϭⲟⲙ ϩⲛⲧⲁ.]"
+	"headword": "<span class=\"simple\">#[ⲁⲕⲟⲩⲗⲁⲩϫⲉ]# [[S]] nn f, a vessel, receptacle ?</span>: Mor 51 42 no herbs in garden, [ⲟⲩⲇⲉ ϣⲗϭⲟⲙ ϩⲛⲧⲁ.]"
 	},
 	{
-	"headword": "#[ⲁⲕⲉⲥ]# [[S]] _v_ [ⲁⲥϭ]."
+	"headword": "<span class=\"simple\">#[ⲁⲕⲉⲥ]# [[S]] _v_ [ⲁⲥϭ]</span>."
 	},
 	{
-	"headword": "#[ⲁⲕⲏⲥ]# [[S]][[B]], [ⲁⲕⲉⲥ] (Tri 592, P 44 115), [ⲁⲕⲓⲥ] (P 43 116) [[S]] nn m, _girdle_, _breeches_: Ge 3 7 [[B]] [περίζωμα], _cit_ ShA 2 47 [ⲡⲉⲣⲓⲍⲱⲙⲁ], as elsewhere in [[S]] (Ru 3 15, Pro 29 42, Jer 13 11, BMar 219, last 2 [[B]] also); Ez 44 18 [[S]][[B]] [περισκελής], _cit_ CA 91 [[S]], Tri _l_ _c_ [[S]], both [اسافيط], _l_ ? [اسابيط] ([περισ.] not understood in Ex 39 28 where Va 1 [قلاسوة], Lev 6 3, 16 4 where merely [ϩⲃⲟⲥ], in Ex 34 29 [سروالة]); C 43 110 [[B]] hermit's _girdle_ for liturgical use. _Cf_ ? [ϭⲟⲩⲛⲁϭⲥ]."
+	"headword": "<span class=\"simple\">#[ⲁⲕⲏⲥ]# [[S]][[B]], [ⲁⲕⲉⲥ] (Tri 592, P 44 115), [ⲁⲕⲓⲥ] (P 43 116) [[S]] nn m, _girdle_, _breeches_</span>: Ge 3 7 [[B]] [περίζωμα], _cit_ ShA 2 47 [ⲡⲉⲣⲓⲍⲱⲙⲁ], as elsewhere in [[S]] (Ru 3 15, Pro 29 42, Jer 13 11, BMar 219, last 2 [[B]] also); Ez 44 18 [[S]][[B]] [περισκελής], _cit_ CA 91 [[S]], Tri _l_ _c_ [[S]], both [اسافيط], _l_ ? [اسابيط] ([περισ.] not understood in Ex 39 28 where Va 1 [قلاسوة], Lev 6 3, 16 4 where merely [ϩⲃⲟⲥ], in Ex 34 29 [سروالة]); C 43 110 [[B]] hermit's _girdle_ for liturgical use. _Cf_ ? [ϭⲟⲩⲛⲁϭⲥ]."
 	},
 	{
-	"headword": "#[ⲁⲕⲧ]#, [ⲁⲕⲏⲧ] [[S]] vb tr, in late alchem. texts, _cause to solidify_, _congeal_, assuming = [عقد] (IV [اعقد]): Ryl 106 12 pound &amp; cast mixture (of drugs) into pot with oil, [ⲁⲕⲏⲧ ⲉⲙⲟⲟⲩ ϩⲓϫⲱⲡⲥⲁϩⲧⲉ], AZ 23 111 of metal [ⲁⲕⲏⲧ ⲉⲙⲱϥ ϩⲙⲡⲕⲟϩⲧ ⲉⲧϭⲏⲛ], Bodl (P) a 1 _b_ of metals [ⲁⲕⲏⲧ ⲙⲙⲟⲟⲩ ϩⲛⲟⲩⲕⲱϩⲧ ⲉϥⲕⲉⲣⲁ] ([κεραννύναι]), Bodl _ib_ [ⲉⲕϣⲁⲛϥⲟⲗϥ ⲉⲃⲟⲗ…ⲛⲅⲁⲕⲧ ⲙⲙⲟϥ ϣⲁϥⲣⲱϣⲉ]."
+	"headword": "<span class=\"simple\">#[ⲁⲕⲧ]#, [ⲁⲕⲏⲧ] [[S]] vb tr, in late alchem. texts, _cause to solidify_, _congeal_, assuming = [عقد] (IV [اعقد])</span>: Ryl 106 12 pound &amp; cast mixture (of drugs) into pot with oil, [ⲁⲕⲏⲧ ⲉⲙⲟⲟⲩ ϩⲓϫⲱⲡⲥⲁϩⲧⲉ], AZ 23 111 of metal [ⲁⲕⲏⲧ ⲉⲙⲱϥ ϩⲙⲡⲕⲟϩⲧ ⲉⲧϭⲏⲛ], Bodl (P) a 1 _b_ of metals [ⲁⲕⲏⲧ ⲙⲙⲟⲟⲩ ϩⲛⲟⲩⲕⲱϩⲧ ⲉϥⲕⲉⲣⲁ] ([κεραννύναι]), Bodl _ib_ [ⲉⲕϣⲁⲛϥⲟⲗϥ ⲉⲃⲟⲗ…ⲛⲅⲁⲕⲧ ⲙⲙⲟϥ ϣⲁϥⲣⲱϣⲉ]."
 	},
 	{
-	"headword": "#[ⲁⲗ]# [[S]], _deaf_, sg &amp; pl, always = [[B]] [ⲕⲟⲩⲣ], as nn: Ex 4 11, Ps 37 13, Is 29 18, Mt 11 5 [κωφός]; as adj: Lev 19 14, Ps 57 4, R 2 1 62; [ⲣ ⲁ.] _be deaf_: Aeg 232 [ⲡⲉⲧⲟ. ⲛⲁ.], BM 216 1 [ⲉⲩϣⲁⲛⲣ ⲁ.]; [ⲉⲓⲣⲉ ⲛⲁ.] _make deaf_: Miss 4 689."
+	"headword": "<span class=\"simple\">#[ⲁⲗ]# [[S]], _deaf_, sg &amp; pl, always = [[B]] [ⲕⲟⲩⲣ], as nn</span>: Ex 4 11, Ps 37 13, Is 29 18, Mt 11 5 [κωφός]; as adj: Lev 19 14, Ps 57 4, R 2 1 62; [ⲣ ⲁ.] _be deaf_: Aeg 232 [ⲡⲉⲧⲟ. ⲛⲁ.], BM 216 1 [ⲉⲩϣⲁⲛⲣ ⲁ.]; [ⲉⲓⲣⲉ ⲛⲁ.] _make deaf_: Miss 4 689."
 	},
 	{
-	"headword": "#[ⲁⲗ]# [[S]][[B]][[A]], [ⲉⲗ] [[F]] nn m. *a.* _pebble_: Ex 4 25 [[B]], Lam 3 16 [[B]] ([[S]] [ⲁ. ⲛⲱⲛⲉ]), Apoc 2 17 [[B]] ([[S]] = Gk) [ψῆφος], K 205 [[B]] [حصا], P 44 61 [[S]] [ⲱⲛⲉ ⲛⲁ.] = [ἀκρότομος] [حجر الاصم], Mor 23 35 [[S]] pits full of [ⲁ. ⲛⲕⲱϩⲧ], BMis 539 [[S]] [ⲁⲗⲱⲗⲉ ⲛⲱⲛⲉ] prob belongs here, though Lat &amp; Syr § 32 suggest [ἀνέμη] in original (_cf_ [ⲁⲗⲟⲩ] _s f_). *b.* _hail stone_: Ex 9 18 [[B]], Ps 148 8 [[B]] ([[S]] = Gk), Is 32 19 [[B]] ([[F]] [ⲉⲗ ⲉⲙⲡⲏ], [[S]] = Gk), Hag 2 17 [[B]] ([[S]][[A]] [ⲁ. ⲙⲡⲉ]), Ap 16 21 [[B]] ([[S]] do) [χάλαζα]; *c.* _testicle_: Lev 21 20 [[B]] (in MIE 2 366 [ⲃⲁⲗ], [[S]] [ϫⲟⲉⲓⲧ]), _ib_ 22 24 [[B]] ([[S]] om). *d.* _spot_, _patch_ on skin, _eruption_: Lev 13 38 [[B]] ([[S]] [ⲧⲟ]) [αὔγασμα] [بهق] (but Wilkins [ⲓⲁⲗ], _cf_ Gk); prob also in [ⲁⲗⲟⲩⲃⲉϩ] ([-ⲃⲁϩ] Wilkins) [[B]] _white_ shining _spot_. *e.* _seed_, _pip_ f fruit ?: PMéd 153 [[S]] [ϯⲉ ⲛⲁⲗ \\[ⲛϩⲓ\\]ⲗⲓⲗⲓϭ] [هليلج] (_cf_ P 44 83 [ⲁⲗⲟⲟⲗⲉⲕⲁ] [اهليلج])."
+	"headword": "<span class=\"simple\">#[ⲁⲗ]# [[S]][[B]][[A]], [ⲉⲗ] [[F]] nn m. *a.* _pebble_</span>: Ex 4 25 [[B]], Lam 3 16 [[B]] ([[S]] [ⲁ. ⲛⲱⲛⲉ]), Apoc 2 17 [[B]] ([[S]] = Gk) [ψῆφος], K 205 [[B]] [حصا], P 44 61 [[S]] [ⲱⲛⲉ ⲛⲁ.] = [ἀκρότομος] [حجر الاصم], Mor 23 35 [[S]] pits full of [ⲁ. ⲛⲕⲱϩⲧ], BMis 539 [[S]] [ⲁⲗⲱⲗⲉ ⲛⲱⲛⲉ] prob belongs here, though Lat &amp; Syr § 32 suggest [ἀνέμη] in original (_cf_ [ⲁⲗⲟⲩ] _s f_). *b.* _hail stone_: Ex 9 18 [[B]], Ps 148 8 [[B]] ([[S]] = Gk), Is 32 19 [[B]] ([[F]] [ⲉⲗ ⲉⲙⲡⲏ], [[S]] = Gk), Hag 2 17 [[B]] ([[S]][[A]] [ⲁ. ⲙⲡⲉ]), Ap 16 21 [[B]] ([[S]] do) [χάλαζα]; *c.* _testicle_: Lev 21 20 [[B]] (in MIE 2 366 [ⲃⲁⲗ], [[S]] [ϫⲟⲉⲓⲧ]), _ib_ 22 24 [[B]] ([[S]] om). *d.* _spot_, _patch_ on skin, _eruption_: Lev 13 38 [[B]] ([[S]] [ⲧⲟ]) [αὔγασμα] [بهق] (but Wilkins [ⲓⲁⲗ], _cf_ Gk); prob also in [ⲁⲗⲟⲩⲃⲉϩ] ([-ⲃⲁϩ] Wilkins) [[B]] _white_ shining _spot_. *e.* _seed_, _pip_ f fruit ?: PMéd 153 [[S]] [ϯⲉ ⲛⲁⲗ \\[ⲛϩⲓ\\]ⲗⲓⲗⲓϭ] [هليلج] (_cf_ P 44 83 [ⲁⲗⲟⲟⲗⲉⲕⲁ] [اهليلج])."
 	},
 	{
-	"headword": "#[ⲁⲗ]# [[S]] (P 44 88 [ⲟⲗⲉ] = 43 70 [ⲱⲗⲉ]) nn, meaning unknown, always with vb [ⲁϣ-], _cry_: P 43 47 [ⲡⲁ.] [κραυγή] [جلبة] = 44 74 [ⲡⲁϣⲕⲁⲕ], P 43 79 [ⲡⲓⲛⲟϭ ⲛⲁ. ⲉⲧⲥⲏⲕ] [تغويث] long-drawn cry (_cf_ AZ 24 89), P 131^1 58 [ⲟⲩϩⲣⲟⲟⲩ ⲛⲁ.], Mor 36 34 sim, Mor 41 227 [ⲡⲁ. ⲙⲡⲙⲏⲏϣⲉ], Mor 48 64 sim = C 43 132 [[B]] [ⲡⲁⲓⲙⲏϣ ⲉⲧⲱϣ ⲉⲃⲟⲗ]. Prob = [ⲁϣϭⲏⲗ] [[A^2]] (_v_ [ϭⲏⲗ])."
+	"headword": "<span class=\"simple\">#[ⲁⲗ]# [[S]] (P 44 88 [ⲟⲗⲉ] = 43 70 [ⲱⲗⲉ]) nn, meaning unknown, always with vb [ⲁϣ-], _cry_</span>: P 43 47 [ⲡⲁ.] [κραυγή] [جلبة] = 44 74 [ⲡⲁϣⲕⲁⲕ], P 43 79 [ⲡⲓⲛⲟϭ ⲛⲁ. ⲉⲧⲥⲏⲕ] [تغويث] long-drawn cry (_cf_ AZ 24 89), P 131^1 58 [ⲟⲩϩⲣⲟⲟⲩ ⲛⲁ.], Mor 36 34 sim, Mor 41 227 [ⲡⲁ. ⲙⲡⲙⲏⲏϣⲉ], Mor 48 64 sim = C 43 132 [[B]] [ⲡⲁⲓⲙⲏϣ ⲉⲧⲱϣ ⲉⲃⲟⲗ]. Prob = [ⲁϣϭⲏⲗ] [[A^2]] (_v_ [ϭⲏⲗ])."
 	},
 	{
-	"headword": "#[ⲁⲗⲉ]# [[S]], [ⲁⲗⲏⲓ] [[B]], [ⲁⲗⲏ] [[F]], [ⲁⲗⲟ⸗] [[S]] (_v_ *II.* below), [ⲁⲗⲏⲩ†] [[S]], imper [ⲁⲗⲓ⸗] [[B]] (Ac 21 36), [ⲁⲗⲱⲧⲛ] [[S]] (BMar 190), vb. *I.* intr, _mount_, _go up_, _go on board_: Jo 21 11 [[S]] ([[B]] [ⲓ ⲉⲡϣⲱⲓ]), Ac 8 31 [[S]][[B]], Ex 15 19 [[F]] [ⲁⲗⲏ] (? _l_ [ⲧⲁⲗⲏ], _v_ [ⲧⲁⲗⲟ]) [ἀναβαίνειν]; Jer 26 4 [[B]], 4 Kg 4 24 [[B]] [ἐπιβαίνειν]; LAA 570 [[F]] [ἀνέρχεσθαι], RNC 27 [[S]] persuading him [ⲉⲧⲣⲉϥⲁ. ⲛⲙⲙⲁⲩ] [ἀποπλεῖν μετά]; Mor 31 88 [[S]] [ⲁϥⲁ. ⲁϥⲉⲓ ⲉⲡⲧⲟⲟⲩ], AZ 21 144 [[S]] [ⲛⲧⲉⲣⲟⲩⲁ. ⲁⲩⲣ ϩⲱⲧ], BM 1131 [[S]] [ϣⲁⲛⲧⲉϥⲁ. ⲛϥⲕⲱ ϩⲏⲧ], Mor 19 6 [[S]] [ⲁ. ⲙⲛⲡⲁⲣⲭⲓⲉⲡⲓⲥⲕ.] ([[B]] [ⲧⲁⲗⲟⲕ ⲛⲉⲙ-]), _ib_ 87 [[S]] the apostle [ⲧⲁⲗⲏⲩ ⲛⲙⲙⲏⲧⲛ] Mor 18 80 [ⲁ. ⲛⲙ-]; c [ⲉ-]: Ex 15 1 [[F]], Ps 67 19 [[S]] ([[B]] [ϣⲉ ⲛⲁϥ]), Jon 1 3 [[B]] ([[S]] [ⲧⲁⲗⲟ]), Mt 14 32 [[S]][[B]][[F]] [ἀναβαίνειν]; Mk 5 18, 6 45 [[S]] (var [ⲧⲁⲗⲉ]) [[B]], Lu 5 3 [[S]] ([[B]] [ⲱⲗⲓ]) [ἐμβαίν.]; Ge 24 61 [[B]], Nu 22 22 [[B]] ([[S]] [ⲧⲁⲗⲟ]), Sa 14 4 [[S]] [ἐπιβαίν.]; Mk 11 7 [[S]] ([[B]] [ϩⲉⲙⲥⲓ ϩⲓϫⲉⲛ-]), Ap 19 19 [[S]] ([[B]] do) [καθίζειν ἐπί], 2 Kg 13 29 [[S]] [ἐπικαθ. ἐπί], RNC 41 [[S]] [ⲛⲧⲉⲣⲟⲩⲁ. ⲉⲡϫⲟⲓ] [ἀνέρχ. ἐν], BMar 111 [[S]] [ⲁⲩϣⲓⲛⲉ ⲛⲥⲁⲁ. ⲉⲡϫⲟⲓ] [εἰσέρχ. εἰς], Ac 27 17 [[S]] ([[B]] [ⲱⲗⲓ]) [αἴρειν] prob erroneous, BKU 1 186 [[S]] [ⲁⲩⲡ︤ⲛ︦ⲁ︥ ⲛⲕⲱϩ ⲁ. ⲉⲣⲟϥ], C 86 274 [[B]] [ϣⲁϥⲁ. ⲉⲡϣⲱⲓ] to heaven, Mor 42 52 [[S]] [ⲉϥⲁⲗⲏⲩ ⲉⲡⲥ⳨ⲟⲥ] (var [ⲧⲁⲗⲏⲩ]), JKP 2 18 [[S]] tree [ⲉⲣⲉⲟⲩⲕⲁⲣⲡⲟⲥ ⲁⲗⲏⲩ ⲉⲣⲟϥ] AZ 33 56 [[S]] bird [ⲉϥⲁⲗⲏⲩ ⲉⲡϣⲏⲛ]. *II.* tr [[S]], rare, late (? incorrect for [ⲧⲁⲗⲟ], but _cf_ DM 25 11 gloss [ⲁⲗⲟ]): JKP 2 66 [ⲁⲩⲁⲗⲟⲓ ⲉⲧⲉⲥⲕⲁⲫⲏ], _ib_ 146 [ⲁⲓⲁⲗⲟ ⲙⲡⲉⲥ⳨ⲟⲥ] Ryl 106 4 &amp;c [ⲁⲗⲟϥ ⲉⲡⲕⲱϩⲧ], BM 1088 [ⲛⲉϥⲉⲓⲱ ⲛⲧⲁϥⲁⲗⲟⲟⲩ].\n— [ⲉϩⲣⲁⲓ] [[S]], [ⲉϩⲣⲏⲓ] [[B]], _mount up_, _ascend_ in years: Ge 18 11 ([[B]] [ⲁⲓⲁⲓ]), Jos 23 1 ([[B]] do) [προβαίνειν], ShC 42 99 sim, C 43 42 [[B]] [ⲁⲩⲁ. ⲉϩ.] to feast as guests. This &amp; following ([ⲉϫⲛ-], [ⲉϩ. ⲉϫⲛ-]) sometimes confused with or equiv to [ⲱⲗ]: Bor 290 195 [[S]] [ⲁⲕⲁⲗⲉⲕ ⲉϩ. ⲉϫⲙⲡⲉϭⲗⲟϭ] = Ge 49 4 [ⲟⲗⲕ] (both = [ἀνέβης] &amp; [[B]] [ϣⲉ ⲉⲡϣⲱⲓ]), Mor 19 53 [[S]] [ⲁ. ⲉϩ. ⲉϫⲙⲡⲙⲁ ⲛⲛⲕⲟⲧⲕ] = _ib_ 46 &amp; Wess 18 62 [ⲟⲗⲟⲩ ⲉϫ.]; _cf_ ? Lu 14 10 [[S]], R 1 1 76 [[S]].\n— [ⲉϩⲣⲁⲓ ⲉ-] [[S]], _mount_, _climb up_: Is 37 24 ([[B]] [ϣⲉ ⲉⲡϣⲱⲓ]), Cant 7 8 [ἀναβαίνειν], BM 256 [ⲁ. ⲉϩ. ⲉⲡϫⲓⲥⲉ ⲛⲧⲁⲣⲉⲧⲏ].\n— [ⲉϫⲛ-] [[S]][[B]][[F]], _ascend_, _go up_: Si 50 11 [[S]] [ἐν ἀναβάσει], Is 35 9 [[S]][[F]] [ἀναβαίν. εἰς], _ib_ 22 6 [[S]][[B]] [ἀναβάτης] (doubtful), Ps 67 5 [[B]] ([[S]] [ⲁ. ⲉϩⲣⲁⲓ ⲉϫ.]), Pro 21 22 [[S]], Si 46 15 [[S]], Ez 10 18 [[B]] [ἐπιβαίν. ἐπί], Lev 18 23 [[B]] ([[S]] diff) [βιβασθῆναι ὑπό], Job 40 15 [[S]] ([[B]] [ϣⲉ ⲉϫ.]) [ἐπέρχεσθαι], Mor 19 21 [[S]] (var [ⲉϩⲣⲁⲓ ⲉϫ.], [[B]] [ⲉϩⲣⲏⲓ ⲉϫ.]), Tri 270 [[S]] [ⲁⲩⲁ. ⲉϫⲙⲡⲉϩⲧⲟ], BSM 108 [[B]] not again shall such thoughts [ⲁ. ⲉϫⲉⲛⲡⲁϩⲏⲧ].\n— [ⲉϩⲣ. ⲉϫⲛ-], as last: Mt 5 1 [[S]] ([[B]] [ϣⲉ ⲉⲡϣⲱⲓ ⲉϫ.]), Lu 24 38 [[S]] ([[B]] [ⲛⲏⲟⲩ ⲉϫ.]), BMar 110 [[S]] [ἀναβαίν. ἐν], [εἰς], 1 Cor 2 9 [[S]] ([[B]] [ϣⲉ ⲉϩⲣⲏⲓ ⲉϫ.]) [ἀναβ. ἐπί], Is 14 14 [[S]] ([[B]] [ϣⲉ ⲉⲡϣⲱⲓ ⲉ-]) [ἀναβ. ἐπάνω]; Ps 17 10 [[S]] ([[B]] [ⲱⲗⲓ ⲉϫ.]), Jer 22 4 [[B]] ([[S]] [ⲧⲁⲗⲟ ⲉϫ.]), Mt 21 5 [[S]] ([[B]] [ⲧⲁⲗⲟ ⲉ-]) [ἐπιβαίν. ἐπί] of _riding upon_; Mt 21 7 [[S]] ([[B]] [ϩⲉⲙⲥⲓ ⲥⲁⲡϣⲱⲓ ⲛ-]) [ἐπικαθίζ. ἐπάνω]; Aeg 275 [[S]] [ⲁ. ⲉϩ. ⲉϫⲛⲟⲩⲙⲁ ⲉϥϫⲟⲥⲉ] [ἀνέρχ. ἐπί], C 43 63 [[B]] [ⲁ. ⲉϩⲣ. ⲉϫⲉⲛϩⲁⲛⲉϫⲏⲟⲩ], ShC 42 159 [[S]] hill tops that waters cannot [ⲁ. ⲉϩ. ⲉϫⲱⲟⲩ].\n— [ϩⲓϫⲛ-] [[S]], _be raised upon_: Miss 8 255 [ⲛⲉⲣⲉⲛⲉϥϭⲓϫ ⲁⲗⲏⲩ ϩⲓϫⲛⲧⲉϥⲁⲡⲉ].\n— [ⲉϩⲣ. ϩⲓϫⲛ-] [[S]], _mount up upon_: ROC 1913 174 [ⲁ. ⲉϩⲣ. ϩⲓϫⲙⲡϣⲏⲛ] [τρέχειν ἀνὼ ἐις].\n— [ⲉϧⲣⲏⲓ ⲉϫⲉⲛ-] [[B]], _descend upon_ (unless _l_ [ⲉϩⲣⲏⲓ]): C 41 66 [ⲁⲟⲩⲁⲃⲱⲕ ⲁ. ⲉϧ. ⲉϫⲉⲛϯϫⲟⲓ].\n[ⲣⲉϥⲁ.] [[S]][[B]][[F]] nn, _mounted man_, _rider_: Is 36 8 [[S]][[F]] ([[B]] [ϭⲁⲥⲓϩⲑⲟ]), _ib_ 30 16 [[B]] ([[S]] = Gk) [ἀναβάτης].\n[ϭⲓⲛⲁ] [[S]] nn f, _ascent_, _mounting up_: Gu 105 [ⲧⲉⲕϭ. ⲉⲡⲉⲥ⳨ⲟⲥ].\n[ⲙⲁ ⲛⲁ.] [[B]], _sitting place_ when mounted: Cat 102 ass's colt [ⲟⲩⲙ. ⲛⲧⲉ ⲡⲭ︤ⲥ︥]."
+	"headword": "<span class=\"simple\">#[ⲁⲗⲉ]# [[S]], [ⲁⲗⲏⲓ] [[B]], [ⲁⲗⲏ] [[F]], [ⲁⲗⲟ⸗] [[S]] (_v_ *II.* below), [ⲁⲗⲏⲩ†] [[S]], imper [ⲁⲗⲓ⸗] [[B]] (Ac 21 36), [ⲁⲗⲱⲧⲛ] [[S]] (BMar 190), vb. *I.* intr, _mount_, _go up_, _go on board_</span>: Jo 21 11 [[S]] ([[B]] [ⲓ ⲉⲡϣⲱⲓ]), Ac 8 31 [[S]][[B]], Ex 15 19 [[F]] [ⲁⲗⲏ] (? _l_ [ⲧⲁⲗⲏ], _v_ [ⲧⲁⲗⲟ]) [ἀναβαίνειν]; Jer 26 4 [[B]], 4 Kg 4 24 [[B]] [ἐπιβαίνειν]; LAA 570 [[F]] [ἀνέρχεσθαι], RNC 27 [[S]] persuading him [ⲉⲧⲣⲉϥⲁ. ⲛⲙⲙⲁⲩ] [ἀποπλεῖν μετά]; Mor 31 88 [[S]] [ⲁϥⲁ. ⲁϥⲉⲓ ⲉⲡⲧⲟⲟⲩ], AZ 21 144 [[S]] [ⲛⲧⲉⲣⲟⲩⲁ. ⲁⲩⲣ ϩⲱⲧ], BM 1131 [[S]] [ϣⲁⲛⲧⲉϥⲁ. ⲛϥⲕⲱ ϩⲏⲧ], Mor 19 6 [[S]] [ⲁ. ⲙⲛⲡⲁⲣⲭⲓⲉⲡⲓⲥⲕ.] ([[B]] [ⲧⲁⲗⲟⲕ ⲛⲉⲙ-]), _ib_ 87 [[S]] the apostle [ⲧⲁⲗⲏⲩ ⲛⲙⲙⲏⲧⲛ] Mor 18 80 [ⲁ. ⲛⲙ-]; c [ⲉ-]: Ex 15 1 [[F]], Ps 67 19 [[S]] ([[B]] [ϣⲉ ⲛⲁϥ]), Jon 1 3 [[B]] ([[S]] [ⲧⲁⲗⲟ]), Mt 14 32 [[S]][[B]][[F]] [ἀναβαίνειν]; Mk 5 18, 6 45 [[S]] (var [ⲧⲁⲗⲉ]) [[B]], Lu 5 3 [[S]] ([[B]] [ⲱⲗⲓ]) [ἐμβαίν.]; Ge 24 61 [[B]], Nu 22 22 [[B]] ([[S]] [ⲧⲁⲗⲟ]), Sa 14 4 [[S]] [ἐπιβαίν.]; Mk 11 7 [[S]] ([[B]] [ϩⲉⲙⲥⲓ ϩⲓϫⲉⲛ-]), Ap 19 19 [[S]] ([[B]] do) [καθίζειν ἐπί], 2 Kg 13 29 [[S]] [ἐπικαθ. ἐπί], RNC 41 [[S]] [ⲛⲧⲉⲣⲟⲩⲁ. ⲉⲡϫⲟⲓ] [ἀνέρχ. ἐν], BMar 111 [[S]] [ⲁⲩϣⲓⲛⲉ ⲛⲥⲁⲁ. ⲉⲡϫⲟⲓ] [εἰσέρχ. εἰς], Ac 27 17 [[S]] ([[B]] [ⲱⲗⲓ]) [αἴρειν] prob erroneous, BKU 1 186 [[S]] [ⲁⲩⲡ︤ⲛ︦ⲁ︥ ⲛⲕⲱϩ ⲁ. ⲉⲣⲟϥ], C 86 274 [[B]] [ϣⲁϥⲁ. ⲉⲡϣⲱⲓ] to heaven, Mor 42 52 [[S]] [ⲉϥⲁⲗⲏⲩ ⲉⲡⲥ⳨ⲟⲥ] (var [ⲧⲁⲗⲏⲩ]), JKP 2 18 [[S]] tree [ⲉⲣⲉⲟⲩⲕⲁⲣⲡⲟⲥ ⲁⲗⲏⲩ ⲉⲣⲟϥ] AZ 33 56 [[S]] bird [ⲉϥⲁⲗⲏⲩ ⲉⲡϣⲏⲛ]. *II.* tr [[S]], rare, late (? incorrect for [ⲧⲁⲗⲟ], but _cf_ DM 25 11 gloss [ⲁⲗⲟ]): JKP 2 66 [ⲁⲩⲁⲗⲟⲓ ⲉⲧⲉⲥⲕⲁⲫⲏ], _ib_ 146 [ⲁⲓⲁⲗⲟ ⲙⲡⲉⲥ⳨ⲟⲥ] Ryl 106 4 &amp;c [ⲁⲗⲟϥ ⲉⲡⲕⲱϩⲧ], BM 1088 [ⲛⲉϥⲉⲓⲱ ⲛⲧⲁϥⲁⲗⲟⲟⲩ].\n— [ⲉϩⲣⲁⲓ] [[S]], [ⲉϩⲣⲏⲓ] [[B]], _mount up_, _ascend_ in years: Ge 18 11 ([[B]] [ⲁⲓⲁⲓ]), Jos 23 1 ([[B]] do) [προβαίνειν], ShC 42 99 sim, C 43 42 [[B]] [ⲁⲩⲁ. ⲉϩ.] to feast as guests. This &amp; following ([ⲉϫⲛ-], [ⲉϩ. ⲉϫⲛ-]) sometimes confused with or equiv to [ⲱⲗ]: Bor 290 195 [[S]] [ⲁⲕⲁⲗⲉⲕ ⲉϩ. ⲉϫⲙⲡⲉϭⲗⲟϭ] = Ge 49 4 [ⲟⲗⲕ] (both = [ἀνέβης] &amp; [[B]] [ϣⲉ ⲉⲡϣⲱⲓ]), Mor 19 53 [[S]] [ⲁ. ⲉϩ. ⲉϫⲙⲡⲙⲁ ⲛⲛⲕⲟⲧⲕ] = _ib_ 46 &amp; Wess 18 62 [ⲟⲗⲟⲩ ⲉϫ.]; _cf_ ? Lu 14 10 [[S]], R 1 1 76 [[S]].\n— [ⲉϩⲣⲁⲓ ⲉ-] [[S]], _mount_, _climb up_: Is 37 24 ([[B]] [ϣⲉ ⲉⲡϣⲱⲓ]), Cant 7 8 [ἀναβαίνειν], BM 256 [ⲁ. ⲉϩ. ⲉⲡϫⲓⲥⲉ ⲛⲧⲁⲣⲉⲧⲏ].\n— [ⲉϫⲛ-] [[S]][[B]][[F]], _ascend_, _go up_: Si 50 11 [[S]] [ἐν ἀναβάσει], Is 35 9 [[S]][[F]] [ἀναβαίν. εἰς], _ib_ 22 6 [[S]][[B]] [ἀναβάτης] (doubtful), Ps 67 5 [[B]] ([[S]] [ⲁ. ⲉϩⲣⲁⲓ ⲉϫ.]), Pro 21 22 [[S]], Si 46 15 [[S]], Ez 10 18 [[B]] [ἐπιβαίν. ἐπί], Lev 18 23 [[B]] ([[S]] diff) [βιβασθῆναι ὑπό], Job 40 15 [[S]] ([[B]] [ϣⲉ ⲉϫ.]) [ἐπέρχεσθαι], Mor 19 21 [[S]] (var [ⲉϩⲣⲁⲓ ⲉϫ.], [[B]] [ⲉϩⲣⲏⲓ ⲉϫ.]), Tri 270 [[S]] [ⲁⲩⲁ. ⲉϫⲙⲡⲉϩⲧⲟ], BSM 108 [[B]] not again shall such thoughts [ⲁ. ⲉϫⲉⲛⲡⲁϩⲏⲧ].\n— [ⲉϩⲣ. ⲉϫⲛ-], as last: Mt 5 1 [[S]] ([[B]] [ϣⲉ ⲉⲡϣⲱⲓ ⲉϫ.]), Lu 24 38 [[S]] ([[B]] [ⲛⲏⲟⲩ ⲉϫ.]), BMar 110 [[S]] [ἀναβαίν. ἐν], [εἰς], 1 Cor 2 9 [[S]] ([[B]] [ϣⲉ ⲉϩⲣⲏⲓ ⲉϫ.]) [ἀναβ. ἐπί], Is 14 14 [[S]] ([[B]] [ϣⲉ ⲉⲡϣⲱⲓ ⲉ-]) [ἀναβ. ἐπάνω]; Ps 17 10 [[S]] ([[B]] [ⲱⲗⲓ ⲉϫ.]), Jer 22 4 [[B]] ([[S]] [ⲧⲁⲗⲟ ⲉϫ.]), Mt 21 5 [[S]] ([[B]] [ⲧⲁⲗⲟ ⲉ-]) [ἐπιβαίν. ἐπί] of _riding upon_; Mt 21 7 [[S]] ([[B]] [ϩⲉⲙⲥⲓ ⲥⲁⲡϣⲱⲓ ⲛ-]) [ἐπικαθίζ. ἐπάνω]; Aeg 275 [[S]] [ⲁ. ⲉϩ. ⲉϫⲛⲟⲩⲙⲁ ⲉϥϫⲟⲥⲉ] [ἀνέρχ. ἐπί], C 43 63 [[B]] [ⲁ. ⲉϩⲣ. ⲉϫⲉⲛϩⲁⲛⲉϫⲏⲟⲩ], ShC 42 159 [[S]] hill tops that waters cannot [ⲁ. ⲉϩ. ⲉϫⲱⲟⲩ].\n— [ϩⲓϫⲛ-] [[S]], _be raised upon_: Miss 8 255 [ⲛⲉⲣⲉⲛⲉϥϭⲓϫ ⲁⲗⲏⲩ ϩⲓϫⲛⲧⲉϥⲁⲡⲉ].\n— [ⲉϩⲣ. ϩⲓϫⲛ-] [[S]], _mount up upon_: ROC 1913 174 [ⲁ. ⲉϩⲣ. ϩⲓϫⲙⲡϣⲏⲛ] [τρέχειν ἀνὼ ἐις].\n— [ⲉϧⲣⲏⲓ ⲉϫⲉⲛ-] [[B]], _descend upon_ (unless _l_ [ⲉϩⲣⲏⲓ]): C 41 66 [ⲁⲟⲩⲁⲃⲱⲕ ⲁ. ⲉϧ. ⲉϫⲉⲛϯϫⲟⲓ].\n[ⲣⲉϥⲁ.] [[S]][[B]][[F]] nn, _mounted man_, _rider_: Is 36 8 [[S]][[F]] ([[B]] [ϭⲁⲥⲓϩⲑⲟ]), _ib_ 30 16 [[B]] ([[S]] = Gk) [ἀναβάτης].\n[ϭⲓⲛⲁ] [[S]] nn f, _ascent_, _mounting up_: Gu 105 [ⲧⲉⲕϭ. ⲉⲡⲉⲥ⳨ⲟⲥ].\n[ⲙⲁ ⲛⲁ.] [[B]], _sitting place_ when mounted: Cat 102 ass's colt [ⲟⲩⲙ. ⲛⲧⲉ ⲡⲭ︤ⲥ︥]."
 	},
 	{
-	"headword": "#[ⲁⲗⲉ]# [[S]] nn f, a utensil of bronze: St 125 [ⲥⲛⲧⲉ ⲛⲛⲁⲗⲉ ⲛϩⲟⲙⲛⲧ] (? [ⲛⲁⲗⲉ]). Prob = [ⲁⲣⲏ], _v_ Ep 449 n."
+	"headword": "<span class=\"simple\">#[ⲁⲗⲉ]# [[S]] nn f, a utensil of bronze</span>: St 125 [ⲥⲛⲧⲉ ⲛⲛⲁⲗⲉ ⲛϩⲟⲙⲛⲧ] (? [ⲛⲁⲗⲉ]). Prob = [ⲁⲣⲏ], _v_ Ep 449 n."
 	},
 	{
-	"headword": "#[ⲁⲗⲓ]# [[B]] nn m, _fenugreek_ (_trigonella_): K 193, 260 [حلبة] or [فول]. _Cf_ ? [ⲧⲓⲗⲓ]."
+	"headword": "<span class=\"simple\">#[ⲁⲗⲓ]# [[B]] nn m, _fenugreek_ (_trigonella_)</span>: K 193, 260 [حلبة] or [فول]. _Cf_ ? [ⲧⲓⲗⲓ]."
 	},
 	{
-	"headword": "#[ⲁⲗⲓ]# [[F]] _v_ [ⲉⲓⲣⲉ]."
+	"headword": "<span class=\"simple\">#[ⲁⲗⲓ]# [[F]] _v_ [ⲉⲓⲣⲉ]</span>."
 	},
 	{
-	"headword": "#[ⲁⲗⲓ-]# [[B]] _v_ [ⲱⲗ]."
+	"headword": "<span class=\"simple\">#[ⲁⲗⲓ-]# [[B]] _v_ [ⲱⲗ]</span>."
 	},
 	{
-	"headword": "#[ⲁⲓⲗⲉ]# [[A]], [ⲁⲓⲗ] [[F]] _v_ [ⲟⲉⲓⲗⲉ]."
+	"headword": "<span class=\"simple\">#[ⲁⲓⲗⲉ]# [[A]], [ⲁⲓⲗ] [[F]] _v_ [ⲟⲉⲓⲗⲉ]</span>."
 	},
 	{
-	"headword": "#[ⲁⲗⲟⲩ]# [[S]] (rare) [[B]][[F]], [ⲁⲗⲁⲩ] [[A]][[B]] (from [[S]], C 89 83, _cf_ MG 17 448), [ⲁⲉⲓⲗⲟⲩ] [[F]] (Lab, ? [ⲗⲉⲓⲗⲟⲩ]), pl. [ⲁⲗⲱⲟⲩⲓ] [[B]], [ⲁⲗⲁⲩⲓ] [[F]] nn m &amp; f ([[S]] only as name). *a.* _youth_, _maiden_: Job 1 15 [[B]], Ac 3 13 [[B]] ([[S]] [ϣⲏⲣⲉ]), ROC 17 407 [[B]] [παῖς]; Ex 21 22 [[B]] ([[S]] [ϣ.]), Is 11 6 [[B]] [ⲕⲟⲩϫⲓ ⲛⲁ.] ([[S]] [ⲕⲟⲩⲓ ⲛϣ.]), _ib_ 11 8 [[B]] do, C 89 74 ([[S]] [ϣ. ϣⲏⲙ]), Jo 4 49 [[B]][[F]] ([[S]] [ϣ.], opp [νεανίσκος]) [παιδίον]; Su 45 [[B]], Joel 3 3 [[B]] ([[S]] [ϣ. ϣⲏⲙ]) [παιδάριον]; Is 65 20 [[B]], EW 149 [[B]] [νέος]; Ps 151 1 [[B]] ([[S]] [ⲥⲟⲃⲕ]), Is 40 30 [[B]] ([[S]] [ϣ. ϣⲏⲙ]), Ac 5 6 [[B]] ([[S]] [ϩⲣϣⲓⲣⲉ]) [νεώτερος], _cf_ _ib_ 10; He 5 13 [[B]] ([[S]] [ⲕⲟⲩⲓ]), Ps 16 14 [[B]][[F]] (Mor 33 2, [[S]] [ϣ.]) [ⲕⲟⲩϫⲓ ⲛⲁ.], Ez 9 6 [[B]] do [νήπιος]; Ez 44 9 [[B]] [υἱός]; Ac 7 19 [[B]] ([[S]] [ϣ.]) [ⲕⲟⲩϫⲓ ⲛⲁ.] [βρέφος], Mt 9 25 [[B]] f ([[S]] [ϣⲉⲉⲣⲉ ϣⲏⲙ]) [κοράσιον]; PS 3 [[S]] [ⲡⲁ. ⲙⲡⲁ.], BKU 1 1 [[S]] [ⲡⲁ. ⲛⲧⲉ ⲧⲁ.], BG 21 [[S]] [ⲟⲩⲁ…ⲉⲡⲉⲓⲛⲉ ⲉⲩϩⲗⲗⲟ], AM 287 [[B]] [ⲟⲩⲁ. ⲙⲃⲉⲣⲓ], TEuch 1 327 [[B]] [ⲡⲉⲕⲙⲟⲛⲟⲅⲉⲛⲏⲥ ⲛⲁ.]; Ex 2 3 [[B]] a babe, MIE 2 398 [[B]] [ⲕⲟⲩϫⲓ ⲛⲁ.] of 16 years ([[S]] [ϣ. ϣⲏⲙ]), C 86 73 [[B]] do of 25 years, C 41 39 [[B]] [ⲁ. ⲃ̅ ⲙⲙⲟⲛⲁⲭⲟⲥ]. *b.* _servant_, [παῖς], [οἰκέτης], mostly [[B]]: Ge 14 15 [[B]], Ex 21 2, Lev 25 55 [[B]] ([[S]] [ϩⲙϩⲁⲗ]), Jo 4 51 [[F]] ([[S]][[A^2]] [ϩ.], [[B]] [ⲃⲱⲕ]) Ac 12 13 [[B]] ([[S]] [ϣ. ϣⲏⲙ]) [παιδίσκη], Va 61 102 [[B]] [ⲁⲗⲱⲟⲩⲓ] opp [ϣⲏⲣⲓ], BSM 71 sim, ShP 130^1 133 [[S]] [ⲡⲉⲛϩⲙϩⲁⲗⲡⲉ ⲏ ⲡⲉⲛⲁ. ϣⲏⲙⲡⲉ], Z 317 [[S]] he followeth me [ⲛⲑⲉ ⲛⲟⲩⲁ.] ([[B]] [ⲟⲩⲁⲛⲉⲙⲓ]) [ὡς ἀνέμη] (_v_ LMis 130 551, _cf_ [ⲁⲗ] _pebble_).\n[ⲙⲛⲧⲁ.], [ⲙⲉⲧⲁ.] [[B]][[F]] nn f, _time of youth_, _youthfulness_: Ge 8 21 [[B]] ([[S]] [ⲙⲛⲧⲕⲟⲩⲓ]), 1 Kg 17 33 [[B]] ([[S]] do), Ps 42 4 [[B]] ([[S]] [ⲙⲛⲧϣ. ϣⲏⲙ]), Pro 24 54 [[B]] ([[S]] [ⲙⲛⲧⲃⲣⲣⲉ]) [νεότης]; Hos 2 15 [[A]] ([[B]] [ⲙⲉⲧⲕⲟⲩϫⲓ]) [νηπιότης], Mor 30 10 [[F]] ([[S]] [ⲙⲛⲧⲃⲣⲣⲉ]).\n[ⲙⲉⲧⲣⲉϥϧⲁⲧⲉⲃ ⲁ.] [[B]] nn f, _child-slaying_: EW 46 sorcery, fornication &amp; [ⲙ.]\n[ⲉⲣ ⲁ.] [[B]], _be young_: Ps 36 25 ([[S]] [ⲣ ⲕⲟⲩⲓ]) [νεώτερος γίνεσθαι], Gal 4 3 ([[S]] do) [νήπιος εἶναι], Va 57 193 old men once [ⲁⲩⲟⲓ ⲛⲁ.] [νέοι ἐγένοντο].\nIn names [ⲡⲁⲗⲟⲩ] AZ 16 12, [-ⲗⲁⲩ] Mich wooden tablet, [ⲧⲁⲗⲟⲩ] [[S]] f, Wess 18 11, Ryl 63, _ib_ 262 [-ⲗⲁⲩ], Miss 1 399 [ⲧⲁⲗⲟⲩ ϣⲏⲙ]; _cf_ Preisigke 407, 408.\n_Cf_ [ⲗⲓⲗⲟⲩ], with which there is ? confusion of forms."
+	"headword": "<span class=\"simple\">#[ⲁⲗⲟⲩ]# [[S]] (rare) [[B]][[F]], [ⲁⲗⲁⲩ] [[A]][[B]] (from [[S]], C 89 83, _cf_ MG 17 448), [ⲁⲉⲓⲗⲟⲩ] [[F]] (Lab, ? [ⲗⲉⲓⲗⲟⲩ]), pl. [ⲁⲗⲱⲟⲩⲓ] [[B]], [ⲁⲗⲁⲩⲓ] [[F]] nn m &amp; f ([[S]] only as name). *a.* _youth_, _maiden_</span>: Job 1 15 [[B]], Ac 3 13 [[B]] ([[S]] [ϣⲏⲣⲉ]), ROC 17 407 [[B]] [παῖς]; Ex 21 22 [[B]] ([[S]] [ϣ.]), Is 11 6 [[B]] [ⲕⲟⲩϫⲓ ⲛⲁ.] ([[S]] [ⲕⲟⲩⲓ ⲛϣ.]), _ib_ 11 8 [[B]] do, C 89 74 ([[S]] [ϣ. ϣⲏⲙ]), Jo 4 49 [[B]][[F]] ([[S]] [ϣ.], opp [νεανίσκος]) [παιδίον]; Su 45 [[B]], Joel 3 3 [[B]] ([[S]] [ϣ. ϣⲏⲙ]) [παιδάριον]; Is 65 20 [[B]], EW 149 [[B]] [νέος]; Ps 151 1 [[B]] ([[S]] [ⲥⲟⲃⲕ]), Is 40 30 [[B]] ([[S]] [ϣ. ϣⲏⲙ]), Ac 5 6 [[B]] ([[S]] [ϩⲣϣⲓⲣⲉ]) [νεώτερος], _cf_ _ib_ 10; He 5 13 [[B]] ([[S]] [ⲕⲟⲩⲓ]), Ps 16 14 [[B]][[F]] (Mor 33 2, [[S]] [ϣ.]) [ⲕⲟⲩϫⲓ ⲛⲁ.], Ez 9 6 [[B]] do [νήπιος]; Ez 44 9 [[B]] [υἱός]; Ac 7 19 [[B]] ([[S]] [ϣ.]) [ⲕⲟⲩϫⲓ ⲛⲁ.] [βρέφος], Mt 9 25 [[B]] f ([[S]] [ϣⲉⲉⲣⲉ ϣⲏⲙ]) [κοράσιον]; PS 3 [[S]] [ⲡⲁ. ⲙⲡⲁ.], BKU 1 1 [[S]] [ⲡⲁ. ⲛⲧⲉ ⲧⲁ.], BG 21 [[S]] [ⲟⲩⲁ…ⲉⲡⲉⲓⲛⲉ ⲉⲩϩⲗⲗⲟ], AM 287 [[B]] [ⲟⲩⲁ. ⲙⲃⲉⲣⲓ], TEuch 1 327 [[B]] [ⲡⲉⲕⲙⲟⲛⲟⲅⲉⲛⲏⲥ ⲛⲁ.]; Ex 2 3 [[B]] a babe, MIE 2 398 [[B]] [ⲕⲟⲩϫⲓ ⲛⲁ.] of 16 years ([[S]] [ϣ. ϣⲏⲙ]), C 86 73 [[B]] do of 25 years, C 41 39 [[B]] [ⲁ. ⲃ̅ ⲙⲙⲟⲛⲁⲭⲟⲥ]. *b.* _servant_, [παῖς], [οἰκέτης], mostly [[B]]: Ge 14 15 [[B]], Ex 21 2, Lev 25 55 [[B]] ([[S]] [ϩⲙϩⲁⲗ]), Jo 4 51 [[F]] ([[S]][[A^2]] [ϩ.], [[B]] [ⲃⲱⲕ]) Ac 12 13 [[B]] ([[S]] [ϣ. ϣⲏⲙ]) [παιδίσκη], Va 61 102 [[B]] [ⲁⲗⲱⲟⲩⲓ] opp [ϣⲏⲣⲓ], BSM 71 sim, ShP 130^1 133 [[S]] [ⲡⲉⲛϩⲙϩⲁⲗⲡⲉ ⲏ ⲡⲉⲛⲁ. ϣⲏⲙⲡⲉ], Z 317 [[S]] he followeth me [ⲛⲑⲉ ⲛⲟⲩⲁ.] ([[B]] [ⲟⲩⲁⲛⲉⲙⲓ]) [ὡς ἀνέμη] (_v_ LMis 130 551, _cf_ [ⲁⲗ] _pebble_).\n[ⲙⲛⲧⲁ.], [ⲙⲉⲧⲁ.] [[B]][[F]] nn f, _time of youth_, _youthfulness_: Ge 8 21 [[B]] ([[S]] [ⲙⲛⲧⲕⲟⲩⲓ]), 1 Kg 17 33 [[B]] ([[S]] do), Ps 42 4 [[B]] ([[S]] [ⲙⲛⲧϣ. ϣⲏⲙ]), Pro 24 54 [[B]] ([[S]] [ⲙⲛⲧⲃⲣⲣⲉ]) [νεότης]; Hos 2 15 [[A]] ([[B]] [ⲙⲉⲧⲕⲟⲩϫⲓ]) [νηπιότης], Mor 30 10 [[F]] ([[S]] [ⲙⲛⲧⲃⲣⲣⲉ]).\n[ⲙⲉⲧⲣⲉϥϧⲁⲧⲉⲃ ⲁ.] [[B]] nn f, _child-slaying_: EW 46 sorcery, fornication &amp; [ⲙ.]\n[ⲉⲣ ⲁ.] [[B]], _be young_: Ps 36 25 ([[S]] [ⲣ ⲕⲟⲩⲓ]) [νεώτερος γίνεσθαι], Gal 4 3 ([[S]] do) [νήπιος εἶναι], Va 57 193 old men once [ⲁⲩⲟⲓ ⲛⲁ.] [νέοι ἐγένοντο].\nIn names [ⲡⲁⲗⲟⲩ] AZ 16 12, [-ⲗⲁⲩ] Mich wooden tablet, [ⲧⲁⲗⲟⲩ] [[S]] f, Wess 18 11, Ryl 63, _ib_ 262 [-ⲗⲁⲩ], Miss 1 399 [ⲧⲁⲗⲟⲩ ϣⲏⲙ]; _cf_ Preisigke 407, 408.\n_Cf_ [ⲗⲓⲗⲟⲩ], with which there is ? confusion of forms."
 	},
 	{
-	"headword": "#[ⲁⲗⲱ]#, [ⲁⲗⲟⲩ] ([ⲁⲣⲟⲩ]) [[S]], [ⲉⲗⲟⲩ] (Zach 2 8), [ⲁⲗⲟⲩ] [[A]], [ⲁⲗⲗⲟⲩ] [[B]], pl [ⲁⲗⲟⲟⲩⲉ], [ⲁⲗⲁⲩⲉ], [ⲁⲣⲟⲟⲩⲉ] [[S]], &amp; sg as pl [[S]][[A]][[B]], nn f, _pupil_ (? daughter, maiden, _v_ below) _of eye_: Deu 32 10 [[B]] ([[S]] [ⲕⲉⲕⲉ], which = [βρέφος] Klio 13 31), Ps 16 8 [[B]] ([[S]] do), Pro 20 10 [[A]] ([[S]] do), _ib_ 7 2 [[A]][[B]] R 2 2 21 [[S]] [κόρη], K 75 [[B]] [حدقة]; Gal 4 15 [[S]] ([[B]] [ⲃⲁⲗ]) [ὀφθαλμός], Lam 2 18 [[B]] [θυγάτηρ] (var [κόρη]) [ὀφθ.], Mor 48 94 [[S]] [ⲧⲁⲁ. ⲛⲟⲩⲛⲁⲙ] = C 43 146 [[B]], BMar 40 [[S]] [ⲧⲉϥⲁ. ⲥⲛⲧⲉ], C 43 218 [[B]] [ⲛⲓⲁ. ⲛⲧⲉ ⲛⲉϥⲃⲁⲗ], Mor 43 226 [[S]] of Lazarus [ⲁⲩⲱⲙⲥ ⲉⲡⲉⲥⲏⲧ ⲛϭⲓ ⲛⲁ. ⲛⲛⲉϥⲃⲁⲗ], LCyp 8 [[S]] ([ⲁⲣⲟⲟⲩⲉ]) sim, R 1 5 51 [[S]] [ⲧⲉϥⲁⲣⲟⲩ] fell to ground, Mor 41 342 sim, BIF 14 113 [[S]] Christ replaces martyr's [ⲁⲣⲟⲟⲩⲉ], Miss 4 651 [[S]] [λεύκωμα] in [ⲛⲉⲥⲁⲗⲟⲟⲩⲉ], BM 180 376 [[S]] beryl glitters like snake's [ⲁⲗⲁⲩⲉ]."
+	"headword": "<span class=\"simple\">#[ⲁⲗⲱ]#, [ⲁⲗⲟⲩ] ([ⲁⲣⲟⲩ]) [[S]], [ⲉⲗⲟⲩ] (Zach 2 8), [ⲁⲗⲟⲩ] [[A]], [ⲁⲗⲗⲟⲩ] [[B]], pl [ⲁⲗⲟⲟⲩⲉ], [ⲁⲗⲁⲩⲉ], [ⲁⲣⲟⲟⲩⲉ] [[S]], &amp; sg as pl [[S]][[A]][[B]], nn f, _pupil_ (? daughter, maiden, _v_ below) _of eye_</span>: Deu 32 10 [[B]] ([[S]] [ⲕⲉⲕⲉ], which = [βρέφος] Klio 13 31), Ps 16 8 [[B]] ([[S]] do), Pro 20 10 [[A]] ([[S]] do), _ib_ 7 2 [[A]][[B]] R 2 2 21 [[S]] [κόρη], K 75 [[B]] [حدقة]; Gal 4 15 [[S]] ([[B]] [ⲃⲁⲗ]) [ὀφθαλμός], Lam 2 18 [[B]] [θυγάτηρ] (var [κόρη]) [ὀφθ.], Mor 48 94 [[S]] [ⲧⲁⲁ. ⲛⲟⲩⲛⲁⲙ] = C 43 146 [[B]], BMar 40 [[S]] [ⲧⲉϥⲁ. ⲥⲛⲧⲉ], C 43 218 [[B]] [ⲛⲓⲁ. ⲛⲧⲉ ⲛⲉϥⲃⲁⲗ], Mor 43 226 [[S]] of Lazarus [ⲁⲩⲱⲙⲥ ⲉⲡⲉⲥⲏⲧ ⲛϭⲓ ⲛⲁ. ⲛⲛⲉϥⲃⲁⲗ], LCyp 8 [[S]] ([ⲁⲣⲟⲟⲩⲉ]) sim, R 1 5 51 [[S]] [ⲧⲉϥⲁⲣⲟⲩ] fell to ground, Mor 41 342 sim, BIF 14 113 [[S]] Christ replaces martyr's [ⲁⲣⲟⲟⲩⲉ], Miss 4 651 [[S]] [λεύκωμα] in [ⲛⲉⲥⲁⲗⲟⲟⲩⲉ], BM 180 376 [[S]] beryl glitters like snake's [ⲁⲗⲁⲩⲉ]."
 	},
 	{
-	"headword": "#[ⲁⲗⲱ]#, [ⲉⲗⲱ] [[S]], [ⲁⲗⲟⲩ] [[A]], pl [ⲁⲗⲟⲟⲩⲉ], [ⲉⲗⲟⲟⲩⲉ] [[S]] nn, _snare_, _trap_: Mor 18 152 [[S]] better to choose death [ϩⲓⲧⲛⲟⲩⲁ.], Mor 44 32 [[S]] [ⲉⲕⲛⲁⲟϭⲧⲕ ϩⲛⲟⲩⲁ.], Pro 6 5 [[A]] ([[S]][[B]] [ϩⲁϭⲉ], [-ϫⲓ]), 1 Cor 7 35 [[S]] [ⲉⲗⲱ] (Mor, [[B]] do) [βρόχος], ShR 2 4 48 [[S]] birds [ⲉⲁⲩϫⲱⲗⲉϫ ⲛϩⲉⲛⲁⲗⲱⲟⲩ] (?), ShC 73 6 [[S]] [ⲛⲉⲥⲁⲗⲟⲟⲩⲉ ⲙⲛⲛⲉ\\(ⲥ\\)ϣⲛⲏⲟⲩ], ShZ 595 sim, ShP 130^5 65 [ⲡⲉⲧⲥⲱⲗⲡ ⲛⲟⲩⲁ.], Bor 248 61 [[S]] lest he die [ϩⲛⲧⲉϥϩⲁϭⲉ ⲙⲛⲧⲉϥⲉⲗⲱ], Aeg 26 [[S]] attached to [ⲛⲉⲗⲟⲟⲩⲉ ⲛⲛⲉϥⲃⲁⲗ] ([[B]] [ⲃⲟⲩϩⲓ] error), _cf_ BHom 6 [[S]] cares of life &amp; [ⲛⲉϥⲁⲗⲟⲟⲩⲉ] [βρόχους]."
+	"headword": "<span class=\"simple\">#[ⲁⲗⲱ]#, [ⲉⲗⲱ] [[S]], [ⲁⲗⲟⲩ] [[A]], pl [ⲁⲗⲟⲟⲩⲉ], [ⲉⲗⲟⲟⲩⲉ] [[S]] nn, _snare_, _trap_</span>: Mor 18 152 [[S]] better to choose death [ϩⲓⲧⲛⲟⲩⲁ.], Mor 44 32 [[S]] [ⲉⲕⲛⲁⲟϭⲧⲕ ϩⲛⲟⲩⲁ.], Pro 6 5 [[A]] ([[S]][[B]] [ϩⲁϭⲉ], [-ϫⲓ]), 1 Cor 7 35 [[S]] [ⲉⲗⲱ] (Mor, [[B]] do) [βρόχος], ShR 2 4 48 [[S]] birds [ⲉⲁⲩϫⲱⲗⲉϫ ⲛϩⲉⲛⲁⲗⲱⲟⲩ] (?), ShC 73 6 [[S]] [ⲛⲉⲥⲁⲗⲟⲟⲩⲉ ⲙⲛⲛⲉ\\(ⲥ\\)ϣⲛⲏⲟⲩ], ShZ 595 sim, ShP 130^5 65 [ⲡⲉⲧⲥⲱⲗⲡ ⲛⲟⲩⲁ.], Bor 248 61 [[S]] lest he die [ϩⲛⲧⲉϥϩⲁϭⲉ ⲙⲛⲧⲉϥⲉⲗⲱ], Aeg 26 [[S]] attached to [ⲛⲉⲗⲟⲟⲩⲉ ⲛⲛⲉϥⲃⲁⲗ] ([[B]] [ⲃⲟⲩϩⲓ] error), _cf_ BHom 6 [[S]] cares of life &amp; [ⲛⲉϥⲁⲗⲟⲟⲩⲉ] [βρόχους]."
 	},
 	{
-	"headword": "#[ⲁⲗⲁⲃⲗⲉⲡ]# [[B]] _v_ [ⲗⲁⲡⲗⲉⲡ]."
+	"headword": "<span class=\"simple\">#[ⲁⲗⲁⲃⲗⲉⲡ]# [[B]] _v_ [ⲗⲁⲡⲗⲉⲡ]</span>."
 	},
 	{
-	"headword": "#[ⲁⲗⲟⲩⲃⲉϩ]# [[B]] _v_ [ⲁⲗ] _pebble_, &amp; [ϭⲁⲗⲟⲩⲃⲓϩ]."
+	"headword": "<span class=\"simple\">#[ⲁⲗⲟⲩⲃⲉϩ]# [[B]] _v_ [ⲁⲗ] _pebble_, &amp; [ϭⲁⲗⲟⲩⲃⲓϩ]</span>."
 	},
 	{
-	"headword": "#[ⲁⲗⲁⲕ]# [[S]][[B]] _v_ [ϩⲁⲗⲁⲕ]."
+	"headword": "<span class=\"simple\">#[ⲁⲗⲁⲕ]# [[S]][[B]] _v_ [ϩⲁⲗⲁⲕ]</span>."
 	},
 	{
-	"headword": "#[ⲁⲗⲟⲕ]# [[B]], once [[S]] (P 44 110 = 43 105), nn m, _corner_, _angle_: 3 Kg 3 20 [[S]] (_l_ _c_) [ἀγκάλη], Va 57 213 [ϧⲉⲛⲟⲩⲕⲟⲛⲓⲁ ⲛⲧⲉ ⲟⲩⲁ.] [ἐν γωνίᾳ], Va 61 93 [ⲉϥⲉⲛⲕⲟⲧ ϧⲉⲛⲡⲓⲁ. ⲛⲧⲉ ⲡⲉϥⲏⲓ], MG 25 312 ([[S]] [ⲕⲗϫⲉ]) southern [ⲁ.] of marsh, C 86 247 oath by sun, moon [ⲛⲉⲙⲡⲓⲁ. ⲛⲧⲉ ⲫⲛⲟⲩⲛ].\n_Cf_ [ⲁⲗⲟϭ], [ⲱⲗⲕ] ([ⲉⲗⲕⲥ])."
+	"headword": "<span class=\"simple\">#[ⲁⲗⲟⲕ]# [[B]], once [[S]] (P 44 110 = 43 105), nn m, _corner_, _angle_</span>: 3 Kg 3 20 [[S]] (_l_ _c_) [ἀγκάλη], Va 57 213 [ϧⲉⲛⲟⲩⲕⲟⲛⲓⲁ ⲛⲧⲉ ⲟⲩⲁ.] [ἐν γωνίᾳ], Va 61 93 [ⲉϥⲉⲛⲕⲟⲧ ϧⲉⲛⲡⲓⲁ. ⲛⲧⲉ ⲡⲉϥⲏⲓ], MG 25 312 ([[S]] [ⲕⲗϫⲉ]) southern [ⲁ.] of marsh, C 86 247 oath by sun, moon [ⲛⲉⲙⲡⲓⲁ. ⲛⲧⲉ ⲫⲛⲟⲩⲛ].\n_Cf_ [ⲁⲗⲟϭ], [ⲱⲗⲕ] ([ⲉⲗⲕⲥ])."
 	},
 	{
-	"headword": "#[ⲁⲗⲕⲉ]#, [ⲁⲗⲕⲏ] (Cai 8530 [ⲉⲣⲕⲉ], CO 303 [ⲣⲕⲉ]) [[S]][[B]] nn m (Cai 8399), _last day of month_ (BM 920 207, Samannûdi's _Scala_, [تدل علي رأس الشهر ورأس الهلال]), without art: BM 298 [[S]] [ⲉⲧⲕⲩⲣⲓⲁⲕⲏ ϫⲱⲛϥ ⲁ. ⲙⲡⲁⲣⲙⲟⲩⲧⲉ], Ryl 53 [[S]] heading in directory [ⲁ. ⲛⲑⲟⲟⲩⲧ], Mor 52 52 [[S]] [ⲉϩⲧⲟⲟⲩⲉ ⲛⲁ. ⲙⲡⲁⲣⲙⲟⲩⲧⲉ]; with [ϩⲛ-], [ϧⲉⲛ-]: GöttN '01 329 [[S]] [ϩⲛⲁ. ⲙⲡⲉⲃⲟⲧ], EW 217, AM 179 [[B]] sim; with [ⲛ-]: BIF 14 182 [[S]] [ⲛϥⲙⲟⲩ ⲛⲁ. ⲙⲡⲁϣⲟⲛⲥ], Saq 234 [[S]] [ⲉⲛⲧⲁⲃⲙⲧⲟⲛ ⲙⲟⲃ ⲛⲁ. ⲡⲁϣⲟⲛⲥ], _ib_ 287 [ⲛⲁ. ⲗ̅ ⲧⲱⲃⲉ], C 86 167 [[B]] he entered Cairo [ⲛⲁ. ⲙⲫⲁⲣⲙⲟⲩⲑⲓ]."
+	"headword": "<span class=\"simple\">#[ⲁⲗⲕⲉ]#, [ⲁⲗⲕⲏ] (Cai 8530 [ⲉⲣⲕⲉ], CO 303 [ⲣⲕⲉ]) [[S]][[B]] nn m (Cai 8399), _last day of month_ (BM 920 207, Samannûdi's _Scala_, [تدل علي رأس الشهر ورأس الهلال]), without art</span>: BM 298 [[S]] [ⲉⲧⲕⲩⲣⲓⲁⲕⲏ ϫⲱⲛϥ ⲁ. ⲙⲡⲁⲣⲙⲟⲩⲧⲉ], Ryl 53 [[S]] heading in directory [ⲁ. ⲛⲑⲟⲟⲩⲧ], Mor 52 52 [[S]] [ⲉϩⲧⲟⲟⲩⲉ ⲛⲁ. ⲙⲡⲁⲣⲙⲟⲩⲧⲉ]; with [ϩⲛ-], [ϧⲉⲛ-]: GöttN '01 329 [[S]] [ϩⲛⲁ. ⲙⲡⲉⲃⲟⲧ], EW 217, AM 179 [[B]] sim; with [ⲛ-]: BIF 14 182 [[S]] [ⲛϥⲙⲟⲩ ⲛⲁ. ⲙⲡⲁϣⲟⲛⲥ], Saq 234 [[S]] [ⲉⲛⲧⲁⲃⲙⲧⲟⲛ ⲙⲟⲃ ⲛⲁ. ⲡⲁϣⲟⲛⲥ], _ib_ 287 [ⲛⲁ. ⲗ̅ ⲧⲱⲃⲉ], C 86 167 [[B]] he entered Cairo [ⲛⲁ. ⲙⲫⲁⲣⲙⲟⲩⲑⲓ]."
 	},
 	{
-	"headword": "#[ⲁⲗⲓⲕⲓ]# [[F]] _v_ [ⲁⲣⲓⲕⲉ]."
+	"headword": "<span class=\"simple\">#[ⲁⲗⲓⲕⲓ]# [[F]] _v_ [ⲁⲣⲓⲕⲉ]</span>."
 	},
 	{
-	"headword": "#[ⲁⲗⲕⲟⲩ]# [[B]] nn f, _flask_: K 149, P 55 10, [ϯⲁ.] [بلسقية] ([φλασκίον]), but K 263 [ⲡⲓⲁ.] (var [ⲉⲗⲕⲟⲩ]). Prob confused with [ⲡⲓⲁ.] ([ⲉⲗⲕⲱ]) _sycamore fruit_. _Cf_ [ⲃⲁⲗⲕⲟⲩ]."
+	"headword": "<span class=\"simple\">#[ⲁⲗⲕⲟⲩ]# [[B]] nn f, _flask_</span>: K 149, P 55 10, [ϯⲁ.] [بلسقية] ([φλασκίον]), but K 263 [ⲡⲓⲁ.] (var [ⲉⲗⲕⲟⲩ]). Prob confused with [ⲡⲓⲁ.] ([ⲉⲗⲕⲱ]) _sycamore fruit_. _Cf_ [ⲃⲁⲗⲕⲟⲩ]."
 	},
 	{
-	"headword": "#[ⲁⲗⲕⲟⲩ]# [[B]] _sycamore fruit_ _v_ [ⲉⲗⲕⲱ]."
+	"headword": "<span class=\"simple\">#[ⲁⲗⲕⲟⲩ]# [[B]] _sycamore fruit_ _v_ [ⲉⲗⲕⲱ]</span>."
 	},
 	{
-	"headword": "#[ⲁⲗⲓⲕⲧ]# [[S]] nn m, meaning unknown: CO 477 in list of metal objects [ⲥⲛⲱ ⲛ̄ⲁ.] But in Ep 495 _l_ [ϯ ⲛⲁ. ⲉⲣⲟϥ] &amp; _cf_ DM 13 15 n _'lykt f_, a metal object."
+	"headword": "<span class=\"simple\">#[ⲁⲗⲓⲕⲧ]# [[S]] nn m, meaning unknown</span>: CO 477 in list of metal objects [ⲥⲛⲱ ⲛ̄ⲁ.] But in Ep 495 _l_ [ϯ ⲛⲁ. ⲉⲣⲟϥ] &amp; _cf_ DM 13 15 n _'lykt f_, a metal object."
 	},
 	{
-	"headword": "#[ⲁⲗⲓⲗ]# [[S]][[B]], [ⲁⲗⲓⲗⲓ] [[B]] nn m, _field mouse_: Lev 11 30 [μυγαλῆ] = Va 1 [خلد] _mole_ (but P 44 55 [خلدة] [ἐχῖνος]). As name ? = [Ἀλέλε] (Preisigke)."
+	"headword": "<span class=\"simple\">#[ⲁⲗⲓⲗ]# [[S]][[B]], [ⲁⲗⲓⲗⲓ] [[B]] nn m, _field mouse_</span>: Lev 11 30 [μυγαλῆ] = Va 1 [خلد] _mole_ (but P 44 55 [خلدة] [ἐχῖνος]). As name ? = [Ἀλέλε] (Preisigke)."
 	},
 	{
-	"headword": "#[ⲁⲗⲱⲗ]# [[S]] vb intr, meaning unknown, ? _be impatient_, _desire eagerly_: P 129^16 9 martyr to judge, Settle our affair speedily, [ϫⲉⲧⲛⲁ. ⲙⲙⲁⲧⲉ] (_l_ [ⲉⲙ-]) [ⲉⲧⲣⲛⲃⲱⲕ ⲉⲣⲁⲧϥ ⲙⲡⲉⲭ︤ⲥ︥], _ib_ 10 sim (an incorrect MS.). [ⲧⲛ\\(ⲛ\\)ⲁ-ⲗⲱⲗ] not prob."
+	"headword": "<span class=\"simple\">#[ⲁⲗⲱⲗ]# [[S]] vb intr, meaning unknown, ? _be impatient_, _desire eagerly_</span>: P 129^16 9 martyr to judge, Settle our affair speedily, [ϫⲉⲧⲛⲁ. ⲙⲙⲁⲧⲉ] (_l_ [ⲉⲙ-]) [ⲉⲧⲣⲛⲃⲱⲕ ⲉⲣⲁⲧϥ ⲙⲡⲉⲭ︤ⲥ︥], _ib_ 10 sim (an incorrect MS.). [ⲧⲛ\\(ⲛ\\)ⲁ-ⲗⲱⲗ] not prob."
 	},
 	{
-	"headword": "#[ⲁⲗⲟⲩⲗⲁ]# [[S]], [[ⲁⲗⲓⲗⲁⲓ]] [[A]] nn, an insect: Nah 3 17 [ἀττέλαβος] [[S]] (P 44 116 = 43 119, [[B]] = Gk) [هزبر], word variously explained. BM 729 93 translates [قمل] _louse_."
+	"headword": "<span class=\"simple\">#[ⲁⲗⲟⲩⲗⲁ]# [[S]], [[ⲁⲗⲓⲗⲁⲓ]] [[A]] nn, an insect</span>: Nah 3 17 [ἀττέλαβος] [[S]] (P 44 116 = 43 119, [[B]] = Gk) [هزبر], word variously explained. BM 729 93 translates [قمل] _louse_."
 	},
 	{
-	"headword": "#[ⲁⲗⲗⲁ]# _v_ [ⲗⲁ]."
+	"headword": "<span class=\"simple\">#[ⲁⲗⲗⲁ]# _v_ [ⲗⲁ]</span>."
 	},
 	{
-	"headword": "#[ⲁⲗⲗⲟⲩ]# _v_ [ⲁⲗⲱ]."
+	"headword": "<span class=\"simple\">#[ⲁⲗⲗⲟⲩ]# _v_ [ⲁⲗⲱ]</span>."
 	},
 	{
-	"headword": "#[ⲁⲗⲁⲁⲗⲓ]# [[F]], [ⲁⲗⲟⲗⲓ] [[B]] _v_ [ⲉⲗⲟⲟⲗⲉ]."
+	"headword": "<span class=\"simple\">#[ⲁⲗⲁⲁⲗⲓ]# [[F]], [ⲁⲗⲟⲗⲓ] [[B]] _v_ [ⲉⲗⲟⲟⲗⲉ]</span>."
 	},
 	{
-	"headword": "#[ⲁⲗⲱⲗⲉ]# [[S]] _v_ [ⲁⲗ] _pebble_."
+	"headword": "<span class=\"simple\">#[ⲁⲗⲱⲗⲉ]# [[S]] _v_ [ⲁⲗ] _pebble_</span>."
 	},
 	{
-	"headword": "#[ⲁⲗⲗⲱⲏ]# [[S]][[S^f]], [ⲁⲗⲗⲟⲏ] [[S]][[B]] nn m, fabulous eastern bird, strongly scented: AZ 33 54 [[S^f]], K 169 [[B]] [سمندال] _salamander_ (= BM Or 8775 74 [ﺳ׳ وتجى المرّ]), LMis 81 360 [[B]]; or animal ([ζῶον]): Mor 25 18 = JTS 4 394 [[S]] = AZ 12 125 [[B]] (Va 61 100). _Cf_ PMéd 63 &amp; Lab 23 _inf_. Doubtless mere misuse of plant-name [ⲁⲗⲗⲱⲏ], [ⲁⲗⲗⲱⲓ] [ἀλόη] (Cant 4 14, Jo 19 39, Gu 33, WTh 152)."
+	"headword": "<span class=\"simple\">#[ⲁⲗⲗⲱⲏ]# [[S]][[S^f]], [ⲁⲗⲗⲟⲏ] [[S]][[B]] nn m, fabulous eastern bird, strongly scented</span>: AZ 33 54 [[S^f]], K 169 [[B]] [سمندال] _salamander_ (= BM Or 8775 74 [ﺳ׳ وتجى المرّ]), LMis 81 360 [[B]]; or animal ([ζῶον]): Mor 25 18 = JTS 4 394 [[S]] = AZ 12 125 [[B]] (Va 61 100). _Cf_ PMéd 63 &amp; Lab 23 _inf_. Doubtless mere misuse of plant-name [ⲁⲗⲗⲱⲏ], [ⲁⲗⲗⲱⲓ] [ἀλόη] (Cant 4 14, Jo 19 39, Gu 33, WTh 152)."
 	},
 	{
-	"headword": "#[ⲁⲗⲗⲱⲕⲓ]#, [-ⲱⲕⲏ], [-ⲟⲕⲓ] [[B]] nn m, a plant: K 178, 271 [موز] (banana) which = [ⲛ̄ⲧⲉⲕⲓⲛⲟⲛ] (? [ἰνδικός]) P 44 81, var [موز قسطالي] 43 55. Possibly _l_ [ⲡⲁⲗⲗⲱⲕⲓ], _cf_ P 55 6 [ⲙⲡⲓⲟⲗⲗⲟⲕⲓ]. Coptic? [Ἀγάλλοχον] seems unsuitable."
+	"headword": "<span class=\"simple\">#[ⲁⲗⲗⲱⲕⲓ]#, [-ⲱⲕⲏ], [-ⲟⲕⲓ] [[B]] nn m, a plant</span>: K 178, 271 [موز] (banana) which = [ⲛ̄ⲧⲉⲕⲓⲛⲟⲛ] (? [ἰνδικός]) P 44 81, var [موز قسطالي] 43 55. Possibly _l_ [ⲡⲁⲗⲗⲱⲕⲓ], _cf_ P 55 6 [ⲙⲡⲓⲟⲗⲗⲟⲕⲓ]. Coptic? [Ἀγάλλοχον] seems unsuitable."
 	},
 	{
-	"headword": "#[ⲁⲗⲟⲙ]# [[S]] nn m, _bosom_: Ps 128 7 (Budge &amp; Mich, [[B]] [ⲕⲉⲛϥ]) [κόλπος], ShP 130^2 56 cursed whoso runneth to neighbor [ⲉⲧⲣⲉϥⲕⲧⲉ ⲡⲉϥⲁ. ⲉⲃⲟⲗ \\[ⲉ\\]ⲣⲟϥ ⲛϥϯⲡⲓ \\[ⲉⲣ\\]ⲱϥ ϩⲛⲟⲩⲡⲁⲑⲟⲥ ⲛⲉⲡⲓⲑⲩⲙⲓⲁ]."
+	"headword": "<span class=\"simple\">#[ⲁⲗⲟⲙ]# [[S]] nn m, _bosom_</span>: Ps 128 7 (Budge &amp; Mich, [[B]] [ⲕⲉⲛϥ]) [κόλπος], ShP 130^2 56 cursed whoso runneth to neighbor [ⲉⲧⲣⲉϥⲕⲧⲉ ⲡⲉϥⲁ. ⲉⲃⲟⲗ \\[ⲉ\\]ⲣⲟϥ ⲛϥϯⲡⲓ \\[ⲉⲣ\\]ⲱϥ ϩⲛⲟⲩⲡⲁⲑⲟⲥ ⲛⲉⲡⲓⲑⲩⲙⲓⲁ]."
 	},
 	{
-	"headword": "#[ⲁⲗⲱⲙ]# [[B]] _v_ [ϩⲁⲗⲱⲙ]."
+	"headword": "<span class=\"simple\">#[ⲁⲗⲱⲙ]# [[B]] _v_ [ϩⲁⲗⲱⲙ]</span>."
 	},
 	{
-	"headword": "#[ⲁⲗⲁⲥⲱϯ]# [[B]] nn pl, _army_: BM 920 265 scala [ⲛⲁ.] [عسكر]. Coptic?"
+	"headword": "<span class=\"simple\">#[ⲁⲗⲁⲥⲱϯ]# [[B]] nn pl, _army_</span>: BM 920 265 scala [ⲛⲁ.] [عسكر]. Coptic?"
 	},
 	{
-	"headword": "#[ⲁⲗⲱⲧ]# [[S]][[F]] nn f. *a.* _compulsory service_, _forced labour_, paral [ⲕⲃⲁ] [ἀγγαρεία] _q v_: BMis 207 [[S]] of Jews in Egypt [ⲙⲁⲣⲟⲩⲣ ⲕⲃⲁ ϩⲓⲁ. ⲧⲏⲣⲟⲩ], var Mor 16 50 [ⲛⲉⲕⲃⲁ ⲙⲛⲛⲁ.] of all the land, TurM 6 [[S]] nothing beyond due tax shall be demanded [ⲛⲁⲧϩⲟⲕⲧⲱⲛ] ([ὄγδοον], _cf_ Ryl 124 1) [ⲛⲁⲧⲁ. ⲛⲁⲧⲗⲁⲁⲩ ⲛⲃⲁⲣⲟⲥ], Kr 145 [[S]] no services beyond those stipulated [ⲛⲁⲧⲁ. ⲛⲁⲧϩⲟⲅⲇ/ ⲛⲁⲧⲛⲉⲉϥ], BM 589 [[F]] [ⲉⲕⲕⲱ \\(ⲙ\\)ⲙⲁⲓ ⲉⲃⲁⲗ ϩⲛⲧⲁ.], Ryl 253 [[S]] as item in expenses [ϩⲁⲧⲁ.] *b.* _a turn_, _course_ of service: 4 Kg 12 9 [[S]] [ⲉⲧⲣⲉⲡⲟⲩⲁ ⲡⲟⲩⲁ ⲙⲙⲟⲟⲩ ⲣ ⲁ.] in Lord's house (Gk om, or Brooke suggests = ? Lucian's [εἰσπορευομένων ἀνδρῶν]), ShMiss 4 283 [[S]] 2 men at door [ⲟⲩⲁⲗⲱⲧ ⲉⲟⲩⲁ…ⲛⲧⲉⲓϩⲉⲉⲩⲛⲁⲣ ⲁ. ⲛϭⲓ ⲛⲉⲧⲥⲟⲃⲧⲉ ϩⲙⲡⲙⲁ ⲛⲟⲩⲱⲙ], Ep 1 p 7 [[S]] graffiti [ⲁⲓⲣ ⲟⲩⲁ. ⲙⲡⲓⲙⲁ], BMar 180 [[S]] advice to novice to choose a pious teacher, [ⲙⲡⲣⲕⲁⲁϥ ⲉⲃⲟⲗ ϩⲛⲧⲕⲁ. ⲛⲅⲃⲱⲕ ϣⲁⲕⲉⲟⲩⲁ] (_cf_ Esaias Scet. _ed_ Jerusalem 17, though this phrase om). *c.* a certain number, quantity (_cf_ ? brace, pair): ST 378 [[S]] for 2 years past hath he caught doves, the 1st year [ⲁϥϭⲱⲡ ⲝⲓ̈ ⲛⲁ.], the 2nd [ⲡⲓ̈ ⲛⲁ.], RE 9 136 [[S]] they sent by night [ⲁⲩϩⲁⲣⲡⲁⲍⲉ ⲙⲯⲓⲧⲉ ⲛⲁ. ⲛ\\[ⲧ\\]ⲃⲛⲏ] (_sic_ _l_)."
+	"headword": "<span class=\"simple\">#[ⲁⲗⲱⲧ]# [[S]][[F]] nn f. *a.* _compulsory service_, _forced labour_, paral [ⲕⲃⲁ] [ἀγγαρεία] _q v_</span>: BMis 207 [[S]] of Jews in Egypt [ⲙⲁⲣⲟⲩⲣ ⲕⲃⲁ ϩⲓⲁ. ⲧⲏⲣⲟⲩ], var Mor 16 50 [ⲛⲉⲕⲃⲁ ⲙⲛⲛⲁ.] of all the land, TurM 6 [[S]] nothing beyond due tax shall be demanded [ⲛⲁⲧϩⲟⲕⲧⲱⲛ] ([ὄγδοον], _cf_ Ryl 124 1) [ⲛⲁⲧⲁ. ⲛⲁⲧⲗⲁⲁⲩ ⲛⲃⲁⲣⲟⲥ], Kr 145 [[S]] no services beyond those stipulated [ⲛⲁⲧⲁ. ⲛⲁⲧϩⲟⲅⲇ/ ⲛⲁⲧⲛⲉⲉϥ], BM 589 [[F]] [ⲉⲕⲕⲱ \\(ⲙ\\)ⲙⲁⲓ ⲉⲃⲁⲗ ϩⲛⲧⲁ.], Ryl 253 [[S]] as item in expenses [ϩⲁⲧⲁ.] *b.* _a turn_, _course_ of service: 4 Kg 12 9 [[S]] [ⲉⲧⲣⲉⲡⲟⲩⲁ ⲡⲟⲩⲁ ⲙⲙⲟⲟⲩ ⲣ ⲁ.] in Lord's house (Gk om, or Brooke suggests = ? Lucian's [εἰσπορευομένων ἀνδρῶν]), ShMiss 4 283 [[S]] 2 men at door [ⲟⲩⲁⲗⲱⲧ ⲉⲟⲩⲁ…ⲛⲧⲉⲓϩⲉⲉⲩⲛⲁⲣ ⲁ. ⲛϭⲓ ⲛⲉⲧⲥⲟⲃⲧⲉ ϩⲙⲡⲙⲁ ⲛⲟⲩⲱⲙ], Ep 1 p 7 [[S]] graffiti [ⲁⲓⲣ ⲟⲩⲁ. ⲙⲡⲓⲙⲁ], BMar 180 [[S]] advice to novice to choose a pious teacher, [ⲙⲡⲣⲕⲁⲁϥ ⲉⲃⲟⲗ ϩⲛⲧⲕⲁ. ⲛⲅⲃⲱⲕ ϣⲁⲕⲉⲟⲩⲁ] (_cf_ Esaias Scet. _ed_ Jerusalem 17, though this phrase om). *c.* a certain number, quantity (_cf_ ? brace, pair): ST 378 [[S]] for 2 years past hath he caught doves, the 1st year [ⲁϥϭⲱⲡ ⲝⲓ̈ ⲛⲁ.], the 2nd [ⲡⲓ̈ ⲛⲁ.], RE 9 136 [[S]] they sent by night [ⲁⲩϩⲁⲣⲡⲁⲍⲉ ⲙⲯⲓⲧⲉ ⲛⲁ. ⲛ\\[ⲧ\\]ⲃⲛⲏ] (_sic_ _l_)."
 	},
 	{
-	"headword": "#[ⲁⲗⲧⲕⲁⲥ]# [[S]], [ⲁⲧⲕⲁⲥ] [[B]] nn m, mostly as pl, _marrow_: Ge 45 18 [[B]] sg, Nu 24 8 [[S]] ([[B]] [ⲱⲧ]), Ps 65 15 [[B]] [ⲱⲧ ⲛⲁ.] ([[S]] diff), Job 21 24 [[S]] pl [[B]] sg, _ib_ 33 24 [[S]][[B]], He 4 12 [[S]][[B]] [μυελός]; Ryl 94 103 [[S]] cold pierced [ϣⲁⲛⲉⲩⲁ.], Leyd 401 [[S]] seal of baptism reaches [ϩⲛⲛⲁ. ⲙⲡⲥⲱⲙⲁ], TT 150 [[S]] = C 89 77 [[B]], with false etymol, _ib_ 444 [بغير عظم] _boneless place_, BHom 123 [[S]] [ⲁⲗⲕⲥ] _sic_, _l_ [ⲁⲗⲧⲕⲁⲥ], P 44 68 [[S]] = [ἐνκρόταφος] [شبكة الدماغ] (? error), PMéd 238 [[S]] calf's marrow in a plaster."
+	"headword": "<span class=\"simple\">#[ⲁⲗⲧⲕⲁⲥ]# [[S]], [ⲁⲧⲕⲁⲥ] [[B]] nn m, mostly as pl, _marrow_</span>: Ge 45 18 [[B]] sg, Nu 24 8 [[S]] ([[B]] [ⲱⲧ]), Ps 65 15 [[B]] [ⲱⲧ ⲛⲁ.] ([[S]] diff), Job 21 24 [[S]] pl [[B]] sg, _ib_ 33 24 [[S]][[B]], He 4 12 [[S]][[B]] [μυελός]; Ryl 94 103 [[S]] cold pierced [ϣⲁⲛⲉⲩⲁ.], Leyd 401 [[S]] seal of baptism reaches [ϩⲛⲛⲁ. ⲙⲡⲥⲱⲙⲁ], TT 150 [[S]] = C 89 77 [[B]], with false etymol, _ib_ 444 [بغير عظم] _boneless place_, BHom 123 [[S]] [ⲁⲗⲕⲥ] _sic_, _l_ [ⲁⲗⲧⲕⲁⲥ], P 44 68 [[S]] = [ἐνκρόταφος] [شبكة الدماغ] (? error), PMéd 238 [[S]] calf's marrow in a plaster."
 	},
 	{
-	"headword": "#[ⲁⲗⲁⲩ]# [[S]], [ⲁⲗⲉⲩ], [ⲁⲗⲏⲩ] [[S]][[F]] adj, _white_: P 44 66 = 43 35 [λευκόν], [λεύκωσις]; of metals: AZ 23 103 [[S]] [ⲃⲁⲣⲟⲑ] (opp [ⲧⲟⲣϣ]), 112 [ⲕⲁⲥⲓⲧⲏⲣⲉ], 115 [ⲧⲁϩⲧ] (opp [ⲕⲁⲙⲏ]), BM 1135 [[S]] [ⲟⲃⲉⲛ]; glass: Bodl(P) a 2 38 [[S]] (_v_ [ⲁⲃⲁϭⲏⲉⲓⲛ]); gum: PMéd 157 [[S]]; pepper: _ib_ 154; beans: WS 124, Ryl 347 [[S]], olives: Bodl(P) b 9 [[S]]; wine: BKU 1 8 34 [[S]], CMSS 30 [[F]] (_cf_ [οἶνος ἄσπρος]); wool: Ryl 107, PMéd 244 [[S]]; clothing: Bodl(P) a 1 pass; sheep: MR 2 46 [[S]] (opp [ⲕⲁⲙⲉ]); swan: P 44 56 [ⲧⲍⲓⲕⲛⲁⲥ] (_cygnus_) [ⲟⲩϩⲁⲗⲏⲧ ⲛ\\(ⲁ\\)ⲗⲁⲩⲡⲉ] (_sic_ _l_) [طائر ابيض]; doubtful BM 527 19 [[F]].\nIn name prob: [Κακαλαῦ], [-εῦ] (Preisigke); in place-name ? PLond 4 232 [Πια\\(ϩ\\) Αλαυ]."
+	"headword": "<span class=\"simple\">#[ⲁⲗⲁⲩ]# [[S]], [ⲁⲗⲉⲩ], [ⲁⲗⲏⲩ] [[S]][[F]] adj, _white_</span>: P 44 66 = 43 35 [λευκόν], [λεύκωσις]; of metals: AZ 23 103 [[S]] [ⲃⲁⲣⲟⲑ] (opp [ⲧⲟⲣϣ]), 112 [ⲕⲁⲥⲓⲧⲏⲣⲉ], 115 [ⲧⲁϩⲧ] (opp [ⲕⲁⲙⲏ]), BM 1135 [[S]] [ⲟⲃⲉⲛ]; glass: Bodl(P) a 2 38 [[S]] (_v_ [ⲁⲃⲁϭⲏⲉⲓⲛ]); gum: PMéd 157 [[S]]; pepper: _ib_ 154; beans: WS 124, Ryl 347 [[S]], olives: Bodl(P) b 9 [[S]]; wine: BKU 1 8 34 [[S]], CMSS 30 [[F]] (_cf_ [οἶνος ἄσπρος]); wool: Ryl 107, PMéd 244 [[S]]; clothing: Bodl(P) a 1 pass; sheep: MR 2 46 [[S]] (opp [ⲕⲁⲙⲉ]); swan: P 44 56 [ⲧⲍⲓⲕⲛⲁⲥ] (_cygnus_) [ⲟⲩϩⲁⲗⲏⲧ ⲛ\\(ⲁ\\)ⲗⲁⲩⲡⲉ] (_sic_ _l_) [طائر ابيض]; doubtful BM 527 19 [[F]].\nIn name prob: [Κακαλαῦ], [-εῦ] (Preisigke); in place-name ? PLond 4 232 [Πια\\(ϩ\\) Αλαυ]."
 	},
 	{
-	"headword": "#[ⲁⲗⲏⲟⲩ]# [[F]] _v_ [ⲁⲣⲏⲩ] &amp; [ⲉⲣⲏⲩ]."
+	"headword": "<span class=\"simple\">#[ⲁⲗⲏⲟⲩ]# [[F]] _v_ [ⲁⲣⲏⲩ] &amp; [ⲉⲣⲏⲩ]</span>."
 	},
 	{
-	"headword": "#[ⲁⲗⲓⲟⲩⲓ]# [[B]] _v_ [ⲱⲗ]."
+	"headword": "<span class=\"simple\">#[ⲁⲗⲓⲟⲩⲓ]# [[B]] _v_ [ⲱⲗ]</span>."
 	},
 	{
-	"headword": "#[ⲁⲗⲱⲟⲩⲉ]# [[S]], [ⲁⲗⲱⲟⲩ], [ⲁⲗⲱⲟⲩⲓ] (_v_ Stern 210) [[B]] nn pl, _bunch_ of grapes (Kabis), P 46 152 [[S]], K 177 [[B]] [شماريخ] _stalks_ with bunch (Löw 119 n); [قلب النخل] _pith_ of (palm) stem (Lab). _Cf_ [ϩⲛⲁⲩ] [[B]] &amp; ? [ⲗⲟⲟⲩ] [[S]] _bunch_."
+	"headword": "<span class=\"simple\">#[ⲁⲗⲱⲟⲩⲉ]# [[S]], [ⲁⲗⲱⲟⲩ], [ⲁⲗⲱⲟⲩⲓ] (_v_ Stern 210) [[B]] nn pl, _bunch_ of grapes (Kabis)</span>, P 46 152 [[S]], K 177 [[B]] [شماريخ] _stalks_ with bunch (Löw 119 n); [قلب النخل] _pith_ of (palm) stem (Lab). _Cf_ [ϩⲛⲁⲩ] [[B]] &amp; ? [ⲗⲟⲟⲩ] [[S]] _bunch_."
 	},
 	{
-	"headword": "#[ⲁⲗϣⲱⲟⲩ]# [[B]] _v_ [ⲉⲗⲟⲟⲗⲉ]."
+	"headword": "<span class=\"simple\">#[ⲁⲗϣⲱⲟⲩ]# [[B]] _v_ [ⲉⲗⲟⲟⲗⲉ]</span>."
 	},
 	{
-	"headword": "#[ⲁⲗⲉϩ]# [[F]] _v_ [ϩⲁⲣⲉϩ]."
+	"headword": "<span class=\"simple\">#[ⲁⲗⲉϩ]# [[F]] _v_ [ϩⲁⲣⲉϩ]</span>."
 	},
 	{
-	"headword": "#[ⲁⲗⲟϫ]# [[B]] _v_ [ⲁⲗⲟϭ]."
+	"headword": "<span class=\"simple\">#[ⲁⲗⲟϫ]# [[B]] _v_ [ⲁⲗⲟϭ]</span>."
 	},
 	{
-	"headword": "#[ⲁⲗⲟϫ⸗]# [[F]] _v_ [ⲁⲣⲏϫ⸗]."
+	"headword": "<span class=\"simple\">#[ⲁⲗⲟϫ⸗]# [[F]] _v_ [ⲁⲣⲏϫ⸗]</span>."
 	},
 	{
-	"headword": "#[ⲁⲗⲓϫⲓ]# [[B]] nn m, _fuller's earth_: K 205 [طفل], _v_ AZ 12 125, Dozy 2 47."
+	"headword": "<span class=\"simple\">#[ⲁⲗⲓϫⲓ]# [[B]] nn m, _fuller's earth_</span>: K 205 [طفل], _v_ AZ 12 125, Dozy 2 47."
 	},
 	{
-	"headword": "#[ⲁⲗϫⲁⲓ]# [[B]] nn pl, large fish: BM Or 8775 136 [ⲛⲓⲁ.] [حيتان] ([حوت] elsewhere = [κῆτος]: Ge 1 21, Mt 12 40, P 44 54, K 170)."
+	"headword": "<span class=\"simple\">#[ⲁⲗϫⲁⲓ]# [[B]] nn pl, large fish</span>: BM Or 8775 136 [ⲛⲓⲁ.] [حيتان] ([حوت] elsewhere = [κῆτος]: Ge 1 21, Mt 12 40, P 44 54, K 170)."
+	},
+	{
+	"headword": "<span class=\"simple\">#[ⲁⲗⲟϭ]# [[S]] (rare), [ⲁⲗⲟϫ] [[B]], pl ? [ⲁⲗⲱϫ] [[B]] nn m (f BM Or 8775 129, Ap 19 16 var), _cf_ [ⲁⲗⲟⲕ], [ⲱⲗⲕ] ([ⲉⲗⲕⲥ]), *a.* _thigh_</span>: Ge 32 25, 47 29 [[B]], Ex 28 42 [[B]] (opp [ϯⲡⲓ]), Deu 28 57 [[B]], Ps 44 4 [[B]], Ez 7 17 [[B]], Ap 19 16 [[B]] (all [[S]] = Gk) [μηρός] (which once, Cant 7 2 [[S]] = [ⲕⲉϩⲧⲉ]); Va 59 19 [[B]] [ⲁⲩⲫⲱϧ ⲛⲛⲁⲫⲁⲧ ⲛⲉⲙⲛⲁⲁ.] = GMir 263 [[S]] [ⲙⲉⲗⲟⲥ] ([μηρός]), C 43 167 [[B]] sim, _ib_ 8 [[B]] [ϩⲓⲟⲩⲓ ⲛⲧⲉⲕϫⲓϫ ⲉϧⲟⲩⲛ ϧⲉⲛⲡⲉⲕⲁ.] (or ? under *d.*), AM 286 [[B]] [πρόσταγμα] given to messenger, [ⲁⲩⲧⲱⲃ ⲙⲡⲉϥⲁ.] = Mor 48 46 [[S]] [ⲉϥⲧⲟⲟⲃⲉ ⲉⲡⲉϥ ⲙⲉⲣⲟⲥ] ([μηρός]), Va 61 25 [[B]] he smote him [ⲉϫⲉⲛⲡⲉϥⲁ.] the place called his [ⲁⲗⲁⲕⲥⲱⲟⲩⲧⲉⲛ] [μηρόν…λεγομένης πανούκλας] (though [παν.] = _panicula_ tumour, Du Cange), Rec 39 96 [[S]] magician splits bull &amp; weighs [ⲡⲁ. ⲥⲛⲁⲩ] ([μέρος] ? was read [μηρός], _cf_ C 86 210, 7), RAl 129 [[S]] [ⲡⲉϥⲁ. ⲥⲛⲁⲩ] doubtful. *b.* _knees_, pl: Ge 30 3, 48 12 [[B]] ([[S]] [ⲡⲁⲧ]), 4 Kg 4 20 [[B]] [γόνατα], Va 57 198 [[B]] Joseph [ϧⲁⲧⲉⲛⲛⲉⲛⲁ. ⲛⲑⲁⲓ] Potiphar's wife, _ib_ sim [ⲕⲉⲗⲓ]. *c.* _arms_, pl: Pro 5 20 [[B]] ([[S]] [ϭⲃⲟⲓ]) [ἀγκάλαι], _cf_ [ⲁⲗⲟⲕ]. *d.* _shoulders_, pl: C 43 221 [[B]] arms cut off [ⲓⲥϫⲉⲛⲛⲉϥⲁ. ⲉⲃⲟⲗ], Va 59 10 [[B]] that his arms [ϫⲫⲟⲓ] be cut off [ⲛⲥⲉⲫⲁϧⲟⲩ ϣⲁⲉϧⲟⲩⲛ ⲉⲛⲉϥⲁ.] In Mk 14 65 [[B]] [ϭⲓ ⲁ.] ([[S]] [ϯ ⲁⲁⲥ]) [ῥαπίσμασι λαμβάνειν] ? diff word, or ? _cf_ Mt 26 67 [[S]] var [ⲕⲗϫ] ([ⲕⲗϫⲉ]) for [ⲕⲗⲯ]."
+	},
+	{
+	"headword": "<span class=\"simple\">#[ⲁⲁⲙ]# [[S]] nn, a drug prescribed, with jujube, euphorbium &amp; myrrh, for an intestinal malady</span>: PMéd 316. _Cf_ _ꜥꜥm_ (Chassinat)."
+	},
+	{
+	"headword": "<span class=\"simple\">#[ⲁⲙⲁ]# _v_ [ⲁⲡⲁ]</span>."
+	},
+	{
+	"headword": "<span class=\"simple\">#[ⲁⲙⲉ]# [[S]], [ⲁⲙⲏ] [[F]] (sg rare), pl [ⲁⲙⲏⲩ], [ⲁⲙⲏⲩⲉ] [[S]], [ⲁⲙⲏⲟⲩ] [[S^f]] (P Beatty) [[B]], [ⲁⲙⲁⲩⲉⲓ] [[F]] nn m, _herd (pastor)_ of cattle or sheep</span>: J 80 60 [[S]] [ⲁⲛⲟⲕ ⲙⲏⲛⲁ…ⲡⲁ.], CMSS 63 [[F]] Abraham [ⲡⲁ.], Mus 40 38 [[S]] none shall enter fold save  [ⲛⲁⲙⲏⲩ] _armentariis et bubulcis_, P Beatty [[S]] list of cultivators [ⲟⲩⲟⲉⲓⲉ] and herdsmen [ⲁⲙⲏ], MG 25 236 [[B]] the [ⲁⲙⲏⲟⲩ] bring their [ⲉϩⲱⲟⲩ], Ryl 158, 160 [[S]] lessee to water land with own beasts [ⲙⲛⲛⲁⲧⲣⲟⲫⲟⲟⲩⲉ ⲙⲛⲛⲁⲃⲉⲕⲉ ⲁⲙⲏⲩ], CMSS _l_ _c_ [[F]] [ⲛⲉⲁⲙⲁⲩⲉⲓ].\nIn place-names: [ⲡⲟⲩⲱϩ ⲛⲁⲙⲏⲩ] Mor 48 105 = [ⲛⲛⲓⲁⲙⲏⲟⲩ] C 43 149, village N. of Ahnâs on W. bank, _cf_ [بهنموه] near Beni Suêf (WS 152 n); &amp; [ⲧⲁⲛⲁⲙⲏⲩ] BM 1036, 1077; also Mor 37 93 [[S]]. [ⲛⲁⲙⲏⲩⲉ] = [τὰ βουκόλια] PG 26 913 (_v_ Quatre-mère _Mém_ 1 224)."
+	},
+	{
+	"headword": "<span class=\"simple\">#[ⲁⲙⲉ]# [[B]] _v_ [ⲉⲙⲉ]</span>."
+	},
+	{
+	"headword": "<span class=\"simple\">#[ⲁⲙⲉ]# [[A]] _v_ [ⲟⲙⲉ]</span>."
+	},
+	{
+	"headword": "<span class=\"simple\">#[ⲁⲉⲓⲙⲉ]# [[A]] _v_ [ⲟⲓⲙⲉ]</span>."
+	},
+	{
+	"headword": "<span class=\"simple\">#[ⲁⲙⲏ]# [[S]] nn m, _wasp_</span>: Ex 23 28, Deu 7 20, Jos 24 12 [σφηκιά] [زنبور], Sa 12 8 [σφήξ], ? = corresponding pl [[B]] [\\(ⲁϥ\\) ⲙⲃⲓⲟⲩ]; _cf_ also [ϩⲁⲃⲟⲩⲉⲓ] ([ⲁⲃⲟⲩⲉⲓ]). _Cf_ Stern 221."
+	},
+	{
+	"headword": "<span class=\"simple\">#[ⲁⲙⲏ]# _v_ [ⲁⲙⲟⲩ]</span>."
+	},
+	{
+	"headword": "<span class=\"simple\">#[ⲁⲙⲟⲓ]# [[B]] _v_ [ϩⲁⲙⲟⲓ]</span>."
+	},
+	{
+	"headword": "<span class=\"simple\">#[ⲁⲙⲟⲩ]# [[S]][[A]][[A^2]][[B]][[F]][[O]], [ⲉⲙⲟⲩ] [[O]], 2d sg m, used as imper of [ⲉⲓ] _come_, ofte where several are added</span>: Ge 31 44 [[S]][[B]], 1 Kg 16 1 [[B]], Ap 21 9 [[S]][[B]] [δεῦρο]; Pro 1 11 [[S]][[A]][[B]], Mt 14 29 [[S]][[B]][[F]] [ἐλθέ], Mt 5 24 [[B]], Ap. 22 17 [[S]][[B]] [ἐλθών], Jo 11 34 [[S]][[A]][[A^2]], Ap 6 1, 22 17 [[S]][[B]] [ἔρχου]; 4 Kg 4 25 [[B]] [ἄγε]; [ⲁ. ⲉ-]: Ac 16 9 [[S]][[B]] [διαβὰς εἰς], BM 590(2) [[B]], [ⲁ. ⲉϧⲏⲧ]; [ⲁ. ⲉⲃⲟⲗ]: Jo 11 43 [[S]][[A^2]][[B]] [δεῦρο ἔξω]; [ⲁ. ⲉϩⲣⲁⲓ]: Jud 1 3 [[S]], Ap 4 1 [[S]] ([[B]] [ⲁ. ⲉⲡϣⲱⲓ) [ἀνάβα], [ἀνάβηθι]; [ⲁ. ⲉⲡⲉⲥⲏⲧ]: Mt 27 40 [[S]][[B]], Jo 4 49 [[S]] ([[A^2]] [ⲁϩⲣⲏⲓ], [[B]] [ⲉϧⲣⲏⲓ]) [κατάβηθι]; [ⲁ. ⲉϩⲟⲩⲛ], [ⲉϧ-]: Jer 18 2 [[B]] [κατάβ. εἰς], AZ 21 98 [[O]] [ⲉⲙⲟⲩ ⲛⲁⲓ ⲉϩⲟⲩⲛ] (_ib_ 99 [ⲁⲙⲟⲩ]), Ep. 213 [[S]].\n[ⲁⲙⲏ] [[S]][[A^2]][[B]][[F]] 2d sf f: Ge 19 32 [[S]][[B]], Jud 9 10 [[S]], Jo 4 16 [[B]][[F]], KKS 24 [[S]], R 1 5 35 [[S]], AP 16 [[A^2]], Hall 36 [[S]] [ⲁⲙⲉ ⲁϩⲟⲩⲛ], C 43 118 [[B]] [ⲁ. ⲉⲃⲟⲗ].\n_a_ [ⲁⲙⲏⲓⲛ], _b_ [ⲁⲙⲏⲉⲓⲧⲛ], _c_ [ⲁⲙⲱⲓⲛⲉ] [[S]], _d_ [ⲁⲙⲏⲉⲓⲛⲉ] [[A]], _e_ [ⲁⲙⲏ\\(ⲏ\\)ⲧⲛ] [[A^2]], _f_ [ⲁⲙⲱⲓⲛⲓ] [[B]][[F]], _g_ [ⲁⲙⲟⲓⲛⲓ], _h_ [ⲁⲙⲱⲛⲓ], _i_ [ⲁⲙⲱⲧⲛ], [ⲁⲙⲱⲓⲧⲛ] [[F]], 2d pl of above: _a_ Is 27 11, 56 9, 10 (var [ⲁⲙⲏⲓⲧⲛ]), Jer 26 9 [[B]] [ⲁⲙⲱⲓⲛⲓ], Mt 25 34 (BHom 39, 63, 78 = H [ⲁⲙⲏⲓⲧⲛ]), BHom 130 [δεῦτε], but _ib_ 11, 13, 37, Br 112 Copt implies 1st pl, though Gk 2d (_v_ KKS 145); _b_ = _f_ Ps 45 8, Jer 11 19, Mt 11 28; _c_ only MIF 9 60 (= Stern 385) [ⲁ. ⲧⲁⲅⲅⲉⲗⲓⲕⲏ ⲧⲏⲣⲥ] (var [ⲁⲙⲏⲉⲓⲧⲛ]); _d_ Ex 1 10, Pro 9 5, Hos 6 1, Jon 1 7, Mic 4 2; _e_ Jo 4 29, AP 9; _f_ mostly = _b_, Ps 99 2 = [[S]] [ⲃⲱⲕ ⲉϩⲟⲩⲛ], Ps 33 6 = [[S]] [ϯ ⲟⲩⲟⲓ], C 43 247 [ⲁ. ϫⲱⲕ ⲉⲃⲟⲗ ⲙⲡⲉⲧⲉⲛϩⲱⲃ], AM 6 [ⲁ. ⲛⲧⲉⲛϣⲉ ⲛⲁⲛ], Mor 24 8 [[F]]; _g_ Jo 4 29; _h_ Mor 30 31, 40; _i_ Pcod Mor 49, 52."
+	},
+	{
+	"headword": "<span class=\"simple\">#[ⲁⲙⲟⲩ]# _cat_ _v_ [ⲉⲙⲟⲩ]</span>."
+	},
+	{
+	"headword": "<span class=\"simple\">#[ⲁⲙⲗⲏ]# [[F]] _v_ [ⲁⲙⲣⲉ]</span>."
+	},
+	{
+	"headword": "<span class=\"simple\">#[ⲁⲙⲁⲗⲏϫ]# [[B]] *a.* vb intr, _embrace_</span>: c [ⲉ-], Ge 29 13 ([[S]] [ϩⲱⲗϭ]), 48 10 ([[S]] [ϩⲱⲛ ⲉϩⲟⲩⲛ]) [περιλαμβάνειν], Va 57 189 [ⲁⲥⲁ. ⲉⲛⲉⲥⲕⲉⲗⲓ] [ἅπτεσθαι], WTh 40 [ⲉϥⲁ. ⲉⲡⲉϥⲓⲱⲧ]; c [ⲉϧⲟⲩⲛ ⲉ-], TstAb 229 [ⲁϥⲁ. ⲉϧ. ⲉⲡⲉϥⲓⲱⲧ]. *b.* more often as nn with [ⲉⲣ-]: Pro 4 8 [περιλαμβ.], ROC 17 405 [ⲉⲥⲉⲣⲁ. ⲉⲣⲟϥ] [ἀγκάλαις ἐμπλέκεσθαι]; TstAb _l_ _c_ [ⲁϥⲉⲣ ⲁ. ⲉϧ. ⲉⲓⲁⲕⲱⲃ], MG 25 384 [ⲉϥⲉⲣ ⲁ. ⲉϫⲉⲛⲛⲟⲩⲗⲩⲙⲯⲁⲛⲟⲛ].\n[ϫⲓⲛⲉⲣ ⲁ.] [[B]] nn m, _act of embracing_: Va 62 271 they spread hands [ⲉⲡϫ. ⲉϧⲟⲩⲛ ⲉⲣⲱⲟⲩ]. _Cf_ [ⲙⲟⲩⲗϫ]."
+	},
+	{
+	"headword": "<span class=\"simple\">#[ⲁⲙⲓⲛ]# [[B]] nn m, _pot_ of soapstone</span>: K 129 [ⲡⲓⲁ.] [برام] (_v_ Dozy 1 77, Almk 2 52)."
+	},
+	{
+	"headword": "<span class=\"simple\">#[ⲁⲙⲛⲁ]# [[B]] nn m, among herbs &amp; perfumes</span>: K 189 [ⲡⲓⲁ.] [منّ] (on plant _manna v Encycl. Bibl. s v_, ii). In Lu 19 [μνᾶ] is [ⲙⲛⲁ], [ⲉⲙⲛⲁ] [[S]][[B]], sg &amp; pl, [منا], [امناء]."
 	}
 ]

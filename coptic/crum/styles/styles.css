@@ -410,17 +410,31 @@ header:before {
 	position: relative;
 	display: grid;
 	grid-template-columns: 2em 1fr;
-	transition: height .5s, grid-template-columns .5s;
-}
-
-.temp-padding {
-	padding: 0 .5em;
+	transition: grid-template-columns .5s;
 }
 
 #dictionary ul .entry.collapse {
-	height: 1.5em !important;
 	grid-template-columns: 1em 1fr;
 }
+
+#dictionary ul .entry .definition p .simple {
+	font-size: 16px;
+}
+
+#dictionary ul .entry .definition p .verbose {
+	background: #ffffff33;
+}
+
+#dictionary ul .entry .definition p {
+	font-size: 16px;
+	transition: font-size .5s;
+}
+
+#dictionary ul .entry.collapse .definition p {
+	font-size: 0;
+}
+
+
 
 #dictionary ul .entry + .entry {
 	margin-top: 1em;

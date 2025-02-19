@@ -14,13 +14,6 @@ xmlhttp.onreadystatechange = function() {
 	}
 	const entries = document.querySelectorAll(".entry");
 	entries.forEach(x => {
-		x.classList.add("temp-padding");
-		const styles = window.getComputedStyle(x);
-		//console.log(styles.padding);
-		const height = styles.height;
-		x.style.height = height;
-		x.classList.remove("temp-padding");
-		//x.style.height = "calc(" + height + " + 2em)";
 		x.classList.toggle("collapse");
 		x.querySelector(".togglable").addEventListener("click", function (e) {
 			x.classList.toggle("collapse");
