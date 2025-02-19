@@ -136,7 +136,7 @@
 
 .greek {
 	color: darkseagreen;
-	font-family: rk_greek;
+	font-family: rk_coptic, rk_greek;
 	//font-size: 1.1em;
 }
 
