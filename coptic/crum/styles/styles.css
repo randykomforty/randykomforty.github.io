@@ -329,6 +329,10 @@ header:before {
 	a[href^="http://archives.getty.edu"]
 	):before {
 	content: "";
+	background-size: 100%;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
 }
 
 #list_of_abbreviations li .cell a[href^="https://archive.org/"]:before {
