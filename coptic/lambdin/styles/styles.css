@@ -1,6 +1,10 @@
 @import url("../../../styles/styles.css");
 @import url("../../styles/styles.css");
 
+ol.lower-alpha {
+	list-style-type: lower-alpha;
+}
+
 .section,
 #preface,
 #table_of_contents,
@@ -129,6 +133,9 @@ div[id^="lesson_"] table {
 	border-spacing: 0;
 	border: 1px solid steelblue;
 	border-radius: 5px;
+	width: 100%;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
 }
 
 div[id^="lesson_"] td,
@@ -169,7 +176,7 @@ div[id^="lesson_"] table tr:last-child td:last-child {
 	list-style-type: upper-alpha;
 }
 
-li:has(> :not(input[type="checkbox"]:checked)) > ul > li:last-child {
+div[id^="lesson_"] li:has(> :not(input[type="checkbox"]:checked)) > ul > li:last-child {
 	visibility: hidden;
 	opacity: 0;
 	transition: opacity .5s ease;
@@ -192,6 +199,10 @@ li:has(> input[type="checkbox"]) {
 	position: relative;
 	list-style: decimal outside;
 	top: 0;
+}
+
+ul li:has(> input[type="checkbox"]) {
+	list-style: none;
 }
 
 li:has(> input[type="checkbox"]) > ul {
