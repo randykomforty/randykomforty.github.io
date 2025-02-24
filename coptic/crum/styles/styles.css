@@ -44,29 +44,6 @@ sup {
 	line-height: 0;
 }
 
-#dictionary ul .entry .definition .headword {
-	//color: violet;
-	font-family: rk_coptic;
-	font-size: 1.2em;
-	line-height: 0;
-}
-
-.coptic {
-	//font-size: 1.2em;
-}
-
-.greek {
-	//font-size: 1.2em;
-}
-
-.arabic {
-	//font-size: 1.3em;
-}
-
-.aramaic {
-	//font-size: 1.5em;
-}
-
 .headword,
 .coptic,
 .greek,
@@ -76,6 +53,34 @@ sup {
 	color: #bbbbbb;
 	//line-height: 0;
 }
+
+.headword.coptic {
+	color: #5de355;
+	font-family: rk_coptic;
+	font-size: 1.2em;
+	line-height: 0;
+}
+
+.coptic {
+	//font-size: 1.2em;
+	color: #74ad74;
+}
+
+.greek {
+	//font-size: 1.2em;
+	color: #8294af;
+}
+
+.arabic {
+	//font-size: 1.3em;
+	color: #b58c78;
+}
+
+.aramaic {
+	//font-size: 1.5em;
+}
+
+
 
 #container {
 	display: initial;

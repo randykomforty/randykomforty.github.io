@@ -140,6 +140,13 @@
 	//font-size: 1.1em;
 }
 
+.arabic,
+.hebrew,
+.aramaic {
+	direction: rtl;
+	unicode-bidi:isolate;
+}
+
 .arabic {
 	color: brown;
 	font-family: rk_arabic, rk_hebrew;
@@ -175,8 +182,4 @@
 	font-family: rk_egypt-translit;
 	//font-size: 1.2em;
 	//font-style: italic;
-}
-
-* {
-	//line-height: 1em !important;
 }
