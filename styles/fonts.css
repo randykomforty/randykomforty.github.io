@@ -52,21 +52,32 @@
 	font-family: rk_arabic;
 	src: url("./fonts/NotoSansArabic.ttf");
 	unicode-range:
-		U+0600–06FF,
+		U+0600-06FF,
 }
 
 @font-face {
 	font-family: rk_hebrew;
 	src: url("./fonts/NotoSansHebrew.ttf");
 	unicode-range:
-		U+0590–05FF;
+		U+0590-05FF;
 }
 
 @font-face {
 	font-family: rk_aramaic;
 	src: url("./fonts/SertoAntochBible_2020_Release.ttf");
 	unicode-range:
-		U+10840–1085F;
+		U+10840-1085F;
+}
+
+@font-face {
+	font-family: rk_amharic;
+	src: url("./fonts/NotoSansEthiopic.ttf");
+	unicode-range:
+		U+1200-137f,
+		U+1380-139f,
+		U+2d80-2ddf,
+		U+ab00-ab2f,
+		U+1e7e0-1e7ff;
 }
 
 @font-face {
@@ -74,9 +85,9 @@
 	src: url("./fonts/eot.ttf");
 	unicode-range:
 		U+FE00-FE0F, /* variation selectors */
-		U+13000–1342F, /* hieroglyphs */
-		U+13430–1345F, /* format controls */
-		U+13460–143FF; /* hieroglyphs extended-a */
+		U+13000-1342F, /* hieroglyphs */
+		U+13430-1345F, /* format controls */
+		U+13460-143FF; /* hieroglyphs extended-a */
 }
 
 @font-face {
@@ -89,7 +100,7 @@
 	/*src: url("./fonts/eot.ttf");*/
 	src: local("Open Sans");
 	unicode-range:
-		U+13430–1345F; /* format controls */
+		U+13430-1345F; /* format controls */
 }
 
 @font-face {
@@ -163,6 +174,11 @@
 	color: coral;
 	font-family: rk_aramaic;
 	//font-size: 1.5em;
+}
+
+.amharic {
+	color: lightseagreen;
+	font-family: rk_amharic;
 }
 
 .egypt-hiero {
