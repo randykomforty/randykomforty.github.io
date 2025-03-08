@@ -1,7 +1,7 @@
 @import url("../../../styles/styles.css");
 
 body {
-	padding: 0;
+	margin: 1em;
 }
 
 h1,
@@ -17,9 +17,10 @@ fieldset {
 	display: grid;
 	grid-template-rows: repeat(2, 1fr);
 	grid-template-columns: repeat(2, 1fr);
-	gap: 0;
-	width: 100%;
-	height: 100%;
+	gap: 1em;
+	//width: 100%;
+	//height: 100%;
+	height: calc(100dvh - 2em);
 }
 
 #interface > * {
@@ -103,21 +104,21 @@ code {
 	border: none;
 	line-height: 1.5;
 	tab-size: 1em;
-	border-bottom: .25em solid #222 !important;
+	//border-bottom: .25em solid #222 !important;
 	outline: none;
 }
 
 #rendered_view {
 	grid-area: 2/2/3/3;
 	line-height: 1.5;
-	border-top: .25em solid #222 !important;
+	//border-top: .25em solid #222 !important;
 }
 
 #editor_text,
 #rendered_view {
 	box-sizing: border-box;
 	width: 62vw;
-	background: #111;
+	background: #000000;
 	padding: .5em;
 	overflow-y: scroll;
 	height: calc(50dvh - 1em);
@@ -197,9 +198,11 @@ i.dialect {
 	display: flex;
 }
 #editor_text, #rendered_view {
-	width: 62vw;
+	//box-shadow: inset 0px 0px 2em 2em #222222;
+	outline: 3px solid yellowgreen;
+	//width: 62vw;
 	overflow-y: auto;
-	height: calc(98dvh - 1em);
+	height: calc(100% - 0em);
 	border: none;
 }
 

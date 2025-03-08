@@ -16,8 +16,6 @@ const tabContents = [
 	document.querySelector("#arabic_index")
 ];
 
-
-
 checkUrl();
 
 activeTab.addEventListener("click", e => {

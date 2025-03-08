@@ -1,9 +1,9 @@
-import arrayStyling from "../../scripts/dictionary_regexes.js";
+import arrayStyling from "./dictionary_regexes.js";
 
 const xmlhttp = new XMLHttpRequest();
 let url = "";
 
-url = "./scripts/crum_entries.json";
+url = "../../coptic/crum/scripts/crum_entries.json";
 xmlhttp.onreadystatechange = function() {
 	if (this.readyState == 4 && this.status == 200) {
 		const fetchFromJSON = JSON.parse(this.responseText);
