@@ -1,6 +1,6 @@
 import arrayStyling from "../../scripts/dictionary_regexes.js";
 let editorText = document.querySelector("#editor_text");
-let previewRendered = document.querySelector("#rendered_view");
+let previewRendered = document.querySelector("#rendered_view p");
 //editorText.oninput = () => previewRendered.scrollTo({top: editorText.scrollHeight, behavior: "smooth"});
 applyRegexes(editorText);
 editorText.addEventListener("input", applyRegexes);

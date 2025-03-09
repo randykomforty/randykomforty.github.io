@@ -1,5 +1,10 @@
 @import url("../../../styles/styles.css");
 
+::selection {
+	background: transparent;
+	color: #ae51a4;
+}
+
 body {
 	margin: 1em;
 }
@@ -125,6 +130,15 @@ code {
 	border: .5em solid #222;
 }
 
+#rendered_view p {
+	margin: 0;
+	text-indent: 1em;
+}
+
+#rendered_view p p {
+	margin: 1em 0 0 0;
+}
+
 #rendered_view > ul {
 	margin-top: 0;
 }
@@ -203,6 +217,7 @@ i.dialect {
 	//width: 62vw;
 	overflow-y: auto;
 	height: calc(100% - 0em);
+	transition: height .5s ease-out;
 	border: none;
 }
 
@@ -212,5 +227,5 @@ i.dialect {
 
 #rendered_view {
 	border: none;
-	white-space: pre-wrap;
+	//white-space: pre-wrap;
 }
