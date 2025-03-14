@@ -64,9 +64,9 @@
 
 @font-face {
 	font-family: rk_aramaic;
-	src: url("./fonts/SertoAntochBible_2020_Release.ttf");
+	src: url("./fonts/SertoAntiochBible.ttf");
 	unicode-range:
-		U+10840-1085F;
+		U+0700-074f;
 }
 
 @font-face {
