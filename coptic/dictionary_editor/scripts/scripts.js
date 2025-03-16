@@ -1,7 +1,12 @@
 import arrayStyling from "../../scripts/dictionary_regexes.js";
 let editorText = document.querySelector("#editor_text");
+let previewBase = document.querySelector("#rendered_view");
 let previewRendered = document.querySelector("#rendered_view p");
-//editorText.oninput = () => previewRendered.scrollTo({top: editorText.scrollHeight, behavior: "smooth"});
+editorText.oninput = () => previewBase.scrollTo({
+	top: editorText.scrollHeight,
+	behavior: "smooth"
+});
+//const scrollToBottom = (previewRendered);
 applyRegexes(editorText);
 editorText.addEventListener("input", applyRegexes);
 editorText.addEventListener("keydown", function(e) {
