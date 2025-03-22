@@ -6,7 +6,7 @@
 }
 
 .hide {
-	display: none;
+	display: none !important;
 }
 
 .side-by-side {
