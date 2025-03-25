@@ -1,0 +1,3 @@
+[submodule "coptic"]
+	path = coptic
+	url = https://github.com/randykomforty/coptic
