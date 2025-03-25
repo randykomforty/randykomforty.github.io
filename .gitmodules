@@ -1,3 +1,15 @@
 [submodule "coptic"]
 	path = coptic
 	url = https://github.com/randykomforty/coptic
+	
+[submodule "egyptian"]
+	path = egyptian
+	url = https://github.com/randykomforty/egyptian
+	
+[submodule "japanese"]
+	path = japanese
+	url = https://github.com/randykomforty/japanese
+	
+[submodule "maltese"]
+	path = maltese
+	url = https://github.com/randykomforty/maltese
